@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manjaro Linux - enjoy the simplicity</title>
-    <link>https://manjaro.org/</link>
+    <link>https://manjaro.github.io/homepage/public/</link>
     <description>Recent content on Manjaro Linux - enjoy the simplicity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://manjaro.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://manjaro.github.io/homepage/public/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
