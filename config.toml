@@ -41,9 +41,15 @@ theme = "hugo-creative-theme"
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Enjoy the simplicity"
-		subtitle   = "An easy to use Linux Distribution"
-		buttonText = "Find out more"
+		image = "manjaro-logo.png	"
+		slogan     = "MANJARO<br />Linux fast and stable."
+		subtitle   = "The easy to install Linux distribution with a friendly feel that comes with the latest and greatest apps at your fingertips."
+		buttonText = "Learn more"
+		callToAction = "Download XFCE Edition"
+		callToActionUrl = "//sourceforge.net/projects/manjarolinux/files/release/16.06.1/xfce/manjaro-xfce-16.06.1-x86_64.iso"
+		otherDownloads = "See all versions."
+		otherDownloadsurl= "//manjaro.github.io/download"
+
 
 
 	# About section
