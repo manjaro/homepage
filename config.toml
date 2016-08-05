@@ -54,8 +54,8 @@ theme = "hugo-creative-theme"
 
 	# About section
 	[params.about]
-		headline    = "We've got what you need!"
-		description = "Manjaro is a user-friendly GNU/Linux distribution based on the independently developed Arch Linux. Within the Linux community, Arch itself is renowned for being an exceptionally fast, powerful and lightweight distribution that provides access to the very latest cutting-edge software."
+		headline    = "Grows with you."
+		description = "Built a powerful Arch-Linux foundation, with speed, efficiency and cutting edge software, Manjaro makes it stable and takes full advantage of your computer hardware. It is designed to make beginners happy and grow with them while they are becomming advanced users. It is easy to install even for beginners and comes with all the apps you need every day."
 		buttonText  = "Get started!"
 
 	# Service section
