@@ -41,15 +41,21 @@ theme = "hugo-creative-theme"
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Enjoy the simplicity"
-		subtitle   = "An easy to use Linux Distribution"
-		buttonText = "Find out more"
+		image = "manjaro-logo.png	"
+		slogan     = "MANJARO<br />Linux fast and stable."
+		subtitle   = "The easy to install Linux distribution with a friendly feel that comes with the latest and greatest apps at your fingertips."
+		buttonText = "Learn more"
+		callToAction = "Download XFCE Edition"
+		callToActionUrl = "//sourceforge.net/projects/manjarolinux/files/release/16.06.1/xfce/manjaro-xfce-16.06.1-x86_64.iso"
+		otherDownloads = "See all versions."
+		otherDownloadsurl= "//manjaro.github.io/download"
+
 
 
 	# About section
 	[params.about]
-		headline    = "We've got what you need!"
-		description = "Manjaro is a user-friendly GNU/Linux distribution based on the independently developed Arch Linux. Within the Linux community, Arch itself is renowned for being an exceptionally fast, powerful and lightweight distribution that provides access to the very latest cutting-edge software."
+		headline    = "Grows with you."
+		description = "Built a powerful Arch-Linux foundation, with speed, efficiency and cutting edge software, Manjaro makes it stable and takes full advantage of your computer hardware. It is designed to make beginners happy and grow with them while they are becomming advanced users. It is easy to install even for beginners and comes with all the apps you need every day."
 		buttonText  = "Get started!"
 
 	# Service section

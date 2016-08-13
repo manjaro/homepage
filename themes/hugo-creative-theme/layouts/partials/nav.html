@@ -17,30 +17,36 @@
 		<li>
 		    <a href="https://wiki.manjaro.org">Wiki</a>
 		</li>
-                <li>
-                    <a href="https://forum.manjaro.org">Forum</a>
-                </li>
-                <li>
-                    <a href="https://old.forum.manjaro.org">Classic Forum</a>
-                </li>
-                <li>
-                    <a href="https://lists.manjaro.org">Lists</a>
-                </li>
-                <li>
-                    <a href="http://repo.manjaro.org">Mirrors</a>
-                </li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li>
+          <a href="https://forum.manjaro.org">Forum</a>
+        </li>
+        <li>
+          <a href="https://old.forum.manjaro.org">Old Forum</a>
+        </li>
+        <li>
+          <a href="https://lists.manjaro.org">Mailinglists</a>
+        </li>
+        <li>
+          <a href="http://repo.manjaro.org">Mirrors</a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.links.contact }}{{ . }}{{ end }}</a>
+        </li>
+      </ul>
+    </li>
                 <li>
                     <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.links.about }}{{ . }}{{ end }}</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.links.services }}{{ . }}{{ end }}</a>
                 </li>
+                <!-- I don't think link adds value to the user
                 <li>
                     <a class="page-scroll" href="#portfolio">{{ with .Site.Params.navigation.links.portfolio }}{{ . }}{{ end }}</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.links.contact }}{{ . }}{{ end }}</a>
-                </li>
+                </li> -->
             </ul>
         </div>
         {{ "<!-- /.navbar-collapse -->" | safeHTML }}
