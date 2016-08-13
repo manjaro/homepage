@@ -1,0 +1,35 @@
+<section class="no-padding" id="usercases">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.usercases.headline }}{{ . }}{{ end }}</h2>
+                <hr class="primary">
+                <p>{{ with .Site.Params.usercases.description }}{{ . | markdownify }}{{ end }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            {{ range .Site.Data.usercases }}
+            <div class="col-lg-4 col-sm-6">
+                <a href="#usercasesModal{{ .modalID }}" class="usercases-box usercases-link" data-toggle="modal">
+                    <img src="img/usercases/{{ .img }}" class="img-responsive" alt="">
+                    <div class="usercases-box-caption">
+                        <div class="usercases-box-caption-content">
+                            <!--<div class="project-category text-faded">
+                                {{ .category }}
+                            </div>-->
+                            <div class="project-name">
+                                Click here to find out what Manjaro can do for {{ .usercase }}
+                            </div>
+                            <div class="project-quote">
+                                "{{ .quote }}" - {{ .quoteauthor }}
+                            </div>                            
+                        </div>                        
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
