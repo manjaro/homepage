@@ -25,10 +25,6 @@
                 <img src="img/contact/irc.svg" class="wow bounceIn"/>
                 <p><a href="{{ with .Site.Params.contact.irc }}{{ . }}{{ end }}" target="_blank">Chat</a></p>
             </div>
-			<div class="col-lg-4 text-center">
-                <img src="img/contact/mailinglists.svg" class="wow bounceIn"/>
-                <p><a href="{{ with .Site.Params.contact.mailinglists }}{{ . }}{{ end }}" target="_blank">Mailing-Lists</a></p>
-            </div>
         </div>
     </div>
 </section>
