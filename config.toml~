@@ -1,5 +1,5 @@
 #baseurl = "/"
-baseurl = "https://manjaro.github.io/homepage/public/"
+baseurl = "https://rockiger.github.io/homepage/public/"
 languageCode = "en-us"
 title = "Manjaro Linux - enjoy the simplicity"
 theme = "hugo-creative-theme"
@@ -48,7 +48,7 @@ theme = "hugo-creative-theme"
 		callToAction = "Downloads & instructions"
 		callToActionUrl = "#downloads"
 		#otherDownloads = "See all versions."
-		#otherDownloadsurl= "//manjaro.github.io/download"
+		#otherDownloadsurl= "//rockiger.github.io/download"
 
 
 

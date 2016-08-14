@@ -1,5 +1,5 @@
 #baseurl = "/"
-baseurl = "https://manjaro.github.io/homepage/public/"
+baseurl = "https://rockiger.github.io/homepage/public/"
 languageCode = "en-us"
 title = "Manjaro Linux - enjoy the simplicity"
 theme = "hugo-creative-theme"
@@ -48,7 +48,7 @@ theme = "hugo-creative-theme"
 		callToAction = "Downloads & instructions"
 		callToActionUrl = "#downloads"
 		#otherDownloads = "See all versions."
-		#otherDownloadsurl= "//manjaro.github.io/download"
+		#otherDownloadsurl= "//rockiger.github.io/download"
 
 
 
@@ -60,8 +60,8 @@ theme = "hugo-creative-theme"
 
 	# Service section
 	[params.services]
-		headline = "Solid base for everyone"		
-     
+		headline = "Solid base for everyone"
+
 
         [[params.services.list]]
             icon = "stable.svg"
@@ -82,7 +82,7 @@ theme = "hugo-creative-theme"
             icon = "for-everyone.svg"
             title = "Choose your workflow"
             description = "We support as many different environments as possible, so you can select the best for yourself."
-            
+
         # usercases section
         [params.usercases]
             headline = "Variety is our strength"
@@ -95,7 +95,7 @@ theme = "hugo-creative-theme"
             date = "Date"
             category = "Category"
             buttonText = "Close"
-            
+
         [params.editions.modal]
             client = "Client"
             date = "Date"
@@ -106,16 +106,16 @@ theme = "hugo-creative-theme"
 	[params.aside]
 		headline = "Try it now"
 		description = "You can try Manjaro without changing your running system by putting it on a USB stick or on a DVD. If you decide to install Manjaro, you can do it directly from this live-system."
-		
+
 		[params.aside.default_download_button]
 			text = "Download XFCE edition"
 			link = "#editionsModal1"
-			
+
                 [params.aside.editions]
                     description = "You can also install one of the other Manjaro editions that will come preconfigured with a specific desktop. You can easily add other environments to the existing ones after installation, so this is not a definitive choice."
-                    
-                    
-                    
+
+
+
 
 	# Contact section
 	[params.contact]
