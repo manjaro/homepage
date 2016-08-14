@@ -20,7 +20,8 @@
 <link rel="stylesheet" href="https://manjaro.github.io/homepage/public/css/animate.min.css" type="text/css">
 <!-- Custom CSS -->
 <link rel="stylesheet" href="https://manjaro.github.io/homepage/public/css/creative.css" type="text/css">
-<link rel="stylesheet" href="https://manjaro.github.io/homepage/public/css/modals.css" type="text/css">
+<link rel="stylesheet" href="https://manjaro.github.io/homepage/public/css/usercases-modals.css" type="text/css">
+<link rel="stylesheet" href="https://manjaro.github.io/homepage/public/css/editions-modals.css" type="text/css">
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -76,7 +77,7 @@
                 <li>
                     <a class="page-scroll" href="#services">Features</a>
                 </li>
-                
+
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -89,13 +90,12 @@
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Manjaro-logo.svg/200px-Manjaro-logo.svg.png" /></p>
+            <p><img src="/homepage/public/img/manjaro-logo.png" /></p>
             <h1>MANJARO<br />Linux fast and stable.</h1>
             <hr>
             <p>The easy to install Linux distribution with a friendly feel that comes with the latest and greatest apps at your fingertips.</p>
-            
-            <a href="//sourceforge.net/projects/manjarolinux/files/release/16.06.1/xfce/manjaro-xfce-16.06.1-x86_64.iso" style="margin-left: 15px; min-width: 152px;" class="btn btn-primary btn-xl page-scroll">Download XFCE Edition</a><br />
-            <a href="">See all versions.</a>
+
+            <a href="#downloads" style="margin-left: 15px; min-width: 152px;" class="btn btn-primary btn-xl page-scroll">Downloads &amp; instructions</a>
         </div>
     </div>
 </header>
@@ -105,11 +105,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Grows with you.</h2>
+                <h2 class="section-heading">Grows with you</h2>
                 <hr class="light">
-                <p class="text-faded">Built a powerful Arch-Linux foundation, with speed, efficiency and cutting edge software, Manjaro makes it stable and takes full advantage of your computer hardware. It is designed to make beginners happy and grow with them while they are becomming advanced users. It is easy to install even for beginners and comes with all the apps you need every day.</p>
-                
-                <br /><p><img src="/homepage/public/img/manjaro-welcome.png" alt="manjaro apps" /></p>
+                <p class="text-faded">Built a powerful Arch-Linux foundation, with speed, efficiency and cutting edge software, Manjaro makes it stable and takes full advantage of your computer hardware. It is designed to make beginners happy and grow with them while they are becoming advanced users. It is easy to install even for beginners and comes with all the apps you need every day.</p>
+
+                <br /><p><img id="about-image" src="/homepage/public/img/manjaro-artists.png" alt="manjaro apps" /></p>
             </div>
         </div>
     </div>
@@ -120,66 +120,307 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">At your service</h2>
+                <h2 class="section-heading">Solid base for everyone</h2>
                 <hr class="primary">
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            
+
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                    <h3>Rock Stable</h3>
-                    <p class="text-muted">Our Linux Distribution is well tested and has several branches.</p>
+                	<img src="img/features/stable.svg" class="wow bounceIn text-primary" style="width: 80px; height: 80px"/>
+
+                    <h3>Proven stability with newest features</h3>
+                    <p class="text-muted">You get the newest software - carefully tested by the Manjaro team and the community.</p>
                 </div>
             </div>
-            
+
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary"></i>
-                    <h3>Ready to Ship</h3>
-                    <p class="text-muted">You can use this Linux Distribution as is, or you can make changes!</p>
+                	<img src="img/features/easy-setup.svg" class="wow bounceIn text-primary" style="width: 80px; height: 80px"/>
+
+                    <h3>Easy to set up</h3>
+                    <p class="text-muted">Set up your hardware and preferences just by a few clicks.</p>
                 </div>
             </div>
-            
+
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary"></i>
-                    <h3>Up to Date</h3>
-                    <p class="text-muted">We update our packages to keep things fresh.</p>
+                	<img src="img/features/handpicked-software.svg" class="wow bounceIn text-primary" style="width: 80px; height: 80px"/>
+
+                    <h3>Handpicked software</h3>
+                    <p class="text-muted">Manjaro comes with a compilation of handpicked software that has been proven to be useful, modern and reliable.</p>
                 </div>
             </div>
-            
+
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-heart wow bounceIn text-primary"></i>
-                    <h3>Made with Love</h3>
-                    <p class="text-muted">You have to make your Linux Distribution with love these days!</p>
+                	<img src="img/features/for-everyone.svg" class="wow bounceIn text-primary" style="width: 80px; height: 80px"/>
+
+                    <h3>Choose your workflow</h3>
+                    <p class="text-muted">We support as many different environments as possible, so you can select the best for yourself.</p>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section>
 
-        <section class="no-padding" id="portfolio">
+        <section class="no-padding" id="usercases">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Variety is our strength</h2>
+                <hr class="primary">
+                <p>Manjaro is used by many different users with different professions and knowledge of computers.<br/> All these different people come together and are constantly improving Manjaro. Explore what Manjaro can do for you to get work done, be entertained or to be connected with your friends and family.</p>
+            </div>
+        </div>
+    </div>
     <div class="container-fluid">
         <div class="row no-gutter">
-            
+
+            <div class="col-lg-4 col-sm-6">
+                <a href="#usercasesModal1" class="usercases-box usercases-link" data-toggle="modal">
+                    <img src="img/usercases/1.jpg" class="img-responsive" alt="">
+                    <div class="usercases-box-caption-extended">
+                        <div class="usercases-box-caption-extended-content">
+                            <div class="quote">
+                                "Manjaro provides the tools to handle difficult tasks like kernel, video driver upgrades, downgrades. [...]  I soon realised I can do all my editing on linux with Darktable for raw files and some retouching or other editing with Gimp." <div style="font-weight: 100">- louis_2 -</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="usercases-box-caption-small">
+                        <div class="usercases-box-caption-small-content">
+                            <div class="name">
+                                artists
+                            </div>
+                        </div>
+                    </div>
+                    <div class="usercases-box-caption-extended-subtitle">
+                        <div class="usercases-box-caption-extended-subtitle-content">
+                            <div class="action">
+                                Click to find out more
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <a href="#usercasesModal2" class="usercases-box usercases-link" data-toggle="modal">
+                    <img src="img/usercases/2.jpg" class="img-responsive" alt="">
+                    <div class="usercases-box-caption-extended">
+                        <div class="usercases-box-caption-extended-content">
+                            <div class="quote">
+                                "Quote from beginner" <div style="font-weight: 100">- Author -</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="usercases-box-caption-small">
+                        <div class="usercases-box-caption-small-content">
+                            <div class="name">
+                                beginners
+                            </div>
+                        </div>
+                    </div>
+                    <div class="usercases-box-caption-extended-subtitle">
+                        <div class="usercases-box-caption-extended-subtitle-content">
+                            <div class="action">
+                                Click to find out more
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <a href="#usercasesModal3" class="usercases-box usercases-link" data-toggle="modal">
+                    <img src="img/usercases/3.jpg" class="img-responsive" alt="">
+                    <div class="usercases-box-caption-extended">
+                        <div class="usercases-box-caption-extended-content">
+                            <div class="quote">
+                                "Quote from beginner" <div style="font-weight: 100">- Author -</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="usercases-box-caption-small">
+                        <div class="usercases-box-caption-small-content">
+                            <div class="name">
+                                developers
+                            </div>
+                        </div>
+                    </div>
+                    <div class="usercases-box-caption-extended-subtitle">
+                        <div class="usercases-box-caption-extended-subtitle-content">
+                            <div class="action">
+                                Click to find out more
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <a href="#usercasesModal4" class="usercases-box usercases-link" data-toggle="modal">
+                    <img src="img/usercases/4.jpg" class="img-responsive" alt="">
+                    <div class="usercases-box-caption-extended">
+                        <div class="usercases-box-caption-extended-content">
+                            <div class="quote">
+                                "Quote from beginner" <div style="font-weight: 100">- Author -</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="usercases-box-caption-small">
+                        <div class="usercases-box-caption-small-content">
+                            <div class="name">
+                                students
+                            </div>
+                        </div>
+                    </div>
+                    <div class="usercases-box-caption-extended-subtitle">
+                        <div class="usercases-box-caption-extended-subtitle-content">
+                            <div class="action">
+                                Click to find out more
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <a href="#usercasesModal5" class="usercases-box usercases-link" data-toggle="modal">
+                    <img src="img/usercases/5.jpg" class="img-responsive" alt="">
+                    <div class="usercases-box-caption-extended">
+                        <div class="usercases-box-caption-extended-content">
+                            <div class="quote">
+                                "Quote from beginner" <div style="font-weight: 100">- Author -</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="usercases-box-caption-small">
+                        <div class="usercases-box-caption-small-content">
+                            <div class="name">
+                                gamers
+                            </div>
+                        </div>
+                    </div>
+                    <div class="usercases-box-caption-extended-subtitle">
+                        <div class="usercases-box-caption-extended-subtitle-content">
+                            <div class="action">
+                                Click to find out more
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <a href="#usercasesModal6" class="usercases-box usercases-link" data-toggle="modal">
+                    <img src="img/usercases/6.jpg" class="img-responsive" alt="">
+                    <div class="usercases-box-caption-extended">
+                        <div class="usercases-box-caption-extended-content">
+                            <div class="quote">
+                                "Quote from beginner" <div style="font-weight: 100">- Author -</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="usercases-box-caption-small">
+                        <div class="usercases-box-caption-small-content">
+                            <div class="name">
+                                scientists
+                            </div>
+                        </div>
+                    </div>
+                    <div class="usercases-box-caption-extended-subtitle">
+                        <div class="usercases-box-caption-extended-subtitle-content">
+                            <div class="action">
+                                Click to find out more
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
         </div>
     </div>
 </section>
 
         <!-- ASIDE -->
-<aside class="bg-dark">
+<aside class="bg-dark" id="downloads">
     <div class="container text-center">
         <div class="call-to-action">
-            <h2>Get Manjaro Linux</h2>
-            <a href="//manjaro.github.io/download" class="btn btn-primary btn-xl wow tada">Download now</a>
+            <h2>Try it now</h2>
+            <p>You can try Manjaro without changing your running system by putting it on a USB stick or on a DVD. If you decide to install Manjaro, you can do it directly from this live-system.</p>
+            <a href="#editionsModal1" class="btn btn-primary btn-xl wow tada"  data-toggle="modal">Download XFCE edition</a>
+        </div>
+        <div>
+            <h2>Explore other editions<h2/>
+            <p>You can also install one of the other Manjaro editions that will come preconfigured with a specific desktop. You can easily add other environments to the existing ones after installation, so this is not a definitive choice.</p>
+            <div class="container-fluid">
+                <div class="row no-gutter">
+
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="#editionsModal2" class="editions-box editions-link" data-toggle="modal">
+                            <img src="img/editions/kde.jpg" class="img-responsive" alt="">
+                            <div class="editions-box-caption-extended">
+		                        <div class="editions-box-caption-extended-content">
+		                            <div class="quote">
+		                                Flexible and modern
+		                            </div>
+		                        </div>
+	                    	</div>
+		                    <div class="editions-box-caption-small">
+		                        <div class="editions-box-caption-small-content">
+		                            <div class="name">
+		                                Download KDE edition
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="editions-box-caption-extended-subtitle">
+		                        <div class="editions-box-caption-extended-subtitle-content">
+		                            <div class="action">
+		                                Download KDE edition
+		                            </div>
+		                        </div>
+		                    </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="#editionsModal1" class="editions-box editions-link" data-toggle="modal">
+                            <img src="img/editions/xfce.jpg" class="img-responsive" alt="">
+                            <div class="editions-box-caption-extended">
+		                        <div class="editions-box-caption-extended-content">
+		                            <div class="quote">
+		                                Reliable and fast
+		                            </div>
+		                        </div>
+	                    	</div>
+		                    <div class="editions-box-caption-small">
+		                        <div class="editions-box-caption-small-content">
+		                            <div class="name">
+		                                Download XFCE edition
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="editions-box-caption-extended-subtitle">
+		                        <div class="editions-box-caption-extended-subtitle-content">
+		                            <div class="action">
+		                                Download XFCE edition
+		                            </div>
+		                        </div>
+		                    </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
+</section>
+
 </aside>
 
         <!-- CONTACT -->
@@ -187,9 +428,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Let&#39;s Get In Touch!</h2>
+                <h2 class="section-heading">Friendly support</h2>
                 <hr class="primary">
-                <p>Checkout our github project or send us an email and we will get back to you as soon as possible!</p>
+                <p>Do you need some help or is there anything that can be improved?<br/>Contact our team and our community via GitHub, E-Mail, chat or forums and we will gladly help you.<br/>If you want to get involved further, our project is always looking for help to further improve Manjaro. From pointing out a problem, over helping other users to help keeping Manjaro stable by testing or further developing Manjaro - You can participate they way you want!</p>
             </div>
             <div class="col-lg-4 col-lg-offset-2 text-center">
                 <i class="fa fa-github fa-3x wow bounceIn"></i>
@@ -205,6 +446,320 @@
 
 
         <!-- Portfolio Modals -->
+
+<div class="usercases-modal modal fade" id="usercasesModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Manjaro for artists</h2>
+                        <hr class="star-primary">
+                        <img src="img/usercases/1.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.</p>
+                        <h3>Features that will help you</h3>
+                        <p>Manjaro come preinstalled with <a href="http://www.gimp.org/">GIMP</a>, which is a very powerful image manipulation program. For drawing <a href="https://krita.org/">Krita</a> will fulfill most of your needs, while <a href="http://www.darktable.org/">Darktable</a> brings a top-notch and free photography suite. For simple or advanced video-editing, <a href="https://kdenlive.org/">Kdenlive</a> and <a href="http://www.openshot.org/">OpenShot</a> will do almost anything you need. There are also professional video-editing tools like <a href="https://www.lwks.com/">Lightworks</a>. 3D-Modelling can be done using <a href="https://www.blender.org/">Blender</a>. Most of this software is completely free available and can be easily and secure installed by using Manjaro&rsquo;s integrated package manager.</p>
+                        <h3>More information</h3>
+                        <p></p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="usercases-modal modal fade" id="usercasesModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Manjaro for beginners</h2>
+                        <hr class="star-primary">
+                        <img src="img/usercases/2.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.</p>
+                        <h3>Features that will help you</h3>
+                        <p>Features that make manjaro good for this user</p>
+                        <h3>More information</h3>
+                        <p>See wiki etc.</p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="usercases-modal modal fade" id="usercasesModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Manjaro for developers</h2>
+                        <hr class="star-primary">
+                        <img src="img/usercases/3.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.</p>
+                        <h3>Features that will help you</h3>
+                        <p>Features that make manjaro good for this user</p>
+                        <h3>More information</h3>
+                        <p>See wiki etc.</p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="usercases-modal modal fade" id="usercasesModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Manjaro for students</h2>
+                        <hr class="star-primary">
+                        <img src="img/usercases/4.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.</p>
+                        <h3>Features that will help you</h3>
+                        <p>Features that make manjaro good for this user</p>
+                        <h3>More information</h3>
+                        <p>See wiki etc.</p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="usercases-modal modal fade" id="usercasesModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Manjaro for gamers</h2>
+                        <hr class="star-primary">
+                        <img src="img/usercases/5.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.</p>
+                        <h3>Features that will help you</h3>
+                        <p>Features that make manjaro good for this user</p>
+                        <h3>More information</h3>
+                        <p>See wiki etc.</p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="usercases-modal modal fade" id="usercasesModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Manjaro for scientists</h2>
+                        <hr class="star-primary">
+                        <img src="img/usercases/6.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.</p>
+                        <h3>Features that will help you</h3>
+                        <p>Features that make manjaro good for this user</p>
+                        <h3>More information</h3>
+                        <p>See wiki etc.</p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <!-- Edition Modals -->
+
+<div class="editions-modal modal fade" id="editionsModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Manjaro KDE edition</h2>
+                        <hr class="star-primary">
+                        <a href="img/editions/kde-full.jpg" target="_blank"><img src="img/editions/kde.jpg" class="img-responsive img-centered" alt=""></a>
+                        <p>This edition is supported by the Manjaro team and comes with KDE, a very modern and flexible desktop.</p>
+
+                        <h3>Features of this edition</h3>
+                        <hr class="star-primary">
+                        <p><ul style="list-style-position: inside;"><li>test</li></ul></p>
+
+                        <h2>Download</h2>
+                        <hr class="star-primary">
+
+                        <p>You can choose between a 64bit version for <strong>modern</strong> computers and a 32bit version for <strong>older</strong> computers.</p>
+
+                        <div class="container" style="width: 100%;">
+                            <a href="http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-x86_64.iso" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
+                            <div style="float: right">
+                                <a href="http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-x86_64.iso.sig">Download GPG signature</a></br>
+                                SHA1-sum: b046cf30278052d825d9429588e6b5f04885cdb2
+                            </div>
+                        </div><br/>
+                        <div class="container" style="width: 100%;">
+                            <a href="http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-i686.iso" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
+                            <div style="float: right">
+                                <a href="http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-i686.iso.sig">Download GPG signature</a></br>
+                                SHA1-sum: 79c9faa7a4275b5f5280f751affdc2784021217f
+                            </div>
+                        </div><br/>
+
+                        <p>You can also use <a href="https://en.wikipedia.org/wiki/BitTorrent" target="_blank">Torrents</a> to download Manjaro.
+                        Just download the *.torrent file for the <a href="https://sourceforge.net/projects/manjarotorrents/files/release/">64 bit</a> or <a href="https://sourceforge.net/projects/manjarotorrents/files/release/">32 bit</a>
+                        version and open it with a torrent program like <a href="http://www.qbittorrent.org/" target="_blank">qBittorrent</a>.</p>
+
+
+                        <h2>Be secure</h2>
+                        <hr class="star-primary">
+                        <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and
+                        compare it with the one we provide you here. <a href="#">Here</a> you can find information how to generate such a sum.</p>
+                        <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
+                        created by the Manjaro developers. <a href="#">Here</a> you can find information how to use it.</p>
+
+                        <h2>Getting started</h2>
+                        <hr class="star-primary">
+                        <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
+
+
+                        <h3>More information</h3>
+                        <hr class="star-primary">
+                        <p>See wiki etc.</p>
+
+
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="editions-modal modal fade" id="editionsModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Manjaro XFCE edition</h2>
+                        <hr class="star-primary">
+                        <a href="img/editions/xfce-full.jpg" target="_blank"><img src="img/editions/xfce.jpg" class="img-responsive img-centered" alt=""></a>
+                        <p>This edition is supported by the Manjaro team and comes with XFCE, a lightweight and reliable desktop with high configurability.</p>
+
+                        <h3>Features of this edition</h3>
+                        <hr class="star-primary">
+                        <p><ul style="list-style-position: inside;"><li>test</li></ul></p>
+
+                        <h2>Download</h2>
+                        <hr class="star-primary">
+
+                        <p>You can choose between a 64bit version for <strong>modern</strong> computers and a 32bit version for <strong>older</strong> computers.</p>
+
+                        <div class="container" style="width: 100%;">
+                            <a href="http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/xfce/manjaro-xfce-16.06.1-x86_64.iso" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
+                            <div style="float: right">
+                                <a href="http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/xfce/manjaro-xfce-16.06.1-x86_64.iso.sig">Download GPG signature</a></br>
+                                SHA1-sum: c4204cb831b32f2a6a72cfe52ef59847e50e0035
+                            </div>
+                        </div><br/>
+                        <div class="container" style="width: 100%;">
+                            <a href="http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/xfce/manjaro-xfce-16.06.1-i686.iso" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
+                            <div style="float: right">
+                                <a href="http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/xfce/manjaro-xfce-16.06.1-i686.iso.sig">Download GPG signature</a></br>
+                                SHA1-sum: 7fa5b3cb3ed9f6d894e31172ef17cdd4331fdcf0
+                            </div>
+                        </div><br/>
+
+                        <p>You can also use <a href="https://en.wikipedia.org/wiki/BitTorrent" target="_blank">Torrents</a> to download Manjaro.
+                        Just download the *.torrent file for the <a href="https://sourceforge.net/projects/manjarotorrents/files/release/">64 bit</a> or <a href="https://sourceforge.net/projects/manjarotorrents/files/release/">32 bit</a>
+                        version and open it with a torrent program like <a href="http://www.qbittorrent.org/" target="_blank">qBittorrent</a>.</p>
+
+
+                        <h2>Be secure</h2>
+                        <hr class="star-primary">
+                        <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and
+                        compare it with the one we provide you here. <a href="#">Here</a> you can find information how to generate such a sum.</p>
+                        <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
+                        created by the Manjaro developers. <a href="#">Here</a> you can find information how to use it.</p>
+
+                        <h2>Getting started</h2>
+                        <hr class="star-primary">
+                        <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
+
+
+                        <h3>More information</h3>
+                        <hr class="star-primary">
+                        <p>See wiki etc.</p>
+
+
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
         <!-- jQuery -->

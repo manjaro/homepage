@@ -187,7 +187,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header3.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -217,7 +217,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255, 1.0);
 }
 
 @media(min-width:768px) {
@@ -372,7 +372,7 @@ header .header-content .header-content-inner p {
     padding: 0 15px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-size: 15px;
-    font-weight: 600;	
+    font-weight: 600;
     font-style: italic;
     position: relative;
     bottom: 0px;
@@ -498,7 +498,7 @@ header .header-content .header-content-inner p {
     padding: 0 15px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-size: 20px;
-    font-weight: 600;	
+    font-weight: 600;
     font-style: italic;
     position: relative;
     bottom: 0px;
@@ -693,3 +693,17 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+/* About image */
+
+#about-image {width: 100%}
+
+@media (min-width: 992px) {
+  #about-image {
+    margin-left: -32px;
+    width: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  #about-image {margin-left: -124px;}
+}

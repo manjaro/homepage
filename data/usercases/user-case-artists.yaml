@@ -1,7 +1,7 @@
-modalID: 2
+modalID: 1
 usercase: artists
 title: Manjaro for artists
-img: user-case-artist.jpg
+img: 1.jpg
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
 features: Manjaro come preinstalled with [GIMP](http://www.gimp.org/), which is a very powerful image manipulation program. For drawing [Krita](https://krita.org/) will fulfill most of your needs, while [Darktable](http://www.darktable.org/) brings a top-notch and free photography suite. For simple or advanced video-editing, [Kdenlive](https://kdenlive.org/) and [OpenShot](http://www.openshot.org/) will do almost anything you need. There are also professional video-editing tools like [Lightworks](https://www.lwks.com/). 3D-Modelling can be done using [Blender](https://www.blender.org/). Most of this software is completely free available and can be easily and secure installed by using Manjaro's integrated package manager.
 moreinfo: ""
