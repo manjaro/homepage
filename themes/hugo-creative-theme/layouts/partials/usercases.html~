@@ -10,14 +10,14 @@
     </div>
     <div class="container-fluid">
         <div class="row no-gutter">
-            {{ range .Site.Data.usercases }}
+            {{ range (.Site.Data.usercases | shuffle) }}
             <div class="col-lg-4 col-sm-6">
                 <a href="#usercasesModal{{ .modalID }}" class="usercases-box usercases-link" data-toggle="modal">
                     <img src="img/usercases/{{ .img }}" class="img-responsive" alt="">
                     <div class="usercases-box-caption-extended">
                         <div class="usercases-box-caption-extended-content"> 
                             <div class="quote">
-                                "{{ .quote }}" <div style="font-weight: 100">- {{ .quoteauthor }}</div>
+                                "{{ .quote }}" <div style="font-weight: 100">- {{ .quoteauthor }} -</div>
                             </div>
                         </div>                        
                     </div>

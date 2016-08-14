@@ -1,0 +1,26 @@
+modalID: 4
+title: Cinnamon edition
+img: cinnamon.jpg
+img_full: cinnamon-full.jpg
+shortdescription: Modern technology, traditional experience
+description: This edition is supported by the Manjaro community and comes with Cinnamon, a desktop based on modern technology that keeps known and proven concepts.
+features:
+-
+    icon : people
+    text : Supported by Manjaro community
+-
+    icon : window
+    text : Traditional experience with known elements
+-
+    icon : cog
+    text : Builds on modern technology, which enables usage high-DPI screens and other newer technologies
+moreinfo: See wiki etc.
+download_64bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-x86_64.iso
+download_64bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-x86_64.iso.sig
+download_64bit_sha1: e686d5633ba1772d15c0aa60954e9acb57e7bbc4
+download_64bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/release/
+download_32bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-i686.iso
+download_32bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-i686.iso.sig
+download_32bit_sha1: 391ee8a950c4a4525c646a6dfe3f53d1eabad9ae
+download_32bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/release/
+
