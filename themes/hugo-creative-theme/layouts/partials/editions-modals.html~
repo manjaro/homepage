@@ -24,7 +24,7 @@
                         <ul >
                         	{{ range .features }}
                         	
-							<li class="editions-modal-features-li" style="background-image: url('img/bullets/{{ .icon }}.svg')" >{{ .text }}</li>                        	
+							<li class="editions-modal-features-li">{{ .text }}</li>                        	
                         	
 							<!--<div> 
 								<img src="img/bullets/{{ .icon }}.svg" style="width: 64px; height: 64px; vertical-align: middle;"/>

@@ -497,7 +497,7 @@ header .header-content .header-content-inner p {
 .editions-box .editions-box-caption-extended .editions-box-caption-extended-content .quote {
     padding: 0 15px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;	
     font-style: italic;
     position: relative;
@@ -517,6 +517,22 @@ header .header-content .header-content-inner p {
     .editions-box .editions-box-caption .editions-box-caption-content .project-name {
         font-size: 22px;
     }
+}
+
+.editions-modal-features-li {
+	
+	list-style-type: none;
+    padding-left: 80px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image:url('img/bullets/generic.svg');
+    background-repeat:no-repeat;
+    background-position:left center;	
+    background-size: 64px 64px;
+	
 }
 
 .call-to-action h2 {
