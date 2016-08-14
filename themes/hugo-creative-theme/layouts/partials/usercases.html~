@@ -17,7 +17,7 @@
                     <div class="usercases-box-caption-extended">
                         <div class="usercases-box-caption-extended-content"> 
                             <div class="quote">
-                                "{{ .quote }}" <div style="font-weight: 100">- {{ .quoteauthor }} -</div>
+                                "{{ .quote }}" <div style="font-weight: 100">- {{ .quoteauthor }}</div>
                             </div>
                         </div>                        
                     </div>

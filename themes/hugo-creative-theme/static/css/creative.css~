@@ -497,7 +497,7 @@ header .header-content .header-content-inner p {
 .editions-box .editions-box-caption-extended .editions-box-caption-extended-content .quote {
     padding: 0 15px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;	
     font-style: italic;
     position: relative;
