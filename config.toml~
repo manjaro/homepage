@@ -79,7 +79,7 @@ theme = "hugo-creative-theme"
             description = "Manjaro comes with a compilation of handpicked software that has been proven to be useful, modern and reliable."
 
         [[params.services.list]]
-            icon = "for-everyone.svg"
+            icon = "stable.svg"
             title = "Choose your workflow"
             description = "We support as many different environments as possible, so you can select the best for yourself."
             

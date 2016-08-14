@@ -1,0 +1,43 @@
+<section class="no-padding" id="usercases">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.usercases.headline }}{{ . }}{{ end }}</h2>
+                <hr class="primary">
+                <p>{{ with .Site.Params.usercases.description }}{{ . | markdownify }}{{ end }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            {{ range .Site.Data.usercases }}
+            <div class="col-lg-4 col-sm-6">
+                <a href="#usercasesModal{{ .modalID }}" class="usercases-box usercases-link" data-toggle="modal">
+                    <img src="img/usercases/{{ .img }}" class="img-responsive" alt="">
+                    <div class="usercases-box-caption-extended">
+                        <div class="usercases-box-caption-extended-content"> 
+                            <div class="quote">
+                                "{{ .quote }}" <div style="font-weight: 100">- {{ .quoteauthor }} -</div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="usercases-box-caption-small">
+                        <div class="usercases-box-caption-small-content">
+                            <div class="name">
+                                {{ .usercase }}
+                            </div>               
+                        </div>                        
+                    </div>
+                    <div class="usercases-box-caption-extended-subtitle">
+                        <div class="usercases-box-caption-extended-subtitle-content">
+                            <div class="action">
+                                Click to find out more
+                            </div>               
+                        </div>                        
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

@@ -18,7 +18,7 @@
                             <div class="editions-box-caption-extended">
 		                        <div class="editions-box-caption-extended-content"> 
 		                            <div class="quote">
-		                                {{ .shortdescription }}
+		                                "{{ .shortdescription }}"
 		                            </div>
 		                        </div>                        
 	                    	</div>

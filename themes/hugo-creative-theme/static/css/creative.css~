@@ -187,7 +187,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header3.jpg);
+    background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -217,7 +217,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255, 1.0);
+    color: rgba(255,255,255,.7);
 }
 
 @media(min-width:768px) {
@@ -497,7 +497,7 @@ header .header-content .header-content-inner p {
 .editions-box .editions-box-caption-extended .editions-box-caption-extended-content .quote {
     padding: 0 15px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;	
     font-style: italic;
     position: relative;
