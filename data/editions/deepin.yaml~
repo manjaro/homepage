@@ -1,0 +1,26 @@
+modalID: 7
+title: Deepin edition
+img: deepin.jpg
+img_full: deepin-full.jpg
+shortdescription: Creativity and individuality
+description: This edition is supported by the Manjaro community and comes with the [Deepin](https://www.deepin.org/) desktop that provides a very beginner-friendly and elegant experience.
+features:
+-
+    icon : people
+    text : Supported by Manjaro community
+-
+    icon : cog
+    text : Builds on modern technology, which enables usage high-DPI screens and other newer technologies
+-
+    icon : visibility
+    text : Focus on modern design that is simple and intuitive
+moreinfo: See wiki etc.
+download_64bit: https://sourceforge.net/projects/manjarolinux/files/community/Budgie/2016.06/16.06.1/x86_64/manjaro-budgie-community-16.06.1-x86_64.iso
+download_64bit_sig: 
+download_64bit_sha1: 36282fb1ac925c8c0fd468aa39e9a3e045f0abb4
+download_64bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/community/
+download_32bit: https://sourceforge.net/projects/manjarolinux/files/community/Budgie/2016.06/16.06.1/i686/manjaro-budgie-community-16.06.1-i686.iso
+download_32bit_sig: 
+download_32bit_sha1: 4363bc1c23ea20f39b5b24e3dce975493956138b
+download_32bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/community/
+

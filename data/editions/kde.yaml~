@@ -11,6 +11,9 @@ features:
 -
     icon : widgets
     text : High customizability with freely moveable panels, widgets and different application launchers
+-
+    icon : run
+    text : Included drop-in terminal is ideal for developers
 moreinfo: See wiki etc.
 download_64bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-x86_64.iso
 download_64bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-x86_64.iso.sig

@@ -14,6 +14,9 @@ features:
 -
     icon : run
     text : Included drop-in terminal is ideal for developers
+-
+    icon : cog
+    text : Builds on modern technology, which enables usage high-DPI screens and other newer technologies
 moreinfo: See wiki etc.
 download_64bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-x86_64.iso
 download_64bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-x86_64.iso.sig
