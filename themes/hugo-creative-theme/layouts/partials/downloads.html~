@@ -2,7 +2,7 @@
 <!-- These are functional styles and do not belong to creative.css -->
 <style type="text/css">
 .editions-box-hideable {
-	transition: all .35s;
+	transition: all .5s;
 }
 
 {{ range .Site.Params.aside.editions.tags }}

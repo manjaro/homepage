@@ -118,19 +118,22 @@ theme = "hugo-creative-theme"
                     
                     
                 # All supported tags for editions filtering
-                [params.aside.editions.tags.beginnerfriendly]
+
+					shown_tags = ["teampicks", "beginnerfriendly", "resourceefficient", "traditional"]                
+                
+                [[params.aside.editions.tags]]
+                	id = "teampicks"
+                	description = "Our picks"
+                	default = "checked"
+                [[params.aside.editions.tags]]
                 	id = "beginnerfriendly"
                 	description = "Beginner-friendly"
                 	default = "checked"
-               	[params.aside.editions.tags.resourceefficient]
+               	[[params.aside.editions.tags]]
                 	id = "resourceefficient"
                 	description = "Good for slow computers"    
-                	default = ""            	
-                [params.aside.editions.tags.de]
-                	id = "de"
-                	description = "Complete desktop-environment"
-                	default = "checked"
-                [params.aside.editions.tags.traditional]
+                	default = ""
+                [[params.aside.editions.tags]]
                 	id = "traditional"
                 	description = "Traditional interface"
                 	default = ""
