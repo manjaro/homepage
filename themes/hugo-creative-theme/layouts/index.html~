@@ -12,7 +12,7 @@
         {{ partial "services.html" . }}
         {{ partial "usercases.html" . }}
         
-        {{ partial "downloads.html" . }}
+        {{ partial "aside.html" . }}
         {{ partial "contact.html" . }}
 
         {{ partial "usercases-modals.html" . }}

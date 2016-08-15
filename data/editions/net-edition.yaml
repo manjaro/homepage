@@ -2,7 +2,8 @@ modalID: 3
 title: NET edition
 img: net.jpg
 img_full: net-full.jpg
-shortdescription: Maximum control
+shortdescription: Free of assumptions and under your control
+tags: [advanced]
 description: This edition is supported by the Manjaro team and comes without any pre-installed display manager and desktop application. People who want full control what exactly is installed on their system can use this as base.
 features:
 -

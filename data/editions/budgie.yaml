@@ -2,6 +2,7 @@ modalID: 6
 title: Budgie edition
 img: budgie.jpg
 img_full: budgie-full.jpg
+tags: [de, beginnerfriendly, resourceefficient]
 shortdescription: Modern and traditional
 description: This edition is supported by the Manjaro community and comes with Budgie, the desktop of the [Solus project](https://solus-project.com/). Budgie focuses on providing a simple-to-use and elegant desktop that fulfills the needs of a modern user.
 features:

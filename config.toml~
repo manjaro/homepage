@@ -24,7 +24,7 @@ theme = "hugo-creative-theme"
 	description = "Linux Distribution"
 
 	# The path must be relative to the static folder
-	favicon = "favicon.ico"
+	favicon = "favicon.png"
 
 
 	# Navigation
@@ -38,7 +38,7 @@ theme = "hugo-creative-theme"
 			contact   = "Contact"
 
 
-	# Hero section
+	# Hero section*
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		image = "manjaro-logo.png	"
@@ -113,6 +113,25 @@ theme = "hugo-creative-theme"
 			
                 [params.aside.editions]
                     description = "You can also install one of the other Manjaro editions that will come preconfigured with a specific desktop. You can easily add other environments to the existing ones after installation, so this is not a definitive choice."
+                    
+                    description_filter = "Choice can be overwhelming and we know that it can be hard to select the best of such a variety of environments, programs and more. So we show you only a couple, first. Click the filter-buttons below to reveal more possibilities."
+                    
+                    
+                # All supported tags for editions filtering
+                [params.aside.editions.tags.beginnerfriendly]
+                	id = "beginnerfriendly"
+                	description = "Beginner-friendly"
+                	default = "true"
+               	[params.aside.editions.tags.resourceefficient]
+                	id = "resourceefficient"
+                	description = "Good for slow computers"                	
+                [params.aside.editions.tags.de]
+                	id = "de"
+                	description = "Complete desktop-environment"
+                	default = "true"
+                [params.aside.editions.tags.traditional]
+                	id = "traditional"
+                	description = "Traditional interface"
                     
                     
                     

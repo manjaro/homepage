@@ -1,11 +1,82 @@
 {{ "<!-- ASIDE -->" | safeHTML }}
+<!-- These are functional styles and do not belong to creative.css -->
+<style type="text/css">
+.editions-box-hideable {
+	transition: all .5s;
+}
+
+{{ range .Site.Params.aside.editions.tags }}
+.editions-box-hideable-{{ .id }} {
+}
+{{ end }}
+
+</style>
 <!-- Define out script for edition selectio -->
 <script type="text/javascript" >
-	function show_editions_with_tags(tags) {
-		for (var element in document.getElementsByClassName('editions-box-hideable')) {
-			element.style.display = "none";
+
+	function element_is_in_tags(el, tags) {
+	
+		// May I ask the people who developed Java script (if they ever read this)) why JS's for-each-loop behaves completly different to all other for-each-loops in any language?
+		for (var id in tags) {
+		
+			if(!el.classList.contains("editions-box-hideable-" + tags[id])){
+				return false;
+			}
+			
 		}
+		
+		return true;
+		
 	}
+
+	function show_only_editions_with_tags(tags) {
+	
+		var els = document.getElementsByClassName('editions-box-hideable');
+		
+		[].forEach.call(els, function (el) 
+		{
+			if (tags.length == 0) {
+				//el.style.display = "block";
+				el.style.opacity = "1";
+				el.style.width = "";
+			}
+			else {
+			
+				if(element_is_in_tags(el, tags)) {
+					//el.style.display = "block";
+					el.style.opacity = "1";
+					el.style.width = "";
+				}
+				else {
+					//el.style.display = "none";
+					el.style.opacity = "0";
+					el.style.width = "0%";
+				}
+			}	
+		});
+	}
+	
+	function editions_filter_selected(id) {
+		var e = document.getElementById("show-editions-" + id)		
+		return e.checked;
+	}
+	
+	function update_editions_tags() {
+		var tag_filter = [];
+		
+		{{ range .Site.Params.aside.editions.tags }}
+		
+		if (editions_filter_selected( "{{ .id }}" )) {
+			tag_filter.push( "{{ .id }}" );
+		}
+		
+		{{ end }}
+		
+		show_only_editions_with_tags(tag_filter)
+	}
+	
+	window.onload = update_editions_tags;
+	
 </script>
 
 <aside class="bg-dark" id="downloads">
@@ -16,16 +87,31 @@
             <a href="{{ with .Site.Params.aside.default_download_button.link }}{{ . }}{{ end }}" class="btn btn-primary btn-xl wow tada"  data-toggle="modal">{{ with .Site.Params.aside.default_download_button.text }}{{ . }}{{ end }}</a>
         </div>
         <div>
-            <h2>Explore other editions<h2/>
+            <h2>Explore other editions</h2>
             <p>{{ with .Site.Params.aside.editions.description }}{{ . }}{{ end }}</p>
             
-			<input type="checkbox" />            
+            <h3>We will help you choosing</h3>
+            
+			<p>{{ with .Site.Params.aside.editions.description_filter }}{{ . }}{{ end }}</p>
+            
+            <div style="padding: 20px 0px 40px 0px;">
+            {{ range .Site.Params.aside.editions.tags }}
+            
+				<div class="editions-tag-checkbutton">
+					<input type="checkbox" id="show-editions-{{ .id }}" onchange="update_editions_tags();" {{ .default }}/>         
+					<label for="show-editions-{{ .id }}" class="btn btn-primary btn-xl" >{{ .description }}</label>  
+				</div> 
+            
+            {{ end }}
+            </div>
+            
+            
             
             <div class="container-fluid">
                 <div class="row no-gutter">
                 
                     {{ range .Site.Data.editions }}
-                    <div class="editions-box-hideable col-lg-4 col-sm-6">
+                    <div class="editions-box-hideable {{ range .tags}}editions-box-hideable-{{ . }} {{ end }} col-lg-4 col-sm-6">
                         <a href="#editionsModal{{ .modalID }}" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/{{ .img }}" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">
