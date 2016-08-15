@@ -1,5 +1,4 @@
 {{ "<!-- Edition Modals -->" | safeHTML }}
-{{ .Site.Data.editions }}
 {{ range .Site.Data.editions }}
 <div class="editions-modal modal fade" id="editionsModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
