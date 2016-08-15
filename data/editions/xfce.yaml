@@ -15,7 +15,6 @@ features:
     icon : time
     text : Very resource-efficient and therefore ideal for older computers
     
-moreinfo: See wiki etc.
 download_32bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/xfce/manjaro-xfce-16.06.1-i686.iso
 download_32bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/xfce/manjaro-xfce-16.06.1-i686.iso.sig
 download_32bit_sha1: 7fa5b3cb3ed9f6d894e31172ef17cdd4331fdcf0

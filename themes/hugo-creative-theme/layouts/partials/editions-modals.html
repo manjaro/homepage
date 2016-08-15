@@ -18,18 +18,11 @@
                         <p>{{ .description | markdownify }}</p>
                         
                         <h3>Features of this edition</h3>
-                        <hr class="star-primary">
-                        <!--<p><ul style="list-style-position: inside; list-style-image: url('img/bullets/generic.png');">{{ .features | markdownify }}</ul></p>-->                       
+                        <hr class="star-primary">         
                         
                         <ul >
-                        	{{ range .features }}
-                        	
-							<li class="editions-modal-features-li" style="background-image: url('img/bullets/{{ .icon }}.svg')" >{{ .text }}</li>                        	
-                        	
-							<!--<div> 
-								<img src="img/bullets/{{ .icon }}.svg" style="width: 64px; height: 64px; vertical-align: middle;"/>
-								{{ .text }}
-							</div>	-->					
+                        	{{ range .features }}                        	
+								<li class="editions-modal-features-li" style="background-image: url('img/bullets/{{ .icon }}.svg')" >{{ .text }}</li>    
 							{{end}}      
                         </ul>           
 						                  
@@ -44,14 +37,14 @@
                         <div class="container" style="width: 100%;">
                             <a href="{{ .download_64bit }}" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
                             <div style="float: right">
-                                <a href="{{ .download_64bit_sig }}">Download GPG signature</a></br>
+                                {{ with .download_64bit_sig }} <a href="{{ . }}">Download GPG signature</a></br> {{end}}
                                 SHA1-sum: {{ .download_64bit_sha1 }}
                             </div>
                         </div><br/>
                         <div class="container" style="width: 100%;">
                             <a href="{{ .download_32bit }}" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
                             <div style="float: right">
-                                <a href="{{ .download_32bit_sig }}">Download GPG signature</a></br>
+                                {{ with .download_32bit_sig }} <a href="{{ . }}">Download GPG signature</a></br> {{end}}
                                 SHA1-sum: {{ .download_32bit_sha1 }}
                             </div>
                         </div><br/>
@@ -64,7 +57,7 @@
                         <h2>Be secure</h2>
                         <hr class="star-primary">
                         <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and 
-                        compare it with the one we provide you here. <a href="#">Here</a> you can find information how to generate such a sum.</p>
+                        compare it with the one we provide you here. <a href="https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors">Here</a> you can find information how to generate such a sum and check your downloaded files.</p>
                         <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
                         created by the Manjaro developers. <a href="#">Here</a> you can find information how to use it.</p>
                         
@@ -72,10 +65,12 @@
                         <hr class="star-primary">
                         <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
                         
-                        
+                        {{ with .moreinfo }}
                         <h3>More information</h3>
                         <hr class="star-primary">
-                        <p>{{ .moreinfo | markdownify }}</p>
+                        <p>{{ . | markdownify }}</p>
+                        
+                        {{ end }}
                        
                         
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.editions.modal.buttonText }}{{.}}{{ end }}</button>

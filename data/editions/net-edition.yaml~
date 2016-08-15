@@ -1,26 +1,26 @@
-modalID: 2
-title: KDE edition
-img: kde.jpg
-img_full: kde-full.jpg
-shortdescription: Flexible and modern
-description: This edition is supported by the Manjaro team and comes with KDE, a very modern and flexible desktop.
+modalID: 3
+title: NET edition
+img: net.jpg
+img_full: net-full.jpg
+shortdescription: Maximum control
+description: This edition is supported by the Manjaro team and comes without any pre-installed display manager and desktop application. People who want full control what exactly is installed on their system can use this as base.
 features:
 -
     icon : premium
     text : Supported by Manjaro team
 -
-    icon : widgets
-    text : High customizability with freely moveable panels, widgets and different application launchers
+    icon : blocks
+    text : Build your own system
 -
-    icon : run
-    text : Included drop-in terminal is ideal for developers
+    icon : code
+    text : Good for very advanced users
 moreinfo: See wiki etc.
-download_64bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-x86_64.iso
-download_64bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-x86_64.iso.sig
-download_64bit_sha1: b046cf30278052d825d9429588e6b5f04885cdb2
+download_64bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-x86_64.iso
+download_64bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-x86_64.iso.sig
+download_64bit_sha1: e686d5633ba1772d15c0aa60954e9acb57e7bbc4
 download_64bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/release/
-download_32bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-i686.iso
-download_32bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-i686.iso.sig
-download_32bit_sha1: 79c9faa7a4275b5f5280f751affdc2784021217f
+download_32bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-i686.iso
+download_32bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-i686.iso.sig
+download_32bit_sha1: 391ee8a950c4a4525c646a6dfe3f53d1eabad9ae
 download_32bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/release/
 

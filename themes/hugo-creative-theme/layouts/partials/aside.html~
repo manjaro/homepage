@@ -11,6 +11,9 @@
             <p>{{ with .Site.Params.aside.editions.description }}{{ . }}{{ end }}</p>
             <div class="container-fluid">
                 <div class="row no-gutter">
+                
+					{{ .Site.Data.editions | shuffle }}                
+                
                     {{ range .Site.Data.editions }}
                     <div class="col-lg-4 col-sm-6">
                         <a href="#editionsModal{{ .modalID }}" class="editions-box editions-link" data-toggle="modal">
@@ -18,7 +21,7 @@
                             <div class="editions-box-caption-extended">
 		                        <div class="editions-box-caption-extended-content"> 
 		                            <div class="quote">
-		                                "{{ .shortdescription }}"
+		                                {{ .shortdescription }}
 		                            </div>
 		                        </div>                        
 	                    	</div>

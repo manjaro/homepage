@@ -24,7 +24,7 @@ theme = "hugo-creative-theme"
 	description = "Linux Distribution"
 
 	# The path must be relative to the static folder
-	favicon = "favicon.ico"
+	favicon = "favicon.png"
 
 
 	# Navigation

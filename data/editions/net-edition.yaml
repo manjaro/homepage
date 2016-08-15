@@ -14,7 +14,6 @@ features:
 -
     icon : code
     text : Good for very advanced users
-moreinfo: See wiki etc.
 download_64bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-x86_64.iso
 download_64bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-x86_64.iso.sig
 download_64bit_sha1: e686d5633ba1772d15c0aa60954e9acb57e7bbc4

@@ -13,14 +13,12 @@ features:
     text : Traditional experience with known elements
 -
     icon : cog
-    text : Based on modern technology enables usage high-DPI screens and other newer technologies
-moreinfo: See wiki etc.
-download_64bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-x86_64.iso
-download_64bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-x86_64.iso.sig
-download_64bit_sha1: e686d5633ba1772d15c0aa60954e9acb57e7bbc4
-download_64bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/release/
-download_32bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-i686.iso
-download_32bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-i686.iso.sig
-download_32bit_sha1: 391ee8a950c4a4525c646a6dfe3f53d1eabad9ae
-download_32bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/release/
+    text : Builds on modern technology, which enables usage high-DPI screens and other newer technologies
+moreinfo: [Forum thread and GPG signature](https://forum.manjaro.org/t/manjaro-cinnamon-16-06-16-06-1)
+download_64bit: https://sourceforge.net/projects/manjarolinux/files/community/Cinnamon/16.06.1/x86_64/manjaro-cinnamon-16.06.1-x86_64.iso
+download_64bit_sha1: 0fb9327cc5ff23d9d01b7dcf1975e00bccfa3d36
+download_64bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/community/
+download_32bit: https://sourceforge.net/projects/manjarolinux/files/community/Cinnamon/16.06.1/i686/manjaro-cinnamon-16.06.1-i686.iso
+download_32bit_sha1: 86f79c68dd45c23fd72a4bedd8359f948a30e82f
+download_32bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/community/
 

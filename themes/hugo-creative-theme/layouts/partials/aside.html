@@ -11,6 +11,7 @@
             <p>{{ with .Site.Params.aside.editions.description }}{{ . }}{{ end }}</p>
             <div class="container-fluid">
                 <div class="row no-gutter">
+                
                     {{ range .Site.Data.editions }}
                     <div class="col-lg-4 col-sm-6">
                         <a href="#editionsModal{{ .modalID }}" class="editions-box editions-link" data-toggle="modal">
