@@ -18,12 +18,8 @@
                         <p>{{ .description | markdownify }}</p>
                         <h3>Features that will help you</h3>
                         <p>{{ .features | markdownify }}</p>
-                        
-                        {{ with .moreinfo }}
                         <h3>More information</h3>
-                        <p>{{ . | markdownify }}</p>
-						{{ end }}                        
-                        
+                        <p>{{ .moreinfo | markdownify }}</p>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.usercases.modal.buttonText }}{{.}}{{ end }}</button>
                     </div>
                 </div>
