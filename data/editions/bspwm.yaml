@@ -2,7 +2,7 @@ modalID: 5
 title: BspWM edition
 img: bspwm.jpg
 img_full: bspwm-full.jpg
-tags: [advanced, resourceefficient, community, wm]
+tags: [advanced, resourceefficient, community, wm, traditional_ui]
 shortdescription: Advanced and efficient
 description: This edition is supported by the Manjaro community and comes with BspWM, a tiling window manager.
 features:

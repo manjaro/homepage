@@ -114,7 +114,7 @@ theme = "hugo-creative-theme"
                 [params.aside.editions]
                     description = "You can also install one of the other Manjaro editions that will come preconfigured with a specific desktop. You can easily add other environments to the existing ones after installation, so this is not a definitive choice."
                     
-                    description_filter = "Choice can be overwhelming and we know that it can be hard to select the best of such a variety of environments, programs and more. So we show you only a couple, first. Click the filter-buttons below to reveal more possibilities."
+                    description_filter = "Choice can be overwhelming and we know that it can be hard to select the best of such a variety of environments, programs and more. Currently we only show beginner-friendly distributions that are picked by our team. If you want to reveal more, click these buttons below to show or hide editions that will fit your needs."
                     
                     
                 # All supported tags for editions filtering
@@ -134,7 +134,7 @@ theme = "hugo-creative-theme"
                 	description = "Good for slow computers"    
                 	default = ""
                 [[params.aside.editions.tags]]
-                	id = "traditional"
+                	id = "traditional_ui"
                 	description = "Traditional interface"
                 	default = ""
                     

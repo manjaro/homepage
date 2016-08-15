@@ -118,9 +118,6 @@ theme = "hugo-creative-theme"
                     
                     
                 # All supported tags for editions filtering
-
-					shown_tags = ["teampicks", "beginnerfriendly", "resourceefficient", "traditional"]                
-                
                 [[params.aside.editions.tags]]
                 	id = "teampicks"
                 	description = "Our picks"
@@ -134,7 +131,7 @@ theme = "hugo-creative-theme"
                 	description = "Good for slow computers"    
                 	default = ""
                 [[params.aside.editions.tags]]
-                	id = "traditional"
+                	id = "traditional_ui"
                 	description = "Traditional interface"
                 	default = ""
                     
