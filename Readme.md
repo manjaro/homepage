@@ -15,7 +15,7 @@ Source code of our new launch page for Manjaro Linux
 
 ## How to preview this current version
 
-* simply click on [here](https://manjaro.github.io/homepage/public/)
+* simply click on [here](https://rockiger.github.io/homepage/public/)
 
 ## How to develop this homepage further
 

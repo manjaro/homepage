@@ -2,10 +2,12 @@
 <header>
     <div class="header-content">
         <div class="header-content-inner">
+            <p><img src="img/manjaro-logo.png" /></p>
             <h1>{{ with .Site.Params.hero.slogan }}{{ . | markdownify  }}{{ end }}</h1>
             <hr>
             <p>{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p>
-            <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
+            <!--<a href="#about" class="btn btn-default btn-xl page-scroll">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>-->
+            <a href="{{ with .Site.Params.hero.callToActionUrl }}{{ . }}{{ end }}" style="margin-left: 15px; min-width: 152px;" class="btn btn-primary btn-xl page-scroll">{{ with .Site.Params.hero.callToAction }}{{ . }}{{ end }}</a>
         </div>
     </div>
 </header>

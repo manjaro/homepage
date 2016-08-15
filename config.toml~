@@ -1,0 +1,125 @@
+#baseurl = "/"
+baseurl = "https://rockiger.github.io/homepage/public/"
+languageCode = "en-us"
+title = "Manjaro Linux - enjoy the simplicity"
+theme = "hugo-creative-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the usercases are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+        # information about you and your website.
+	name = "Manjaro Linux"
+	description = "Linux Distribution"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Manjaro"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Features"
+			usercases = "Get"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		image = "manjaro-logo.png	"
+		slogan     = "MANJARO<br />Linux fast and stable."
+		subtitle   = "The easy to install Linux distribution with a friendly feel that comes with the latest and greatest apps at your fingertips."
+		buttonText = "Learn more"
+		callToAction = "Downloads & instructions"
+		callToActionUrl = "#downloads"
+		#otherDownloads = "See all versions."
+		#otherDownloadsurl= "//rockiger.github.io/download"
+
+
+
+	# About section
+	[params.about]
+		headline    = "Grows with you"
+		description = "Built a powerful Arch-Linux foundation, with speed, efficiency and cutting edge software, Manjaro makes it stable and takes full advantage of your computer hardware. It is designed to make beginners happy and grow with them while they are becoming advanced users. It is easy to install even for beginners and comes with all the apps you need every day."
+		buttonText  = "Get started!"
+
+	# Service section
+	[params.services]
+		headline = "Solid base for everyone"		
+     
+
+        [[params.services.list]]
+            icon = "stable.svg"
+            title = "Proven stability with newest features"
+            description = "You get the newest software - carefully tested by the Manjaro team and the community."
+
+        [[params.services.list]]
+            icon = "easy-setup.svg"
+            title = "Easy to set up"
+            description = "Set up your hardware and preferences just by a few clicks."
+
+        [[params.services.list]]
+            icon = "handpicked-software.svg"
+            title = "Handpicked software"
+            description = "Manjaro comes with a compilation of handpicked software that has been proven to be useful, modern and reliable."
+
+        [[params.services.list]]
+            icon = "stable.svg"
+            title = "Choose your workflow"
+            description = "We support as many different environments as possible, so you can select the best for yourself."
+            
+        # usercases section
+        [params.usercases]
+            headline = "Variety is our strength"
+            description = "Manjaro is used by many different users with different professions and knowledge of computers.<br/> All these different people come together and are constantly improving Manjaro. Explore what Manjaro can do for you to get work done, be entertained or to be connected with your friends and family."
+
+
+    # Portfolio modals
+	[params.usercases.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close"
+            
+        [params.editions.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Try it now"
+		description = "You can try Manjaro without changing your running system by putting it on a USB stick or on a DVD. If you decide to install Manjaro, you can do it directly from this live-system."
+		
+		[params.aside.default_download_button]
+			text = "Download XFCE edition"
+			link = "#editionsModal1"
+			
+                [params.aside.editions]
+                    description = "You can also install one of the other Manjaro editions that will come preconfigured with a specific desktop. You can easily add other environments to the existing ones after installation, so this is not a definitive choice."
+                    
+                    
+                    
+
+	# Contact section
+	[params.contact]
+		headline = "Friendly support"
+		description = "Do you need some help or is there anything that can be improved?<br/>Contact our team and our community via GitHub, E-Mail, chat or forums and we will gladly help you.<br/>If you want to get involved further, our project is always looking for help to further improve Manjaro. From pointing out a problem, over helping other users to help keeping Manjaro stable by testing or further developing Manjaro - You can participate they way you want!"
+		github = "manjaro"
+		email = "support@manjaro.org"
