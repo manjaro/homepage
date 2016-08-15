@@ -187,7 +187,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header3.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -217,7 +217,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255, 1.0);
 }
 
 @media(min-width:768px) {
@@ -372,7 +372,7 @@ header .header-content .header-content-inner p {
     padding: 0 15px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-size: 15px;
-    font-weight: 600;	
+    font-weight: 600;
     font-style: italic;
     position: relative;
     bottom: 0px;
@@ -497,8 +497,8 @@ header .header-content .header-content-inner p {
 .editions-box .editions-box-caption-extended .editions-box-caption-extended-content .quote {
     padding: 0 15px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-size: 30px;
-    font-weight: 600;	
+    font-size: 20px;
+    font-weight: 600;
     font-style: italic;
     position: relative;
     bottom: 0px;
@@ -517,6 +517,42 @@ header .header-content .header-content-inner p {
     .editions-box .editions-box-caption .editions-box-caption-content .project-name {
         font-size: 22px;
     }
+}
+
+.editions-modal-features-li {
+	
+	list-style-type: none;
+    padding-left: 80px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image:url('img/bullets/generic.svg');
+    background-repeat:no-repeat;
+    background-position:left center;	
+    background-size: 64px 64px;
+    text-align: left;
+	
+}
+
+.editions-box-hideable {
+}
+
+.editions-tag-checkbutton {
+	display: inline;
+}
+
+.editions-tag-checkbutton input[type="checkbox"]{
+	display: none;
+}
+
+.editions-tag-checkbutton input[type="checkbox"] + label{
+	background-color: #6a6a6a;
+}
+
+.editions-tag-checkbutton input[type="checkbox"]:checked + label{
+	background-color: rgb(52, 190, 91);
 }
 
 .call-to-action h2 {
@@ -676,3 +712,17 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+/* About image */
+
+#about-image {width: 100%}
+
+@media (min-width: 992px) {
+  #about-image {
+    margin-left: -32px;
+    width: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  #about-image {margin-left: -124px;}
+}

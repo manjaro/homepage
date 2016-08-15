@@ -1,5 +1,5 @@
 #baseurl = "/"
-baseurl = "https://manjaro.github.io/homepage/public/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Manjaro Linux - enjoy the simplicity"
 theme = "hugo-creative-theme"
@@ -121,19 +121,19 @@ theme = "hugo-creative-theme"
 
 					shown_tags = ["teampicks", "beginnerfriendly", "resourceefficient", "traditional"]                
                 
-                [params.aside.editions.tags.teampicks]
+                [[params.aside.editions.tags]]
                 	id = "teampicks"
                 	description = "Our picks"
                 	default = "checked"
-                [params.aside.editions.tags.beginnerfriendly]
+                [[params.aside.editions.tags]]
                 	id = "beginnerfriendly"
                 	description = "Beginner-friendly"
                 	default = "checked"
-               	[params.aside.editions.tags.resourceefficient]
+               	[[params.aside.editions.tags]]
                 	id = "resourceefficient"
                 	description = "Good for slow computers"    
                 	default = ""
-                [params.aside.editions.tags.traditional]
+                [[params.aside.editions.tags]]
                 	id = "traditional"
                 	description = "Traditional interface"
                 	default = ""

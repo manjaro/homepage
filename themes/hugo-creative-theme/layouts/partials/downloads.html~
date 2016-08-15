@@ -105,7 +105,10 @@
             {{ end }}
             </div>
             
-            
+            <div style="height:20px;">
+            	<div style="height:20px;">
+            	</div>
+            </div>
             
             <div class="container-fluid">
                 <div class="row no-gutter">

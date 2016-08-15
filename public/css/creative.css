@@ -519,6 +519,39 @@ header .header-content .header-content-inner p {
     }
 }
 
+.editions-modal-features-li {
+	
+	list-style-type: none;
+    padding-left: 80px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image:url('img/bullets/generic.svg');
+    background-repeat:no-repeat;
+    background-position:left center;	
+    background-size: 64px 64px;
+    text-align: left;
+	
+}
+
+.editions-tag-checkbutton {
+	display: inline;
+}
+
+.editions-tag-checkbutton input[type="checkbox"]{
+	display: none;
+}
+
+.editions-tag-checkbutton input[type="checkbox"] + label{
+	background-color: #6a6a6a;
+}
+
+.editions-tag-checkbutton input[type="checkbox"]:checked + label{
+	background-color: rgb(52, 190, 91);
+}
+
 .call-to-action h2 {
     margin: 0 auto 20px;
 }
