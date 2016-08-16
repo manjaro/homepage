@@ -109,7 +109,7 @@
                 <hr class="light">
                 <p class="text-faded">Built a powerful Arch-Linux foundation, with speed, efficiency and cutting edge software, Manjaro makes it stable and takes full advantage of your computer hardware. It is designed to make beginners happy and grow with them while they are becoming advanced users. It is easy to install even for beginners and comes with all the apps you need every day.</p>
                 
-                <br /><p><img id="about-image" src="img/laptop.png" /></p>
+                <br /><p><img id="about-image" src="img/laptop-2.png" /></p>
             </div>
         </div>
     </div>
@@ -356,7 +356,7 @@
 }
 
 
-.editions-box-hideable-teampicks {
+.editions-box-hideable-offical {
 }
 
 .editions-box-hideable-beginnerfriendly {
@@ -425,8 +425,8 @@
 		
 		
 		
-		if (editions_filter_selected( "teampicks" )) {
-			tag_filter.push( "teampicks" );
+		if (editions_filter_selected( "offical" )) {
+			tag_filter.push( "offical" );
 		}
 		
 		
@@ -461,22 +461,14 @@
         <div class="call-to-action">
             <h2>Try it now</h2>
             <p>You can try Manjaro without changing your running system by putting it on a USB stick or on a DVD. If you decide to install Manjaro, you can do it directly from this live-system.</p>
-            <a href="#editionsModal1" class="btn btn-primary btn-xl wow tada"  data-toggle="modal">Download XFCE edition</a>
-        </div>
-        <div>
-            <h2>Explore other editions</h2>
-            <p>You can also install one of the other Manjaro editions that will come preconfigured with a specific desktop. You can easily add other environments to the existing ones after installation, so this is not a definitive choice.</p>
             
-            <h3>We will help you choosing</h3>
-            
-			<p>Choice can be overwhelming and we know that it can be hard to select the best of such a variety of environments, programs and more. Currently we only show beginner-friendly distributions that are picked by our team. If you want to reveal more, click these buttons below to show or hide editions that will fit your needs.</p>
             
             <div style="padding: 20px 0px 40px 0px;">
             
             
 				<div class="editions-tag-checkbutton">
-					<input type="checkbox" id="show-editions-teampicks" onchange="update_editions_tags();" checked/>         
-					<label for="show-editions-teampicks" class="btn btn-primary btn-xl" >Our picks</label>  
+					<input type="checkbox" id="show-editions-offical" onchange="update_editions_tags();" checked/>         
+					<label for="show-editions-offical" class="btn btn-primary btn-xl" >Official</label>  
 				</div> 
             
             
@@ -490,7 +482,7 @@
             
 				<div class="editions-tag-checkbutton">
 					<input type="checkbox" id="show-editions-resourceefficient" onchange="update_editions_tags();" ZgotmplZ/>         
-					<label for="show-editions-resourceefficient" class="btn btn-primary btn-xl" >Good for slow computers</label>  
+					<label for="show-editions-resourceefficient" class="btn btn-primary btn-xl" >Resource-efficient</label>  
 				</div> 
             
             
@@ -723,7 +715,7 @@
                         </a>
                     </div>
                     
-                    <div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-modern_tech editions-box-hideable-traditional_ui editions-box-hideable-teampicks  col-lg-4 col-sm-6">
+                    <div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-modern_tech editions-box-hideable-traditional_ui editions-box-hideable-official  col-lg-4 col-sm-6">
                         <a href="#editionsModal2" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/kde.jpg" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">
@@ -804,7 +796,7 @@
                         </a>
                     </div>
                     
-                    <div class="editions-box-hideable editions-box-hideable-advanced editions-box-hideable-teampicks  col-lg-4 col-sm-6">
+                    <div class="editions-box-hideable editions-box-hideable-advanced editions-box-hideable-official  col-lg-4 col-sm-6">
                         <a href="#editionsModal3" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/net.jpg" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">
@@ -831,7 +823,7 @@
                         </a>
                     </div>
                     
-                    <div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui editions-box-hideable-teampicks  col-lg-4 col-sm-6">
+                    <div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui editions-box-hideable-official  col-lg-4 col-sm-6">
                         <a href="#editionsModal1" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/xfce.jpg" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">

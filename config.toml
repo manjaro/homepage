@@ -114,26 +114,36 @@ theme = "hugo-creative-theme"
                 [params.aside.editions]
                     description = "You can also install one of the other Manjaro editions that will come preconfigured with a specific desktop. You can easily add other environments to the existing ones after installation, so this is not a definitive choice."
                     
-                    description_filter = "Choice can be overwhelming and we know that it can be hard to select the best of such a variety of environments, programs and more. Currently we only show beginner-friendly distributions that are picked by our team. If you want to reveal more, click these buttons below to show or hide editions that will fit your needs."
+                    description_filter = "Choose one of the official supported editions or try one of the editions provided by the community."
+               
+        [[params.aside.howtotry]]
+        	icon = "virtual-machine"
+        	text = "Try Manjaro in a <a href=\"https://wiki.manjaro.org/index.php?title=VirtualBox#Running_Manjaro_in_VirtualBox\" target=\"_blank\">virtual machine</a> within your current operating system"
+		[[params.aside.howtotry]]
+			icon = "live-boot"
+			text = "Try Manjaro by <a href=\"https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File\" target=\"_blank\">putting it</a> onto a DVD or USB-Stick"    
+		[[params.aside.howtotry]]
+			icon = "install"
+			text = "<a href=\"https://wiki.manjaro.org/index.php?title=Installation_Guides\" target=\"_blank\">Install</a> Manjaro from a DVD or USB-Stick"      	     
                     
                     
-                # All supported tags for editions filtering
-                [[params.aside.editions.tags]]
-                	id = "teampicks"
-                	description = "Our picks"
-                	default = "checked"
-                [[params.aside.editions.tags]]
-                	id = "beginnerfriendly"
-                	description = "Beginner-friendly"
-                	default = "checked"
-               	[[params.aside.editions.tags]]
-                	id = "resourceefficient"
-                	description = "Good for slow computers"    
-                	default = ""
-                [[params.aside.editions.tags]]
-                	id = "traditional_ui"
-                	description = "Traditional interface"
-                	default = ""
+        # All supported tags for editions filtering
+        [[params.aside.editions.tags]]
+        	id = "official"
+        	description = "Official"
+        	default = "checked"
+        [[params.aside.editions.tags]]
+        	id = "beginnerfriendly"
+        	description = "Beginner-friendly"
+        	default = "checked"
+       	[[params.aside.editions.tags]]
+        	id = "resourceefficient"
+        	description = "For old computers"    
+        	default = ""
+        [[params.aside.editions.tags]]
+        	id = "traditional_ui"
+        	description = "Traditional workflow"
+        	default = ""
                     
                     
                     
