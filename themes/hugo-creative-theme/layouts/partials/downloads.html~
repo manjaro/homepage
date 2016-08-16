@@ -139,7 +139,7 @@
 	                    	</div>
 		                    <div class="editions-box-caption-small">
 		                        <div class="editions-box-caption-small-content">
-		                            <div class="name btn btn-primary btn-xl">
+		                            <div class="name">
 		                                Download {{ .title }}
 		                            </div>               
 		                        </div>                        
