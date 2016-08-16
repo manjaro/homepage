@@ -109,7 +109,7 @@
                 <hr class="light">
                 <p class="text-faded">Built a powerful Arch-Linux foundation, with speed, efficiency and cutting edge software, Manjaro makes it stable and takes full advantage of your computer hardware. It is designed to make beginners happy and grow with them while they are becoming advanced users. It is easy to install even for beginners and comes with all the apps you need every day.</p>
                 
-                <br /><p><img id="about-image" src="img/laptop-2.png" /></p>
+                <br /><p><img id="about-image" src="img/laptop-3.png" /></p>
             </div>
         </div>
     </div>
@@ -353,10 +353,12 @@
 <style type="text/css">
 .editions-box-hideable {
 	transition: all .5s;
+	float: none; 
+	display: inline-block;
 }
 
 
-.editions-box-hideable-offical {
+.editions-box-hideable-official {
 }
 
 .editions-box-hideable-beginnerfriendly {
@@ -398,6 +400,7 @@
 				
 				el.style.opacity = "1";
 				el.style.width = "";
+				el.style.visibility = "visible";
 			}
 			else {
 			
@@ -405,11 +408,13 @@
 					
 					el.style.opacity = "1";
 					el.style.width = "";
+					el.style.visibility = "visible";
 				}
 				else {
 					
 					el.style.opacity = "0";
 					el.style.width = "0%";
+					el.style.visibility = "hidden";
 				}
 			}	
 		});
@@ -425,8 +430,8 @@
 		
 		
 		
-		if (editions_filter_selected( "offical" )) {
-			tag_filter.push( "offical" );
+		if (editions_filter_selected( "official" )) {
+			tag_filter.push( "official" );
 		}
 		
 		
@@ -462,13 +467,27 @@
             <h2>Try it now</h2>
             <p>You can try Manjaro without changing your running system by putting it on a USB stick or on a DVD. If you decide to install Manjaro, you can do it directly from this live-system.</p>
             
+			
+			<div>
+				<ul class="downloads-howtotry">
+	            	                        	
+						<li style="background-image: url('img/try/virtual-machine.svg')" >Try Manjaro in a <a href="https://wiki.manjaro.org/index.php?title=VirtualBox#Running_Manjaro_in_VirtualBox" target="_blank">virtual machine</a> within your current operating system</li>    
+					                        	
+						<li style="background-image: url('img/try/live-boot.svg')" >Try Manjaro by <a href="https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File" target="_blank">putting it</a> onto a DVD or USB-Stick</li>    
+					                        	
+						<li style="background-image: url('img/try/install.svg')" ><a href="https://wiki.manjaro.org/index.php?title=Installation_Guides" target="_blank">Install</a> Manjaro from a DVD or USB-Stick</li>    
+					      
+	            </ul>  
+			</div>		
+			
+			<p>Choose one of the official supported editions or try one of the editions provided by the community.</p>	         
             
             <div style="padding: 20px 0px 40px 0px;">
             
             
 				<div class="editions-tag-checkbutton">
-					<input type="checkbox" id="show-editions-offical" onchange="update_editions_tags();" checked/>         
-					<label for="show-editions-offical" class="btn btn-primary btn-xl" >Official</label>  
+					<input type="checkbox" id="show-editions-official" onchange="update_editions_tags();" checked/>         
+					<label for="show-editions-official" class="btn btn-primary btn-xl" >Official</label>  
 				</div> 
             
             
@@ -482,14 +501,14 @@
             
 				<div class="editions-tag-checkbutton">
 					<input type="checkbox" id="show-editions-resourceefficient" onchange="update_editions_tags();" ZgotmplZ/>         
-					<label for="show-editions-resourceefficient" class="btn btn-primary btn-xl" >Resource-efficient</label>  
+					<label for="show-editions-resourceefficient" class="btn btn-primary btn-xl" >For old computers</label>  
 				</div> 
             
             
             
 				<div class="editions-tag-checkbutton">
 					<input type="checkbox" id="show-editions-traditional_ui" onchange="update_editions_tags();" ZgotmplZ/>         
-					<label for="show-editions-traditional_ui" class="btn btn-primary btn-xl" >Traditional interface</label>  
+					<label for="show-editions-traditional_ui" class="btn btn-primary btn-xl" >Traditional workflow</label>  
 				</div> 
             
             
@@ -498,7 +517,7 @@
             <div class="container-fluid">
                 <div class="row no-gutter">
                 
-                    
+                	
                     <div class="editions-box-hideable editions-box-hideable-advanced editions-box-hideable-resourceefficient editions-box-hideable-community editions-box-hideable-wm editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
                         <a href="#editionsModal5" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/bspwm.jpg" class="img-responsive" alt="">
@@ -524,9 +543,7 @@
 		                        </div>                        
 		                    </div>
                         </a>
-                    </div>
-                    
-                    <div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-resourceefficient  col-lg-4 col-sm-6">
+                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-resourceefficient  col-lg-4 col-sm-6">
                         <a href="#editionsModal6" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/budgie.jpg" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">
@@ -551,9 +568,7 @@
 		                        </div>                        
 		                    </div>
                         </a>
-                    </div>
-                    
-                    <div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-traditional_ui editions-box-hideable-modern_tech  col-lg-4 col-sm-6">
+                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-traditional_ui editions-box-hideable-modern_tech  col-lg-4 col-sm-6">
                         <a href="#editionsModal4" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/cinnamon.jpg" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">
@@ -578,9 +593,7 @@
 		                        </div>                        
 		                    </div>
                         </a>
-                    </div>
-                    
-                    <div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly  col-lg-4 col-sm-6">
+                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly  col-lg-4 col-sm-6">
                         <a href="#editionsModal7" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/deepin.jpg" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">
@@ -605,9 +618,7 @@
 		                        </div>                        
 		                    </div>
                         </a>
-                    </div>
-                    
-                    <div class="editions-box-hideable editions-box-hideable-wm editions-box-hideable-advanced editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
+                    </div><div class="editions-box-hideable editions-box-hideable-wm editions-box-hideable-advanced editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
                         <a href="#editionsModal8" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/e20.jpg" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">
@@ -632,9 +643,7 @@
 		                        </div>                        
 		                    </div>
                         </a>
-                    </div>
-                    
-                    <div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-modern_tech editions-box-hideable-modern_ui  col-lg-4 col-sm-6">
+                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-modern_tech editions-box-hideable-modern_ui  col-lg-4 col-sm-6">
                         <a href="#editionsModal9" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/gnome.jpg" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">
@@ -659,9 +668,7 @@
 		                        </div>                        
 		                    </div>
                         </a>
-                    </div>
-                    
-                    <div class="editions-box-hideable editions-box-hideable-wm editions-box-hideable-advanced editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
+                    </div><div class="editions-box-hideable editions-box-hideable-wm editions-box-hideable-advanced editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
                         <a href="#editionsModal10" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/i3.jpg" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">
@@ -686,9 +693,7 @@
 		                        </div>                        
 		                    </div>
                         </a>
-                    </div>
-                    
-                    <div class="editions-box-hideable editions-box-hideable-wm editions-box-hideable-advanced editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
+                    </div><div class="editions-box-hideable editions-box-hideable-wm editions-box-hideable-advanced editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
                         <a href="#editionsModal11" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/jwm.jpg" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">
@@ -713,9 +718,7 @@
 		                        </div>                        
 		                    </div>
                         </a>
-                    </div>
-                    
-                    <div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-modern_tech editions-box-hideable-traditional_ui editions-box-hideable-official  col-lg-4 col-sm-6">
+                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-modern_tech editions-box-hideable-traditional_ui editions-box-hideable-official  col-lg-4 col-sm-6">
                         <a href="#editionsModal2" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/kde.jpg" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">
@@ -740,9 +743,7 @@
 		                        </div>                        
 		                    </div>
                         </a>
-                    </div>
-                    
-                    <div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-resourceefficient editions-box-hideable-modern_tech editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
+                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-resourceefficient editions-box-hideable-modern_tech editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
                         <a href="#editionsModal12" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/lxqt.jpg" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">
@@ -767,9 +768,7 @@
 		                        </div>                        
 		                    </div>
                         </a>
-                    </div>
-                    
-                    <div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
+                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
                         <a href="#editionsModal13" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/mate.jpg" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">
@@ -794,9 +793,7 @@
 		                        </div>                        
 		                    </div>
                         </a>
-                    </div>
-                    
-                    <div class="editions-box-hideable editions-box-hideable-advanced editions-box-hideable-official  col-lg-4 col-sm-6">
+                    </div><div class="editions-box-hideable editions-box-hideable-advanced editions-box-hideable-official  col-lg-4 col-sm-6">
                         <a href="#editionsModal3" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/net.jpg" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">
@@ -821,9 +818,7 @@
 		                        </div>                        
 		                    </div>
                         </a>
-                    </div>
-                    
-                    <div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui editions-box-hideable-official  col-lg-4 col-sm-6">
+                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui editions-box-hideable-official  col-lg-4 col-sm-6">
                         <a href="#editionsModal1" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/xfce.jpg" class="img-responsive" alt="">
                             <div class="editions-box-caption-extended">
@@ -849,7 +844,6 @@
 		                    </div>
                         </a>
                     </div>
-                    
                 </div>
             </div>
         </div>
