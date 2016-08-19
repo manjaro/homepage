@@ -45,7 +45,7 @@ theme = "hugo-creative-theme"
 		slogan     = "manjaro linux"
 		subslogan = "Fast & stable."
 		#subtitle   = "The easy to install Linux distribution with a friendly feel that comes with the latest and greatest apps at your fingertips."
-		subtitle = "A subtle blend of GNU/Linux that is packed with the most up-to-date software along with stability at its core."
+		subtitle = "The Linux distribution that is easy to install, stable and always up-to-date."
 		
 		callToAction = "Learn more about Manjaro"
 		callToActionUrl = "#about"
@@ -67,28 +67,28 @@ theme = "hugo-creative-theme"
 
         [[params.services.list]]
             icon = "stable.svg"
-            title = "Proven stability with newest features"
-            description = "You get the newest software - carefully tested by the Manjaro team and the community."
+            title = "Combination of state-of-the-art features with stability"
+            description = "You get the latest software, carefully tested by our Manjaro Team & Community before it reaches you."
 
         [[params.services.list]]
             icon = "easy-setup.svg"
-            title = "Easy to set up"
-            description = "Set up your hardware and preferences just by a few clicks."
+            title = "Easy setup"
+            description = "Our Hardware detection and preferences detect all of your system hardware without you having to probe for solutions."
 
         [[params.services.list]]
             icon = "handpicked-software.svg"
-            title = "Handpicked software"
-            description = "Manjaro comes with a compilation of handpicked software that has been proven to be useful, modern and reliable."
+            title = "Softwares of almost every category"
+            description = "Manjaro has compiled software in almost every category to fit into the needs of everyone. All software packages are the latest that comes with stability so all you need to do is choose your software, install and start running."
 
         [[params.services.list]]
             icon = "for-everyone.svg"
-            title = "Choose your workflow"
-            description = "We support as many different environments as possible, so you can select the best for yourself."
+            title = "Choose your workflow ..."
+            description = "Manjaro comes in many flavours. You can pick your choice without any second thought from our compilation of desktop environments and window managers"
             
         # usercases section
         [params.usercases]
-            headline = "Variety is our strength"
-            description = "Manjaro is used by many different users with different professions and knowledge of computers.<br/> All these different people come together and are constantly improving Manjaro. Explore what Manjaro can do for you to get work done, be entertained or to be connected with your friends and family."
+            headline = "Versatility and Variety is our strength"
+            description = "Manjaro is an efficient companion to serve your variety of needs and it is versatile to adapt to all of your needs. Our user base varies from newbies, students & teachers, programmers & developers, professionals, art enthusiast, music lovers, professional multimedia professionals and many more."
 
 
     # Portfolio modals
