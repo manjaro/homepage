@@ -74,7 +74,7 @@ theme = "hugo-creative-theme"
         [[params.services.list]]
             icon = "easy-setup.svg"
             title = "Easy to setup"
-            description = "Our Hardware detection and preferences detect all of your system hardware without you having to probe for solutions."
+            description = "Our Hardware detection and preferences tool detects, installs on the fly without need for user to define and install."
 
         [[params.services.list]]
             icon = "handpicked-software.svg"
