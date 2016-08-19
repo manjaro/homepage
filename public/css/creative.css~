@@ -167,7 +167,7 @@ aside {
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
-        font-size: 14px;
+        /*font-size: 14px;*/
         color: #34be5b;
     }
 
@@ -441,6 +441,7 @@ header .header-content .header-content-inner p {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+    box-shadow: 3px 3px 5px rgba(34,34,34,0.5);
 }
 
 
@@ -719,6 +720,20 @@ fieldset[disabled] .btn-primary.active {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
+}
+
+.btn-hero {
+    border: 0;
+    border-radius: 300px;
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.btn-hero:hover {
+    color: #258640;
+    text-decoration: none;
 }
 
 .btn-xl {

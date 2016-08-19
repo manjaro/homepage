@@ -34,7 +34,7 @@ theme = "hugo-creative-theme"
 		[params.navigation.links]
 			about     = "About"
 			services  = "Features"
-			usercases = "Get"
+			download = "Download"
 			contact   = "Contact"
 
 
@@ -44,12 +44,13 @@ theme = "hugo-creative-theme"
 		image = "manjaro-logo.png	"
 		slogan     = "MANJARO"
 		subslogan = "Linux fast and stable."
-		subtitle   = "The easy to install Linux distribution with a friendly feel that comes with the latest and greatest apps at your fingertips."
-		buttonText = "Learn more"
-		callToAction = "Downloads & instructions"
-		callToActionUrl = "#downloads"
-		#otherDownloads = "See all versions."
-		#otherDownloadsurl= "//manjaro.github.io/download"
+		#subtitle   = "The easy to install Linux distribution with a friendly feel that comes with the latest and greatest apps at your fingertips."
+		subtitle = "The subtle blend of GNU/Linux that is packed with the latest and greatest software along with stability at its core."
+		
+		callToAction = "Learn more"
+		callToActionUrl = "#about"
+		learnMore = "or download directly"
+		learnMoreUrl = "#downloads"
 
 
 
