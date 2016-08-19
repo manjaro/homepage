@@ -2,8 +2,8 @@ modalID: 6
 usercase: scientists
 title: Manjaro for scientists
 img: scientists.jpg
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
-features: Features that make manjaro good for this user
+description: "Scientists need software that works reliable, works efficient, has many features and ideally is even modifiable if needed. Manjaro brings all tools to get this software."
+features: ""
 moreinfo: See wiki etc.
 quote: Quote from beginner
 quoteauthor: Author

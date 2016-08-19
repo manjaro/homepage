@@ -2,8 +2,8 @@ modalID: 6
 usercase: scientists
 title: Manjaro for scientists
 img: scientists.jpg
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
-features: Features that make manjaro good for this user
+description: "Scientists need software that works reliable, works efficient, has many features and ideally is even modifiable if needed. Manjaro brings all tools to get this software."
+features: "Manjaro's repositories contain the newest available versions of popular software like [R](https://www.r-project.org/), [Scilab](http://www.scilab.org/), [Python](https://www.python.org/) and more. The repositories are extended further by the Arch User Repository (AUR), that contains build-scripts that generate finished packages. Software available in the AUR are for example [popular libraries](https://software.intel.com/en-us/intel-mkl), [compilers](https://software.intel.com/en-us/intel-compilers), tools for bioinformatics like the [Vienna RNA](https://www.tbi.univie.ac.at/RNA/) package or IDE like [R-Studio](https://www.rstudio.com/)."
 moreinfo: See wiki etc.
 quote: Quote from beginner
 quoteauthor: Author
