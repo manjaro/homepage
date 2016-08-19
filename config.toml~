@@ -124,7 +124,7 @@ theme = "hugo-creative-theme"
 			text = "Try Manjaro by <a href=\"https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File\" target=\"_blank\">putting it</a> onto a DVD or USB-Stick"    
 		[[params.aside.howtotry]]
 			icon = "install"
-			text = "Install Manjaro from a DVD or USB-Stick"      	     
+			text = "<a href=\"https://wiki.manjaro.org/index.php?title=Installation_Guides\" target=\"_blank\">Install</a> Manjaro from a DVD or USB-Stick"      	     
                     
                     
         # All supported tags for editions filtering

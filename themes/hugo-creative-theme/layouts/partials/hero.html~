@@ -2,7 +2,7 @@
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            <p><img src="/homepage/public/img/manjaro-logo.png" /></p>
+            <p><img src="img/manjaro-logo.svg" /></p>
             <h1>{{ with .Site.Params.hero.slogan }}{{ . | markdownify  }}{{ end }}</h1>
             <hr>
             <p>{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p>

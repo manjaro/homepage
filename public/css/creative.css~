@@ -95,10 +95,16 @@ aside {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    text-transform: lowercase;
+    /*font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;*/
+    font-family: 'Comfortaa', cursive;
     font-weight: 700;
-    color: #34be5b;
+    /*color: #34be5b;*/
+}
+
+.navbar-default .navbar-header .navbar-brand img{	
+	height: 100%;
+	display: inline-block;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -205,8 +211,9 @@ header .header-content {
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: 700;
+    font-family: 'Comfortaa', cursive;
 }
 
 header .header-content .header-content-inner hr {
@@ -498,6 +505,12 @@ header .header-content .header-content-inner p {
 
 .editions-box:hover .editions-box-caption-extended-subtitle {
     opacity: 1;
+    
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
 }
 
 .editions-box .editions-box-caption-extended {
