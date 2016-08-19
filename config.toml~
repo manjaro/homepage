@@ -42,7 +42,8 @@ theme = "hugo-creative-theme"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		image = "manjaro-logo.png	"
-		slogan     = "MANJARO<br />Linux fast and stable."
+		slogan     = "MANJARO"
+		subslogan = "Linux fast and stable."
 		subtitle   = "The easy to install Linux distribution with a friendly feel that comes with the latest and greatest apps at your fingertips."
 		buttonText = "Learn more"
 		callToAction = "Downloads & instructions"

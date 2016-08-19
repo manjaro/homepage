@@ -34,7 +34,7 @@ theme = "hugo-creative-theme"
 		[params.navigation.links]
 			about     = "About"
 			services  = "Features"
-			usercases = "Get"
+			download = "Download"
 			contact   = "Contact"
 
 
