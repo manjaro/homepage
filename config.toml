@@ -57,7 +57,8 @@ theme = "hugo-creative-theme"
 	# About section
 	[params.about]
 		headline    = "Grows with you"
-		description = "Built a powerful Arch-Linux foundation, with speed, efficiency and cutting edge software, Manjaro makes it stable and takes full advantage of your computer hardware. It is designed to make beginners happy and grow with them while they are becoming advanced users. It is easy to install even for beginners and comes with all the apps you need every day."
+		#description = "Built a powerful Arch-Linux foundation, with speed, efficiency and cutting edge software, Manjaro makes it stable and takes full advantage of your computer hardware. It is designed to make beginners happy and grow with them while they are becoming advanced users. It is easy to install even for beginners and comes with all the apps you need every day."
+		description = "Built from the powerful Arch Linux foundation; speed, efficiency and cutting edge software is in its core that is rock solid and stable. Manjaro is designed to welcome a newcomer and grow with the user as he evolves into a power user."
 		buttonText  = "Get started!"
 
 	# Service section
@@ -67,23 +68,23 @@ theme = "hugo-creative-theme"
 
         [[params.services.list]]
             icon = "stable.svg"
-            title = "Combination of state-of-the-art features with stability"
+            title = "Latest features with stability"
             description = "You get the latest software, carefully tested by our Manjaro Team & Community before it reaches you."
 
         [[params.services.list]]
             icon = "easy-setup.svg"
-            title = "Easy setup"
+            title = "Easy to setup"
             description = "Our Hardware detection and preferences detect all of your system hardware without you having to probe for solutions."
 
         [[params.services.list]]
             icon = "handpicked-software.svg"
-            title = "Softwares of almost every category"
-            description = "Manjaro has compiled software in almost every category to fit into the needs of everyone. All software packages are the latest that comes with stability so all you need to do is choose your software, install and start running."
+            title = "Software for everyone"
+            description = "Manjaro is loaded with software of every category to suit needs of everyone. All you need is to choose, install and start using."
 
         [[params.services.list]]
             icon = "for-everyone.svg"
-            title = "Choose your workflow ..."
-            description = "Manjaro comes in many flavours. You can pick your choice without any second thought from our compilation of desktop environments and window managers"
+            title = "Choose your workflow"
+            description = "Manjaro comes in many flavors; You have the option to pick the desktop environment / window managers of your choice."
             
         # usercases section
         [params.usercases]
