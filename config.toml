@@ -36,6 +36,7 @@ theme = "hugo-creative-theme"
 			services  = "Features"
 			download = "Download"
 			contact   = "Contact"
+			donate   = "Donate"
 
 
 	# Hero section*
@@ -160,3 +161,20 @@ theme = "hugo-creative-theme"
 		forum = "https://forum.manjaro.org/"
 		irc = "http://webchat.freenode.net/?channels=%23manjaro&uio=MTE9MTEzcf"
 		mailinglists = "https://lists.manjaro.org/"
+		
+	# Contact section
+	[params.donate]
+		headline = "Help us"
+		description = "Besides participating in discussions to improve Manjaro, helping other users or help developing new functions, you can always donate money to help keeping our infrastructure funded. Just a few bucks can help to keep our website and forums ad-free, reliable and secure."
+		conditions = "A donation counts as a private donation and is kept anonymous by us. That means that we won't share or publish any details about you and your donation. Donators get no rights or privileges - everybody can participate, whether they donated or not. Manjaro is still relatively young and a growing distribution - we are no registered organization. That means that we cannot give you a reciept that deduct taxes. For the same reason, the donation cannot go to a 'Manjaro Linux' organization, but goes to the head of the Manjaro team."
+		
+		[params.donate.account]			
+			account_holder = "Hanns Philip Müller"
+			account_number = "1050676905"
+			bank_identification = "12030000"
+			bank = "DKB"
+			bic = "BYLADEM1001"
+			iban = "DE90120300001050676905"
+			purpose = "Donation to Manjaro Linux"
+			note = "If you want a confirmation that we got your donation, just add your E-Mail adress to the purpose."
+

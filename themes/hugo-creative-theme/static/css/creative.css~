@@ -441,7 +441,7 @@ header .header-content .header-content-inner p {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
-    box-shadow: 3px 3px 5px rgba(34,34,34,0.5);
+    box-shadow: 3px 3px 10px rgba(34,34,34,0.5);
 }
 
 
@@ -802,4 +802,17 @@ body {
     background-size: 64px 64px;
     text-align: left;
 	
+}
+
+.dontation-manually-card {
+	width: 100%;
+	vertical-align: middle;
+	text-align: left;
+	margin: 0 64px;
+}
+
+.donation-manually-field {
+	color: #34be5b;
+	font-weight: 600;
+	font-size: 18px;
 }

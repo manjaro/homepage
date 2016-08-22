@@ -18,7 +18,7 @@
                     <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.links.about }}{{ . }}{{ end }}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.links.services }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="#features">{{ with .Site.Params.navigation.links.services }}{{ . }}{{ end }}</a>
                 </li>
 				<li>
                     <a class="page-scroll" href="#downloads">{{ with .Site.Params.navigation.links.download }}{{ . }}{{ end }}</a>

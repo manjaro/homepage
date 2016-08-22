@@ -803,3 +803,16 @@ body {
     text-align: left;
 	
 }
+
+.dontation-manually-card {
+	width: 100%;
+	vertical-align: middle;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.donation-manually-field {
+	color: #34be5b;
+	font-weight: 600;
+	font-size: 18px;
+}

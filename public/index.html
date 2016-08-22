@@ -82,6 +82,9 @@
 			        </li>
 			      </ul>
 			    </li>
+			    <li>
+				    <a class="page-scroll" href="#donate">Donate</a>
+				</li>
                 
             </ul>
         </div>
@@ -889,6 +892,36 @@
 			<div class="col-lg-4 text-center">
                 <img src="img/contact/mailinglists.svg" class="wow bounceIn"/>
                 <p><a href="https://lists.manjaro.org/" target="_blank">Mailing-Lists</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- CONTACT -->
+<section id="donate">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Help us</h2>
+                <hr class="primary">
+                <p>Besides participating in discussions to improve Manjaro, helping other users or help developing new functions, you can always donate money to help keeping our infrastructure funded. Just a few bucks can help to keep our website and forums ad-free, reliable and secure.</p>
+                <p style="font-weight: 100;" >A donation counts as a private donation and is kept anonymous by us. That means that we won&rsquo;t share or publish any details about you and your donation. Donators get no rights or privileges - everybody can participate, whether they donated or not. Manjaro is still relatively young and a growing distribution - we are no registered organization. That means that we cannot give you a reciept that deduct taxes. For the same reason, the donation cannot go to a &lsquo;Manjaro Linux&rsquo; organization, but goes to the head of the Manjaro team.</p>
+            </div>
+            <div class="col-lg-4 col-lg-offset-2 text-center">
+            	
+                
+				<img src="img/donation/paypal.svg" class="wow bounceIn"/>
+				
+				<form id="donation_paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="P5T6ZGPVJD9JN">
+					<a href="#" onclick="donation_paypal.submit();" style="margin-bottom: 20px;font-size: 16px;line-height: 1.5;">Use Paypal</a>
+				</form>	
+				
+            </div>
+            <div class="col-lg-4 text-center">
+                <img src="img/donation/manually.svg" class="wow bounceIn"/>
+                <p><a href="#donation-manually-modal" data-toggle="modal" >Account data for donations</a></p>
             </div>
         </div>
     </div>
@@ -2160,6 +2193,65 @@
     </div>
 </div>
 
+
+        <!-- Modal for donation -->
+<div class="usercases-modal modal fade" id="donation-manually-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Account data for donation</h2>
+                        <hr class="star-primary">
+                        
+                        <p style="font-weight: 100;" >A donation counts as a private donation and is kept anonymous by us. That means that we won&rsquo;t share or publish any details about you and your donation. Donators get no rights or privileges - everybody can participate, whether they donated or not. Manjaro is still relatively young and a growing distribution - we are no registered organization. That means that we cannot give you a reciept that deduct taxes. For the same reason, the donation cannot go to a &lsquo;Manjaro Linux&rsquo; organization, but goes to the head of the Manjaro team.</p>
+                        
+						<table class="dontation-manually-card">
+							<tr>
+								<td class="donation-manually-field" >Account holder</td>
+								<td>Hanns Philip Müller</td>
+							</tr>
+							<tr>
+								<td class="donation-manually-field" >Account number</td>
+								<td>1050676905</td>
+							</tr>
+							<tr>
+								<td class="donation-manually-field" >Bank identification number</td>
+								<td>12030000</td>
+							</tr>
+							<tr>
+								<td class="donation-manually-field" >Bank</td>
+								<td>DKB</td>
+							</tr>
+							<tr>
+								<td class="donation-manually-field" >BIC</td>
+								<td>BYLADEM1001</td>
+							</tr>
+							<tr>
+								<td class="donation-manually-field" >IBAN</td>
+								<td>DE90120300001050676905</td>
+							</tr>
+							<tr>
+								<td class="donation-manually-field" >Purpose</td>
+								<td>Donation to Manjaro Linux</td>
+							</tr>							
+						</table>  
+						
+						<p>If you want a confirmation that we got your donation, just add your E-Mail adress to the purpose.</p> 
+                        
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
         <!-- jQuery -->
