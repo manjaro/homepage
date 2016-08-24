@@ -32,8 +32,33 @@
 
     </head>
     <body id="page-top">
+    
+    	<script type="text/javascript">
+    		function addLoadEvent(func) {
+			  var oldonload = window.onload;
+			  if (typeof window.onload != 'function') {
+			    window.onload = func;
+			  } else {
+			    window.onload = function() {
+			      if (oldonload) {
+			        oldonload();
+			      }
+			      func();
+			    }
+			  }
+			}
+    	</script>
 
         <!-- NAVIGATION -->
+
+<script type="text/javascript" >
+	function disable_javascript_warning() {
+		document.getElementById("javascript-warning").style.visibility = "collapse";
+	}
+	
+	addLoadEvent(disable_javascript_warning);	
+</script>
+
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -46,9 +71,14 @@
             </button>
             <a class="navbar-brand page-scroll" href="#page-top"> <img src="img/manjaro-logo.svg"/> Manjaro</a>
         </div>
+		
+        
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">				
+            <ul class="nav navbar-nav navbar-right">			
+            	<li id="javascript-warning">
+            		<a class="page-scroll" href="#" style="color: #f00;">Please enable JavaScript to enable all functions of this site</a>			        	    
+            	</li>	
                 <li>
                     <a class="page-scroll" href="#about">About</a>
                 </li>
@@ -467,7 +497,8 @@
 		show_only_editions_with_tags(tag_filter)
 	}
 	
-	window.onload = update_editions_tags;
+	
+	addLoadEvent(update_editions_tags);
 	
 </script>
 
@@ -1184,6 +1215,13 @@
                         <hr class="star-primary">
                         <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
                         
+						
+                        <h3>Sidenote</h3>
+                        <hr class="star-primary">
+                        <p>A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine.</p>
+                        
+                                                
+                        
                         
                        
                         
@@ -1265,6 +1303,13 @@
                         <h2>Getting started</h2>
                         <hr class="star-primary">
                         <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
+                        
+						
+                        <h3>Sidenote</h3>
+                        <hr class="star-primary">
+                        <p>A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine.</p>
+                        
+                                                
                         
                         
                         <h3>More information</h3>
@@ -1351,6 +1396,13 @@
                         <hr class="star-primary">
                         <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
                         
+						
+                        <h3>Sidenote</h3>
+                        <hr class="star-primary">
+                        <p>A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine.</p>
+                        
+                                                
+                        
                         
                         <h3>More information</h3>
                         <hr class="star-primary">
@@ -1435,6 +1487,13 @@
                         <h2>Getting started</h2>
                         <hr class="star-primary">
                         <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
+                        
+						
+                        <h3>Sidenote</h3>
+                        <hr class="star-primary">
+                        <p>A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine.</p>
+                        
+                                                
                         
                         
                         <h3>More information</h3>
@@ -1521,6 +1580,13 @@
                         <hr class="star-primary">
                         <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
                         
+						
+                        <h3>Sidenote</h3>
+                        <hr class="star-primary">
+                        <p>A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine.</p>
+                        
+                                                
+                        
                         
                        
                         
@@ -1602,6 +1668,13 @@
                         <h2>Getting started</h2>
                         <hr class="star-primary">
                         <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
+                        
+						
+                        <h3>Sidenote</h3>
+                        <hr class="star-primary">
+                        <p>A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine.</p>
+                        
+                                                
                         
                         
                         <h3>More information</h3>
@@ -1690,6 +1763,13 @@
                         <hr class="star-primary">
                         <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
                         
+						
+                        <h3>Sidenote</h3>
+                        <hr class="star-primary">
+                        <p>A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine.</p>
+                        
+                                                
+                        
                         
                        
                         
@@ -1769,6 +1849,13 @@
                         <h2>Getting started</h2>
                         <hr class="star-primary">
                         <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
+                        
+						
+                        <h3>Sidenote</h3>
+                        <hr class="star-primary">
+                        <p>A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine.</p>
+                        
+                                                
                         
                         
                         <h3>More information</h3>
@@ -1857,6 +1944,8 @@
                         <hr class="star-primary">
                         <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
                         
+						                        
+                        
                         
                        
                         
@@ -1936,6 +2025,13 @@
                         <h2>Getting started</h2>
                         <hr class="star-primary">
                         <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
+                        
+						
+                        <h3>Sidenote</h3>
+                        <hr class="star-primary">
+                        <p>A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine.</p>
+                        
+                                                
                         
                         
                         <h3>More information</h3>
@@ -2022,6 +2118,13 @@
                         <hr class="star-primary">
                         <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
                         
+						
+                        <h3>Sidenote</h3>
+                        <hr class="star-primary">
+                        <p>A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine.</p>
+                        
+                                                
+                        
                         
                        
                         
@@ -2102,6 +2205,8 @@
                         <hr class="star-primary">
                         <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
                         
+						                        
+                        
                         
                        
                         
@@ -2181,6 +2286,8 @@
                         <h2>Getting started</h2>
                         <hr class="star-primary">
                         <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
+                        
+						                        
                         
                         
                        

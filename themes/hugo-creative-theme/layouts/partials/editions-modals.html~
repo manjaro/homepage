@@ -59,7 +59,7 @@
                         <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and 
                         compare it with the one we provide you here. <a href="https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors">Here</a> you can find information how to generate such a sum and check your downloaded files.</p>
                         <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
-                        created by the Manjaro developers. <a href="http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/">Here</a> you can find information how to use it.</p>
+                        created by the Manjaro developers. <a href="http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/" target="_blank">Here</a> you can find information how to use it.</p>
                         
                         <h2>Getting started</h2>
                         <hr class="star-primary">

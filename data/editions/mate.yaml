@@ -5,6 +5,7 @@ img_full: mate-full.jpg
 shortdescription: Traditional and proven
 tags: [de, beginnerfriendly, resourceefficient, traditional_ui]
 description: This edition is supported by the Manjaro community and comes with Mate, a desktop environment that continues the legacy of traditional user experience while carefully improving and modernizing it when needed.
+sidenote: "A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine."
 features:
 -
     icon : people

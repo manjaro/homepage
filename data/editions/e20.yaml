@@ -5,6 +5,7 @@ img_full: e20-full.jpg
 shortdescription: Slim and fast
 tags: [wm, advanced, resourceefficient, traditional_ui]
 description: This edition is supported by the Manjaro community and comes with the Enlightenment desktop that provides a slim and performant experience.
+sidenote: "A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine."
 features:
 -
     icon : people

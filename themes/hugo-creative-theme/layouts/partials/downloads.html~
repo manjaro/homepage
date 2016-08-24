@@ -84,7 +84,7 @@
 	
 </script>
 
-<aside class="bg-dark" id="downloads">
+<aside class="bg-dark" id="downloads" style="transition: height .5s;">
     <div class="container text-center">
         <div class="call-to-action">
             <h2>{{ with .Site.Params.aside.headline }}{{ . }}{{ end }}</h2>

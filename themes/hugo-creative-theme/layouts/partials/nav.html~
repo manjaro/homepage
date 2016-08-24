@@ -1,4 +1,13 @@
 {{ "<!-- NAVIGATION -->" | safeHTML }}
+
+<script type="text/javascript" >
+	function disable_javascript_warning() {
+		document.getElementById("javascript-warning").style.visibility = "collapse";
+	}
+	
+	window.onload = disable_javascript_warning;	
+</script>
+
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
@@ -11,9 +20,14 @@
             </button>
             <a class="navbar-brand page-scroll" href="#page-top"> <img src="img/manjaro-logo.svg"/> {{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
         </div>
+		
+        
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">				
+            <ul class="nav navbar-nav navbar-right">			
+            	<li id="javascript-warning">
+            		<a class="page-scroll" href="#" style="color: #f00;">Please enable JavaScript to enable all functions of this site</a>			        	    
+            	</li>	
                 <li>
                     <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.links.about }}{{ . }}{{ end }}</a>
                 </li>
@@ -47,6 +61,9 @@
 			        </li>
 			      </ul>
 			    </li>
+			    <li>
+				    <a class="page-scroll" href="#donate">{{ with .Site.Params.navigation.links.donate }}{{ . }}{{ end }}</a>
+				</li>
                 <!-- I don't think link adds value to the user
                 <li>
                     <a class="page-scroll" href="#portfolio">{{ with .Site.Params.navigation.links.portfolio }}{{ . }}{{ end }}</a>

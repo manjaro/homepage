@@ -5,6 +5,7 @@ img_full: deepin-full.jpg
 shortdescription: Beginner-friendly and elegant
 tags: [de, beginnerfriendly]
 description: This edition is supported by the Manjaro community and comes with the [Deepin](https://www.deepin.org/) desktop that provides a very beginner-friendly and elegant experience.
+sidenote: "A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine."
 features:
 -
     icon : people

@@ -18,6 +18,7 @@
 
         {{ partial "usercases-modals.html" . }}
         {{ partial "editions-modals.html" . }}
+        {{ partial "donation-manually.html" . }}
 
         {{ partial "js.html" . }}
     </body>
