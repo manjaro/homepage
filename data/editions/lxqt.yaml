@@ -5,7 +5,7 @@ img_full: lxqt-full.jpg
 shortdescription: Modern and lightweight
 tags: [de, beginnerfriendly, resourceefficient, modern_tech, traditional_ui]
 description: This edition is supported by the Manjaro community and comes with Lxqt, a full desktop environment that uses modern technology while being extremely resource-efficient.
-sidenote: "A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine."
+#sidenote: "A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine."
 features:
 -
     icon : people

@@ -5,7 +5,7 @@
 		document.getElementById("javascript-warning").style.visibility = "collapse";
 	}
 	
-	window.onload = disable_javascript_warning;	
+	addLoadEvent(disable_javascript_warning);	
 </script>
 
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
