@@ -4,6 +4,7 @@ img: cinnamon.jpg
 img_full: cinnamon-full.jpg
 shortdescription: Modern technology, traditional experience
 tags: [de, beginnerfriendly, traditional_ui, modern_tech]
+target_group: For people who look for a traditional desktop with modern technology
 description: This edition is supported by the Manjaro community and comes with Cinnamon, a desktop based on modern technology that keeps known and proven concepts.
 #sidenote: "A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine."
 features:

@@ -118,7 +118,8 @@ theme = "hugo-creative-theme"
                 [params.aside.editions]
                     description = "You can also install one of the other Manjaro editions that will come preconfigured with a specific desktop. You can easily add other environments to the existing ones after installation, so this is not a definitive choice."
                     
-                    description_filter = "Choose one of the official supported editions or try one of the editions provided by the community."
+                    #description_filter = "Choose one of the official supported editions or try one of the editions provided by the community."
+                    description_filter = "For simplicity we have selected XFCE and KDE for our flagship editions. If you want to look for other experiences, our community has created many flavours that focus around other desktops."
                
         [[params.aside.howtotry]]
         	icon = "virtual-machine"

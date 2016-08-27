@@ -3,6 +3,7 @@ title: XFCE edition
 img: xfce.jpg
 img_full: xfce-full.jpg
 shortdescription: Reliable and fast
+target_group: For people who want a reliable and fast desktop
 tags: [de, beginnerfriendly, resourceefficient, traditional_ui, official]
 description: This edition is supported by the Manjaro team and comes with XFCE, a lightweight and reliable desktop with high configurability.
 features:
@@ -11,7 +12,7 @@ features:
     text : Supported by Manjaro team
 -
     icon : stable
-    text : Based on well tested and proven to be reliable technology
+    text : Based on well tested and reliable technology
 -
     icon : time
     text : Very resource-efficient and therefore ideal for older computers

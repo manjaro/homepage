@@ -3,6 +3,7 @@ title: GNOME edition
 img: gnome.jpg
 img_full: gnome-full.jpg
 shortdescription: Simple, focused and well-designed
+target_group: For people who want a very modern and simple desktop
 tags: [de, beginnerfriendly, modern_tech, modern_ui]
 description: This edition is supported by the Manjaro community and comes with the GNOME 3 desktop that breaks with traditional concepts and allows users to focus on their tasks. Desktop-specific applications are crafted with care and clearly defined by guidelines that make them more consistent to use.
 #sidenote: "A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine."

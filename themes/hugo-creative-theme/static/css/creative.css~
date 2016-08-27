@@ -193,7 +193,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #222;
-	text-shadow: 0px 0px 10px white;
+	/*text-shadow: 0px 0px 10px white;*/
     background-image: url(../img/header5.jpg);
     background-position: center;
     -webkit-background-size: cover;

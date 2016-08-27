@@ -131,10 +131,17 @@
                     {{ range .Site.Data.editions }}<div class="editions-box-hideable {{ range .tags}}editions-box-hideable-{{ . }} {{ end }} col-lg-4 col-sm-6">
                         <a href="#editionsModal{{ .modalID }}" class="editions-box editions-link" data-toggle="modal">
                             <img src="img/editions/{{ .img }}" class="img-responsive" alt="">
-                            <div class="editions-box-caption-extended">
+                            <!--<div class="editions-box-caption-extended">
 		                        <div class="editions-box-caption-extended-content"> 
 		                            <div class="quote">
 		                                {{ .shortdescription }}
+		                            </div>
+		                        </div>                        
+	                    	</div>-->
+							<div class="editions-box-caption-extended">
+		                        <div class="editions-box-caption-extended-content"> 
+		                            <div class="targetgroup">
+		                                {{ .target_group }}
 		                            </div>
 		                        </div>                        
 	                    	</div>
