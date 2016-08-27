@@ -148,7 +148,8 @@ aside {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        /*color: #fff;*/
+        color: #34be5b;
     }
 
     .navbar-default .nav > li>a,
@@ -547,6 +548,17 @@ header .header-content .header-content-inner p {
     position: relative;
     bottom: 0px;
 }
+
+.editions-box .editions-box-caption-extended .editions-box-caption-extended-content .targetgroup {
+    padding: 0 15px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    position: relative;
+    bottom: 0px;
+}
+
 
 .editions-box:hover .editions-box-caption-extended {
     opacity: 1;
