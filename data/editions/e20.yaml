@@ -1,0 +1,26 @@
+modalID: 8
+title: Enlightenment edition
+img: e20.jpg
+img_full: e20-full.jpg
+shortdescription: Slim and fast
+target_group: For people who want a highly configurable, resource-efficient and modern desktop
+tags: [wm, advanced, resourceefficient, traditional_ui]
+description: This edition is supported by the Manjaro community and comes with the Enlightenment desktop that provides a slim and performant experience.
+#sidenote: "A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine."
+features:
+-
+    icon : people
+    text : Supported by Manjaro community
+-
+    icon : cog
+    text : Builds on modern technology, which enables usage high-DPI screens and other newer technologies
+-
+    icon : time
+    text : Very resource-efficient and therefore ideal for older computers
+download_64bit: https://sourceforge.net/projects/manjarolinux/files/community//Enlightenment/2016.04/manjaro-e20-community-16.04-x86_64.iso
+download_64bit_sha1: 5b35188725f0f4ecb722278ae4c1052b0d90c65b
+download_64bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/community/
+download_32bit: https://sourceforge.net/projects/manjarolinux/files/community//Enlightenment/2016.04/manjaro-e20-community-16.04-i686.iso
+download_32bit_sha1: e68e1e73d99f560919a9bbeae285caa7025a7e34
+download_32bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/community/
+

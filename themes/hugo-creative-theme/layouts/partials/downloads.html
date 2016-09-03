@@ -1,0 +1,170 @@
+{{ "<!-- ASIDE -->" | safeHTML }}
+<!-- These are functional styles and do not belong to creative.css -->
+<style type="text/css">
+.editions-box-hideable {
+	transition: all .5s;
+	float: none; 
+	display: inline-block;
+}
+
+{{ range .Site.Params.aside.editions.tags }}
+.editions-box-hideable-{{ .id }} {
+}
+{{ end }}
+
+</style>
+<!-- Define out script for edition selectio -->
+<script type="text/javascript" >
+
+	function element_is_in_tags(el, tags) {
+	
+		// May I ask the people who developed Java script (if they ever read this)) why JS's for-each-loop behaves completly different to all other for-each-loops in any language?
+		for (var id in tags) {
+		
+			if(!el.classList.contains("editions-box-hideable-" + tags[id])){
+				return false;
+			}
+			
+		}
+		
+		return true;
+		
+	}
+
+	function show_only_editions_with_tags(tags) {
+	
+		var els = document.getElementsByClassName('editions-box-hideable');
+		
+		[].forEach.call(els, function (el) 
+		{
+			if (tags.length == 0) {
+				//el.style.display = "block";
+				el.style.opacity = "1";
+				el.style.width = "";
+				el.style.visibility = "visible";
+			}
+			else {
+			
+				if(element_is_in_tags(el, tags)) {
+					//el.style.display = "block";
+					el.style.opacity = "1";
+					el.style.width = "";
+					el.style.visibility = "visible";
+				}
+				else {
+					//el.style.display = "none";
+					el.style.opacity = "0";
+					el.style.width = "0%";
+					el.style.visibility = "hidden";
+				}
+			}	
+		});
+	}
+	
+	function editions_filter_selected(id) {
+		var e = document.getElementById("show-editions-" + id)		
+		return e.checked;
+	}
+	
+	function update_editions_tags() {
+		var tag_filter = [];
+		
+		{{ range .Site.Params.aside.editions.tags }}
+		
+		if (editions_filter_selected( "{{ .id }}" )) {
+			tag_filter.push( "{{ .id }}" );
+		}
+		
+		{{ end }}
+		
+		show_only_editions_with_tags(tag_filter)
+	}
+	
+	//window.onload = update_editions_tags;
+	addLoadEvent(update_editions_tags);
+	
+</script>
+
+<aside class="bg-dark" id="downloads" style="transition: height .5s;">
+    <div class="container text-center">
+        <div class="call-to-action">
+            <h2>{{ with .Site.Params.aside.headline }}{{ . }}{{ end }}</h2>
+            <p>{{ with .Site.Params.aside.description }}{{ . }}{{ end }}</p>
+            <!--<a href="{{ with .Site.Params.aside.default_download_button.link }}{{ . }}{{ end }}" class="btn btn-primary btn-xl wow tada"  data-toggle="modal">{{ with .Site.Params.aside.default_download_button.text }}{{ . }}{{ end }}</a>
+        </div>
+        <div>
+            <h2>Explore other editions</h2>
+            <p>{{ with .Site.Params.aside.editions.description }}{{ . }}{{ end }}</p>
+            
+            <h3>We will help you choosing</h3>
+            
+			<p>{{ with .Site.Params.aside.editions.description_filter }}{{ . }}{{ end }}</p>-->
+			
+			<div>
+				<ul class="downloads-howtotry">
+	            	{{ range .Site.Params.aside.howtotry }}                        	
+						<li style="background-image: url('img/try/{{ .icon }}.svg')" >{{ .text | markdownify }}</li>    
+					{{end}}      
+	            </ul>  
+			</div>		
+			
+			<p>{{ with .Site.Params.aside.editions.description_filter }}{{ . }}{{ end }}</p>	         
+            
+            <div style="padding: 20px 0px 40px 0px;">
+            {{ range .Site.Params.aside.editions.tags }}
+            
+				<div class="editions-tag-checkbutton">
+					<input type="checkbox" id="show-editions-{{ .id }}" onchange="update_editions_tags();" {{ .default }}/>         
+					<label for="show-editions-{{ .id }}" class="btn btn-primary btn-xl" >{{ .description }}</label>  
+				</div> 
+            
+            {{ end }}
+            </div>
+            
+            <div class="container-fluid">
+                <div class="row no-gutter">
+                
+                	<!-- 
+                	NOTE: The range and end operations are supposed to be in line with the boxes!!! 
+                	Read more about crazy HTML magic here: http://stackoverflow.com/questions/19038799/why-is-there-an-unexplainable-gap-between-these-inline-block-div-elements
+                	-->
+                    {{ range .Site.Data.editions }}<div class="editions-box-hideable {{ range .tags}}editions-box-hideable-{{ . }} {{ end }} col-lg-4 col-sm-6">
+                        <a href="#editionsModal{{ .modalID }}" class="editions-box editions-link" data-toggle="modal">
+                            <img src="img/editions/{{ .img }}" class="img-responsive" alt="">
+                            <!--<div class="editions-box-caption-extended">
+		                        <div class="editions-box-caption-extended-content"> 
+		                            <div class="quote">
+		                                {{ .shortdescription }}
+		                            </div>
+		                        </div>                        
+	                    	</div>-->
+							<div class="editions-box-caption-extended">
+		                        <div class="editions-box-caption-extended-content"> 
+		                            <div class="targetgroup">
+		                                {{ .target_group }}
+		                            </div>
+		                        </div>                        
+	                    	</div>
+		                    <div class="editions-box-caption-small">
+		                        <div class="editions-box-caption-small-content">
+		                            <div class="name">
+		                                Download {{ .title }}
+		                            </div>               
+		                        </div>                        
+		                    </div>
+		                    <div class="editions-box-caption-extended-subtitle">
+		                        <div class="editions-box-caption-extended-subtitle-content">
+		                            <div class="action">
+		                                Download {{ .title }}
+		                            </div>               
+		                        </div>                        
+		                    </div>
+                        </a>
+                    </div>{{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</aside>

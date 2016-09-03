@@ -1,0 +1,27 @@
+modalID: 3
+title: NET edition
+img: net.jpg
+img_full: net-full.jpg
+target_group: For people who want to decide themselves what is installed
+shortdescription: Free of assumptions and under your control
+tags: [advanced, official]
+description: This edition is supported by the Manjaro team and comes without any pre-installed display manager and desktop application. People who want full control what exactly is installed on their system can use this as base.
+features:
+-
+    icon : premium
+    text : Supported by Manjaro team
+-
+    icon : blocks
+    text : Build your own system
+-
+    icon : code
+    text : Good for very advanced users
+download_64bit: http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-x86_64.iso
+download_64bit_sig: http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-x86_64.iso.sig
+download_64bit_sha1: 42e0c1391c63070a76f4840c21368a23fd65d334
+download_64bit_torrent: http://downloads.sourceforge.net/manjarotorrents/manjaro-net-16.08-x86_64.torrent
+download_32bit: http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-i686.iso
+download_32bit_sig: http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-i686.iso.sig
+download_32bit_sha1: 9cb6886757771ae4eba83abfab8ac5e6a499da2b
+download_32bit_torrent: http://downloads.sourceforge.net/manjarotorrents/manjaro-net-16.08-i686.torrent
+

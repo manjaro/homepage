@@ -1,0 +1,56 @@
+{{ "<!-- Modal for donation -->" | safeHTML }}
+<div class="usercases-modal modal fade" id="donation-manually-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Account data for donation</h2>
+                        <hr class="star-primary">
+                        
+						<table class="dontation-manually-card">
+							<tr>
+								<td class="donation-manually-field" >Account holder</td>
+								<td>{{ with $.Site.Params.donate.account.account_holder }}{{.}}{{ end }}</td>
+							</tr>
+							<tr>
+								<td class="donation-manually-field" >Account number</td>
+								<td>{{ with $.Site.Params.donate.account.account_number }}{{.}}{{ end }}</td>
+							</tr>
+							<tr>
+								<td class="donation-manually-field" >Bank identification number</td>
+								<td>{{ with $.Site.Params.donate.account.bank_identification }}{{.}}{{ end }}</td>
+							</tr>
+							<tr>
+								<td class="donation-manually-field" >Bank</td>
+								<td>{{ with $.Site.Params.donate.account.bank }}{{.}}{{ end }}</td>
+							</tr>
+							<tr>
+								<td class="donation-manually-field" >BIC</td>
+								<td>{{ with $.Site.Params.donate.account.bic }}{{.}}{{ end }}</td>
+							</tr>
+							<tr>
+								<td class="donation-manually-field" >IBAN</td>
+								<td>{{ with $.Site.Params.donate.account.iban }}{{.}}{{ end }}</td>
+							</tr>
+							<tr>
+								<td class="donation-manually-field" >Purpose</td>
+								<td>{{ with $.Site.Params.donate.account.purpose }}{{.}}{{ end }}</td>
+							</tr>							
+						</table>  
+						
+						<p>{{ with $.Site.Params.donate.account.note }}{{.}}{{ end }}</p> 
+                        
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.usercases.modal.buttonText }}{{.}}{{ end }}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

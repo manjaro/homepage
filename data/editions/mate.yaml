@@ -1,0 +1,26 @@
+modalID: 13
+title: Mate edition
+img: mate.jpg
+img_full: mate-full.jpg
+shortdescription: Traditional and proven
+target_group: For people who look for a traditional experience
+tags: [de, beginnerfriendly, resourceefficient, traditional_ui]
+description: This edition is supported by the Manjaro community and comes with Mate, a desktop environment that continues the legacy of traditional user experience while carefully improving and modernizing it when needed.
+#sidenote: "A community supported edition may not get the support the Manjaro Team will guarantee. Use a flagship edition if you are unsure or test the edition in a virtual machine."
+features:
+-
+    icon : people
+    text : Supported by Manjaro community
+-
+    icon : time
+    text : Very resource-efficient and therefore ideal for older computers
+-
+    icon : stable
+    text : Based on well tested and reliable technology
+download_64bit: https://sourceforge.net/projects/manjarolinux/files/community/MATE/2015.12/manjaro-mate-15.12-x86_64.iso
+download_64bit_sha1: a6edb5bca93f0fdf28a69d93600eae7c32c7c8c9
+download_64bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/community/
+download_32bit: https://sourceforge.net/projects/manjarolinux/files/community/MATE/2015.12/manjaro-mate-15.12-i686.iso
+download_32bit_sha1: 213853ced004e7a05f3be89a635fac57a4ce3eaf
+download_32bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/community/
+
