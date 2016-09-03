@@ -19,12 +19,12 @@ features:
 -
     icon : cog
     text : Builds on modern technology, which enables usage high-DPI screens and other newer technologies
-download_64bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-x86_64.iso
-download_64bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-x86_64.iso.sig
-download_64bit_sha1: b046cf30278052d825d9429588e6b5f04885cdb2
-download_64bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/release/
-download_32bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-i686.iso
-download_32bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/kde/manjaro-kde-16.06.1-i686.iso.sig
-download_32bit_sha1: 79c9faa7a4275b5f5280f751affdc2784021217f
-download_32bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/release/
+download_64bit: http://downloads.sourceforge.net/manjarolinux/manjaro-kde-16.08-x86_64.iso
+download_64bit_sig: http://downloads.sourceforge.net/manjarolinux/manjaro-kde-16.08-x86_64.iso.sig
+download_64bit_sha1: f617b699ca9b14562a1f5cdd31c8c557828f3a82
+download_64bit_torrent: http://downloads.sourceforge.net/manjarotorrents/manjaro-kde-16.08-x86_64.torrent
+download_32bit: http://downloads.sourceforge.net/manjarolinux/manjaro-kde-16.08-i686.iso
+download_32bit_sig: http://downloads.sourceforge.net/manjarolinux/manjaro-kde-16.08-i686.iso.sig
+download_32bit_sha1: b4fbb8c4d4855e570f09770b596bba4c74620076
+download_32bit_torrent: http://downloads.sourceforge.net/manjarotorrents/manjaro-kde-16.08-i686.torrent
 

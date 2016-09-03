@@ -16,12 +16,12 @@ features:
 -
     icon : code
     text : Good for very advanced users
-download_64bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-x86_64.iso
-download_64bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-x86_64.iso.sig
-download_64bit_sha1: e686d5633ba1772d15c0aa60954e9acb57e7bbc4
-download_64bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/release/
-download_32bit: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-i686.iso
-download_32bit_sig: http://sourceforge.net/projects/manjarolinux/files/release/16.06.1/netinstall/manjaro-net-16.06.1-i686.iso.sig
-download_32bit_sha1: 391ee8a950c4a4525c646a6dfe3f53d1eabad9ae
-download_32bit_torrent: https://sourceforge.net/projects/manjarotorrents/files/release/
+download_64bit: http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-x86_64.iso
+download_64bit_sig: http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-x86_64.iso.sig
+download_64bit_sha1: 42e0c1391c63070a76f4840c21368a23fd65d334
+download_64bit_torrent: http://downloads.sourceforge.net/manjarotorrents/manjaro-net-16.08-x86_64.torrent
+download_32bit: http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-i686.iso
+download_32bit_sig: http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-i686.iso.sig
+download_32bit_sha1: 9cb6886757771ae4eba83abfab8ac5e6a499da2b
+download_32bit_torrent: http://downloads.sourceforge.net/manjarotorrents/manjaro-net-16.08-i686.torrent
 
