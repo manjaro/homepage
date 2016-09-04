@@ -1,7 +1,7 @@
 <div>
 	<ul class="downloads-howtotry">
-	{{ range .Site.Params.aside.howtotry }}                        	
-		<li style="background-image: url('{{ .Site.BaseURL }}/img/try/{{ .icon }}.svg')" >{{ .text | markdownify }}</li>    
+	{{ range .Site.Params.aside.howtotry }}    
+		<li style="background-image: url('{{ printf "%s/img/try/%s.svg" $.Site.BaseURL .icon }}')" >{{ .text | markdownify }}</li>    
 	{{end}}      
 	</ul>  
 </div>	
