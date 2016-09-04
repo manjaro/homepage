@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manjaro Linux - enjoy the simplicity</title>
-    <link>https://manjaro.org/</link>
+    <link>https://rumangerst.github.io/homepage/public/</link>
     <description>Recent content on Manjaro Linux - enjoy the simplicity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Sep 2016 23:51:14 +0200</lastBuildDate>
-    <atom:link href="https://manjaro.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rumangerst.github.io/homepage/public/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>[Stable Update] 2016-09-04 - MATE, Calamares, Pamac, Deepin</title>
-      <link>https://manjaro.org/news/stable_update_2016-09-04/</link>
+      <link>https://rumangerst.github.io/homepage/public/news/stable_update_2016-09-04/</link>
       <pubDate>Sun, 04 Sep 2016 23:51:14 +0200</pubDate>
       
-      <guid>https://manjaro.org/news/stable_update_2016-09-04/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/news/stable_update_2016-09-04/</guid>
       <description>&lt;p&gt;Hi community,&lt;/p&gt;
 
 &lt;p&gt;Manjaro Ellada seems to be a great release. We also managed to release some of our community editions already. Bernhard is now working on our Deepin edition. Therefore he updated some of the Deepin packages. Additionally he fixed some issue with our realtime kernel. To round-up this package set, I managed to update some of the MATE packages to their latest release and Pamac. We now support a tray-icon for the KDE desktop. Please install it separately.&lt;/p&gt;
@@ -41,10 +41,10 @@ Philip Müller and the Manjaro Development Team&lt;/p&gt;
     
     <item>
       <title>Detailed Information</title>
-      <link>https://manjaro.org/features/overview/</link>
+      <link>https://rumangerst.github.io/homepage/public/features/overview/</link>
       <pubDate>Sun, 04 Sep 2016 23:06:54 +0200</pubDate>
       
-      <guid>https://manjaro.org/features/overview/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/features/overview/</guid>
       <description>&lt;p&gt;Manjaro is a user-friendly Linux distribution based on the independently developed Arch operating system. Within the Linux community, Arch itself is renowned for being an exceptionally fast, powerful, and lightweight distribution that provides access to the very latest cutting edge – and bleeding edge – software. However, Arch is also aimed at more experienced or technically-minded users. As such, it is generally considered to be beyond the reach of those who lack the technical expertise (or persistence) required to use it.&lt;/p&gt;
 
 &lt;p&gt;Developed in Austria, France, and Germany, Manjaro provides all the benefits of the Arch operating system combined with a focus on user-friendliness and accessibility. Available in both 32 and 64 bit versions, Manjaro is suitable for newcomers as well as experienced Linux users. For newcomers, a user-friendly installer is provided, and the system itself is designed to work fully ‘straight out of the box’ with features including:&lt;/p&gt;
@@ -75,119 +75,119 @@ Philip Müller and the Manjaro Development Team&lt;/p&gt;
     
     <item>
       <title>mate</title>
-      <link>https://manjaro.org/download/mate/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/mate/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:54 +0200</pubDate>
       
-      <guid>https://manjaro.org/download/mate/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/mate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lxqt</title>
-      <link>https://manjaro.org/download/lxqt/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/lxqt/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:49 +0200</pubDate>
       
-      <guid>https://manjaro.org/download/lxqt/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/lxqt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jwm</title>
-      <link>https://manjaro.org/download/jwm/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/jwm/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:38 +0200</pubDate>
       
-      <guid>https://manjaro.org/download/jwm/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/jwm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>i3</title>
-      <link>https://manjaro.org/download/i3/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/i3/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:33 +0200</pubDate>
       
-      <guid>https://manjaro.org/download/i3/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/i3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gnome</title>
-      <link>https://manjaro.org/download/gnome/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/gnome/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:28 +0200</pubDate>
       
-      <guid>https://manjaro.org/download/gnome/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/gnome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>e20</title>
-      <link>https://manjaro.org/download/e20/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/e20/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:23 +0200</pubDate>
       
-      <guid>https://manjaro.org/download/e20/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/e20/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deepin</title>
-      <link>https://manjaro.org/download/deepin/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/deepin/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:18 +0200</pubDate>
       
-      <guid>https://manjaro.org/download/deepin/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/deepin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cinnamon</title>
-      <link>https://manjaro.org/download/cinnamon/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/cinnamon/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:12 +0200</pubDate>
       
-      <guid>https://manjaro.org/download/cinnamon/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/cinnamon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>budgie</title>
-      <link>https://manjaro.org/download/budgie/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/budgie/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:05 +0200</pubDate>
       
-      <guid>https://manjaro.org/download/budgie/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/budgie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bspwm</title>
-      <link>https://manjaro.org/download/bspwm/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/bspwm/</link>
       <pubDate>Sun, 04 Sep 2016 19:09:59 +0200</pubDate>
       
-      <guid>https://manjaro.org/download/bspwm/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/bspwm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xfce</title>
-      <link>https://manjaro.org/download/xfce/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/xfce/</link>
       <pubDate>Sun, 04 Sep 2016 19:09:25 +0200</pubDate>
       
-      <guid>https://manjaro.org/download/xfce/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/xfce/</guid>
       <description>&lt;p&gt;Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly. Xfce embodies the traditional UNIX philosophy of modularity and re-usability. It consists of a number of components that provide the full functionality one can expect of a modern desktop environment. They are packaged separately and you can pick among the available packages to create the optimal personal working environment.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>support</title>
-      <link>https://manjaro.org/support/</link>
+      <link>https://rumangerst.github.io/homepage/public/support/</link>
       <pubDate>Sun, 04 Sep 2016 17:30:28 +0200</pubDate>
       
-      <guid>https://manjaro.org/support/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/support/</guid>
       <description></description>
     </item>
     
     <item>
       <title>news</title>
-      <link>https://manjaro.org/news/</link>
+      <link>https://rumangerst.github.io/homepage/public/news/</link>
       <pubDate>Sun, 04 Sep 2016 15:50:20 +0200</pubDate>
       
-      <guid>https://manjaro.org/news/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/news/</guid>
       <description></description>
     </item>
     

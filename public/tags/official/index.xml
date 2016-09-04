@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Official on Manjaro Linux - enjoy the simplicity</title>
-    <link>https://manjaro.org/tags/official/</link>
+    <link>https://rumangerst.github.io/homepage/public/tags/official/</link>
     <description>Recent content in Official on Manjaro Linux - enjoy the simplicity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Sep 2016 19:09:25 +0200</lastBuildDate>
-    <atom:link href="https://manjaro.org/tags/official/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rumangerst.github.io/homepage/public/tags/official/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>xfce</title>
-      <link>https://manjaro.org/download/xfce/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/xfce/</link>
       <pubDate>Sun, 04 Sep 2016 19:09:25 +0200</pubDate>
       
-      <guid>https://manjaro.org/download/xfce/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/xfce/</guid>
       <description>&lt;p&gt;Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly. Xfce embodies the traditional UNIX philosophy of modularity and re-usability. It consists of a number of components that provide the full functionality one can expect of a modern desktop environment. They are packaged separately and you can pick among the available packages to create the optimal personal working environment.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>kde</title>
-      <link>https://manjaro.org/download/kde/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/kde/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:44 +0200</pubDate>
       
-      <guid>https://manjaro.org/download/kde/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/kde/</guid>
       <description>&lt;p&gt;KDE is a feature-rich and versatile desktop environment that provides several different styles of menu to access applications. An excellent built-in interface to easily access and install new themes, widgets, etc, from the internet is also worth mentioning. While very user-friendly and certainly flashy, KDE is also quite resource heavy and noticably slower to start and use than a desktop environment such as XFCE. A 64 bit installation of Manjaro running KDE uses about 550MB of memory.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>net</title>
-      <link>https://manjaro.org/download/net/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/net/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:59 +0200</pubDate>
       
-      <guid>https://manjaro.org/download/net/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/net/</guid>
       <description></description>
     </item>
     
