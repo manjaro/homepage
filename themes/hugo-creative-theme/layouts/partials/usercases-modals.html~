@@ -14,7 +14,7 @@
                     <div class="modal-body">
                         <h2>{{ .title }}</h2>
                         <hr class="star-primary">
-                        <img src="img/usercases/{{ .img }}" class="img-responsive img-centered" alt="">
+                        <img src="{{ .Site.BaseURL }}/img/usercases/{{ .img }}" class="img-responsive img-centered" alt="">
                         <p>{{ .description | markdownify }}</p>
                         <h3>Features that will help you</h3>
                         <p>{{ .features | markdownify }}</p>

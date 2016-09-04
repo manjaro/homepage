@@ -876,6 +876,7 @@ body {
 	
 	font-weight: 300;
 	color: #34be5b;
+	text-align: right;
 	
 }
 
@@ -903,7 +904,8 @@ body {
     margin-bottom: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image:url('/img/bullets/generic.svg');
+    /*background-image:url('/img/bullets/generic.svg');*/
+    background-image:url("{{ printf "%s/img/bullets/generic.svg" $.Site.BaseURL}}");
     background-repeat:no-repeat;
     background-position:left center;	
     background-size: 22px 22px;
