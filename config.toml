@@ -1,5 +1,4 @@
-#baseurl = "/"
-baseurl = "."
+baseurl = "https://manjaro.org/"
 languageCode = "en-us"
 title = "Manjaro Linux - enjoy the simplicity"
 theme = "hugo-creative-theme"
