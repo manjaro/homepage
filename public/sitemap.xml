@@ -3,12 +3,17 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2016-09-04T19:10:59+02:00</lastmod>
+    <lastmod>2016-09-04T23:51:14+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/download/net/</loc>
-    <lastmod>2016-09-04T19:10:59+02:00</lastmod>
+    <loc>/news/stable_update_2016-09-04/</loc>
+    <lastmod>2016-09-04T23:51:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/features/overview/</loc>
+    <lastmod>2016-09-04T23:06:54+02:00</lastmod>
   </url>
   
   <url>
@@ -19,11 +24,6 @@
   <url>
     <loc>/download/lxqt/</loc>
     <lastmod>2016-09-04T19:10:49+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/download/kde/</loc>
-    <lastmod>2016-09-04T19:10:44+02:00</lastmod>
   </url>
   
   <url>
@@ -94,6 +94,20 @@
   <url>
     <loc>/download/</loc>
     <lastmod>2016-09-04T14:12:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/features/usercases/</loc>
+  </url>
+  
+  <url>
+    <loc>/download/kde/</loc>
+    <lastmod>2016-09-04T19:10:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/download/net/</loc>
+    <lastmod>2016-09-04T19:10:59+02:00</lastmod>
   </url>
   
 </urlset>

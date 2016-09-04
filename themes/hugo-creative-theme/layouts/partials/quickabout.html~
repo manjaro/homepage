@@ -1,0 +1,14 @@
+{{ "<!-- ABOUT -->" | safeHTML }}
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">{{ with .Params.headline }}{{ . }}{{ end }}</h2>
+                <hr class="light">
+                <p class="text-faded">{{ with .Content }}{{ . | markdownify }}{{ end }}</p>
+              
+                <br /><p><img id="about-image" src="{{ .Site.BaseURL }}/img/laptop-4.png" /></p>
+            </div>
+        </div>
+    </div>
+</section>

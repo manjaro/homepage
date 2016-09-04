@@ -13,7 +13,7 @@
             {{ range .Site.Data.usercases }}
             <div class="col-lg-4 col-sm-6">
                 <a href="#usercasesModal{{ .modalID }}" class="usercases-box usercases-link" data-toggle="modal">
-                    <img src="img/usercases/{{ .img }}" class="img-responsive" alt="">
+                    <img src="{{ .Site.BaseURL }}/img/usercases/{{ .img }}" class="img-responsive" alt="">
                     <div class="usercases-box-caption-extended">
                         <div class="usercases-box-caption-extended-content"> 
                             <div class="quote">

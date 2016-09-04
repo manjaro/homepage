@@ -32,7 +32,7 @@
                     <a class="page-scroll" href="{{ .Site.BaseURL }}features">{{ with .Site.Params.navigation.links.services }}{{ . }}{{ end }}</a>
                 </li>
 				<li>
-                    <a class="page-scroll" href="{{ .Site.BaseURL }}downloads">{{ with .Site.Params.navigation.links.download }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="{{ .Site.BaseURL }}download">{{ with .Site.Params.navigation.links.download }}{{ . }}{{ end }}</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="{{ .Site.BaseURL }}support">{{ with .Site.Params.navigation.links.support }}{{ . }}{{ end }}</a>

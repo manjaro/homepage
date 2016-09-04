@@ -15,8 +15,14 @@
 		{{ partial "nav.html" . }}
 		
 		<header class="subpage-header">
-   
+   			{{ partial "news-nav.html" . }}
 		</header>
+		
+		{{ range .Site.Pages }}{{ if eq .Type "news-post" }}
+		
+			{{ partial "news-post.html" . }}		
+		
+		{{ end }}{{ end }}
 		
 		{{ partial "js.html" . }}
 	</body>

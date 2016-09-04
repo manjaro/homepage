@@ -24,7 +24,9 @@
 					<h2>Manjaro {{ .Params.name }}</h2>
 					<hr class="star-primary" />
                     <a href="{{ .Site.BaseURL }}/img/editions/{{ .Params.screenshot }}" target="_blank"><img src="{{ .Site.BaseURL }}/img/editions/{{ .Params.thumbnail }}" class="img-responsive img-centered" alt=""></a>
-                    <p>{{ .Params.shortdescription | markdownify }}</p>
+					<br/>                    
+                    <!--<p>{{ .Params.shortdescription | markdownify }}</p>-->
+                    <p>{{ .Content | markdownify }}</p>
                     
                     <h2>Download</h2>
                     <hr class="star-primary"/>

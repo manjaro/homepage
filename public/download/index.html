@@ -11,7 +11,7 @@
 <!-- Favicon -->
 <link rel="shortcut icon" href="favicon.png">
 <!-- Bootstrap Core CSS -->
-<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 <!-- Custom Fonts -->
 
 
@@ -79,11 +79,8 @@
             	
             	<li id="javascript-warning">
             		<a class="page-scroll" href="" style="color: #f00;"> <noscript>Please enable JavaScript to enable all functions of this site</noscript></a>			        	    
-            	</li>	
-            	
-                <li>
-                    <a class="page-scroll" href="" active-section="#about">About</a>
-                </li>
+            	</li>	            	
+                
                 <li>
                     <a class="page-scroll" href="news">News</a>
                 </li>
@@ -110,11 +107,90 @@
     <!-- /.container-fluid -->
 </nav>
 
-		<!-- HEADER -->
-<header class="subpage-header">
-   
-</header>
+		<header class="subpage-header">
+   			<!-- NAVIGATION -->
 
+<nav id="download-nav" class="navbar subnavbar">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <ul class="nav navbar-nav">
+            	<li>
+                    <a class="page-scroll" href="download">Editions finder</a>
+                </li>
+            </ul>
+        </div>
+		
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">	
+            	
+            	
+            	
+				<li>
+                    <a class="page-scroll" href="/download/xfce/">XFCE Edition</a>
+                </li>            	
+            	
+            	
+            	
+				<li>
+                    <a class="page-scroll" href="/download/kde/">KDE Edition</a>
+                </li>            	
+            	
+            	
+            	
+				<li>
+                    <a class="page-scroll" href="/download/net/">NET Edition</a>
+                </li>            	
+            	
+            	
+            	
+            	
+            	<li class="dropdown">
+			      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Manjaro Community Editions <span class="caret"></span></a>
+			      <ul class="dropdown-menu">
+			      	
+			      		<li ><a class="page-scroll" href="/download/mate/">MATE Edition</a></li>
+			      	
+			      		<li ><a class="page-scroll" href="/download/lxqt/">LXQT Edition</a></li>
+			      	
+			      		<li ><a class="page-scroll" href="/download/jwm/">JWM Edition</a></li>
+			      	
+			      		<li ><a class="page-scroll" href="/download/i3/">i3 Edition</a></li>
+			      	
+			      		<li ><a class="page-scroll" href="/download/gnome/">GNOME Edition</a></li>
+			      	
+			      		<li ><a class="page-scroll" href="/download/e20/">Enlightenment Edition</a></li>
+			      	
+			      		<li ><a class="page-scroll" href="/download/deepin/">Deepin Edition</a></li>
+			      	
+			      		<li ><a class="page-scroll" href="/download/cinnamon/">Cinnamon Edition</a></li>
+			      	
+			      		<li ><a class="page-scroll" href="/download/budgie/">Budgie Edition</a></li>
+			      	
+			      		<li ><a class="page-scroll" href="/download/bspwm/">BspWM Edition</a></li>
+			      	
+			      		
+			      		
+			      		
+			      </ul>
+			    </li>              
+               
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+		</header>
 		
 		<!-- ASIDE -->
 
@@ -238,16 +314,17 @@
             <p>You can try Manjaro without changing your running system by putting it on a USB stick or on a DVD. If you decide to install Manjaro, you can do it directly from this live-system.</p>
 			
 			<div>
-				<ul class="downloads-howtotry">
-	            	                        	
-						<li style="background-image: url('/img/try/virtual-machine.svg')" >Try Manjaro in a <a href="https://wiki.manjaro.org/index.php?title=VirtualBox#Running_Manjaro_in_VirtualBox" target="_blank">virtual machine</a> within your current operating system</li>    
-					                        	
-						<li style="background-image: url('/img/try/live-boot.svg')" >Try Manjaro by <a href="https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File" target="_blank">putting it</a> onto a DVD or USB-Stick</li>    
-					                        	
-						<li style="background-image: url('/img/try/install.svg')" ><a href="https://wiki.manjaro.org/index.php?title=Installation_Guides" target="_blank">Install</a> Manjaro from a DVD or USB-Stick</li>    
-					      
-	            </ul>  
-			</div>		
+	<ul class="downloads-howtotry">
+	                        	
+		<li style="background-image: url('/img/try/virtual-machine.svg')" >Try Manjaro in a <a href="https://wiki.manjaro.org/index.php?title=VirtualBox#Running_Manjaro_in_VirtualBox" target="_blank">virtual machine</a> within your current operating system</li>    
+	                        	
+		<li style="background-image: url('/img/try/live-boot.svg')" >Try Manjaro by <a href="https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File" target="_blank">putting it</a> onto a DVD or USB-Stick</li>    
+	                        	
+		<li style="background-image: url('/img/try/install.svg')" ><a href="https://wiki.manjaro.org/index.php?title=Installation_Guides" target="_blank">Install</a> Manjaro from a DVD or USB-Stick</li>    
+	      
+	</ul>  
+</div>	
+
 			
 			<p>For simplicity we have selected XFCE and KDE for our flagship editions. If you want to look for other experiences, our community has created many flavours that focus around other desktops.</p>	         
             
@@ -283,284 +360,15 @@
             
             </div>
             
-			
-	
-				<p> map[cinnamon:map[img:cinnamon.jpg subpage:cinnamon img_full:cinnamon-full.jpg description:This edition is supported by the Manjaro community and comes with Cinnamon, a desktop based on modern technology that keeps known and proven concepts. download_64bit:https://sourceforge.net/projects/manjarolinux/files/community/Cinnamon/16.06.1/x86_64/manjaro-cinnamon-16.06.1-x86_64.iso download_32bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ modalID:4 shortdescription:Modern technology, traditional experience target_group:For people who look for a traditional desktop with modern technology features:[map[icon:people text:Supported by Manjaro community] map[icon:window text:Traditional experience with known elements] map[icon:cog text:Builds on modern technology, which enables usage high-DPI screens and other newer technologies]] title:Cinnamon edition download_64bit_sha1:0fb9327cc5ff23d9d01b7dcf1975e00bccfa3d36 download_32bit_sha1:86f79c68dd45c23fd72a4bedd8359f948a30e82f moreinfo:[Forum thread and GPG signature](https://forum.manjaro.org/t/manjaro-cinnamon-16-06-16-06-1) download_64bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ download_32bit:https://sourceforge.net/projects/manjarolinux/files/community/Cinnamon/16.06.1/i686/manjaro-cinnamon-16.06.1-i686.iso tags:[de beginnerfriendly traditional_ui modern_tech]] deepin:map[modalID:7 subpage:e20 download_32bit_sha1:f98f450dc4a66bfec75841201d23c49cc76f9880 download_32bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ img:deepin.jpg target_group:For people who want a simple and elegant desktop features:[map[icon:people text:Supported by Manjaro community] map[icon:cog text:Builds on modern technology, which enables usage high-DPI screens and other newer technologies] map[icon:visibility text:Focus on modern design that is simple and intuitive]] download_64bit:https://sourceforge.net/projects/manjarolinux/files/community/Deepin/16.06.1/x86_64/manjaro-deepin-16.06.1-x86_64.iso title:Deepin edition tags:[de beginnerfriendly] description:This edition is supported by the Manjaro community and comes with the [Deepin](https://www.deepin.org/) desktop that provides a very beginner-friendly and elegant experience. download_64bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ download_32bit:https://sourceforge.net/projects/manjarolinux/files/community/Deepin/16.06.1/i686/manjaro-deepin-16.06.1-i686.iso img_full:deepin-full.jpg shortdescription:Beginner-friendly and elegant moreinfo:[Forum thread and GPG signature](https://forum.manjaro.org/t/manjaro-deepin-16-06-16-06-1) download_64bit_sha1:027c2950b23b80510a97611b18ef704137f7ccd7] gnome:map[moreinfo:[Forum thread and GPG signature](https://forum.manjaro.org/t/manjaro-gnome-16-06-16-06-1) download_64bit:https://sourceforge.net/projects/manjarolinux/files/community/Gnome/2016.06/16.06.1/x86_64/manjaro-gnome-community-16.06.1-x86_64.iso download_64bit_sha1:4ed80a3bbed050843b03811ee25472348cf42bfc download_32bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ img_full:gnome-full.jpg shortdescription:Simple, focused and well-designed target_group:For people who want a very modern and simple desktop tags:[de beginnerfriendly modern_tech modern_ui] description:This edition is supported by the Manjaro community and comes with the GNOME 3 desktop that breaks with traditional concepts and allows users to focus on their tasks. Desktop-specific applications are crafted with care and clearly defined by guidelines that make them more consistent to use. features:[map[icon:people text:Supported by Manjaro community] map[text:Builds on modern technology, which enables usage high-DPI screens and other newer technologies icon:cog] map[icon:time text:Very resource-efficient and therefore ideal for older computers] map[icon:visibility text:Focus on modern design that is simple and intuitive]] img:gnome.jpg download_32bit_sha1:d2726f99ce6b6ef70b238010eb9b481cbbda7cda modalID:9 title:GNOME edition subpage:gnome download_64bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ download_32bit:https://sourceforge.net/projects/manjarolinux/files/community/Gnome/2016.06/16.06.1/i686/manjaro-gnome-community-16.06.1-i686.iso] bspwm:map[modalID:5 shortdescription:Advanced and efficient description:This edition is supported by the Manjaro community and comes with BspWM, a tiling window manager. features:[map[icon:people text:Supported by Manjaro community] map[text:Comes with a tiling window manager that ensures maximum efficiency icon:windows] map[icon:time text:Very resource-efficient and therefore ideal for older computers] map[icon:code text:Good for very advanced users]] download_64bit_sha1:1431caa1207b90690f5892a98cfc43ff9dce72b7 download_64bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ download_32bit:https://sourceforge.net/projects/manjarolinux/files/community/BspWM/2016.06/i686/manjaro-bspwm-community-16.06-i686.iso img:bspwm.jpg tags:[advanced resourceefficient community wm traditional_ui] img_full:bspwm-full.jpg download_32bit_sha1:62e59e5628853a1186396e1b289b3acef451b5ad title:BspWM edition subpage:bspwm download_32bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ target_group:For people who want to use a tiling window manager download_64bit:https://sourceforge.net/projects/manjarolinux/files/community/BspWM/2016.06/x86_64/manjaro-bspwm-community-16.06-x86_64.iso] e20:map[download_64bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ download_32bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ title:Enlightenment edition target_group:For people who want a highly configurable, resource-efficient and modern desktop shortdescription:Slim and fast tags:[wm advanced resourceefficient traditional_ui] description:This edition is supported by the Manjaro community and comes with the Enlightenment desktop that provides a slim and performant experience. modalID:8 subpage:e20 download_64bit_sha1:5b35188725f0f4ecb722278ae4c1052b0d90c65b download_32bit:https://sourceforge.net/projects/manjarolinux/files/community//Enlightenment/2016.04/manjaro-e20-community-16.04-i686.iso download_32bit_sha1:e68e1e73d99f560919a9bbeae285caa7025a7e34 img_full:e20-full.jpg features:[map[icon:people text:Supported by Manjaro community] map[text:Builds on modern technology, which enables usage high-DPI screens and other newer technologies icon:cog] map[icon:time text:Very resource-efficient and therefore ideal for older computers]] img:e20.jpg download_64bit:https://sourceforge.net/projects/manjarolinux/files/community//Enlightenment/2016.04/manjaro-e20-community-16.04-x86_64.iso] i3:map[img:i3.jpg download_64bit:https://sourceforge.net/projects/manjarolinux/files/community/i3/16.06.1/x86_64/manjaro-i3-16.06.1-x86_64.iso download_64bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ download_32bit:https://sourceforge.net/projects/manjarolinux/files/community/i3/16.06.1/i686/manjaro-i3-16.06.1-i686.iso download_32bit_sha1:36e081fc82485272b4714181aef4fd49fd2e3e10 download_32bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ modalID:10 title:i3 edition features:[map[icon:people text:Supported by Manjaro community] map[icon:windows text:Comes with a tiling window manager that ensures maximum efficiency] map[icon:time text:Very resource-efficient and therefore ideal for older computers] map[icon:code text:Good for very advanced users]] shortdescription:Advanced and efficient subpage:i3 img_full:i3-full.jpg description:This edition is supported by the Manjaro community and comes with i3, a tiling window manager. download_64bit_sha1:be35af52cbb043c8d834a6e6c5e180b21026838f target_group:For people who want to use a tiling window manager tags:[wm advanced resourceefficient traditional_ui]] jwm:map[modalID:11 img:jwm.jpg shortdescription:Lightweight and minimal download_64bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ title:JWM edition subpage:jwm download_64bit_sha1:a17a1373af07fe2195d4ff1e2a54f176c7345dd5 download_32bit_sha1:e0d60afef761765c3fdbaab4428c96658adc5223 download_32bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ img_full:jwm-full.jpg download_64bit:https://sourceforge.net/projects/manjarolinux/files/community/JWM/2016.06/manjaro-jwm-community-16.06.1-x86_64-19616.iso description:This edition is supported by the Manjaro community and comes with JWM, a very lightweight window manager that is ideal for very slow hardware. features:[map[icon:people text:Supported by Manjaro community] map[icon:time text:Very resource-efficient and therefore ideal for older computers] map[icon:code text:Good for very advanced users]] moreinfo:[Forum thread and GPG signature](https://forum.manjaro.org/t/manjaro-jwm-16-06-1-released) download_32bit:https://sourceforge.net/projects/manjarolinux/files/community/JWM/2016.06/manjaro-jwm-community-16.06.1-i686-19616.iso target_group:For people who look for a minimal and efficient, yet complete desktop tags:[wm advanced resourceefficient traditional_ui beginnerfriendly]] kde:map[download_64bit_torrent:http://downloads.sourceforge.net/manjarotorrents/manjaro-kde-16.08-x86_64.torrent subpage:kde img:kde.jpg features:[map[icon:premium text:Supported by Manjaro team] map[icon:widgets text:High customizability with freely moveable panels, widgets and different application launchers] map[text:Included drop-in terminal is ideal for developers icon:run] map[icon:cog text:Builds on modern technology, which enables usage high-DPI screens and other newer technologies]] description:This edition is supported by the Manjaro team and comes with KDE, a very modern and flexible desktop. download_64bit_sig:http://downloads.sourceforge.net/manjarolinux/manjaro-kde-16.08-x86_64.iso.sig download_64bit_sha1:f617b699ca9b14562a1f5cdd31c8c557828f3a82 modalID:2 title:KDE edition img_full:kde-full.jpg shortdescription:Flexible and modern download_64bit:http://downloads.sourceforge.net/manjarolinux/manjaro-kde-16.08-x86_64.iso download_32bit_sig:http://downloads.sourceforge.net/manjarolinux/manjaro-kde-16.08-i686.iso.sig download_32bit_sha1:b4fbb8c4d4855e570f09770b596bba4c74620076 download_32bit_torrent:http://downloads.sourceforge.net/manjarotorrents/manjaro-kde-16.08-i686.torrent target_group:For people who want a modern and very flexible desktop tags:[de beginnerfriendly modern_tech traditional_ui official] download_32bit:http://downloads.sourceforge.net/manjarolinux/manjaro-kde-16.08-i686.iso] lxqt:map[modalID:12 img:lxqt.jpg img_full:lxqt-full.jpg target_group:For people who want a lightweight and modern environment tags:[de beginnerfriendly resourceefficient modern_tech traditional_ui] features:[map[icon:people text:Supported by Manjaro community] map[icon:time text:Very resource-efficient and therefore ideal for older computers] map[text:Builds on modern technology, which enables usage high-DPI screens and other newer technologies icon:cog]] moreinfo:[Forum thread and GPG signature](https://forum.manjaro.org/t/stable-manjaro-lxqt-ice-16-05-released) download_32bit:https://sourceforge.net/projects/manjarolinux/files/community/LXQT/2016.05/manjaro-lxqt-community-16.05-i686.iso subpage:lxqt download_32bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ download_64bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ shortdescription:Modern and lightweight description:This edition is supported by the Manjaro community and comes with Lxqt, a full desktop environment that uses modern technology while being extremely resource-efficient. download_64bit:https://sourceforge.net/projects/manjarolinux/files/community/LXQT/2016.05/manjaro-lxqt-community-16.05-x86_64.iso download_64bit_sha1:adddb57a7f32eebf6b179934712971f624a06059 download_32bit_sha1:9fd7bb396cfb5884aa2a48175b3b2b55471108b3 title:Lxqt edition] mate:map[img_full:mate-full.jpg features:[map[icon:people text:Supported by Manjaro community] map[icon:time text:Very resource-efficient and therefore ideal for older computers] map[icon:stable text:Based on well tested and reliable technology]] download_64bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ download_32bit_sha1:213853ced004e7a05f3be89a635fac57a4ce3eaf target_group:For people who look for a traditional experience description:This edition is supported by the Manjaro community and comes with Mate, a desktop environment that continues the legacy of traditional user experience while carefully improving and modernizing it when needed. download_64bit_sha1:a6edb5bca93f0fdf28a69d93600eae7c32c7c8c9 modalID:13 img:mate.jpg download_64bit:https://sourceforge.net/projects/manjarolinux/files/community/MATE/2015.12/manjaro-mate-15.12-x86_64.iso tags:[de beginnerfriendly resourceefficient traditional_ui] download_32bit:https://sourceforge.net/projects/manjarolinux/files/community/MATE/2015.12/manjaro-mate-15.12-i686.iso download_32bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ title:Mate edition subpage:mate shortdescription:Traditional and proven] net-edition:map[modalID:3 description:This edition is supported by the Manjaro team and comes without any pre-installed display manager and desktop application. People who want full control what exactly is installed on their system can use this as base. download_32bit:http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-i686.iso tags:[advanced official] download_64bit_sig:http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-x86_64.iso.sig download_64bit_torrent:http://downloads.sourceforge.net/manjarotorrents/manjaro-net-16.08-x86_64.torrent download_32bit_sig:http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-i686.iso.sig title:NET edition img:net.jpg target_group:For people who want to decide themselves what is installed features:[map[icon:premium text:Supported by Manjaro team] map[icon:blocks text:Build your own system] map[icon:code text:Good for very advanced users]] download_64bit_sha1:42e0c1391c63070a76f4840c21368a23fd65d334 download_32bit_sha1:9cb6886757771ae4eba83abfab8ac5e6a499da2b subpage:net img_full:net-full.jpg shortdescription:Free of assumptions and under your control download_64bit:http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-x86_64.iso download_32bit_torrent:http://downloads.sourceforge.net/manjarotorrents/manjaro-net-16.08-i686.torrent] budgie:map[download_64bit_sha1:36282fb1ac925c8c0fd468aa39e9a3e045f0abb4 download_64bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ download_32bit_sha1:4363bc1c23ea20f39b5b24e3dce975493956138b tags:[de beginnerfriendly resourceefficient] target_group:For people who want a simple and elegant desktop description:This edition is supported by the Manjaro community and comes with Budgie, the desktop of the [Solus project](https://solus-project.com/). Budgie focuses on providing a simple-to-use and elegant desktop that fulfills the needs of a modern user. moreinfo:[Forum thread and GPG signature](https://forum.manjaro.org/t/manjaro-budgie-16-06-1) download_64bit:https://sourceforge.net/projects/manjarolinux/files/community/Budgie/2016.06/16.06.1/x86_64/manjaro-budgie-community-16.06.1-x86_64.iso download_32bit_torrent:https://sourceforge.net/projects/manjarotorrents/files/community/ subpage:budgie img_full:budgie-full.jpg shortdescription:Modern and traditional features:[map[icon:people text:Supported by Manjaro community] map[text:Builds on modern technology, which enables usage high-DPI screens and other newer technologies icon:cog] map[icon:time text:Very resource-efficient and therefore ideal for older computers] map[icon:widgets text:Includes a fully customizeable center for applets and notifications]] download_32bit:https://sourceforge.net/projects/manjarolinux/files/community/Budgie/2016.06/16.06.1/i686/manjaro-budgie-community-16.06.1-i686.iso modalID:6 title:Budgie edition img:budgie.jpg] xfce:map[subpage:xfce img_full:xfce-full.jpg download_32bit_torrent:http://downloads.sourceforge.net/manjarotorrents/manjaro-xfce-16.08-i686.iso.torrent download_64bit_sig:http://downloads.sourceforge.net/manjarolinux/manjaro-xfce-16.08-x86_64.iso.sig download_64bit_sha1:b007f8feaf3df6e2cddf6e18479e725045650515 title:XFCE edition img:xfce.jpg target_group:For people who want a reliable and fast desktop download_32bit_sig:http://downloads.sourceforge.net/manjarolinux/manjaro-xfce-16.08-i686.iso.sig tags:[de beginnerfriendly resourceefficient traditional_ui official] description:This edition is supported by the Manjaro team and comes with XFCE, a lightweight and reliable desktop with high configurability. features:[map[icon:premium text:Supported by Manjaro team] map[icon:stable text:Based on well tested and reliable technology] map[text:Very resource-efficient and therefore ideal for older computers icon:time]] download_32bit:http://downloads.sourceforge.net/manjarolinux/manjaro-xfce-16.08-i686.iso download_64bit:http://downloads.sourceforge.net/manjarolinux/manjaro-xfce-16.08-x86_64.iso download_64bit_torrent:http://downloads.sourceforge.net/manjarotorrents/manjaro-xfce-16.08-x86_64.iso.torrent modalID:1 shortdescription:Reliable and fast download_32bit_sha1:b007f8feaf3df6e2cddf6e18479e725045650515]] </p>			
-			
-			
-	
-				<p> map[user-case-science:map[title:Manjaro for scientists img:scientists.jpg description:Scientists need software that works reliable, works efficient, has many features and ideally is even modifiable if needed. Manjaro brings all tools to get this software. features:Manjaro&#39;s repositories contain the newest available versions of popular software like the statistic language [R](https://www.r-project.org/), the numerical computational package [Scilab](http://www.scilab.org/), and the scripting language [Python](https://www.python.org/) and more. Additional modules for R, Python, [Perl](https://www.perl.org/) and others are either available directly through Manjaro&#39;s repositories or can be compiled and installed with programs like [pip](https://pypi.python.org/pypi/pip) or the integrated package management of R. No additional software is need as all needed build-tools are pre-installed. Experimental data can be analyzed with [LabPlot](https://www.kde.org/applications/education/labplot/). The repositories are extended further by the Arch User Repository (AUR), that contains build-scripts that generate packages. Included is [Yaourt](https://wiki.archlinux.org/index.php/Yaourt) that handles the building, installing and updating of AUR-packages with an easy-to-use command line interface. Software available in the AUR are for example [popular libraries](https://software.intel.com/en-us/intel-mkl), [compilers](https://software.intel.com/en-us/intel-compilers), tools for bioinformatics like the [Vienna RNA](https://www.tbi.univie.ac.at/RNA/) package or IDE like [R-Studio](https://www.rstudio.com/). quote:[...] I installed Manjaro in a partition the other day and for whatever reason, everything seems to be clicking and I&#39;m really enjoying the light, agile feel without compromise of features or utility. quoteauthor:rb0321 modalID:6 usercase:scientists] user-case-artists:map[description:Artists make the graphics that we see everywhere, the music we hear in our free time or document other lifestyles and places. Manjaro brings all tools for artists, whether being pre-installed or easily installable via a comfortable and secure package manager. features:Manjaro comes preinstalled with [GIMP](http://www.gimp.org/), which is a very powerful image manipulation program. For drawing [Krita](https://krita.org/) will fulfill most of your needs, while [Darktable](http://www.darktable.org/) brings a top-notch and free photography suite. Vector-graphics can be done with programs such as [Inkscape](https://inkscape.org/). For simple or advanced video-editing, [Kdenlive](https://kdenlive.org/) and [OpenShot](http://www.openshot.org/) will do almost anything you need. There are also professional video-editing tools like [Lightworks](https://www.lwks.com/). 3D-Modelling can be done using [Blender](https://www.blender.org/). Codecs for video and audio come pre-installed or are automatically fetched. Most of this software is completely free available and can be easily and secure installed by using Manjaro&#39;s integrated package manager. quote:Manjaro provides the tools to handle difficult tasks like kernel, video driver upgrades, downgrades. [...]  I soon realised I can do all my editing on linux with Darktable for raw files and some retouching or other editing with Gimp. quoteauthor:louis_2 modalID:1 usercase:artists title:Manjaro for artists img:artists.jpg] user-case-beginners:map[description:Everyone is a beginner in something. So we don&#39;t forget people, who don&#39;t have much experience with computers and want to learn more or just use it for their work. features:Manjaro comes pre-installed with a collection of software that makes all-day tasks possible without even searching for them. If some application is not installed, more software can be easily and secure installed via the integrated package manager: Just search for &#34;Office&#34;, &#34;Music&#34; or &#34;Internet&#34;, say what should be installed and everything else will be done automatically. All this software is also completely free and will be updated alongside with Manjaro. The Manjaro team and community will ensure that it will stay stable, safe and functions correctly. moreinfo:[Manjaro Wiki](https://wiki.manjaro.org/) quoteauthor:dschelpe modalID:2 usercase:beginners and home-users title:Manjaro for beginners and home-users img:beginners-alt1.jpg quote:It seems to be solid, yet accessible. I just love it] user-case-developers:map[usercase:developers title:Manjaro for developers img:developers.jpg description:Developers want a system that does one thing: be efficient, so there&#39;s more time for the actual development. We promise that Manjaro will make development fun, efficient and easier. features:Manjaro comes in many different edition, all with an unique workflow and user experience from a traditional desktop-environments to window-managers that are optimized for maximum performance and work efficience. The system is set up easily, while giving developers all the freedom and space to tinker when wanted. All tools to compile and develop software are pre-installed. The integrated package-manager allows easy installation of IDE like [Qt Creator](https://www.qt.io/ide/), [KDevelop](https://www.kdevelop.org/) or [Netbeans](https://netbeans.org/) and libraries like [libnoise](http://libnoise.sourceforge.net/), [boost](http://www.boost.org/) or [matplotlib](http://matplotlib.org/). Dependencies are automatically resolved and installing a library automatically install all needed headers to directly use it. Each edition comes preinstalled with powerful editors like [Kate](https://kate-editor.org/) or [Gedit](https://wiki.gnome.org/Apps/Gedit), while more editors like [Emacs](https://www.gnu.org/software/emacs/), [Geany](https://www.geany.org/) or [Bluefish](http://bluefish.openoffice.nl/) are installed with one command or a few clicks. Additional to the repositories, Manjaro supports the Arch User Repository (AUR) that includes cutting-edge software and libraries, proprietary software like [Unity Editor](https://unity3d.com/unity/editor) or [yEd](https://www.yworks.com/products/yed). Manjaro is a rolling-release distribution, which means that software is updated as soon as possible. This prevents lack of needed dependencies and old and buggy tool versions. quote:MANJARO, Its an easy to use &#34;Arch&#34;itechture that will be admired by both; the first timers as well as professionals / programmers..... it just works ! quoteauthor:rvc modalID:3] user-case-education:map[img:students.jpg modalID:4 title:Manjaro for teachers and students description:Students and teachers need software that helps them with learning or teaching about science, art and other subjects. All things also need to be organized, so strict schedules are not missed and the next exam is not forgotten. Manjaro brings everything that will make teachers and students happy. features:Manjaro&#39;s repository of free and quality software is filled with programs for each subject. For mathematics, simple to advanced calculations can be done using scientific calculators like [Qalculate](https://qalculate.github.io/) or [SpeedCrunch](http://www.speedcrunch.org/) that don&#39;t copy the experience of most hardware-calculators, but allow free editing of functions and terms. For more complex mathematics, [Scilab](http://www.scilab.org/) and [WxMaxima](http://andrejv.github.io/wxmaxima/) will handle advanced numeric and algebraic tasks. Teachers love [Geogebra](https://www.geogebra.org/) to show physics, trigonometry, vector operations and more due to the easy-to-use graphical editing of mathematical relations, plotting of functions and setting constraints. Physics including molecular dynamics, gravitation and coloumb forces and more can be taught using [Step](https://www.kde.org/applications/education/step/). The earth can be explored with [Marble](https://marble.kde.org/), while the sky and stars can be viewed with [Stellarium](http://www.stellarium.org/). [Minuet](https://www.kde.org/applications/education/minuet/) brings a software for music education that teches students ear training, rhythm, harmony and more and provides features for teachers to create own lessons. Learning is also important for the youngest. [Gcompris](http://gcompris.net/) allows them to play and learn basics of a computer, elementary mathematics, geography, reading and many other things. Included are also games like puzzles, chess, memory and more that will make learning a pleasant and funny experience.&lt;br/&gt;Organizing things is important, too. The Manjaro repository contains software like [Thunderbird](https://www.mozilla.org/en-US/thunderbird/) that provides an E-Mail client, a calendar and a news-reader. To write homework or to create presentations, [LibreOffice](http://www.libreoffice.org/) comes preinstalled. seemore:[KDE education software](https://www.kde.org/applications/education/) quote:Manjaro fits perfectly my computer science student&#39;s needs and fresh linux desires. Moreover, accomplishes all the tasks with superb stability and lightness, as my old machine deserves. Kudos to the whole team! quoteauthor:lennart usercase:teachers and students] user-case-gamers:map[quoteauthor:Bob1234 features:Manjaro comes preinstalled with [Steam](https://steampowered.com), so there&#39;s no need to go to a website and download it manually. Installing drivers, updates and more applications is handled through the package manager and [Manjaro Hardware Detection Tool](https://wiki.manjaro.org/index.php/Manjaro_Hardware_Detection) that will do all operations in just a couple of minutes and never requires or forces a restart of the system. Due to the design of Linux, hardware like Gamepads are recognized instantaneously if drivers are available, so users don&#39;t have to wait until it works. Included in the package repositories is software like [Teamspeak 3](http://teamspeak.com/), [Mumble](https://www.mumble.info/) or [Skype](https://www.skype.com/). Games like the strategy game [0 A.D.](http://play0ad.com/) or the sandbox-game [Minecraft](https://minecraft.net/), including mods and custom launchers like [MultiMC](http://multimc.org/), [Feed the Beast](http://feed-the-beast.com/) or [MCEdit](http://www.mcedit.net/) are directly available via Manjaro&#39;s repositories or the Arch User Repository (AUR). For people who want to play old games or games from different platforms or operating systems, the latest versions of emulators or runtimes like [Doxbox](https://www.dosbox.com/), [Dolphin](http://www.dolphin-emulator.com/) or [WINE](https://www.winehq.org/) are also available in the package repositories and can be installed with just a few clicks. moreinfo:[Use WINE to play games that are made for Windows](https://wiki.archlinux.org/index.php/wine) quote:Finally, Manjaro is a great balance between having the latest and greatest software and having a stable system. [...] Not to mention that Manjaro will only download updates and upgrade when I tell it to and not when the operating system feels like it. modalID:5 usercase:gamers title:Manjaro for gamers img:gamers-alt1.jpg description:Gamers want their system to be reliable, efficent and able to handle all their games with maximum performance and without any annoyances. The want a system that boots up quickly, does maintainance like updating drivers or applications in a couple of minutes and just lets them play their favorite games.]] </p>			
-			
-			
             
             <div class="container-fluid">
                 <div class="row no-gutter">
                 
                 	
-                    <div class="editions-box-hideable editions-box-hideable-advanced editions-box-hideable-resourceefficient editions-box-hideable-community editions-box-hideable-wm editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
-                        <a href="bspwm" class="editions-box editions-link" >
-                            <img src="/img/editions/bspwm.jpg" class="img-responsive" alt="">
-                            
-							<div class="editions-box-caption-extended">
-		                        <div class="editions-box-caption-extended-content"> 
-		                            <div class="targetgroup">
-		                                For people who want to use a tiling window manager
-		                            </div>
-		                        </div>                        
-	                    	</div>
-		                    <div class="editions-box-caption-small">
-		                        <div class="editions-box-caption-small-content">
-		                            <div class="name">
-		                                Download BspWM edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-		                    <div class="editions-box-caption-extended-subtitle">
-		                        <div class="editions-box-caption-extended-subtitle-content">
-		                            <div class="action">
-		                                Download BspWM edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-                        </a>
-                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-resourceefficient  col-lg-4 col-sm-6">
-                        <a href="budgie" class="editions-box editions-link" >
-                            <img src="/img/editions/budgie.jpg" class="img-responsive" alt="">
-                            
-							<div class="editions-box-caption-extended">
-		                        <div class="editions-box-caption-extended-content"> 
-		                            <div class="targetgroup">
-		                                For people who want a simple and elegant desktop
-		                            </div>
-		                        </div>                        
-	                    	</div>
-		                    <div class="editions-box-caption-small">
-		                        <div class="editions-box-caption-small-content">
-		                            <div class="name">
-		                                Download Budgie edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-		                    <div class="editions-box-caption-extended-subtitle">
-		                        <div class="editions-box-caption-extended-subtitle-content">
-		                            <div class="action">
-		                                Download Budgie edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-                        </a>
-                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-traditional_ui editions-box-hideable-modern_tech  col-lg-4 col-sm-6">
-                        <a href="cinnamon" class="editions-box editions-link" >
-                            <img src="/img/editions/cinnamon.jpg" class="img-responsive" alt="">
-                            
-							<div class="editions-box-caption-extended">
-		                        <div class="editions-box-caption-extended-content"> 
-		                            <div class="targetgroup">
-		                                For people who look for a traditional desktop with modern technology
-		                            </div>
-		                        </div>                        
-	                    	</div>
-		                    <div class="editions-box-caption-small">
-		                        <div class="editions-box-caption-small-content">
-		                            <div class="name">
-		                                Download Cinnamon edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-		                    <div class="editions-box-caption-extended-subtitle">
-		                        <div class="editions-box-caption-extended-subtitle-content">
-		                            <div class="action">
-		                                Download Cinnamon edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-                        </a>
-                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly  col-lg-4 col-sm-6">
-                        <a href="e20" class="editions-box editions-link" >
-                            <img src="/img/editions/deepin.jpg" class="img-responsive" alt="">
-                            
-							<div class="editions-box-caption-extended">
-		                        <div class="editions-box-caption-extended-content"> 
-		                            <div class="targetgroup">
-		                                For people who want a simple and elegant desktop
-		                            </div>
-		                        </div>                        
-	                    	</div>
-		                    <div class="editions-box-caption-small">
-		                        <div class="editions-box-caption-small-content">
-		                            <div class="name">
-		                                Download Deepin edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-		                    <div class="editions-box-caption-extended-subtitle">
-		                        <div class="editions-box-caption-extended-subtitle-content">
-		                            <div class="action">
-		                                Download Deepin edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-                        </a>
-                    </div><div class="editions-box-hideable editions-box-hideable-wm editions-box-hideable-advanced editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
-                        <a href="e20" class="editions-box editions-link" >
-                            <img src="/img/editions/e20.jpg" class="img-responsive" alt="">
-                            
-							<div class="editions-box-caption-extended">
-		                        <div class="editions-box-caption-extended-content"> 
-		                            <div class="targetgroup">
-		                                For people who want a highly configurable, resource-efficient and modern desktop
-		                            </div>
-		                        </div>                        
-	                    	</div>
-		                    <div class="editions-box-caption-small">
-		                        <div class="editions-box-caption-small-content">
-		                            <div class="name">
-		                                Download Enlightenment edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-		                    <div class="editions-box-caption-extended-subtitle">
-		                        <div class="editions-box-caption-extended-subtitle-content">
-		                            <div class="action">
-		                                Download Enlightenment edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-                        </a>
-                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-modern_tech editions-box-hideable-modern_ui  col-lg-4 col-sm-6">
-                        <a href="gnome" class="editions-box editions-link" >
-                            <img src="/img/editions/gnome.jpg" class="img-responsive" alt="">
-                            
-							<div class="editions-box-caption-extended">
-		                        <div class="editions-box-caption-extended-content"> 
-		                            <div class="targetgroup">
-		                                For people who want a very modern and simple desktop
-		                            </div>
-		                        </div>                        
-	                    	</div>
-		                    <div class="editions-box-caption-small">
-		                        <div class="editions-box-caption-small-content">
-		                            <div class="name">
-		                                Download GNOME edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-		                    <div class="editions-box-caption-extended-subtitle">
-		                        <div class="editions-box-caption-extended-subtitle-content">
-		                            <div class="action">
-		                                Download GNOME edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-                        </a>
-                    </div><div class="editions-box-hideable editions-box-hideable-wm editions-box-hideable-advanced editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
-                        <a href="i3" class="editions-box editions-link" >
-                            <img src="/img/editions/i3.jpg" class="img-responsive" alt="">
-                            
-							<div class="editions-box-caption-extended">
-		                        <div class="editions-box-caption-extended-content"> 
-		                            <div class="targetgroup">
-		                                For people who want to use a tiling window manager
-		                            </div>
-		                        </div>                        
-	                    	</div>
-		                    <div class="editions-box-caption-small">
-		                        <div class="editions-box-caption-small-content">
-		                            <div class="name">
-		                                Download i3 edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-		                    <div class="editions-box-caption-extended-subtitle">
-		                        <div class="editions-box-caption-extended-subtitle-content">
-		                            <div class="action">
-		                                Download i3 edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-                        </a>
-                    </div><div class="editions-box-hideable editions-box-hideable-wm editions-box-hideable-advanced editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui editions-box-hideable-beginnerfriendly  col-lg-4 col-sm-6">
-                        <a href="jwm" class="editions-box editions-link" >
-                            <img src="/img/editions/jwm.jpg" class="img-responsive" alt="">
-                            
-							<div class="editions-box-caption-extended">
-		                        <div class="editions-box-caption-extended-content"> 
-		                            <div class="targetgroup">
-		                                For people who look for a minimal and efficient, yet complete desktop
-		                            </div>
-		                        </div>                        
-	                    	</div>
-		                    <div class="editions-box-caption-small">
-		                        <div class="editions-box-caption-small-content">
-		                            <div class="name">
-		                                Download JWM edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-		                    <div class="editions-box-caption-extended-subtitle">
-		                        <div class="editions-box-caption-extended-subtitle-content">
-		                            <div class="action">
-		                                Download JWM edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-                        </a>
-                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-modern_tech editions-box-hideable-traditional_ui editions-box-hideable-official  col-lg-4 col-sm-6">
-                        <a href="kde" class="editions-box editions-link" >
-                            <img src="/img/editions/kde.jpg" class="img-responsive" alt="">
-                            
-							<div class="editions-box-caption-extended">
-		                        <div class="editions-box-caption-extended-content"> 
-		                            <div class="targetgroup">
-		                                For people who want a modern and very flexible desktop
-		                            </div>
-		                        </div>                        
-	                    	</div>
-		                    <div class="editions-box-caption-small">
-		                        <div class="editions-box-caption-small-content">
-		                            <div class="name">
-		                                Download KDE edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-		                    <div class="editions-box-caption-extended-subtitle">
-		                        <div class="editions-box-caption-extended-subtitle-content">
-		                            <div class="action">
-		                                Download KDE edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-                        </a>
-                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-resourceefficient editions-box-hideable-modern_tech editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
-                        <a href="lxqt" class="editions-box editions-link" >
-                            <img src="/img/editions/lxqt.jpg" class="img-responsive" alt="">
-                            
-							<div class="editions-box-caption-extended">
-		                        <div class="editions-box-caption-extended-content"> 
-		                            <div class="targetgroup">
-		                                For people who want a lightweight and modern environment
-		                            </div>
-		                        </div>                        
-	                    	</div>
-		                    <div class="editions-box-caption-small">
-		                        <div class="editions-box-caption-small-content">
-		                            <div class="name">
-		                                Download Lxqt edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-		                    <div class="editions-box-caption-extended-subtitle">
-		                        <div class="editions-box-caption-extended-subtitle-content">
-		                            <div class="action">
-		                                Download Lxqt edition
-		                            </div>               
-		                        </div>                        
-		                    </div>
-                        </a>
-                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
-                        <a href="mate" class="editions-box editions-link" >
-                            <img src="/img/editions/mate.jpg" class="img-responsive" alt="">
-                            
+                    <div class="editions-box-hideable editions-box-hideable-resourceefficient editions-box-hideable-beginnerfriendly editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
+                        
+                        <a href="/download/mate/" class="editions-box editions-link" >
+                            <img src="/img/editions/mate.jpg" class="img-responsive" alt="">                          
 							<div class="editions-box-caption-extended">
 		                        <div class="editions-box-caption-extended-content"> 
 		                            <div class="targetgroup">
@@ -571,48 +379,266 @@
 		                    <div class="editions-box-caption-small">
 		                        <div class="editions-box-caption-small-content">
 		                            <div class="name">
-		                                Download Mate edition
+		                                Download MATE Edition
 		                            </div>               
 		                        </div>                        
 		                    </div>
 		                    <div class="editions-box-caption-extended-subtitle">
 		                        <div class="editions-box-caption-extended-subtitle-content">
 		                            <div class="action">
-		                                Download Mate edition
+		                                Download MATE Edition
 		                            </div>               
 		                        </div>                        
 		                    </div>
                         </a>
-                    </div><div class="editions-box-hideable editions-box-hideable-advanced editions-box-hideable-official  col-lg-4 col-sm-6">
-                        <a href="net" class="editions-box editions-link" >
-                            <img src="/img/editions/net.jpg" class="img-responsive" alt="">
-                            
+                        
+                    </div><div class="editions-box-hideable editions-box-hideable-resourceefficient editions-box-hideable-beginnerfriendly editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
+                        
+                        <a href="/download/lxqt/" class="editions-box editions-link" >
+                            <img src="/img/editions/lxqt.jpg" class="img-responsive" alt="">                          
 							<div class="editions-box-caption-extended">
 		                        <div class="editions-box-caption-extended-content"> 
 		                            <div class="targetgroup">
-		                                For people who want to decide themselves what is installed
+		                                For people who want a lightweight and modern environment
 		                            </div>
 		                        </div>                        
 	                    	</div>
 		                    <div class="editions-box-caption-small">
 		                        <div class="editions-box-caption-small-content">
 		                            <div class="name">
-		                                Download NET edition
+		                                Download LXQT Edition
 		                            </div>               
 		                        </div>                        
 		                    </div>
 		                    <div class="editions-box-caption-extended-subtitle">
 		                        <div class="editions-box-caption-extended-subtitle-content">
 		                            <div class="action">
-		                                Download NET edition
+		                                Download LXQT Edition
 		                            </div>               
 		                        </div>                        
 		                    </div>
                         </a>
-                    </div><div class="editions-box-hideable editions-box-hideable-de editions-box-hideable-beginnerfriendly editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui editions-box-hideable-official  col-lg-4 col-sm-6">
-                        <a href="xfce" class="editions-box editions-link" >
-                            <img src="/img/editions/xfce.jpg" class="img-responsive" alt="">
-                            
+                        
+                    </div><div class="editions-box-hideable editions-box-hideable-resourceefficient editions-box-hideable-beginnerfriendly editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
+                        
+                        <a href="/download/jwm/" class="editions-box editions-link" >
+                            <img src="/img/editions/jwm.jpg" class="img-responsive" alt="">                          
+							<div class="editions-box-caption-extended">
+		                        <div class="editions-box-caption-extended-content"> 
+		                            <div class="targetgroup">
+		                                For people who look for a minimal and efficient, yet complete desktop
+		                            </div>
+		                        </div>                        
+	                    	</div>
+		                    <div class="editions-box-caption-small">
+		                        <div class="editions-box-caption-small-content">
+		                            <div class="name">
+		                                Download JWM Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+		                    <div class="editions-box-caption-extended-subtitle">
+		                        <div class="editions-box-caption-extended-subtitle-content">
+		                            <div class="action">
+		                                Download JWM Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+                        </a>
+                        
+                    </div><div class="editions-box-hideable editions-box-hideable-resourceefficient  col-lg-4 col-sm-6">
+                        
+                        <a href="/download/i3/" class="editions-box editions-link" >
+                            <img src="/img/editions/i3.jpg" class="img-responsive" alt="">                          
+							<div class="editions-box-caption-extended">
+		                        <div class="editions-box-caption-extended-content"> 
+		                            <div class="targetgroup">
+		                                For people who want to use a tiling window manager
+		                            </div>
+		                        </div>                        
+	                    	</div>
+		                    <div class="editions-box-caption-small">
+		                        <div class="editions-box-caption-small-content">
+		                            <div class="name">
+		                                Download i3 Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+		                    <div class="editions-box-caption-extended-subtitle">
+		                        <div class="editions-box-caption-extended-subtitle-content">
+		                            <div class="action">
+		                                Download i3 Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+                        </a>
+                        
+                    </div><div class="editions-box-hideable editions-box-hideable-resourceefficient editions-box-hideable-beginnerfriendly  col-lg-4 col-sm-6">
+                        
+                        <a href="/download/gnome/" class="editions-box editions-link" >
+                            <img src="/img/editions/gnome.jpg" class="img-responsive" alt="">                          
+							<div class="editions-box-caption-extended">
+		                        <div class="editions-box-caption-extended-content"> 
+		                            <div class="targetgroup">
+		                                For people who want a very modern and simple desktop
+		                            </div>
+		                        </div>                        
+	                    	</div>
+		                    <div class="editions-box-caption-small">
+		                        <div class="editions-box-caption-small-content">
+		                            <div class="name">
+		                                Download GNOME Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+		                    <div class="editions-box-caption-extended-subtitle">
+		                        <div class="editions-box-caption-extended-subtitle-content">
+		                            <div class="action">
+		                                Download GNOME Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+                        </a>
+                        
+                    </div><div class="editions-box-hideable editions-box-hideable-resourceefficient editions-box-hideable-beginnerfriendly  col-lg-4 col-sm-6">
+                        
+                        <a href="/download/e20/" class="editions-box editions-link" >
+                            <img src="/img/editions/e20.jpg" class="img-responsive" alt="">                          
+							<div class="editions-box-caption-extended">
+		                        <div class="editions-box-caption-extended-content"> 
+		                            <div class="targetgroup">
+		                                For people who want a highly configurable, resource-efficient and modern desktop
+		                            </div>
+		                        </div>                        
+	                    	</div>
+		                    <div class="editions-box-caption-small">
+		                        <div class="editions-box-caption-small-content">
+		                            <div class="name">
+		                                Download Enlightenment Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+		                    <div class="editions-box-caption-extended-subtitle">
+		                        <div class="editions-box-caption-extended-subtitle-content">
+		                            <div class="action">
+		                                Download Enlightenment Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+                        </a>
+                        
+                    </div><div class="editions-box-hideable editions-box-hideable-resourceefficient editions-box-hideable-beginnerfriendly  col-lg-4 col-sm-6">
+                        
+                        <a href="/download/deepin/" class="editions-box editions-link" >
+                            <img src="/img/editions/deepin.jpg" class="img-responsive" alt="">                          
+							<div class="editions-box-caption-extended">
+		                        <div class="editions-box-caption-extended-content"> 
+		                            <div class="targetgroup">
+		                                For people who want a simple and elegant desktop
+		                            </div>
+		                        </div>                        
+	                    	</div>
+		                    <div class="editions-box-caption-small">
+		                        <div class="editions-box-caption-small-content">
+		                            <div class="name">
+		                                Download Deepin Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+		                    <div class="editions-box-caption-extended-subtitle">
+		                        <div class="editions-box-caption-extended-subtitle-content">
+		                            <div class="action">
+		                                Download Deepin Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+                        </a>
+                        
+                    </div><div class="editions-box-hideable editions-box-hideable-resourceefficient editions-box-hideable-beginnerfriendly editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
+                        
+                        <a href="/download/cinnamon/" class="editions-box editions-link" >
+                            <img src="/img/editions/cinnamon.jpg" class="img-responsive" alt="">                          
+							<div class="editions-box-caption-extended">
+		                        <div class="editions-box-caption-extended-content"> 
+		                            <div class="targetgroup">
+		                                For people who look for a traditional desktop with modern technology
+		                            </div>
+		                        </div>                        
+	                    	</div>
+		                    <div class="editions-box-caption-small">
+		                        <div class="editions-box-caption-small-content">
+		                            <div class="name">
+		                                Download Cinnamon Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+		                    <div class="editions-box-caption-extended-subtitle">
+		                        <div class="editions-box-caption-extended-subtitle-content">
+		                            <div class="action">
+		                                Download Cinnamon Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+                        </a>
+                        
+                    </div><div class="editions-box-hideable editions-box-hideable-resourceefficient editions-box-hideable-beginnerfriendly  col-lg-4 col-sm-6">
+                        
+                        <a href="/download/budgie/" class="editions-box editions-link" >
+                            <img src="/img/editions/budgie.jpg" class="img-responsive" alt="">                          
+							<div class="editions-box-caption-extended">
+		                        <div class="editions-box-caption-extended-content"> 
+		                            <div class="targetgroup">
+		                                For people who want a simple and elegant desktop
+		                            </div>
+		                        </div>                        
+	                    	</div>
+		                    <div class="editions-box-caption-small">
+		                        <div class="editions-box-caption-small-content">
+		                            <div class="name">
+		                                Download Budgie Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+		                    <div class="editions-box-caption-extended-subtitle">
+		                        <div class="editions-box-caption-extended-subtitle-content">
+		                            <div class="action">
+		                                Download Budgie Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+                        </a>
+                        
+                    </div><div class="editions-box-hideable editions-box-hideable-resourceefficient  col-lg-4 col-sm-6">
+                        
+                        <a href="/download/bspwm/" class="editions-box editions-link" >
+                            <img src="/img/editions/bspwm.jpg" class="img-responsive" alt="">                          
+							<div class="editions-box-caption-extended">
+		                        <div class="editions-box-caption-extended-content"> 
+		                            <div class="targetgroup">
+		                                For people who want to use a tiling window manager
+		                            </div>
+		                        </div>                        
+	                    	</div>
+		                    <div class="editions-box-caption-small">
+		                        <div class="editions-box-caption-small-content">
+		                            <div class="name">
+		                                Download BspWM Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+		                    <div class="editions-box-caption-extended-subtitle">
+		                        <div class="editions-box-caption-extended-subtitle-content">
+		                            <div class="action">
+		                                Download BspWM Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+                        </a>
+                        
+                    </div><div class="editions-box-hideable editions-box-hideable-official editions-box-hideable-resourceefficient editions-box-hideable-beginnerfriendly editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
+                        
+                        <a href="/download/xfce/" class="editions-box editions-link" >
+                            <img src="/img/editions/xfce.jpg" class="img-responsive" alt="">                          
 							<div class="editions-box-caption-extended">
 		                        <div class="editions-box-caption-extended-content"> 
 		                            <div class="targetgroup">
@@ -623,18 +649,73 @@
 		                    <div class="editions-box-caption-small">
 		                        <div class="editions-box-caption-small-content">
 		                            <div class="name">
-		                                Download XFCE edition
+		                                Download XFCE Edition
 		                            </div>               
 		                        </div>                        
 		                    </div>
 		                    <div class="editions-box-caption-extended-subtitle">
 		                        <div class="editions-box-caption-extended-subtitle-content">
 		                            <div class="action">
-		                                Download XFCE edition
+		                                Download XFCE Edition
 		                            </div>               
 		                        </div>                        
 		                    </div>
                         </a>
+                        
+                    </div><div class="editions-box-hideable editions-box-hideable-official editions-box-hideable-resourceefficient editions-box-hideable-beginnerfriendly editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
+                        
+                        <a href="/download/kde/" class="editions-box editions-link" >
+                            <img src="/img/editions/kde.jpg" class="img-responsive" alt="">                          
+							<div class="editions-box-caption-extended">
+		                        <div class="editions-box-caption-extended-content"> 
+		                            <div class="targetgroup">
+		                                For people who want a modern and very flexible desktop
+		                            </div>
+		                        </div>                        
+	                    	</div>
+		                    <div class="editions-box-caption-small">
+		                        <div class="editions-box-caption-small-content">
+		                            <div class="name">
+		                                Download KDE Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+		                    <div class="editions-box-caption-extended-subtitle">
+		                        <div class="editions-box-caption-extended-subtitle-content">
+		                            <div class="action">
+		                                Download KDE Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+                        </a>
+                        
+                    </div><div class="editions-box-hideable editions-box-hideable-official editions-box-hideable-resourceefficient editions-box-hideable-traditional_ui  col-lg-4 col-sm-6">
+                        
+                        <a href="/download/net/" class="editions-box editions-link" >
+                            <img src="/img/editions/net.jpg" class="img-responsive" alt="">                          
+							<div class="editions-box-caption-extended">
+		                        <div class="editions-box-caption-extended-content"> 
+		                            <div class="targetgroup">
+		                                For people who want to decide themselves what is installed
+		                            </div>
+		                        </div>                        
+	                    	</div>
+		                    <div class="editions-box-caption-small">
+		                        <div class="editions-box-caption-small-content">
+		                            <div class="name">
+		                                Download NET Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+		                    <div class="editions-box-caption-extended-subtitle">
+		                        <div class="editions-box-caption-extended-subtitle-content">
+		                            <div class="action">
+		                                Download NET Edition
+		                            </div>               
+		                        </div>                        
+		                    </div>
+                        </a>
+                        
                     </div>
                 </div>
             </div>
@@ -643,1117 +724,7 @@
 </section>
 
 </aside>
-
-		
-		<!-- Edition Modals -->
-
-<div class="editions-modal modal fade" id="editionsModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Manjaro BspWM edition</h2>
-                        <hr class="star-primary">
-                        <a href="/img/editions/bspwm-full.jpg" target="_blank"><img src="/img/editions/bspwm.jpg" class="img-responsive img-centered" alt=""></a>
-                        <p>This edition is supported by the Manjaro community and comes with BspWM, a tiling window manager.</p>
-                        
-                        <h3>Features of this edition</h3>
-                        <hr class="star-primary">         
-                        
-                        <ul >
-                        	                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/people.svg')" >Supported by Manjaro community</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/windows.svg')" >Comes with a tiling window manager that ensures maximum efficiency</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/time.svg')" >Very resource-efficient and therefore ideal for older computers</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/code.svg')" >Good for very advanced users</li>    
-							      
-                        </ul>           
-						                  
-                        
-                        
-                        
-                        <h2>Download</h2>
-                        <hr class="star-primary">
-                        
-                        <p>You can choose between a 64bit version for <strong>modern</strong> computers and a 32bit version for <strong>older</strong> computers.</p>
-                        
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/BspWM/2016.06/x86_64/manjaro-bspwm-community-16.06-x86_64.iso" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: 1431caa1207b90690f5892a98cfc43ff9dce72b7
-                            </div>
-                        </div><br/>
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/BspWM/2016.06/i686/manjaro-bspwm-community-16.06-i686.iso" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: 62e59e5628853a1186396e1b289b3acef451b5ad
-                            </div>
-                        </div><br/>
-                        
-                        <p>You can also use <a href="https://en.wikipedia.org/wiki/BitTorrent" target="_blank">Torrents</a> to download Manjaro.
-                        Just download the *.torrent file for the <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">64 bit</a> or <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">32 bit</a> 
-                        version and open it with a torrent program like <a href="http://www.qbittorrent.org/" target="_blank">qBittorrent</a>.</p>
-                        
-                        
-                        <h2>Be secure</h2>
-                        <hr class="star-primary">
-                        <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and 
-                        compare it with the one we provide you here. <a href="https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors">Here</a> you can find information how to generate such a sum and check your downloaded files.</p>
-                        <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
-                        created by the Manjaro developers. <a href="http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/" target="_blank">Here</a> you can find information how to use it.</p>
-                        
-                        <h2>Getting started</h2>
-                        <hr class="star-primary">
-                        <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
-                        
-						                        
-                        
-                        
-                       
-                        
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="editions-modal modal fade" id="editionsModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Manjaro Budgie edition</h2>
-                        <hr class="star-primary">
-                        <a href="/img/editions/budgie-full.jpg" target="_blank"><img src="/img/editions/budgie.jpg" class="img-responsive img-centered" alt=""></a>
-                        <p>This edition is supported by the Manjaro community and comes with Budgie, the desktop of the <a href="https://solus-project.com/">Solus project</a>. Budgie focuses on providing a simple-to-use and elegant desktop that fulfills the needs of a modern user.</p>
-                        
-                        <h3>Features of this edition</h3>
-                        <hr class="star-primary">         
-                        
-                        <ul >
-                        	                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/people.svg')" >Supported by Manjaro community</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/cog.svg')" >Builds on modern technology, which enables usage high-DPI screens and other newer technologies</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/time.svg')" >Very resource-efficient and therefore ideal for older computers</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/widgets.svg')" >Includes a fully customizeable center for applets and notifications</li>    
-							      
-                        </ul>           
-						                  
-                        
-                        
-                        
-                        <h2>Download</h2>
-                        <hr class="star-primary">
-                        
-                        <p>You can choose between a 64bit version for <strong>modern</strong> computers and a 32bit version for <strong>older</strong> computers.</p>
-                        
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/Budgie/2016.06/16.06.1/x86_64/manjaro-budgie-community-16.06.1-x86_64.iso" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: 36282fb1ac925c8c0fd468aa39e9a3e045f0abb4
-                            </div>
-                        </div><br/>
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/Budgie/2016.06/16.06.1/i686/manjaro-budgie-community-16.06.1-i686.iso" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: 4363bc1c23ea20f39b5b24e3dce975493956138b
-                            </div>
-                        </div><br/>
-                        
-                        <p>You can also use <a href="https://en.wikipedia.org/wiki/BitTorrent" target="_blank">Torrents</a> to download Manjaro.
-                        Just download the *.torrent file for the <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">64 bit</a> or <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">32 bit</a> 
-                        version and open it with a torrent program like <a href="http://www.qbittorrent.org/" target="_blank">qBittorrent</a>.</p>
-                        
-                        
-                        <h2>Be secure</h2>
-                        <hr class="star-primary">
-                        <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and 
-                        compare it with the one we provide you here. <a href="https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors">Here</a> you can find information how to generate such a sum and check your downloaded files.</p>
-                        <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
-                        created by the Manjaro developers. <a href="http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/" target="_blank">Here</a> you can find information how to use it.</p>
-                        
-                        <h2>Getting started</h2>
-                        <hr class="star-primary">
-                        <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
-                        
-						                        
-                        
-                        
-                        <h3>More information</h3>
-                        <hr class="star-primary">
-                        <p><a href="https://forum.manjaro.org/t/manjaro-budgie-16-06-1">Forum thread and GPG signature</a></p>
-                        
-                        
-                       
-                        
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="editions-modal modal fade" id="editionsModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Manjaro Cinnamon edition</h2>
-                        <hr class="star-primary">
-                        <a href="/img/editions/cinnamon-full.jpg" target="_blank"><img src="/img/editions/cinnamon.jpg" class="img-responsive img-centered" alt=""></a>
-                        <p>This edition is supported by the Manjaro community and comes with Cinnamon, a desktop based on modern technology that keeps known and proven concepts.</p>
-                        
-                        <h3>Features of this edition</h3>
-                        <hr class="star-primary">         
-                        
-                        <ul >
-                        	                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/people.svg')" >Supported by Manjaro community</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/window.svg')" >Traditional experience with known elements</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/cog.svg')" >Builds on modern technology, which enables usage high-DPI screens and other newer technologies</li>    
-							      
-                        </ul>           
-						                  
-                        
-                        
-                        
-                        <h2>Download</h2>
-                        <hr class="star-primary">
-                        
-                        <p>You can choose between a 64bit version for <strong>modern</strong> computers and a 32bit version for <strong>older</strong> computers.</p>
-                        
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/Cinnamon/16.06.1/x86_64/manjaro-cinnamon-16.06.1-x86_64.iso" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: 0fb9327cc5ff23d9d01b7dcf1975e00bccfa3d36
-                            </div>
-                        </div><br/>
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/Cinnamon/16.06.1/i686/manjaro-cinnamon-16.06.1-i686.iso" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: 86f79c68dd45c23fd72a4bedd8359f948a30e82f
-                            </div>
-                        </div><br/>
-                        
-                        <p>You can also use <a href="https://en.wikipedia.org/wiki/BitTorrent" target="_blank">Torrents</a> to download Manjaro.
-                        Just download the *.torrent file for the <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">64 bit</a> or <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">32 bit</a> 
-                        version and open it with a torrent program like <a href="http://www.qbittorrent.org/" target="_blank">qBittorrent</a>.</p>
-                        
-                        
-                        <h2>Be secure</h2>
-                        <hr class="star-primary">
-                        <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and 
-                        compare it with the one we provide you here. <a href="https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors">Here</a> you can find information how to generate such a sum and check your downloaded files.</p>
-                        <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
-                        created by the Manjaro developers. <a href="http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/" target="_blank">Here</a> you can find information how to use it.</p>
-                        
-                        <h2>Getting started</h2>
-                        <hr class="star-primary">
-                        <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
-                        
-						                        
-                        
-                        
-                        <h3>More information</h3>
-                        <hr class="star-primary">
-                        <p><a href="https://forum.manjaro.org/t/manjaro-cinnamon-16-06-16-06-1">Forum thread and GPG signature</a></p>
-                        
-                        
-                       
-                        
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="editions-modal modal fade" id="editionsModal7" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Manjaro Deepin edition</h2>
-                        <hr class="star-primary">
-                        <a href="/img/editions/deepin-full.jpg" target="_blank"><img src="/img/editions/deepin.jpg" class="img-responsive img-centered" alt=""></a>
-                        <p>This edition is supported by the Manjaro community and comes with the <a href="https://www.deepin.org/">Deepin</a> desktop that provides a very beginner-friendly and elegant experience.</p>
-                        
-                        <h3>Features of this edition</h3>
-                        <hr class="star-primary">         
-                        
-                        <ul >
-                        	                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/people.svg')" >Supported by Manjaro community</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/cog.svg')" >Builds on modern technology, which enables usage high-DPI screens and other newer technologies</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/visibility.svg')" >Focus on modern design that is simple and intuitive</li>    
-							      
-                        </ul>           
-						                  
-                        
-                        
-                        
-                        <h2>Download</h2>
-                        <hr class="star-primary">
-                        
-                        <p>You can choose between a 64bit version for <strong>modern</strong> computers and a 32bit version for <strong>older</strong> computers.</p>
-                        
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/Deepin/16.06.1/x86_64/manjaro-deepin-16.06.1-x86_64.iso" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: 027c2950b23b80510a97611b18ef704137f7ccd7
-                            </div>
-                        </div><br/>
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/Deepin/16.06.1/i686/manjaro-deepin-16.06.1-i686.iso" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: f98f450dc4a66bfec75841201d23c49cc76f9880
-                            </div>
-                        </div><br/>
-                        
-                        <p>You can also use <a href="https://en.wikipedia.org/wiki/BitTorrent" target="_blank">Torrents</a> to download Manjaro.
-                        Just download the *.torrent file for the <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">64 bit</a> or <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">32 bit</a> 
-                        version and open it with a torrent program like <a href="http://www.qbittorrent.org/" target="_blank">qBittorrent</a>.</p>
-                        
-                        
-                        <h2>Be secure</h2>
-                        <hr class="star-primary">
-                        <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and 
-                        compare it with the one we provide you here. <a href="https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors">Here</a> you can find information how to generate such a sum and check your downloaded files.</p>
-                        <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
-                        created by the Manjaro developers. <a href="http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/" target="_blank">Here</a> you can find information how to use it.</p>
-                        
-                        <h2>Getting started</h2>
-                        <hr class="star-primary">
-                        <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
-                        
-						                        
-                        
-                        
-                        <h3>More information</h3>
-                        <hr class="star-primary">
-                        <p><a href="https://forum.manjaro.org/t/manjaro-deepin-16-06-16-06-1">Forum thread and GPG signature</a></p>
-                        
-                        
-                       
-                        
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="editions-modal modal fade" id="editionsModal8" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Manjaro Enlightenment edition</h2>
-                        <hr class="star-primary">
-                        <a href="/img/editions/e20-full.jpg" target="_blank"><img src="/img/editions/e20.jpg" class="img-responsive img-centered" alt=""></a>
-                        <p>This edition is supported by the Manjaro community and comes with the Enlightenment desktop that provides a slim and performant experience.</p>
-                        
-                        <h3>Features of this edition</h3>
-                        <hr class="star-primary">         
-                        
-                        <ul >
-                        	                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/people.svg')" >Supported by Manjaro community</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/cog.svg')" >Builds on modern technology, which enables usage high-DPI screens and other newer technologies</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/time.svg')" >Very resource-efficient and therefore ideal for older computers</li>    
-							      
-                        </ul>           
-						                  
-                        
-                        
-                        
-                        <h2>Download</h2>
-                        <hr class="star-primary">
-                        
-                        <p>You can choose between a 64bit version for <strong>modern</strong> computers and a 32bit version for <strong>older</strong> computers.</p>
-                        
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community//Enlightenment/2016.04/manjaro-e20-community-16.04-x86_64.iso" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: 5b35188725f0f4ecb722278ae4c1052b0d90c65b
-                            </div>
-                        </div><br/>
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community//Enlightenment/2016.04/manjaro-e20-community-16.04-i686.iso" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: e68e1e73d99f560919a9bbeae285caa7025a7e34
-                            </div>
-                        </div><br/>
-                        
-                        <p>You can also use <a href="https://en.wikipedia.org/wiki/BitTorrent" target="_blank">Torrents</a> to download Manjaro.
-                        Just download the *.torrent file for the <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">64 bit</a> or <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">32 bit</a> 
-                        version and open it with a torrent program like <a href="http://www.qbittorrent.org/" target="_blank">qBittorrent</a>.</p>
-                        
-                        
-                        <h2>Be secure</h2>
-                        <hr class="star-primary">
-                        <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and 
-                        compare it with the one we provide you here. <a href="https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors">Here</a> you can find information how to generate such a sum and check your downloaded files.</p>
-                        <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
-                        created by the Manjaro developers. <a href="http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/" target="_blank">Here</a> you can find information how to use it.</p>
-                        
-                        <h2>Getting started</h2>
-                        <hr class="star-primary">
-                        <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
-                        
-						                        
-                        
-                        
-                       
-                        
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="editions-modal modal fade" id="editionsModal9" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Manjaro GNOME edition</h2>
-                        <hr class="star-primary">
-                        <a href="/img/editions/gnome-full.jpg" target="_blank"><img src="/img/editions/gnome.jpg" class="img-responsive img-centered" alt=""></a>
-                        <p>This edition is supported by the Manjaro community and comes with the GNOME 3 desktop that breaks with traditional concepts and allows users to focus on their tasks. Desktop-specific applications are crafted with care and clearly defined by guidelines that make them more consistent to use.</p>
-                        
-                        <h3>Features of this edition</h3>
-                        <hr class="star-primary">         
-                        
-                        <ul >
-                        	                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/people.svg')" >Supported by Manjaro community</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/cog.svg')" >Builds on modern technology, which enables usage high-DPI screens and other newer technologies</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/time.svg')" >Very resource-efficient and therefore ideal for older computers</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/visibility.svg')" >Focus on modern design that is simple and intuitive</li>    
-							      
-                        </ul>           
-						                  
-                        
-                        
-                        
-                        <h2>Download</h2>
-                        <hr class="star-primary">
-                        
-                        <p>You can choose between a 64bit version for <strong>modern</strong> computers and a 32bit version for <strong>older</strong> computers.</p>
-                        
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/Gnome/2016.06/16.06.1/x86_64/manjaro-gnome-community-16.06.1-x86_64.iso" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: 4ed80a3bbed050843b03811ee25472348cf42bfc
-                            </div>
-                        </div><br/>
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/Gnome/2016.06/16.06.1/i686/manjaro-gnome-community-16.06.1-i686.iso" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: d2726f99ce6b6ef70b238010eb9b481cbbda7cda
-                            </div>
-                        </div><br/>
-                        
-                        <p>You can also use <a href="https://en.wikipedia.org/wiki/BitTorrent" target="_blank">Torrents</a> to download Manjaro.
-                        Just download the *.torrent file for the <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">64 bit</a> or <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">32 bit</a> 
-                        version and open it with a torrent program like <a href="http://www.qbittorrent.org/" target="_blank">qBittorrent</a>.</p>
-                        
-                        
-                        <h2>Be secure</h2>
-                        <hr class="star-primary">
-                        <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and 
-                        compare it with the one we provide you here. <a href="https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors">Here</a> you can find information how to generate such a sum and check your downloaded files.</p>
-                        <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
-                        created by the Manjaro developers. <a href="http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/" target="_blank">Here</a> you can find information how to use it.</p>
-                        
-                        <h2>Getting started</h2>
-                        <hr class="star-primary">
-                        <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
-                        
-						                        
-                        
-                        
-                        <h3>More information</h3>
-                        <hr class="star-primary">
-                        <p><a href="https://forum.manjaro.org/t/manjaro-gnome-16-06-16-06-1">Forum thread and GPG signature</a></p>
-                        
-                        
-                       
-                        
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="editions-modal modal fade" id="editionsModal10" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Manjaro i3 edition</h2>
-                        <hr class="star-primary">
-                        <a href="/img/editions/i3-full.jpg" target="_blank"><img src="/img/editions/i3.jpg" class="img-responsive img-centered" alt=""></a>
-                        <p>This edition is supported by the Manjaro community and comes with i3, a tiling window manager.</p>
-                        
-                        <h3>Features of this edition</h3>
-                        <hr class="star-primary">         
-                        
-                        <ul >
-                        	                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/people.svg')" >Supported by Manjaro community</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/windows.svg')" >Comes with a tiling window manager that ensures maximum efficiency</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/time.svg')" >Very resource-efficient and therefore ideal for older computers</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/code.svg')" >Good for very advanced users</li>    
-							      
-                        </ul>           
-						                  
-                        
-                        
-                        
-                        <h2>Download</h2>
-                        <hr class="star-primary">
-                        
-                        <p>You can choose between a 64bit version for <strong>modern</strong> computers and a 32bit version for <strong>older</strong> computers.</p>
-                        
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/i3/16.06.1/x86_64/manjaro-i3-16.06.1-x86_64.iso" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: be35af52cbb043c8d834a6e6c5e180b21026838f
-                            </div>
-                        </div><br/>
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/i3/16.06.1/i686/manjaro-i3-16.06.1-i686.iso" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: 36e081fc82485272b4714181aef4fd49fd2e3e10
-                            </div>
-                        </div><br/>
-                        
-                        <p>You can also use <a href="https://en.wikipedia.org/wiki/BitTorrent" target="_blank">Torrents</a> to download Manjaro.
-                        Just download the *.torrent file for the <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">64 bit</a> or <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">32 bit</a> 
-                        version and open it with a torrent program like <a href="http://www.qbittorrent.org/" target="_blank">qBittorrent</a>.</p>
-                        
-                        
-                        <h2>Be secure</h2>
-                        <hr class="star-primary">
-                        <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and 
-                        compare it with the one we provide you here. <a href="https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors">Here</a> you can find information how to generate such a sum and check your downloaded files.</p>
-                        <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
-                        created by the Manjaro developers. <a href="http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/" target="_blank">Here</a> you can find information how to use it.</p>
-                        
-                        <h2>Getting started</h2>
-                        <hr class="star-primary">
-                        <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
-                        
-						                        
-                        
-                        
-                       
-                        
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="editions-modal modal fade" id="editionsModal11" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Manjaro JWM edition</h2>
-                        <hr class="star-primary">
-                        <a href="/img/editions/jwm-full.jpg" target="_blank"><img src="/img/editions/jwm.jpg" class="img-responsive img-centered" alt=""></a>
-                        <p>This edition is supported by the Manjaro community and comes with JWM, a very lightweight window manager that is ideal for very slow hardware.</p>
-                        
-                        <h3>Features of this edition</h3>
-                        <hr class="star-primary">         
-                        
-                        <ul >
-                        	                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/people.svg')" >Supported by Manjaro community</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/time.svg')" >Very resource-efficient and therefore ideal for older computers</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/code.svg')" >Good for very advanced users</li>    
-							      
-                        </ul>           
-						                  
-                        
-                        
-                        
-                        <h2>Download</h2>
-                        <hr class="star-primary">
-                        
-                        <p>You can choose between a 64bit version for <strong>modern</strong> computers and a 32bit version for <strong>older</strong> computers.</p>
-                        
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/JWM/2016.06/manjaro-jwm-community-16.06.1-x86_64-19616.iso" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: a17a1373af07fe2195d4ff1e2a54f176c7345dd5
-                            </div>
-                        </div><br/>
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/JWM/2016.06/manjaro-jwm-community-16.06.1-i686-19616.iso" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: e0d60afef761765c3fdbaab4428c96658adc5223
-                            </div>
-                        </div><br/>
-                        
-                        <p>You can also use <a href="https://en.wikipedia.org/wiki/BitTorrent" target="_blank">Torrents</a> to download Manjaro.
-                        Just download the *.torrent file for the <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">64 bit</a> or <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">32 bit</a> 
-                        version and open it with a torrent program like <a href="http://www.qbittorrent.org/" target="_blank">qBittorrent</a>.</p>
-                        
-                        
-                        <h2>Be secure</h2>
-                        <hr class="star-primary">
-                        <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and 
-                        compare it with the one we provide you here. <a href="https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors">Here</a> you can find information how to generate such a sum and check your downloaded files.</p>
-                        <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
-                        created by the Manjaro developers. <a href="http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/" target="_blank">Here</a> you can find information how to use it.</p>
-                        
-                        <h2>Getting started</h2>
-                        <hr class="star-primary">
-                        <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
-                        
-						                        
-                        
-                        
-                        <h3>More information</h3>
-                        <hr class="star-primary">
-                        <p><a href="https://forum.manjaro.org/t/manjaro-jwm-16-06-1-released">Forum thread and GPG signature</a></p>
-                        
-                        
-                       
-                        
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="editions-modal modal fade" id="editionsModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Manjaro KDE edition</h2>
-                        <hr class="star-primary">
-                        <a href="/img/editions/kde-full.jpg" target="_blank"><img src="/img/editions/kde.jpg" class="img-responsive img-centered" alt=""></a>
-                        <p>This edition is supported by the Manjaro team and comes with KDE, a very modern and flexible desktop.</p>
-                        
-                        <h3>Features of this edition</h3>
-                        <hr class="star-primary">         
-                        
-                        <ul >
-                        	                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/premium.svg')" >Supported by Manjaro team</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/widgets.svg')" >High customizability with freely moveable panels, widgets and different application launchers</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/run.svg')" >Included drop-in terminal is ideal for developers</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/cog.svg')" >Builds on modern technology, which enables usage high-DPI screens and other newer technologies</li>    
-							      
-                        </ul>           
-						                  
-                        
-                        
-                        
-                        <h2>Download</h2>
-                        <hr class="star-primary">
-                        
-                        <p>You can choose between a 64bit version for <strong>modern</strong> computers and a 32bit version for <strong>older</strong> computers.</p>
-                        
-                        <div class="container" style="width: 100%;">
-                            <a href="http://downloads.sourceforge.net/manjarolinux/manjaro-kde-16.08-x86_64.iso" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
-                            <div style="float: right">
-                                 <a href="http://downloads.sourceforge.net/manjarolinux/manjaro-kde-16.08-x86_64.iso.sig">Download GPG signature</a></br> 
-                                SHA1-sum: f617b699ca9b14562a1f5cdd31c8c557828f3a82
-                            </div>
-                        </div><br/>
-                        <div class="container" style="width: 100%;">
-                            <a href="http://downloads.sourceforge.net/manjarolinux/manjaro-kde-16.08-i686.iso" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
-                            <div style="float: right">
-                                 <a href="http://downloads.sourceforge.net/manjarolinux/manjaro-kde-16.08-i686.iso.sig">Download GPG signature</a></br> 
-                                SHA1-sum: b4fbb8c4d4855e570f09770b596bba4c74620076
-                            </div>
-                        </div><br/>
-                        
-                        <p>You can also use <a href="https://en.wikipedia.org/wiki/BitTorrent" target="_blank">Torrents</a> to download Manjaro.
-                        Just download the *.torrent file for the <a href="http://downloads.sourceforge.net/manjarotorrents/manjaro-kde-16.08-x86_64.torrent">64 bit</a> or <a href="http://downloads.sourceforge.net/manjarotorrents/manjaro-kde-16.08-i686.torrent">32 bit</a> 
-                        version and open it with a torrent program like <a href="http://www.qbittorrent.org/" target="_blank">qBittorrent</a>.</p>
-                        
-                        
-                        <h2>Be secure</h2>
-                        <hr class="star-primary">
-                        <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and 
-                        compare it with the one we provide you here. <a href="https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors">Here</a> you can find information how to generate such a sum and check your downloaded files.</p>
-                        <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
-                        created by the Manjaro developers. <a href="http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/" target="_blank">Here</a> you can find information how to use it.</p>
-                        
-                        <h2>Getting started</h2>
-                        <hr class="star-primary">
-                        <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
-                        
-						                        
-                        
-                        
-                       
-                        
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="editions-modal modal fade" id="editionsModal12" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Manjaro Lxqt edition</h2>
-                        <hr class="star-primary">
-                        <a href="/img/editions/lxqt-full.jpg" target="_blank"><img src="/img/editions/lxqt.jpg" class="img-responsive img-centered" alt=""></a>
-                        <p>This edition is supported by the Manjaro community and comes with Lxqt, a full desktop environment that uses modern technology while being extremely resource-efficient.</p>
-                        
-                        <h3>Features of this edition</h3>
-                        <hr class="star-primary">         
-                        
-                        <ul >
-                        	                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/people.svg')" >Supported by Manjaro community</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/time.svg')" >Very resource-efficient and therefore ideal for older computers</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/cog.svg')" >Builds on modern technology, which enables usage high-DPI screens and other newer technologies</li>    
-							      
-                        </ul>           
-						                  
-                        
-                        
-                        
-                        <h2>Download</h2>
-                        <hr class="star-primary">
-                        
-                        <p>You can choose between a 64bit version for <strong>modern</strong> computers and a 32bit version for <strong>older</strong> computers.</p>
-                        
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/LXQT/2016.05/manjaro-lxqt-community-16.05-x86_64.iso" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: adddb57a7f32eebf6b179934712971f624a06059
-                            </div>
-                        </div><br/>
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/LXQT/2016.05/manjaro-lxqt-community-16.05-i686.iso" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: 9fd7bb396cfb5884aa2a48175b3b2b55471108b3
-                            </div>
-                        </div><br/>
-                        
-                        <p>You can also use <a href="https://en.wikipedia.org/wiki/BitTorrent" target="_blank">Torrents</a> to download Manjaro.
-                        Just download the *.torrent file for the <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">64 bit</a> or <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">32 bit</a> 
-                        version and open it with a torrent program like <a href="http://www.qbittorrent.org/" target="_blank">qBittorrent</a>.</p>
-                        
-                        
-                        <h2>Be secure</h2>
-                        <hr class="star-primary">
-                        <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and 
-                        compare it with the one we provide you here. <a href="https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors">Here</a> you can find information how to generate such a sum and check your downloaded files.</p>
-                        <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
-                        created by the Manjaro developers. <a href="http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/" target="_blank">Here</a> you can find information how to use it.</p>
-                        
-                        <h2>Getting started</h2>
-                        <hr class="star-primary">
-                        <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
-                        
-						                        
-                        
-                        
-                        <h3>More information</h3>
-                        <hr class="star-primary">
-                        <p><a href="https://forum.manjaro.org/t/stable-manjaro-lxqt-ice-16-05-released">Forum thread and GPG signature</a></p>
-                        
-                        
-                       
-                        
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="editions-modal modal fade" id="editionsModal13" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Manjaro Mate edition</h2>
-                        <hr class="star-primary">
-                        <a href="/img/editions/mate-full.jpg" target="_blank"><img src="/img/editions/mate.jpg" class="img-responsive img-centered" alt=""></a>
-                        <p>This edition is supported by the Manjaro community and comes with Mate, a desktop environment that continues the legacy of traditional user experience while carefully improving and modernizing it when needed.</p>
-                        
-                        <h3>Features of this edition</h3>
-                        <hr class="star-primary">         
-                        
-                        <ul >
-                        	                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/people.svg')" >Supported by Manjaro community</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/time.svg')" >Very resource-efficient and therefore ideal for older computers</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/stable.svg')" >Based on well tested and reliable technology</li>    
-							      
-                        </ul>           
-						                  
-                        
-                        
-                        
-                        <h2>Download</h2>
-                        <hr class="star-primary">
-                        
-                        <p>You can choose between a 64bit version for <strong>modern</strong> computers and a 32bit version for <strong>older</strong> computers.</p>
-                        
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/MATE/2015.12/manjaro-mate-15.12-x86_64.iso" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: a6edb5bca93f0fdf28a69d93600eae7c32c7c8c9
-                            </div>
-                        </div><br/>
-                        <div class="container" style="width: 100%;">
-                            <a href="https://sourceforge.net/projects/manjarolinux/files/community/MATE/2015.12/manjaro-mate-15.12-i686.iso" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
-                            <div style="float: right">
-                                
-                                SHA1-sum: 213853ced004e7a05f3be89a635fac57a4ce3eaf
-                            </div>
-                        </div><br/>
-                        
-                        <p>You can also use <a href="https://en.wikipedia.org/wiki/BitTorrent" target="_blank">Torrents</a> to download Manjaro.
-                        Just download the *.torrent file for the <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">64 bit</a> or <a href="https://sourceforge.net/projects/manjarotorrents/files/community/">32 bit</a> 
-                        version and open it with a torrent program like <a href="http://www.qbittorrent.org/" target="_blank">qBittorrent</a>.</p>
-                        
-                        
-                        <h2>Be secure</h2>
-                        <hr class="star-primary">
-                        <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and 
-                        compare it with the one we provide you here. <a href="https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors">Here</a> you can find information how to generate such a sum and check your downloaded files.</p>
-                        <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
-                        created by the Manjaro developers. <a href="http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/" target="_blank">Here</a> you can find information how to use it.</p>
-                        
-                        <h2>Getting started</h2>
-                        <hr class="star-primary">
-                        <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
-                        
-						                        
-                        
-                        
-                       
-                        
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="editions-modal modal fade" id="editionsModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Manjaro NET edition</h2>
-                        <hr class="star-primary">
-                        <a href="/img/editions/net-full.jpg" target="_blank"><img src="/img/editions/net.jpg" class="img-responsive img-centered" alt=""></a>
-                        <p>This edition is supported by the Manjaro team and comes without any pre-installed display manager and desktop application. People who want full control what exactly is installed on their system can use this as base.</p>
-                        
-                        <h3>Features of this edition</h3>
-                        <hr class="star-primary">         
-                        
-                        <ul >
-                        	                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/premium.svg')" >Supported by Manjaro team</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/blocks.svg')" >Build your own system</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/code.svg')" >Good for very advanced users</li>    
-							      
-                        </ul>           
-						                  
-                        
-                        
-                        
-                        <h2>Download</h2>
-                        <hr class="star-primary">
-                        
-                        <p>You can choose between a 64bit version for <strong>modern</strong> computers and a 32bit version for <strong>older</strong> computers.</p>
-                        
-                        <div class="container" style="width: 100%;">
-                            <a href="http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-x86_64.iso" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
-                            <div style="float: right">
-                                 <a href="http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-x86_64.iso.sig">Download GPG signature</a></br> 
-                                SHA1-sum: 42e0c1391c63070a76f4840c21368a23fd65d334
-                            </div>
-                        </div><br/>
-                        <div class="container" style="width: 100%;">
-                            <a href="http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-i686.iso" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
-                            <div style="float: right">
-                                 <a href="http://downloads.sourceforge.net/manjarolinux/manjaro-net-16.08-i686.iso.sig">Download GPG signature</a></br> 
-                                SHA1-sum: 9cb6886757771ae4eba83abfab8ac5e6a499da2b
-                            </div>
-                        </div><br/>
-                        
-                        <p>You can also use <a href="https://en.wikipedia.org/wiki/BitTorrent" target="_blank">Torrents</a> to download Manjaro.
-                        Just download the *.torrent file for the <a href="http://downloads.sourceforge.net/manjarotorrents/manjaro-net-16.08-x86_64.torrent">64 bit</a> or <a href="http://downloads.sourceforge.net/manjarotorrents/manjaro-net-16.08-i686.torrent">32 bit</a> 
-                        version and open it with a torrent program like <a href="http://www.qbittorrent.org/" target="_blank">qBittorrent</a>.</p>
-                        
-                        
-                        <h2>Be secure</h2>
-                        <hr class="star-primary">
-                        <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and 
-                        compare it with the one we provide you here. <a href="https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors">Here</a> you can find information how to generate such a sum and check your downloaded files.</p>
-                        <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
-                        created by the Manjaro developers. <a href="http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/" target="_blank">Here</a> you can find information how to use it.</p>
-                        
-                        <h2>Getting started</h2>
-                        <hr class="star-primary">
-                        <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
-                        
-						                        
-                        
-                        
-                       
-                        
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="editions-modal modal fade" id="editionsModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Manjaro XFCE edition</h2>
-                        <hr class="star-primary">
-                        <a href="/img/editions/xfce-full.jpg" target="_blank"><img src="/img/editions/xfce.jpg" class="img-responsive img-centered" alt=""></a>
-                        <p>This edition is supported by the Manjaro team and comes with XFCE, a lightweight and reliable desktop with high configurability.</p>
-                        
-                        <h3>Features of this edition</h3>
-                        <hr class="star-primary">         
-                        
-                        <ul >
-                        	                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/premium.svg')" >Supported by Manjaro team</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/stable.svg')" >Based on well tested and reliable technology</li>    
-							                        	
-								<li class="editions-modal-features-li" style="background-image: url('/img/bullets/time.svg')" >Very resource-efficient and therefore ideal for older computers</li>    
-							      
-                        </ul>           
-						                  
-                        
-                        
-                        
-                        <h2>Download</h2>
-                        <hr class="star-primary">
-                        
-                        <p>You can choose between a 64bit version for <strong>modern</strong> computers and a 32bit version for <strong>older</strong> computers.</p>
-                        
-                        <div class="container" style="width: 100%;">
-                            <a href="http://downloads.sourceforge.net/manjarolinux/manjaro-xfce-16.08-x86_64.iso" class="btn btn-primary btn-xl" style="float: left">Download 64bit version</a>
-                            <div style="float: right">
-                                 <a href="http://downloads.sourceforge.net/manjarolinux/manjaro-xfce-16.08-x86_64.iso.sig">Download GPG signature</a></br> 
-                                SHA1-sum: b007f8feaf3df6e2cddf6e18479e725045650515
-                            </div>
-                        </div><br/>
-                        <div class="container" style="width: 100%;">
-                            <a href="http://downloads.sourceforge.net/manjarolinux/manjaro-xfce-16.08-i686.iso" class="btn btn-primary btn-xl" style="float: left">Download 32bit version</a>
-                            <div style="float: right">
-                                 <a href="http://downloads.sourceforge.net/manjarolinux/manjaro-xfce-16.08-i686.iso.sig">Download GPG signature</a></br> 
-                                SHA1-sum: b007f8feaf3df6e2cddf6e18479e725045650515
-                            </div>
-                        </div><br/>
-                        
-                        <p>You can also use <a href="https://en.wikipedia.org/wiki/BitTorrent" target="_blank">Torrents</a> to download Manjaro.
-                        Just download the *.torrent file for the <a href="http://downloads.sourceforge.net/manjarotorrents/manjaro-xfce-16.08-x86_64.iso.torrent">64 bit</a> or <a href="http://downloads.sourceforge.net/manjarotorrents/manjaro-xfce-16.08-i686.iso.torrent">32 bit</a> 
-                        version and open it with a torrent program like <a href="http://www.qbittorrent.org/" target="_blank">qBittorrent</a>.</p>
-                        
-                        
-                        <h2>Be secure</h2>
-                        <hr class="star-primary">
-                        <p>We encourage you to check if the download was not modified by some <strong>malicious person</strong> or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and 
-                        compare it with the one we provide you here. <a href="https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors">Here</a> you can find information how to generate such a sum and check your downloaded files.</p>
-                        <p>To even further enhance the security, verify the downloaded file with a <strong>GPG (GNU Privacy Guard)</strong> signature that will ensure that the file was not modified and was actually
-                        created by the Manjaro developers. <a href="http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/" target="_blank">Here</a> you can find information how to use it.</p>
-                        
-                        <h2>Getting started</h2>
-                        <hr class="star-primary">
-                        <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
-                        
-						                        
-                        
-                        
-                       
-                        
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
+	
 		
 		
 	</body>

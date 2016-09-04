@@ -1,5 +1,5 @@
 {{ "<!-- HEADER -->" | safeHTML }}
-<header>
+<header class="index-header">
     <div class="header-content">
         <div class="header-content-inner">
             <p><img src="img/manjaro-logo.svg" /></p>
@@ -9,7 +9,7 @@
             <p>{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p>
             <!--<a href="#about" class="btn btn-default btn-xl page-scroll">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>-->
             <a href="{{ with .Site.Params.hero.callToActionUrl }}{{ . }}{{ end }}" style="margin-left: 15px; min-width: 152px;" class="btn btn-primary btn-xl page-scroll">{{ with .Site.Params.hero.callToAction }}{{ . }}{{ end }}</a>
-            <p style="margin-top: 10px;"><a href="{{ with .Site.Params.hero.learnMoreUrl }}{{ . }}{{ end }}" style="margin-left: 15px; min-width: 152px;" class="btn-hero page-scroll">{{ with .Site.Params.hero.learnMore }}{{ . }}{{ end }}</a></p>
+            <p style="margin-top: 10px;"><a href="{{ .Site.BaseURL }}features" style="margin-left: 15px; min-width: 152px;" class="btn-hero page-scroll">{{ with .Site.Params.hero.learnMore }}{{ . }}{{ end }}</a></p>
         </div>
     </div>
 </header>

@@ -7,23 +7,11 @@
     
     	
     
-    	{{ partial "sharedscripts.html" . }}
-
         {{ partial "nav.html" . }}
 		
         {{ partial "hero.html" . }}
         {{ partial "about.html" . }}
-        {{ partial "features.html" . }}
-        {{ partial "usercases.html" . }}
-        
-        {{ partial "home_downloads.html" . }}
-        
-        
-
-        {{ partial "usercases-modals.html" . }}
-        
-        
-
+       
         {{ partial "js.html" . }}
     </body>
 </html>

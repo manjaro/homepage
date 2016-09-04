@@ -5,7 +5,7 @@
         
 		<style>
 		.body-subpage {
-		background-color: #222222;
+		background-color: #fff;
 		}
 		</style>        
         
@@ -15,8 +15,14 @@
 		{{ partial "nav.html" . }}
 		
 		<header class="subpage-header">
-   
+   			{{ partial "news-nav.html" . }}
 		</header>
+		
+		{{ range .Site.Pages }}{{ if eq .Type "download-edition" }}
+		
+			{{ partial "news-post.html" . }}		
+		
+		{{ end }}{{ end }}
 		
 		{{ partial "js.html" . }}
 	</body>

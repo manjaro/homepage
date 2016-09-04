@@ -6,16 +6,71 @@
     <description>Recent content on Manjaro Linux - enjoy the simplicity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Sep 2016 19:10:59 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 04 Sep 2016 23:51:14 +0200</lastBuildDate>
     <atom:link href="index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>net</title>
-      <link>/download/net/</link>
-      <pubDate>Sun, 04 Sep 2016 19:10:59 +0200</pubDate>
+      <title>[Stable Update] 2016-09-04 - MATE, Calamares, Pamac, Deepin</title>
+      <link>/news/stable_update_2016-09-04/</link>
+      <pubDate>Sun, 04 Sep 2016 23:51:14 +0200</pubDate>
       
-      <guid>/download/net/</guid>
-      <description></description>
+      <guid>/news/stable_update_2016-09-04/</guid>
+      <description>&lt;p&gt;Hi community,&lt;/p&gt;
+
+&lt;p&gt;Manjaro Ellada seems to be a great release. We also managed to release some of our community editions already. Bernhard is now working on our Deepin edition. Therefore he updated some of the Deepin packages. Additionally he fixed some issue with our realtime kernel. To round-up this package set, I managed to update some of the MATE packages to their latest release and Pamac. We now support a tray-icon for the KDE desktop. Please install it separately.&lt;/p&gt;
+
+&lt;p&gt;With the first point-release of Calamares v2.4 some issues got fixed:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;fixed how the timezone setting is applied, so certain environments like KDE Plasma always obey the setting on first boot&lt;/li&gt;
+&lt;li&gt;fixed timezone selector behavior, so that a timezone changes affect the live system immediately&lt;/li&gt;
+&lt;li&gt;improved partition scanner code so it always excludes ISO9660 volumes (to avoid showing the live USB stick or optical disk in the devices list)&lt;/li&gt;
+&lt;li&gt;future-proofed and optimized the codebase a bit to remove the soon to be deprecated Q_FOREACH construct and avoid deep copies of Qt containers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The first two, we already added to our original package of Calamares. If needed, please update Calamares before you try to install Manjaro Ellada in live-session.&lt;/p&gt;
+
+&lt;p&gt;Archlinux upstream fixes are still from: Mon Aug 29 19:34:28 CEST 2016.&lt;/p&gt;
+
+&lt;p&gt;Please report any issues you may have with this update. Also read our &lt;strong&gt;troubleshoots&lt;/strong&gt; to avoid known issues.&lt;/p&gt;
+
+&lt;p&gt;Kind regards,
+Philip Müller and the Manjaro Development Team&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Detailed Information</title>
+      <link>/features/overview/</link>
+      <pubDate>Sun, 04 Sep 2016 23:06:54 +0200</pubDate>
+      
+      <guid>/features/overview/</guid>
+      <description>&lt;p&gt;Manjaro is a user-friendly Linux distribution based on the independently developed Arch operating system. Within the Linux community, Arch itself is renowned for being an exceptionally fast, powerful, and lightweight distribution that provides access to the very latest cutting edge – and bleeding edge – software. However, Arch is also aimed at more experienced or technically-minded users. As such, it is generally considered to be beyond the reach of those who lack the technical expertise (or persistence) required to use it.&lt;/p&gt;
+
+&lt;p&gt;Developed in Austria, France, and Germany, Manjaro provides all the benefits of the Arch operating system combined with a focus on user-friendliness and accessibility. Available in both 32 and 64 bit versions, Manjaro is suitable for newcomers as well as experienced Linux users. For newcomers, a user-friendly installer is provided, and the system itself is designed to work fully ‘straight out of the box’ with features including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pre-installed desktop environments&lt;/li&gt;
+&lt;li&gt;Pre-installed graphical applications to easily install software and update your system, and&lt;/li&gt;
+&lt;li&gt;Pre-installed codecs to play multimedia files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For more experienced – and adventurous – users Manjaro also offers the configurability and versatility to be shaped and moulded in every respect to suit personal taste and preference. Furthermore, a minimalist NET-Edition is also available in both 32 and 64 bit versions. Stripped of any pre-installed software, this provides a base installation on which to build your own system; starting from a command line, be completely free to chose your own greeters, desktops, hardware drivers, software applications, and so on!&lt;/p&gt;
+
+&lt;p&gt;Manjaro shares many of the same features as Arch and adds a few extra features, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Speed, power, and efficiency&lt;/li&gt;
+&lt;li&gt;Access to the very latest cutting and bleeding edge software&lt;/li&gt;
+&lt;li&gt;A ‘rolling release’ development model that provides the most up-to-date system possible without the need to install new versions&lt;/li&gt;
+&lt;li&gt;Access to the Arch User Repository (AUR)&lt;/li&gt;
+&lt;li&gt;A simplifed, user-friendly installation process&lt;/li&gt;
+&lt;li&gt;Automatic detection of your computer’s hardware (e.g. graphics cards)&lt;/li&gt;
+&lt;li&gt;Automatic installation of the necessary software (e.g. graphics drivers) for your system&lt;/li&gt;
+&lt;li&gt;Its own dedicated software repositories to ensure delivery of fully tested and stable software packages, and&lt;/li&gt;
+&lt;li&gt;Support for the easy installation and use of multiple kernels.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -33,15 +88,6 @@
       <pubDate>Sun, 04 Sep 2016 19:10:49 +0200</pubDate>
       
       <guid>/download/lxqt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kde</title>
-      <link>/download/kde/</link>
-      <pubDate>Sun, 04 Sep 2016 19:10:44 +0200</pubDate>
-      
-      <guid>/download/kde/</guid>
       <description></description>
     </item>
     
@@ -123,7 +169,8 @@
       <pubDate>Sun, 04 Sep 2016 19:09:25 +0200</pubDate>
       
       <guid>/download/xfce/</guid>
-      <description></description>
+      <description>&lt;p&gt;Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly. Xfce embodies the traditional UNIX philosophy of modularity and re-usability. It consists of a number of components that provide the full functionality one can expect of a modern desktop environment. They are packaged separately and you can pick among the available packages to create the optimal personal working environment.&lt;/p&gt;
+</description>
     </item>
     
     <item>

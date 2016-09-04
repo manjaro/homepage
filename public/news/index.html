@@ -11,7 +11,7 @@
 <!-- Favicon -->
 <link rel="shortcut icon" href="favicon.png">
 <!-- Bootstrap Core CSS -->
-<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 <!-- Custom Fonts -->
 
 
@@ -36,7 +36,7 @@
         
 		<style>
 		.body-subpage {
-		background-color: #222222;
+		background-color: #fff;
 		}
 		</style>        
         
@@ -65,11 +65,8 @@
             	
             	<li id="javascript-warning">
             		<a class="page-scroll" href="" style="color: #f00;"> <noscript>Please enable JavaScript to enable all functions of this site</noscript></a>			        	    
-            	</li>	
-            	
-                <li>
-                    <a class="page-scroll" href="" active-section="#about">About</a>
-                </li>
+            	</li>	            	
+                
                 <li>
                     <a class="page-scroll" href="news">News</a>
                 </li>
@@ -97,7 +94,79 @@
 </nav>
 
 		
-		TODO
+		<header class="subpage-header">
+   			<!-- NAVIGATION -->
+
+<nav id="download-nav" class="navbar subnavbar">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+            <ul class="nav navbar-nav">
+            	<li>
+	                <a class="page-scroll" href="news">Most Recent News</a>
+	            </li>            	
+            </ul>
+        </div>
+		
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+		</header>
+		
+		
+		
+			<section>
+    <div class="container">
+        <div class="row">
+            <div class="news-post">
+                <h2 class="section-heading"><a href="/news/stable_update_2016-09-04/">[Stable Update] 2016-09-04 - MATE, Calamares, Pamac, Deepin</a></h2>
+                <hr class="star-primary"/>
+                
+                <p class="meta">By Philip Müller on Sunday, Sep 4, 2016</p>
+                
+                <div class="news-post-content" >		                
+                	<p>Hi community,</p>
+
+<p>Manjaro Ellada seems to be a great release. We also managed to release some of our community editions already. Bernhard is now working on our Deepin edition. Therefore he updated some of the Deepin packages. Additionally he fixed some issue with our realtime kernel. To round-up this package set, I managed to update some of the MATE packages to their latest release and Pamac. We now support a tray-icon for the KDE desktop. Please install it separately.</p>
+
+<p>With the first point-release of Calamares v2.4 some issues got fixed:</p>
+
+<ul>
+<li>fixed how the timezone setting is applied, so certain environments like KDE Plasma always obey the setting on first boot</li>
+<li>fixed timezone selector behavior, so that a timezone changes affect the live system immediately</li>
+<li>improved partition scanner code so it always excludes ISO9660 volumes (to avoid showing the live USB stick or optical disk in the devices list)</li>
+<li>future-proofed and optimized the codebase a bit to remove the soon to be deprecated Q_FOREACH construct and avoid deep copies of Qt containers</li>
+</ul>
+
+<p>The first two, we already added to our original package of Calamares. If needed, please update Calamares before you try to install Manjaro Ellada in live-session.</p>
+
+<p>Archlinux upstream fixes are still from: Mon Aug 29 19:34:28 CEST 2016.</p>
+
+<p>Please report any issues you may have with this update. Also read our <strong>troubleshoots</strong> to avoid known issues.</p>
+
+<p>Kind regards,
+Philip Müller and the Manjaro Development Team
+                </div>
+                
+                <hr/>
+            </div>
+        </div>
+    </div>
+</section>		
+		
+		
 		
 		<!-- jQuery -->
 <script src="js/jquery.js"></script>

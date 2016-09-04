@@ -17,5 +17,8 @@ Version = "16.08"
 date = "2016-09-04T19:09:25+02:00"
 title = "xfce"
 type="download-edition"
+weight = 0
 +++
+
+Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly. Xfce embodies the traditional UNIX philosophy of modularity and re-usability. It consists of a number of components that provide the full functionality one can expect of a modern desktop environment. They are packaged separately and you can pick among the available packages to create the optimal personal working environment.
 
