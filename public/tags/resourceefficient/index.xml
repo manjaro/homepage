@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resourceefficient on Manjaro Linux - enjoy the simplicity</title>
-    <link>tags/resourceefficient/</link>
+    <link>https://rumangerst.github.io/homepage/public/tags/resourceefficient/</link>
     <description>Recent content in Resourceefficient on Manjaro Linux - enjoy the simplicity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Sep 2016 19:10:54 +0200</lastBuildDate>
-    <atom:link href="tags/resourceefficient/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rumangerst.github.io/homepage/public/tags/resourceefficient/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>mate</title>
-      <link>/download/mate/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/mate/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:54 +0200</pubDate>
       
-      <guid>/download/mate/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/mate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lxqt</title>
-      <link>/download/lxqt/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/lxqt/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:49 +0200</pubDate>
       
-      <guid>/download/lxqt/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/lxqt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jwm</title>
-      <link>/download/jwm/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/jwm/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:38 +0200</pubDate>
       
-      <guid>/download/jwm/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/jwm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>i3</title>
-      <link>/download/i3/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/i3/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:33 +0200</pubDate>
       
-      <guid>/download/i3/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/i3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gnome</title>
-      <link>/download/gnome/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/gnome/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:28 +0200</pubDate>
       
-      <guid>/download/gnome/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/gnome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>e20</title>
-      <link>/download/e20/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/e20/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:23 +0200</pubDate>
       
-      <guid>/download/e20/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/e20/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deepin</title>
-      <link>/download/deepin/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/deepin/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:18 +0200</pubDate>
       
-      <guid>/download/deepin/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/deepin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cinnamon</title>
-      <link>/download/cinnamon/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/cinnamon/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:12 +0200</pubDate>
       
-      <guid>/download/cinnamon/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/cinnamon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>budgie</title>
-      <link>/download/budgie/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/budgie/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:05 +0200</pubDate>
       
-      <guid>/download/budgie/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/budgie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bspwm</title>
-      <link>/download/bspwm/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/bspwm/</link>
       <pubDate>Sun, 04 Sep 2016 19:09:59 +0200</pubDate>
       
-      <guid>/download/bspwm/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/bspwm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xfce</title>
-      <link>/download/xfce/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/xfce/</link>
       <pubDate>Sun, 04 Sep 2016 19:09:25 +0200</pubDate>
       
-      <guid>/download/xfce/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/xfce/</guid>
       <description>&lt;p&gt;Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly. Xfce embodies the traditional UNIX philosophy of modularity and re-usability. It consists of a number of components that provide the full functionality one can expect of a modern desktop environment. They are packaged separately and you can pick among the available packages to create the optimal personal working environment.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>kde</title>
-      <link>/download/kde/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/kde/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:44 +0200</pubDate>
       
-      <guid>/download/kde/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/kde/</guid>
       <description>&lt;p&gt;KDE is a feature-rich and versatile desktop environment that provides several different styles of menu to access applications. An excellent built-in interface to easily access and install new themes, widgets, etc, from the internet is also worth mentioning. While very user-friendly and certainly flashy, KDE is also quite resource heavy and noticably slower to start and use than a desktop environment such as XFCE. A 64 bit installation of Manjaro running KDE uses about 550MB of memory.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>net</title>
-      <link>/download/net/</link>
+      <link>https://rumangerst.github.io/homepage/public/download/net/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:59 +0200</pubDate>
       
-      <guid>/download/net/</guid>
+      <guid>https://rumangerst.github.io/homepage/public/download/net/</guid>
       <description></description>
     </item>
     
