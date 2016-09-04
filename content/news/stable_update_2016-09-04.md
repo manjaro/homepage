@@ -5,7 +5,7 @@ forumdiscussion = ""
 tags = []
 title = "[Stable Update] 2016-09-04 - MATE, Calamares, Pamac, Deepin"
 type = "news-post"
-
+archive = "9_2016"
 +++
 
 Hi community,

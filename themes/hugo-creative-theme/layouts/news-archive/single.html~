@@ -18,7 +18,7 @@
    			{{ partial "news-nav.html" . }}
 		</header>
 		
-		{{ range first 5 where .Site.Pages ".Type" "news-post" }}
+		{{ range (where .Site.Pages ".Type" "news-post") }}
 		
 			{{ partial "news-post.html" . }}		
 		

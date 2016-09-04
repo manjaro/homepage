@@ -18,11 +18,11 @@
    			{{ partial "news-nav.html" . }}
 		</header>
 		
-		{{ range .Site.Pages }}{{ if eq .Type "news-post" }}
+		{{ range first 5 (where .Site.Pages ".Type" "news-post") }}
 		
 			{{ partial "news-post.html" . }}		
 		
-		{{ end }}{{ end }}
+		{{ end }}
 		
 		{{ partial "js.html" . }}
 	</body>
