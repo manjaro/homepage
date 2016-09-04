@@ -1,13 +1,5 @@
 {{ "<!-- NAVIGATION -->" | safeHTML }}
 
-<script type="text/javascript" >
-	function disable_javascript_warning() {
-		document.getElementById("javascript-warning").style.visibility = "collapse";
-	}
-	
-	addLoadEvent(disable_javascript_warning);	
-</script>
-
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
@@ -18,30 +10,41 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top"> <img src="img/manjaro-logo.svg"/> {{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
+            <a class="navbar-brand page-scroll" href="{{ .Site.BaseURL }}"> <img src="{{ .Site.BaseURL }}/img/manjaro-logo.svg"/> {{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
         </div>
 		
         
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">			
+            <ul class="nav navbar-nav navbar-right">		
+            	
             	<li id="javascript-warning">
-            		<a class="page-scroll" href="#" style="color: #f00;">Please enable JavaScript to enable all functions of this site</a>			        	    
+            		<a class="page-scroll" href="{{ .Site.BaseURL }}" style="color: #f00;"> <noscript>Please enable JavaScript to enable all functions of this site</noscript></a>			        	    
             	</li>	
+            	
                 <li>
-                    <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.links.about }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="{{ .Site.BaseURL }}" active-section="#about">{{ with .Site.Params.navigation.links.about }}{{ . }}{{ end }}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#features">{{ with .Site.Params.navigation.links.services }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="{{ .Site.BaseURL }}news">{{ with .Site.Params.navigation.links.news }}{{ . }}{{ end }}</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{ .Site.BaseURL }}features">{{ with .Site.Params.navigation.links.services }}{{ . }}{{ end }}</a>
                 </li>
 				<li>
-                    <a class="page-scroll" href="#downloads">{{ with .Site.Params.navigation.links.download }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="{{ .Site.BaseURL }}download">{{ with .Site.Params.navigation.links.download }}{{ . }}{{ end }}</a>
                 </li>
-                
                 <li>
+                    <a class="page-scroll" href="{{ .Site.BaseURL }}support">{{ with .Site.Params.navigation.links.support }}{{ . }}{{ end }}</a>
+                </li>
+                <li>
+				    <a class="page-scroll" href="{{ .Site.BaseURL }}donate" active-section="#donate">{{ with .Site.Params.navigation.links.donate }}{{ . }}{{ end }}</a>
+				</li>
+                
+                 <!--<li>
 				    <a href="https://wiki.manjaro.org" target="_blank">Wiki</a>
 				</li>
-			    <li class="dropdown">
+			   	<li class="dropdown">
 			      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
 			      <ul class="dropdown-menu">
 			        <li>
@@ -63,14 +66,9 @@
 			            <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.links.contact }}{{ . }}{{ end }}</a>
 			        </li>
 			      </ul>
-			    </li>
-			    <li>
-				    <a class="page-scroll" href="#donate">{{ with .Site.Params.navigation.links.donate }}{{ . }}{{ end }}</a>
-				</li>
-                <!-- I don't think link adds value to the user
-                <li>
-                    <a class="page-scroll" href="#portfolio">{{ with .Site.Params.navigation.links.portfolio }}{{ . }}{{ end }}</a>
-                </li> -->
+			    </li>-->
+			    
+              
             </ul>
         </div>
         {{ "<!-- /.navbar-collapse -->" | safeHTML }}

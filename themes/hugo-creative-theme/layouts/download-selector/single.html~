@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+        {{ partial "head.html" . }}
+        
+		<style>
+		.body-subpage {
+		background-color: #fff;
+		}
+		</style>        
+        
+    </head>
+	<body id="downloads" class="body-subpage">
+
+		{{ partial "js.html" . }}
+
+		{{ partial "nav.html" . }}
+		<header class="subpage-header">
+   			{{ partial "download-nav.html" . }}
+		</header>
+		
+		{{ partial "editionfinder.html" . }}
+		
+		{{ partial "editions-modals.html" . }}
+		
+		
+	</body>
+
+</html>

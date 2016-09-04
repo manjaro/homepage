@@ -1,10 +1,26 @@
 {{ "<!-- jQuery -->" | safeHTML }}
 <script src="{{ .Site.BaseURL }}js/jquery.js"></script>
 {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
-<script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/bootstrap.js"></script>
 {{ "<!-- Plugin JavaScript -->" | safeHTML }}
 <script src="{{ .Site.BaseURL }}js/jquery.easing.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/jquery.fittext.js"></script>
 <script src="{{ .Site.BaseURL }}js/wow.min.js"></script>
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 <script src="{{ .Site.BaseURL }}js/creative.js"></script>
+
+<!--<script type="text/javascript">
+	function addLoadEvent(func) {
+	  var oldonload = window.onload;
+	  if (typeof window.onload != 'function') {
+	    window.onload = func;
+	  } else {
+	    window.onload = function() {
+	      if (oldonload) {
+	        oldonload();
+	      }
+	      func();
+	    }
+	  }
+	}
+</script>-->

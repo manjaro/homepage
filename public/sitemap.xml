@@ -3,6 +3,97 @@
   
   <url>
     <loc>/</loc>
+    <lastmod>2016-09-04T19:10:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/download/net/</loc>
+    <lastmod>2016-09-04T19:10:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/download/mate/</loc>
+    <lastmod>2016-09-04T19:10:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/download/lxqt/</loc>
+    <lastmod>2016-09-04T19:10:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/download/kde/</loc>
+    <lastmod>2016-09-04T19:10:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/download/jwm/</loc>
+    <lastmod>2016-09-04T19:10:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/download/i3/</loc>
+    <lastmod>2016-09-04T19:10:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/download/gnome/</loc>
+    <lastmod>2016-09-04T19:10:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/download/e20/</loc>
+    <lastmod>2016-09-04T19:10:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/download/deepin/</loc>
+    <lastmod>2016-09-04T19:10:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/download/cinnamon/</loc>
+    <lastmod>2016-09-04T19:10:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/download/budgie/</loc>
+    <lastmod>2016-09-04T19:10:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/download/bspwm/</loc>
+    <lastmod>2016-09-04T19:09:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/download/xfce/</loc>
+    <lastmod>2016-09-04T19:09:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/support/</loc>
+    <lastmod>2016-09-04T17:30:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news/</loc>
+    <lastmod>2016-09-04T15:50:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/donate/</loc>
+    <lastmod>2016-09-04T15:50:15+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/features/</loc>
+    <lastmod>2016-09-04T15:13:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/download/</loc>
+    <lastmod>2016-09-04T14:12:32+02:00</lastmod>
   </url>
   
 </urlset>

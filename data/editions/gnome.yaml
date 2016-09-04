@@ -1,6 +1,7 @@
 modalID: 9
 title: GNOME edition
 img: gnome.jpg
+subpage: "gnome"
 img_full: gnome-full.jpg
 shortdescription: Simple, focused and well-designed
 target_group: For people who want a very modern and simple desktop

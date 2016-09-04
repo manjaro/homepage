@@ -13,12 +13,11 @@
 {{ end }}
 
 </style>
-<!-- Define out script for edition selectio -->
+<!-- Define out script for edition selection -->
 <script type="text/javascript" >
 
 	function element_is_in_tags(el, tags) {
 	
-		// May I ask the people who developed Java script (if they ever read this)) why JS's for-each-loop behaves completly different to all other for-each-loops in any language?
 		for (var id in tags) {
 		
 			if(!el.classList.contains("editions-box-hideable-" + tags[id])){
@@ -81,32 +80,19 @@
 	}
 	
 	//window.onload = update_editions_tags;
-	addLoadEvent(update_editions_tags);
+	//addLoadEvent(update_editions_tags);
+	
+	$( document ).ready(update_editions_tags);
 	
 </script>
 
-<aside class="bg-dark" id="downloads" style="transition: height .5s;">
+<aside id="downloads" style="transition: height .5s;">
     <div class="container text-center">
         <div class="call-to-action">
             <h2>{{ with .Site.Params.aside.headline }}{{ . }}{{ end }}</h2>
             <p>{{ with .Site.Params.aside.description }}{{ . }}{{ end }}</p>
-            <!--<a href="{{ with .Site.Params.aside.default_download_button.link }}{{ . }}{{ end }}" class="btn btn-primary btn-xl wow tada"  data-toggle="modal">{{ with .Site.Params.aside.default_download_button.text }}{{ . }}{{ end }}</a>
-        </div>
-        <div>
-            <h2>Explore other editions</h2>
-            <p>{{ with .Site.Params.aside.editions.description }}{{ . }}{{ end }}</p>
-            
-            <h3>We will help you choosing</h3>
-            
-			<p>{{ with .Site.Params.aside.editions.description_filter }}{{ . }}{{ end }}</p>-->
 			
-			<div>
-				<ul class="downloads-howtotry">
-	            	{{ range .Site.Params.aside.howtotry }}                        	
-						<li style="background-image: url('img/try/{{ .icon }}.svg')" >{{ .text | markdownify }}</li>    
-					{{end}}      
-	            </ul>  
-			</div>		
+			{{ partial "howtotry.html" . }}
 			
 			<p>{{ with .Site.Params.aside.editions.description_filter }}{{ . }}{{ end }}</p>	         
             
@@ -121,6 +107,7 @@
             {{ end }}
             </div>
             
+            
             <div class="container-fluid">
                 <div class="row no-gutter">
                 
@@ -128,39 +115,34 @@
                 	NOTE: The range and end operations are supposed to be in line with the boxes!!! 
                 	Read more about crazy HTML magic here: http://stackoverflow.com/questions/19038799/why-is-there-an-unexplainable-gap-between-these-inline-block-div-elements
                 	-->
-                    {{ range .Site.Data.editions }}<div class="editions-box-hideable {{ range .tags}}editions-box-hideable-{{ . }} {{ end }} col-lg-4 col-sm-6">
-                        <a href="#editionsModal{{ .modalID }}" class="editions-box editions-link" data-toggle="modal">
-                            <img src="img/editions/{{ .img }}" class="img-responsive" alt="">
-                            <!--<div class="editions-box-caption-extended">
-		                        <div class="editions-box-caption-extended-content"> 
-		                            <div class="quote">
-		                                {{ .shortdescription }}
-		                            </div>
-		                        </div>                        
-	                    	</div>-->
+                    {{ range .Site.Pages }}{{ if eq .Type "download-edition" }}<div class="editions-box-hideable {{ range .Params.tags}}editions-box-hideable-{{ . }} {{ end }} col-lg-4 col-sm-6">
+                        
+                        <a href="{{ .Permalink }}" class="editions-box editions-link" >
+                            <img src="{{ .Site.BaseURL }}/img/editions/{{ .Params.thumbnail }}" class="img-responsive" alt="">                          
 							<div class="editions-box-caption-extended">
 		                        <div class="editions-box-caption-extended-content"> 
 		                            <div class="targetgroup">
-		                                {{ .target_group }}
+		                                {{ .Params.targetgroup }}
 		                            </div>
 		                        </div>                        
 	                    	</div>
 		                    <div class="editions-box-caption-small">
 		                        <div class="editions-box-caption-small-content">
 		                            <div class="name">
-		                                Download {{ .title }}
+		                                Download {{ .Params.name }}
 		                            </div>               
 		                        </div>                        
 		                    </div>
 		                    <div class="editions-box-caption-extended-subtitle">
 		                        <div class="editions-box-caption-extended-subtitle-content">
 		                            <div class="action">
-		                                Download {{ .title }}
+		                                Download {{ .Params.name }}
 		                            </div>               
 		                        </div>                        
 		                    </div>
                         </a>
-                    </div>{{ end }}
+                        
+                    </div>{{ end }}{{ end }}
                 </div>
             </div>
         </div>

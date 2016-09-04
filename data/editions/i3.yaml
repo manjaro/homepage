@@ -1,6 +1,7 @@
 modalID: 10
 title: i3 edition
 img: i3.jpg
+subpage: "i3"
 img_full: i3-full.jpg
 shortdescription: Advanced and efficient
 target_group: For people who want to use a tiling window manager

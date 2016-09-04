@@ -14,7 +14,7 @@
                     <div class="modal-body">
                         <h2>Manjaro {{ .title }}</h2>
                         <hr class="star-primary">
-                        <a href="img/editions/{{ .img_full }}" target="_blank"><img src="img/editions/{{ .img }}" class="img-responsive img-centered" alt=""></a>
+                        <a href="{{ .Site.BaseURL }}/img/editions/{{ .img_full }}" target="_blank"><img src="{{ .Site.BaseURL }}/img/editions/{{ .img }}" class="img-responsive img-centered" alt=""></a>
                         <p>{{ .description | markdownify }}</p>
                         
                         <h3>Features of this edition</h3>
@@ -22,7 +22,7 @@
                         
                         <ul >
                         	{{ range .features }}                        	
-								<li class="editions-modal-features-li" style="background-image: url('img/bullets/{{ .icon }}.svg')" >{{ .text }}</li>    
+								<li class="editions-modal-features-li" style="background-image: url('{{ .Site.BaseURL }}/img/bullets/{{ .icon }}.svg')" >{{ .text }}</li>    
 							{{end}}      
                         </ul>           
 						                  

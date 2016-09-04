@@ -1873,7 +1873,7 @@ if (typeof jQuery === 'undefined') {
       .find(this.selector)
       .map(function () {
         var $el   = $(this)
-        var href  = $el.data('target') || $el.attr('href')
+        var href  = $el.data('target') || $el.attr('active-section')
         var $href = /^#./.test(href) && $(href)
 
         return ($href

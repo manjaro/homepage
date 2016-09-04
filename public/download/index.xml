@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Downloads on Manjaro Linux - enjoy the simplicity</title>
+    <link>download/</link>
+    <description>Recent content in Downloads on Manjaro Linux - enjoy the simplicity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Sep 2016 19:10:59 +0200</lastBuildDate>
+    <atom:link href="download/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>net</title>
+      <link>/download/net/</link>
+      <pubDate>Sun, 04 Sep 2016 19:10:59 +0200</pubDate>
+      
+      <guid>/download/net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mate</title>
+      <link>/download/mate/</link>
+      <pubDate>Sun, 04 Sep 2016 19:10:54 +0200</pubDate>
+      
+      <guid>/download/mate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lxqt</title>
+      <link>/download/lxqt/</link>
+      <pubDate>Sun, 04 Sep 2016 19:10:49 +0200</pubDate>
+      
+      <guid>/download/lxqt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kde</title>
+      <link>/download/kde/</link>
+      <pubDate>Sun, 04 Sep 2016 19:10:44 +0200</pubDate>
+      
+      <guid>/download/kde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jwm</title>
+      <link>/download/jwm/</link>
+      <pubDate>Sun, 04 Sep 2016 19:10:38 +0200</pubDate>
+      
+      <guid>/download/jwm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>i3</title>
+      <link>/download/i3/</link>
+      <pubDate>Sun, 04 Sep 2016 19:10:33 +0200</pubDate>
+      
+      <guid>/download/i3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gnome</title>
+      <link>/download/gnome/</link>
+      <pubDate>Sun, 04 Sep 2016 19:10:28 +0200</pubDate>
+      
+      <guid>/download/gnome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>e20</title>
+      <link>/download/e20/</link>
+      <pubDate>Sun, 04 Sep 2016 19:10:23 +0200</pubDate>
+      
+      <guid>/download/e20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deepin</title>
+      <link>/download/deepin/</link>
+      <pubDate>Sun, 04 Sep 2016 19:10:18 +0200</pubDate>
+      
+      <guid>/download/deepin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cinnamon</title>
+      <link>/download/cinnamon/</link>
+      <pubDate>Sun, 04 Sep 2016 19:10:12 +0200</pubDate>
+      
+      <guid>/download/cinnamon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>budgie</title>
+      <link>/download/budgie/</link>
+      <pubDate>Sun, 04 Sep 2016 19:10:05 +0200</pubDate>
+      
+      <guid>/download/budgie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bspwm</title>
+      <link>/download/bspwm/</link>
+      <pubDate>Sun, 04 Sep 2016 19:09:59 +0200</pubDate>
+      
+      <guid>/download/bspwm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xfce</title>
+      <link>/download/xfce/</link>
+      <pubDate>Sun, 04 Sep 2016 19:09:25 +0200</pubDate>
+      
+      <guid>/download/xfce/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+        {{ partial "head.html" . }}
+        
+		<style>
+		.body-subpage {
+		background-color: #222222;
+		}
+		</style>        
+        
+    </head>
+	<body id="news" class="body-subpage">
+
+		{{ partial "nav.html" . }}
+		
+		<header class="subpage-header">
+   
+		</header>
+		
+		{{ partial "js.html" . }}
+	</body>
+
+</html>

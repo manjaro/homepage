@@ -136,10 +136,11 @@ aside {
     background-color: transparent;
 }
 
-@media(min-width:768px) {
+
+/*@media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
-        background-color: transparent;
+        background-color: transparent;        
     }
 
     .navbar-default .navbar-header .navbar-brand {
@@ -148,7 +149,7 @@ aside {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        /*color: #fff;*/
+        
         color: #34be5b;
     }
 
@@ -168,7 +169,7 @@ aside {
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
-        /*font-size: 14px;*/
+        
         color: #34be5b;
     }
 
@@ -186,9 +187,19 @@ aside {
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #34be5b;
     }
+}*/
+
+.subpage-header {
+    height: 250px;
+    background-image: url(../img/header7.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
-header {
+.index-header {
     position: relative;
     width: 100%;
     min-height: auto;
@@ -203,14 +214,14 @@ header {
     -o-background-size: cover;
 }
 
-header .header-content {
+.index-header .header-content {
     position: relative;
     width: 100%;
     padding: 100px 15px;
     text-align: center;
 }
 
-header .header-content .header-content-inner h1 {
+.index-header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
     text-transform: lowercase;
@@ -218,11 +229,11 @@ header .header-content .header-content-inner h1 {
     font-family: 'Comfortaa', cursive;
 }
 
-header .header-content .header-content-inner hr {
+.index-header .header-content .header-content-inner hr {
     margin: 30px auto;
 }
 
-header .header-content .header-content-inner p {
+.index-header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
@@ -230,11 +241,11 @@ header .header-content .header-content-inner p {
 }
 
 @media(min-width:768px) {
-    header {
+    .index-header {
         min-height: 100%;
     }
 
-    header .header-content {
+    .index-header .header-content {
         position: absolute;
         top: 50%;
         padding: 0 50px;
@@ -243,13 +254,13 @@ header .header-content .header-content-inner p {
         transform: translateY(-50%);
     }
 
-    header .header-content .header-content-inner {
+    .index-header .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
     }
 
-    header .header-content .header-content-inner p {
+    .index-header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;

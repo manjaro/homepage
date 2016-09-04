@@ -34,9 +34,11 @@ theme = "hugo-creative-theme"
 		[params.navigation.links]
 			about     = "About"
 			services  = "Features"
-			download = "Download"
+			download = "Downloads"
 			contact   = "Contact"
 			donate   = "Donate"
+			news = "News"
+			support = "Support"
 
 
 	# Hero section*
@@ -133,6 +135,9 @@ theme = "hugo-creative-theme"
                     
                     
         # All supported tags for editions filtering
+	
+	
+	
         [[params.aside.editions.tags]]
         	id = "official"
         	description = "Flagship editions"

@@ -6,6 +6,7 @@
                 <h2 class="section-heading">{{ with .Site.Params.donate.headline }}{{ . }}{{ end }}</h2>
                 <hr class="primary">
                 <p>{{ with .Site.Params.donate.description }}{{ . | markdownify }}{{ end }}</p>
+                <p style="font-weight: 100;" >{{ with .Site.Params.donate.conditions }}{{ . | markdownify }}{{ end }}</p>
             </div>
             <div class="col-lg-4 col-lg-offset-2 text-center">
             	<!-- This is the original from the old website; but it's not that pleasing and tracks users (the tracking pixel + the button image)! -->

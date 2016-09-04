@@ -14,7 +14,7 @@
                     <div class="modal-body">
                         <h2>Manjaro {{ .title }}</h2>
                         <hr class="star-primary">
-                        <a href="img/editions/{{ .img_full }}" target="_blank"><img src="img/editions/{{ .img }}" class="img-responsive img-centered" alt=""></a>
+                        <a href="{{ .Site.BaseURL }}/img/editions/{{ .img_full }}" target="_blank"><img src="{{ .Site.BaseURL }}/img/editions/{{ .img }}" class="img-responsive img-centered" alt=""></a>
                         <p>{{ .description | markdownify }}</p>
                         
                         <h3>Features of this edition</h3>
@@ -64,6 +64,13 @@
                         <h2>Getting started</h2>
                         <hr class="star-primary">
                         <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
+                        
+						{{ with .sidenote }}
+                        <h3>Sidenote</h3>
+                        <hr class="star-primary">
+                        <p>{{ . | markdownify }}</p>
+                        
+                        {{ end }}                        
                         
                         {{ with .moreinfo }}
                         <h3>More information</h3>

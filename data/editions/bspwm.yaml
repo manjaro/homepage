@@ -1,6 +1,7 @@
 modalID: 5
 title: BspWM edition
 img: bspwm.jpg
+subpage: "bspwm"
 img_full: bspwm-full.jpg
 tags: [advanced, resourceefficient, community, wm, traditional_ui]
 shortdescription: Advanced and efficient

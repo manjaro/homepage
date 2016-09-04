@@ -127,7 +127,7 @@ aside {
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #34be5b!important;
+    color: #000!important;
     background-color: transparent;
 }
 
@@ -136,10 +136,11 @@ aside {
     background-color: transparent;
 }
 
-@media(min-width:768px) {
+
+/*@media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
-        background-color: transparent;
+        background-color: transparent;        
     }
 
     .navbar-default .navbar-header .navbar-brand {
@@ -148,7 +149,8 @@ aside {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        
+        color: #34be5b;
     }
 
     .navbar-default .nav > li>a,
@@ -167,7 +169,7 @@ aside {
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
-        /*font-size: 14px;*/
+        
         color: #34be5b;
     }
 
@@ -185,7 +187,7 @@ aside {
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #34be5b;
     }
-}
+}*/
 
 header {
     position: relative;

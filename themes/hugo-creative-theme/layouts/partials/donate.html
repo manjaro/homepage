@@ -16,7 +16,7 @@
 					<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!"><br />
 					<img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1"><br />
 				</form>-->
-				<img src="img/donation/paypal.svg" class="wow bounceIn"/>
+				<img src="{{ .Site.BaseURL }}img/donation/paypal.svg" class="wow bounceIn"/>
 				
 				<form id="donation_paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 					<input type="hidden" name="cmd" value="_s-xclick">
@@ -26,7 +26,7 @@
 				
             </div>
             <div class="col-lg-4 text-center">
-                <img src="img/donation/manually.svg" class="wow bounceIn"/>
+                <img src="{{ .Site.BaseURL }}img/donation/manually.svg" class="wow bounceIn"/>
                 <p><a href="#donation-manually-modal" data-toggle="modal" >Account data for donations</a></p>
             </div>
         </div>
