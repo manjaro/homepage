@@ -6,8 +6,20 @@
     <description>Recent content on Manjaro Linux - enjoy the simplicity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Sep 2016 23:51:14 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 05 Sep 2016 01:33:01 +0200</lastBuildDate>
     <atom:link href="https://rumangerst.github.io/homepage/public/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>You can help! Yes - YOU!</title>
+      <link>https://rumangerst.github.io/homepage/public/get-involved/</link>
+      <pubDate>Mon, 05 Sep 2016 01:33:01 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/get-involved/</guid>
+      <description>&lt;p&gt;Everybody can participate the way he or she wants! Do you like making graphics? Why not making some cool wallpapers, icons or new graphics for the website? You like helping people with their problems or pointing them out? In the forums you can solve other people&amp;rsquo;s problems or discuss about where Manjaro should be further improved. Or you can go to the bugtracker and point out current errors and problems.&lt;/p&gt;
+
+&lt;p&gt;Every idea and every little bit of help is welcome - from telling people about Manjaro to developing software for Manjaro or stepping up to maintain it helps and is appreciated by the whole community and the team!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>[Stable Update] 2016-09-04 - MATE, Calamares, Pamac, Deepin</title>
@@ -179,15 +191,6 @@ Philip Müller and the Manjaro Development Team&lt;/p&gt;
       <pubDate>Sun, 04 Sep 2016 17:30:28 +0200</pubDate>
       
       <guid>https://rumangerst.github.io/homepage/public/support/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>news</title>
-      <link>https://rumangerst.github.io/homepage/public/news/</link>
-      <pubDate>Sun, 04 Sep 2016 15:50:20 +0200</pubDate>
-      
-      <guid>https://rumangerst.github.io/homepage/public/news/</guid>
       <description></description>
     </item>
     
