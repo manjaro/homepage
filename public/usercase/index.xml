@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usercases on Manjaro Linux - enjoy the simplicity</title>
+    <link>https://rumangerst.github.io/homepage/public/usercase/</link>
+    <description>Recent content in Usercases on Manjaro Linux - enjoy the simplicity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Sep 2016 15:08:14 +0200</lastBuildDate>
+    <atom:link href="https://rumangerst.github.io/homepage/public/usercase/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>scientists</title>
+      <link>https://rumangerst.github.io/homepage/public/usercase/scientists/</link>
+      <pubDate>Mon, 05 Sep 2016 15:08:14 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/usercase/scientists/</guid>
+      <description>&lt;p&gt;Manjaro&amp;rsquo;s repositories contain the newest available versions of popular software like the statistic language &lt;a href=&#34;https://www.r-project.org/&#34;&gt;R&lt;/a&gt;, the numerical computational package &lt;a href=&#34;http://www.scilab.org/&#34;&gt;Scilab&lt;/a&gt;, and the scripting language &lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; and more. Also &lt;a href=&#34;https://www.latex-project.org/&#34;&gt;LaTeX&lt;/a&gt;, additional packages for it and software like &lt;a href=&#34;https://www.lyx.org/&#34;&gt;Lyx&lt;/a&gt; or &lt;a href=&#34;http://www.texstudio.org/&#34;&gt;TeXstudio&lt;/a&gt; is readily available and can be installed with just few clicks. With LaTeX scientists can create high-quality documents and presentations with included math-forumulas, chemical molecules, self-updating cross- and literature references and more without being restrained by a specific style or document type. Lyx encapsulates LaTeX in a friendly GUI for people who don&amp;rsquo;t have much experience with LaTeX.&lt;/p&gt;
+
+&lt;p&gt;Additional modules for R, Python, &lt;a href=&#34;https://www.perl.org/&#34;&gt;Perl&lt;/a&gt; and others are either available directly through Manjaro&amp;rsquo;s repositories or can be compiled and installed with programs like &lt;a href=&#34;https://pypi.python.org/pypi/pip&#34;&gt;pip&lt;/a&gt; or the integrated package management of R.&lt;/p&gt;
+
+&lt;p&gt;No additional software is need as all needed build-tools are pre-installed. Experimental data can be analyzed with &lt;a href=&#34;https://www.kde.org/applications/education/labplot/&#34;&gt;LabPlot&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The repositories are extended further by the Arch User Repository (AUR), that contains build-scripts that generate packages. Included is &lt;a href=&#34;https://wiki.archlinux.org/index.php/Yaourt&#34;&gt;Yaourt&lt;/a&gt; that handles the building, installing and updating of AUR-packages with an easy-to-use command line interface. Software available in the AUR are for example &lt;a href=&#34;https://software.intel.com/en-us/intel-mkl&#34;&gt;popular libraries&lt;/a&gt;, &lt;a href=&#34;https://software.intel.com/en-us/intel-compilers&#34;&gt;compilers&lt;/a&gt;, tools for bioinformatics like the &lt;a href=&#34;https://www.tbi.univie.ac.at/RNA/&#34;&gt;Vienna RNA&lt;/a&gt; package or IDE like &lt;a href=&#34;https://www.rstudio.com/&#34;&gt;R-Studio&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>gamers</title>
+      <link>https://rumangerst.github.io/homepage/public/usercase/gamers/</link>
+      <pubDate>Mon, 05 Sep 2016 15:08:09 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/usercase/gamers/</guid>
+      <description>&lt;p&gt;Manjaro comes preinstalled with &lt;a href=&#34;https://steampowered.com&#34;&gt;Steam&lt;/a&gt;, so there&amp;rsquo;s no need to go to a website and download it manually. Installing drivers, updates and more applications is handled through the package manager and &lt;a href=&#34;https://wiki.manjaro.org/index.php/Manjaro_Hardware_Detection&#34;&gt;Manjaro Hardware Detection Tool&lt;/a&gt; that will do all operations in just a couple of minutes and never requires or forces a restart of the system.&lt;/p&gt;
+
+&lt;p&gt;Due to the design of Linux, hardware like Gamepads are recognized instantaneously if drivers are available, so users don&amp;rsquo;t have to wait until it works.&lt;/p&gt;
+
+&lt;p&gt;Included in the package repositories is software like &lt;a href=&#34;http://teamspeak.com/&#34;&gt;Teamspeak 3&lt;/a&gt;, &lt;a href=&#34;https://www.mumble.info/&#34;&gt;Mumble&lt;/a&gt; or &lt;a href=&#34;https://www.skype.com/&#34;&gt;Skype&lt;/a&gt;. Games like the strategy game &lt;a href=&#34;http://play0ad.com/&#34;&gt;0 A.D.&lt;/a&gt; or the sandbox-game &lt;a href=&#34;https://minecraft.net/&#34;&gt;Minecraft&lt;/a&gt;, including mods and custom launchers like &lt;a href=&#34;http://multimc.org/&#34;&gt;MultiMC&lt;/a&gt;, &lt;a href=&#34;http://feed-the-beast.com/&#34;&gt;Feed the Beast&lt;/a&gt; or &lt;a href=&#34;http://www.mcedit.net/&#34;&gt;MCEdit&lt;/a&gt; are directly available via Manjaro&amp;rsquo;s repositories or the Arch User Repository (AUR).&lt;/p&gt;
+
+&lt;p&gt;For people who want to play old games or games from different platforms or operating systems, the latest versions of emulators or runtimes like &lt;a href=&#34;https://www.dosbox.com/&#34;&gt;Doxbox&lt;/a&gt;, &lt;a href=&#34;http://www.dolphin-emulator.com/&#34;&gt;Dolphin&lt;/a&gt; or &lt;a href=&#34;https://www.winehq.org/&#34;&gt;WINE&lt;/a&gt; are also available in the package repositories and can be installed with just a few clicks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>students</title>
+      <link>https://rumangerst.github.io/homepage/public/usercase/students/</link>
+      <pubDate>Mon, 05 Sep 2016 15:08:06 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/usercase/students/</guid>
+      <description>&lt;p&gt;Manjaro&amp;rsquo;s repository of free and quality software is filled with programs for each subject. For mathematics, simple to advanced calculations can be done using scientific calculators like &lt;a href=&#34;https://qalculate.github.io/&#34;&gt;Qalculate&lt;/a&gt; or &lt;a href=&#34;http://www.speedcrunch.org/&#34;&gt;SpeedCrunch&lt;/a&gt; that don&amp;rsquo;t copy the experience of most hardware-calculators, but allow free editing of functions and terms.&lt;/p&gt;
+
+&lt;p&gt;For more complex mathematics, &lt;a href=&#34;http://www.scilab.org/&#34;&gt;Scilab&lt;/a&gt; and &lt;a href=&#34;http://andrejv.github.io/wxmaxima/&#34;&gt;WxMaxima&lt;/a&gt; will handle advanced numeric and algebraic tasks. Teachers love &lt;a href=&#34;https://www.geogebra.org/&#34;&gt;Geogebra&lt;/a&gt; to show physics, trigonometry, vector operations and more due to the easy-to-use graphical editing of mathematical relations, plotting of functions and setting constraints.&lt;/p&gt;
+
+&lt;p&gt;Physics including molecular dynamics, gravitation and coloumb forces and more can be taught using &lt;a href=&#34;https://www.kde.org/applications/education/step/&#34;&gt;Step&lt;/a&gt;. The earth can be explored with &lt;a href=&#34;https://marble.kde.org/&#34;&gt;Marble&lt;/a&gt;, while the sky and stars can be viewed with &lt;a href=&#34;http://www.stellarium.org/&#34;&gt;Stellarium&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.kde.org/applications/education/minuet/&#34;&gt;Minuet&lt;/a&gt; brings a software for music education that teches students ear training, rhythm, harmony and more and provides features for teachers to create own lessons.&lt;/p&gt;
+
+&lt;p&gt;Learning is also important for the youngest. &lt;a href=&#34;http://gcompris.net/&#34;&gt;Gcompris&lt;/a&gt; allows them to play and learn basics of a computer, elementary mathematics, geography, reading and many other things. Included are also games like puzzles, chess, memory and more that will make learning a pleasant and funny experience.&lt;/p&gt;
+
+&lt;p&gt;Organizing things is important, too. The Manjaro repository contains software like &lt;a href=&#34;https://www.mozilla.org/en-US/thunderbird/&#34;&gt;Thunderbird&lt;/a&gt; that provides an E-Mail client, a calendar and a news-reader.&lt;/p&gt;
+
+&lt;p&gt;To write homework or to create presentations, &lt;a href=&#34;http://www.libreoffice.org/&#34;&gt;LibreOffice&lt;/a&gt; comes preinstalled.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>developers</title>
+      <link>https://rumangerst.github.io/homepage/public/usercase/developers/</link>
+      <pubDate>Mon, 05 Sep 2016 15:08:00 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/usercase/developers/</guid>
+      <description>&lt;p&gt;Manjaro comes in many different edition, all with an unique workflow and user experience from a traditional desktop-environments to window-managers that are optimized for maximum performance and work efficience.&lt;/p&gt;
+
+&lt;p&gt;The system is set up easily, while giving developers all the freedom and space to tinker when wanted. All tools to compile and develop software are pre-installed. The integrated package-manager allows easy installation of IDE like &lt;a href=&#34;https://www.qt.io/ide/&#34;&gt;Qt Creator&lt;/a&gt;, &lt;a href=&#34;https://www.kdevelop.org/&#34;&gt;KDevelop&lt;/a&gt; or &lt;a href=&#34;https://netbeans.org/&#34;&gt;Netbeans&lt;/a&gt; and libraries like &lt;a href=&#34;http://libnoise.sourceforge.net/&#34;&gt;libnoise&lt;/a&gt;, &lt;a href=&#34;http://www.boost.org/&#34;&gt;boost&lt;/a&gt; or &lt;a href=&#34;http://matplotlib.org/&#34;&gt;matplotlib&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dependencies are automatically resolved and installing a library automatically install all needed headers to directly use it. Each edition comes preinstalled with powerful editors like &lt;a href=&#34;https://kate-editor.org/&#34;&gt;Kate&lt;/a&gt; or &lt;a href=&#34;https://wiki.gnome.org/Apps/Gedit&#34;&gt;Gedit&lt;/a&gt;, while more editors like &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt;, &lt;a href=&#34;https://www.geany.org/&#34;&gt;Geany&lt;/a&gt; or &lt;a href=&#34;http://bluefish.openoffice.nl/&#34;&gt;Bluefish&lt;/a&gt; are installed with one command or a few clicks.&lt;/p&gt;
+
+&lt;p&gt;Additional to the repositories, Manjaro supports the Arch User Repository (AUR) that includes cutting-edge software and libraries, proprietary software like &lt;a href=&#34;https://unity3d.com/unity/editor&#34;&gt;Unity Editor&lt;/a&gt; or &lt;a href=&#34;https://www.yworks.com/products/yed&#34;&gt;yEd&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Manjaro is a rolling-release distribution, which means that software is updated as soon as possible. This prevents lack of needed dependencies and old and buggy tool versions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>beginners</title>
+      <link>https://rumangerst.github.io/homepage/public/usercase/beginners/</link>
+      <pubDate>Mon, 05 Sep 2016 15:07:56 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/usercase/beginners/</guid>
+      <description>&lt;p&gt;Manjaro comes pre-installed with a collection of software that makes all-day tasks possible without even searching for them. If some application is not installed, more software can be easily and secure installed via the integrated package manager: Just search for &amp;ldquo;Office&amp;rdquo;, &amp;ldquo;Music&amp;rdquo; or &amp;ldquo;Internet&amp;rdquo;, say what should be installed and everything else will be done automatically.&lt;/p&gt;
+
+&lt;p&gt;All this software is also completely free and will be updated alongside with Manjaro. The Manjaro team and community will ensure that it will stay stable, safe and functions correctly.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>artists</title>
+      <link>https://rumangerst.github.io/homepage/public/usercase/artists/</link>
+      <pubDate>Mon, 05 Sep 2016 15:07:44 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/usercase/artists/</guid>
+      <description>&lt;p&gt;Manjaro comes preinstalled with &lt;a href=&#34;http://www.gimp.org/&#34;&gt;GIMP&lt;/a&gt;, which is a very powerful image manipulation program. For drawing &lt;a href=&#34;https://krita.org/&#34;&gt;Krita&lt;/a&gt; will fulfill most of your needs, while &lt;a href=&#34;http://www.darktable.org/&#34;&gt;Darktable&lt;/a&gt; brings a top-notch and free photography suite. Vector-graphics can be done with programs such as &lt;a href=&#34;https://inkscape.org/&#34;&gt;Inkscape&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For simple or advanced video-editing, &lt;a href=&#34;https://kdenlive.org/&#34;&gt;Kdenlive&lt;/a&gt; and &lt;a href=&#34;http://www.openshot.org/&#34;&gt;OpenShot&lt;/a&gt; will do almost anything you need. There are also professional video-editing tools like &lt;a href=&#34;https://www.lwks.com/&#34;&gt;Lightworks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;3D-Modelling can be done using &lt;a href=&#34;https://www.blender.org/&#34;&gt;Blender&lt;/a&gt;. Codecs for video and audio come pre-installed or are automatically fetched. Most of this software is completely free available and can be easily and secure installed by using Manjaro&amp;rsquo;s integrated package manager.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
