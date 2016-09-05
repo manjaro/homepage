@@ -39,6 +39,7 @@ theme = "hugo-creative-theme"
 			donate   = "Donate"
 			news = "News"
 			support = "Support"
+			getinvolved = "Get involved"
 
 
 	# Hero section*
