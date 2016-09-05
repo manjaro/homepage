@@ -12,7 +12,7 @@
             </button>
             <ul class="nav navbar-nav">
             	<li>
-                    <a class="page-scroll" href="{{ .Site.BaseURL }}download">Editions finder</a>
+                    <a class="page-scroll" href="{{ .Site.BaseURL }}download">Overview</a>
                 </li>
             </ul>
         </div>
