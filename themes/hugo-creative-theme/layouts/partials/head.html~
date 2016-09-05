@@ -101,7 +101,7 @@
     margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image:url('/img/bullets/generic.svg');
+    background-image:url('{{ printf "%s/img/bullets/generic.svg" $.Site.BaseURL}}');
     background-repeat:no-repeat;
     background-position:left center;	
     background-size: 64px 64px;
@@ -123,7 +123,7 @@
     margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image:url('img/bullets/generic.svg');
+    background-image:url('{{ printf "%s/img/bullets/generic.svg" $.Site.BaseURL}}');
     background-repeat:no-repeat;
     background-position:left center;	
     background-size: 64px 64px;

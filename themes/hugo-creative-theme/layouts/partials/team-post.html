@@ -1,11 +1,58 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="news-post text-center">
+            <div class="news-post text-center" >
                
-                <h3>{{ .Params.name }}</h3>              
+                <h3>{{ .Params.name }}</h3>          
+                <hr />    
                 
-                <div>
+                <div style="text-align: left;">
+                
+					<table class="dontation-manually-card">
+						{{ with $.Params.alias }}
+						<tr>
+							<td class="team-field" >Alias</td>
+							<td>{{ . }}</td>
+						</tr>
+						{{ end }}
+						{{ with $.Params.role }}
+						<tr>
+							<td class="team-field" >Role</td>
+							<td>{{ . | replaceRE ", " "<br/>" | markdownify }}</td>
+						</tr>
+						{{ end }}
+						{{ with $.Params.involements }}
+						<tr>
+							<td class="team-field" >Involvements</td>
+							<td>{{ . | replaceRE ", " "<br/>" | markdownify }}</td>
+						</tr>
+						{{ end }}
+						{{ with $.Params.email }}
+						<tr>
+							<td class="team-field" >E-Mail</td>
+							<td>{{ . }}</td>
+						</tr>
+						{{ end }}
+						{{ with $.Params.languages }}
+						<tr>
+							<td class="team-field" >Languages</td>
+							<td>{{ . | replaceRE ", " "<br/>" | markdownify }}</td>
+						</tr>
+						{{ end }}
+						{{ with $.Params.location }}
+						<tr>
+							<td class="team-field" >Location</td>
+							<td>{{ . }}</td>
+						</tr>
+						{{ end }}
+						{{ with $.Params.yearofbrith }}
+						<tr>
+							<td class="team-field" >Year of birth</td>
+							<td>{{ . }}</td>
+						</tr>
+						{{ end }}
+					</table>                  
+                
                 </div>
             </div>
         </div>

@@ -18,14 +18,14 @@
    			{{ partial "get-involved-nav.html" . }}
 		</header>
 		
-		<h2>Our core team</h2>
-		{{ range (where (where .Site.Pages ".Type" "team-post") ".Params.active" "true") }}
+		<h2 class="text-center">Our core team</h2>
+		{{ range sort (where (where .Site.Pages ".Type" "team-post") ".Params.active" true) ".Params.name" "asc" }}
 		
 			{{ partial "team-post.html" . }}		
 		
 		{{ end }}
 		
-		<h2>Former/inactive members</h2>
+		<h2 class="text-center">Former/inactive members</h2>
 		
 		{{ range (where (where .Site.Pages ".Type" "team-post") ".Params.active" false) }}
 		

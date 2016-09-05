@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+        {{ partial "head.html" . }}
+        
+		<style>
+		.body-subpage {
+		background-color: #fff;
+		}
+		</style>        
+        
+    </head>
+	<body id="features" class="body-subpage">
+
+		{{ partial "nav.html" . }}		
+		<header class="subpage-header">
+   			{{ partial "features-nav.html" . }}
+		</header>
+		
+		<div class="container text-center">	
+				<h2>Manjaro for {{ lower .Params.name }}</h2>
+				<hr class="star-primary" />
+                <a href="{{ .Site.BaseURL }}/img/usercases/{{ .Params.image }}" target="_blank"><img src="{{ .Site.BaseURL }}/img/usercases/{{ .Params.image }}" class="img-responsive img-centered" alt=""></a>
+				<br/>      
+				
+				<hr class="star-primary" />				
+				              
+                <p>{{ .Params.shortdescription | markdownify }}</p>
+                
+				<hr class="star-primary" />			                
+                
+                <div class="usercase-post-content" style="text-align : left;" > <p> {{ .Content | markdownify }}</div>
+                
+                <hr class="star-primary" />
+              
+		</div>				
+		
+		{{ partial "js.html" . }}
+	</body>
+
+</html>

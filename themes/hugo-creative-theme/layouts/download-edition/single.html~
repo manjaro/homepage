@@ -17,15 +17,14 @@
 		{{ partial "nav.html" . }}
 		<header class="subpage-header">
    			{{ partial "download-nav.html" . }}
-		</header>
+		</header>		
 		
-		<section>
 		    <div class="container text-center">	
 					<h2>Manjaro {{ .Params.name }}</h2>
 					<hr class="star-primary" />
                     <a href="{{ .Site.BaseURL }}/img/editions/{{ .Params.screenshot }}" target="_blank"><img src="{{ .Site.BaseURL }}/img/editions/{{ .Params.thumbnail }}" class="img-responsive img-centered" alt=""></a>
 					<br/>                    
-                    <!--<p>{{ .Params.shortdescription | markdownify }}</p>-->
+                    <p>{{ .Params.shortdescription | markdownify }}</p>
                     <p>{{ .Content | markdownify }}</p>
                     
                     <h2>Download</h2>
@@ -64,7 +63,6 @@
                     <hr class="star-primary">
                     <p>After downloading and checking the file, you can put it on a DVD or a USB drive. You will find step-by-step guides in the <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started" target="_blank">Manjaro Wiki</a>.</p>
 			</div>
-		</div>
 		
 	</body>
 
