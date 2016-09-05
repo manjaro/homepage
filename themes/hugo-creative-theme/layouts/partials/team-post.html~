@@ -1,0 +1,12 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="news-post text-center">
+               
+                <h3>{{ .Params.name }}</h3>              
+                
+                
+            </div>
+        </div>
+    </div>
+</section>

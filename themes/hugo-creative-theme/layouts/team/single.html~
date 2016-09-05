@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+        {{ partial "head.html" . }}
+        
+		<style>
+		.body-subpage {
+		background-color: #fff;
+		}
+		</style>        
+        
+    </head>
+	<body id="news" class="body-subpage">
+
+		{{ partial "nav.html" . }}
+		
+		<header class="subpage-header">
+   			{{ partial "get-involved-nav.html" . }}
+		</header>
+		
+		<h2>Our core team</h2>
+		{{ range (where (where .Site.Pages ".Type" "team-post") ".Params.active" "true") }}
+		
+			{{ partial "team-post.html" . }}		
+		
+		{{ end }}
+		
+		<h2>Former/inactive members</h2>
+		
+		{{ range (where (where .Site.Pages ".Type" "team-post") ".Params.active" false) }}
+		
+			{{ partial "team-post.html" . }}		
+		
+		{{ end }}
+		
+		{{ partial "js.html" . }}
+	</body>
+
+</html>

@@ -1,6 +1,5 @@
 +++
 date = "2016-09-05T01:33:01+02:00"
-draft = true
 title = "You can help! Yes - YOU!"
 type = "get-involved"
 
