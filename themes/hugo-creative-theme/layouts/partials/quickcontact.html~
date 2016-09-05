@@ -3,9 +3,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">{{ with .Title }}{{ . }}{{ end }}</h2>
+                <h2 class="section-heading">Do you need more help? Contact us!</h2>
                 <hr class="primary">
-                <p>{{ with .Content }}{{ . | markdownify }}{{ end }}</p>
+                <p>Our team and our community can help via a variety of different channels.<br/>
+Write as a mail or ask other users via chat or forums. We will be glad to help you!</p>
             </div>           
             <div class="col-lg-4 text-center">
                 <!--<i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>-->

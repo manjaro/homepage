@@ -8,19 +8,48 @@
 <script src="{{ .Site.BaseURL }}js/wow.min.js"></script>
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 <script src="{{ .Site.BaseURL }}js/creative.js"></script>
+</script>-->
 
-<script type="text/javascript">
-	function addLoadEvent(func) {
-	  var oldonload = window.onload;
-	  if (typeof window.onload != 'function') {
-	    window.onload = func;
-	  } else {
-	    window.onload = function() {
-	      if (oldonload) {
-	        oldonload();
-	      }
-	      func();
-	    }
-	  }
+<script type="text/javascript" >
+
+	function highlight_current_nav() {
+		//$("a[href='" + location.href + "']").parent().addClass("active");
+		
+		$("a").each(function (index) {
+			
+			
+			var navtype = this.hasAttribute("nav-type") ? this.getAttribute("nav-type") : "unprecise";
+			
+			if (navtype.toLowerCase() == "unprecise") {
+			
+				var href = this.href.endsWith("/") ? this.href : this.href + "/";		
+				if( location.href.startsWith(href))
+				{
+					$(this).parent().addClass("active");
+				}	
+			}
+			else if (navtype.toLowerCase() == "super-unprecise") {
+				
+				var href = this.href.endsWith("/") ? this.href.slice(0,-1) : this.href;		
+				
+				if( location.href.startsWith(href))
+				{
+					$(this).parent().addClass("active");
+				}	
+			}
+			else {
+				var href = this.href.endsWith("/") ? this.href : this.href + "/";		
+				if( location.href == href )
+				{
+					$(this).parent().addClass("active");
+				}
+			}
+			
+					
+				
+		});
+		
 	}
+	
+	$( document ).ready(highlight_current_nav);
 </script>

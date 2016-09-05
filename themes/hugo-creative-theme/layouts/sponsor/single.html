@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+        {{ partial "head.html" . }}
+        
+		<style>
+		.body-subpage {
+		background-color: #fff;
+		}
+		</style>        
+        
+    </head>
+	<body id="news" class="body-subpage">
+
+		{{ partial "nav.html" . }}
+		
+		<header class="subpage-header">
+   			{{ partial "get-involved-nav.html" . }}
+		</header>
+		
+		<section>
+		    <div class="container text-center">
+		        <div class="row">		           
+	                <h2 class="section-heading">{{ .Title }}</h2>
+	                <hr class="star-primary"/>		                
+	                     
+	                <p>{{ .Content | markdownify }}
+	                
+	                <hr/>
+		        </div>
+		    </div>
+		</section>	
+		
+		{{ range sort (where (where .Site.Pages ".Type" "sponsor-post") ".Params.category" "general") ".Params.name" "asc" }}
+		
+			{{ partial "sponsor-post.html" . }}		
+		
+		{{ end }}
+		
+		<h2 class="text-center">Manjaro Linux Mirror Sponsors</h2>
+		<h3 class="text-center"><strong>Tier1 Servers with Rsync-Service</strong></h3>
+		{{ range sort (where (where (where .Site.Pages ".Type" "sponsor-post") ".Params.category" "mirror") ".Params.subcategory" "tier1_rsync" ) ".Params.name" "asc" }}
+		
+			{{ partial "sponsor-post.html" . }}		
+		
+		{{ end }}
+		
+		<h3 class="text-center"><strong>Tier1 Servers</strong></h3>
+		{{ range sort (where (where (where .Site.Pages ".Type" "sponsor-post") ".Params.category" "mirror") ".Params.subcategory" "tier1" ) ".Params.name" "asc" }}
+		
+			{{ partial "sponsor-post.html" . }}		
+		
+		{{ end }}
+		
+		<h3 class="text-center"><strong>Tier2 Servers with Rsync-Service</strong></h3>
+		{{ range sort (where (where (where .Site.Pages ".Type" "sponsor-post") ".Params.category" "mirror") ".Params.subcategory" "tier2_rsync" ) ".Params.name" "asc" }}
+		
+			{{ partial "sponsor-post.html" . }}		
+		
+		{{ end }}
+		
+		<h3 class="text-center"><strong>Tier2 Servers</strong></h3>
+		{{ range sort (where (where (where .Site.Pages ".Type" "sponsor-post") ".Params.category" "mirror") ".Params.subcategory" "tier2" ) ".Params.name" "asc" }}
+		
+			{{ partial "sponsor-post.html" . }}		
+		
+		{{ end }}
+		
+		{{ partial "js.html" . }}
+	</body>
+
+</html>

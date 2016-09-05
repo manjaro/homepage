@@ -13,7 +13,7 @@
             
             <ul class="nav navbar-nav">
             	<li>
-	                <a class="page-scroll" href="{{ .Permalink }}">{{ .Title }}</a>
+	                <a class="page-scroll" href="{{ .Site.BaseURL }}features">What is Manjaro?</a>
 	            </li>
             	{{ range .Site.Pages }}{{ if eq .Params.navsection "features" }}{{ if in .Params.tags "quick" }}
             	<li>

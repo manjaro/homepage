@@ -33,7 +33,7 @@
                 <p><a href="{{ .Site.BaseURL }}donate" >Help keeping Manjaro alive</a></p>
             </div>
             <div class="col-lg-4 text-center">
-                <img src="{{ .Site.BaseURL }}/img/contact/mailinglists.svg" class="wow bounceIn bouncy-icon"/>
+                <img src="{{ .Site.BaseURL }}/img/contact/testing.svg" class="wow bounceIn bouncy-icon"/>
                 <p><a href="https://wiki.manjaro.org/index.php?title=Access_the_Testing_Repositories" target="_blank">Help testing software</a></p>
             </div>
         </div>

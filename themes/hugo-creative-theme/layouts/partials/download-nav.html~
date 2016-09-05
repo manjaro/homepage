@@ -36,7 +36,7 @@
 			      <ul class="dropdown-menu">
 			      	{{ range .Site.Pages }}{{ if eq .Type "download-edition" }}{{ if in .Params.tags "official" }}
 			      		{{ else }}
-			      		<li style="min-width: 200px;"><a class="page-scroll" href="{{ .Permalink }}">{{ .Params.name }}</a></li>
+			      		<li ><a class="page-scroll" href="{{ .Permalink }}">{{ .Params.name }}</a></li>
 			      	{{ end }}{{ end }}{{ end }}
 			      </ul>
 			    </li>              

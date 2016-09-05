@@ -215,7 +215,7 @@
             	</li>	            	
                 
                 <li>
-                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/news">News</a>
+                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/news" nav-type="super-unprecise">News</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features">Features</a>
@@ -259,7 +259,7 @@
             
             <ul class="nav navbar-nav">
             	<li>
-	                <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features">What is Manjaro?</a>
+	                <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features" nav-type="precise">What is Manjaro?</a>
 	            </li>
             	
             	<li>
@@ -332,7 +332,49 @@
 <script src="https://rumangerst.github.io/homepage/public/js/creative.js"></script>
 
 
+<script type="text/javascript" >
 
+	function highlight_current_nav() {
+		
+		
+		$("a").each(function (index) {
+			
+			
+			var navtype = this.hasAttribute("nav-type") ? this.getAttribute("nav-type") : "unprecise";
+			
+			if (navtype.toLowerCase() == "unprecise") {
+			
+				var href = this.href.endsWith("/") ? this.href : this.href + "/";		
+				if( location.href.startsWith(href))
+				{
+					$(this).parent().addClass("active");
+				}	
+			}
+			else if (navtype.toLowerCase() == "super-unprecise") {
+				
+				var href = this.href.endsWith("/") ? this.href.slice(0,-1) : this.href;		
+				
+				if( location.href.startsWith(href))
+				{
+					$(this).parent().addClass("active");
+				}	
+			}
+			else {
+				var href = this.href.endsWith("/") ? this.href : this.href + "/";		
+				if( location.href == href )
+				{
+					$(this).parent().addClass("active");
+				}
+			}
+			
+					
+				
+		});
+		
+	}
+	
+	$( document ).ready(highlight_current_nav);
+</script>
 	</body>
 
 </html>

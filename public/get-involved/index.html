@@ -215,7 +215,7 @@
             	</li>	            	
                 
                 <li>
-                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/news">News</a>
+                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/news" nav-type="super-unprecise">News</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features">Features</a>
@@ -263,6 +263,9 @@
 	                <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/get-involved">You can help!</a>
 	            </li>
 	            <li>
+	                <a class="page-scroll" href="https://forum.manjaro.org/" target="_blank">Forums</a>
+	            </li>
+	            <li>
 	                <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/donate">Donate</a>
 	            </li>
             	
@@ -276,7 +279,10 @@
             	
             	<li>
 	                <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/team">Our team</a>
-	            </li>            	
+	            </li>            
+	            <li>
+	                <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/sponsor">Our sponsors</a>
+	            </li>          	
                
             </ul>
         </div>
@@ -309,7 +315,7 @@
             </div>
             <div class="col-lg-4 text-center">
                 <img src="https://rumangerst.github.io/homepage/public//img/contact/irc.svg" class="wow bounceIn bouncy-icon"/>
-                <p><a href="http://webchat.freenode.net/?channels=%23manjaro&amp;uio=MTE9MTEzcf" target="_blank">Help other users via chat</a></p>
+                <p><a href="https://rumangerst.github.io/homepage/public/support/chat" target="_blank">Help other users via chat</a></p>
             </div>
 			<div class="col-lg-4 text-center">
                 <img src="https://rumangerst.github.io/homepage/public//img/contact/mailinglists.svg" class="wow bounceIn bouncy-icon"/>
@@ -344,7 +350,49 @@
 <script src="https://rumangerst.github.io/homepage/public/js/creative.js"></script>
 
 
+<script type="text/javascript" >
 
+	function highlight_current_nav() {
+		
+		
+		$("a").each(function (index) {
+			
+			
+			var navtype = this.hasAttribute("nav-type") ? this.getAttribute("nav-type") : "unprecise";
+			
+			if (navtype.toLowerCase() == "unprecise") {
+			
+				var href = this.href.endsWith("/") ? this.href : this.href + "/";		
+				if( location.href.startsWith(href))
+				{
+					$(this).parent().addClass("active");
+				}	
+			}
+			else if (navtype.toLowerCase() == "super-unprecise") {
+				
+				var href = this.href.endsWith("/") ? this.href.slice(0,-1) : this.href;		
+				
+				if( location.href.startsWith(href))
+				{
+					$(this).parent().addClass("active");
+				}	
+			}
+			else {
+				var href = this.href.endsWith("/") ? this.href : this.href + "/";		
+				if( location.href == href )
+				{
+					$(this).parent().addClass("active");
+				}
+			}
+			
+					
+				
+		});
+		
+	}
+	
+	$( document ).ready(highlight_current_nav);
+</script>
 	</body>
 
 </html>

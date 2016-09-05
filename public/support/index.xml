@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supports on Manjaro Linux - enjoy the simplicity</title>
+    <link>https://rumangerst.github.io/homepage/public/support/</link>
+    <description>Recent content in Supports on Manjaro Linux - enjoy the simplicity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Sep 2016 21:12:18 +0200</lastBuildDate>
+    <atom:link href="https://rumangerst.github.io/homepage/public/support/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Manjaro IRC (English)</title>
+      <link>https://rumangerst.github.io/homepage/public/support/chat/english/</link>
+      <pubDate>Mon, 05 Sep 2016 21:12:18 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/chat/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manjaro IRC (French)</title>
+      <link>https://rumangerst.github.io/homepage/public/support/chat/french/</link>
+      <pubDate>Mon, 05 Sep 2016 21:12:18 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/chat/french/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manjaro IRC (German)</title>
+      <link>https://rumangerst.github.io/homepage/public/support/chat/german/</link>
+      <pubDate>Mon, 05 Sep 2016 21:12:18 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/chat/german/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manjaro IRC (Russian)</title>
+      <link>https://rumangerst.github.io/homepage/public/support/chat/russian/</link>
+      <pubDate>Mon, 05 Sep 2016 21:12:18 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/chat/russian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chat</title>
+      <link>https://rumangerst.github.io/homepage/public/support/chat/</link>
+      <pubDate>Mon, 05 Sep 2016 21:03:22 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/chat/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

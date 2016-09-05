@@ -13,8 +13,9 @@
             
             <ul class="nav navbar-nav">
             	<li>
-	                <a class="page-scroll" href="{{ .Site.BaseURL }}support">Overview</a>
-	            </li>            	
+	                <a class="page-scroll" href="{{ .Site.BaseURL }}support" nav-type="precise">Overview</a>
+	            </li>  
+	            
             </ul>
         </div>
 		
@@ -22,7 +23,9 @@
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">	
-               
+               <li>
+	                <a class="page-scroll" href="{{ .Site.BaseURL }}support/chat" nav-type="precise">Chat</a>
+	           </li>           	
             </ul>
         </div>
         {{ "<!-- /.navbar-collapse -->" | safeHTML }}

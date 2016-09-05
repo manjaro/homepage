@@ -145,7 +145,7 @@ aside {
     transition: all .35s;
     position: absolute;
     width: 100%;
-    bottom: -20px;
+    bottom: -21px;
 }
 
 .subnavbar .navbar-header .navbar-brand {
@@ -188,12 +188,13 @@ aside {
 .subnavbar .nav > li.active>a,
 .subnavbar .nav>li.active>a:focus {
     color: #34be5b!important;
-    background-color: transparent;
+    background-color: white;
 }
 
 .subnavbar .nav > li.active>a:hover,
 .subnavbar .nav>li.active>a:focus:hover {
-    background-color: transparent;
+    background-color: white!important;
+    color: #222!important;
 }
 
 /*@media(min-width:768px) {
@@ -890,4 +891,9 @@ body {
 	font-weight: 600;
 	font-size: 18px;
 	vertical-align: top;
+}
+
+.bouncy-icon {
+	width: 64px;
+	height: 64px;
 }
