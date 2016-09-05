@@ -15,7 +15,9 @@
 		{{ partial "js.html" . }}
 		
 		{{ partial "nav.html" . }}
-		{{ partial "subpage-header.html" . }}
+		<header class="subpage-header">
+   
+		</header>
 		
 		{{ partial "donate.html" . }}
 		{{ partial "donation-manually.html" . }}

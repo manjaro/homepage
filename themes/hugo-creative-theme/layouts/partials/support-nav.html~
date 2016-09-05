@@ -13,9 +13,13 @@
             
             <ul class="nav navbar-nav">
             	<li>
-	                <a class="page-scroll" href="{{ .Site.BaseURL }}get-involved">You can help!</a>
+	                <a class="page-scroll" href="{{ .Site.BaseURL }}features">What is Manjaro?</a>
 	            </li>
-            	
+            	{{ range .Site.Pages }}{{ if eq .Params.navsection "features" }}{{ if in .Params.tags "quick" }}
+            	<li>
+                    <a class="page-scroll" href="{{ .Permalink }}">{{ .Title }}</a>
+                </li>
+                {{ end }}{{ end }}{{ end }}
             </ul>
         </div>
 		
@@ -24,9 +28,12 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">	
             	
+            	{{ range .Site.Pages }}{{ if eq .Params.navsection "features" }}{{ if in .Params.tags "quick" }}{{ else }}
             	<li>
-	                <a class="page-scroll" href="{{ .Site.BaseURL }}team">Our team</a>
-	            </li>            	
+                    <a class="page-scroll" href="{{ .Permalink }}">{{ .Title }}</a>
+                </li>
+                {{ end }}{{ end }}{{ end }}  	
+            	
                
             </ul>
         </div>

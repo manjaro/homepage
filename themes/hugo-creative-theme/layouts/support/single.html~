@@ -17,7 +17,9 @@
    
 		</header>
 		
-		{{ partial "contact.html" . }}
+		{{ partial "quickdocumentation.html" . }}		
+		
+		{{ partial "quickcontact.html" . }}
 		
 		{{ partial "js.html" . }}
 		
