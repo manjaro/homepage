@@ -110,16 +110,6 @@
     </item>
     
     <item>
-      <title>kde</title>
-      <link>https://rumangerst.github.io/homepage/public/download/kde/</link>
-      <pubDate>Sun, 04 Sep 2016 19:10:44 +0200</pubDate>
-      
-      <guid>https://rumangerst.github.io/homepage/public/download/kde/</guid>
-      <description>&lt;p&gt;KDE is a feature-rich and versatile desktop environment that provides several different styles of menu to access applications. An excellent built-in interface to easily access and install new themes, widgets, etc, from the internet is also worth mentioning. While very user-friendly and certainly flashy, KDE is also quite resource heavy and noticably slower to start and use than a desktop environment such as XFCE. A 64 bit installation of Manjaro running KDE uses about 550MB of memory.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>net</title>
       <link>https://rumangerst.github.io/homepage/public/download/net/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:59 +0200</pubDate>
