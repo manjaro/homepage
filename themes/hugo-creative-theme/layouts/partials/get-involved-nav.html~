@@ -31,8 +31,11 @@
             <ul class="nav navbar-nav navbar-right">	
             	
             	<li>
-	                <a class="page-scroll" href="{{ .Site.BaseURL }}team">Our team</a>
-	            </li>            	
+	                <a class="page-scroll" href="{{ .Site.BaseURL }}get-involved/team">Our team</a>
+	            </li>            
+	            <li>
+	                <a class="page-scroll" href="{{ .Site.BaseURL }}get-involved/sponsor">Our sponsors</a>
+	            </li>          	
                
             </ul>
         </div>

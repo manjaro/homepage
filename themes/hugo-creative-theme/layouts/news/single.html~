@@ -8,7 +8,12 @@
 		background-color: #fff;
 		}
 		</style>        
-        
+		
+		{{ if .RSSlink }}
+		  <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+		  <link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+		{{ end }}
+		        
     </head>
 	<body id="news" class="body-subpage">
 
@@ -18,7 +23,7 @@
    			{{ partial "news-nav.html" . }}
 		</header>
 		
-		{{ range first 5 where .Site.Pages ".Type" "news-post" }}
+		{{ range first 5 (where .Site.Pages ".Type" "news-post") }}
 		
 			{{ partial "news-post.html" . }}		
 		

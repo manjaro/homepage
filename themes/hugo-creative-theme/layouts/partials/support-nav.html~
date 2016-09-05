@@ -28,6 +28,9 @@
 	           </li>       
 	           <li>
 	                <a class="page-scroll" href="https://forum.manjaro.org" target="_blank">Forum</a>
+	           </li> 
+	           <li>
+	                <a class="page-scroll" href="mailto:support@manjaro.org" >E-Mail</a>
 	           </li>           	
             </ul>
         </div>
