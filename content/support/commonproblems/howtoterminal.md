@@ -27,4 +27,4 @@ The terminal will sometimes prompt for a password or some user interaction. The 
 | ![Icon](;baseurl;/img/actions/information.svg) | Sometimes the terminal will ask *"Do something? [Y/N]"*. Press Y for answering "yes" and N for answering "no". If there are more options, you often can press ? to show an explanation. |
 |   |   |
 
-Wait until the program is finished. You may press enter multiple times
+Wait until the program is finished.
