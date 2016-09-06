@@ -104,6 +104,8 @@
 &lt;p&gt;For simple or advanced video-editing, &lt;a href=&#34;https://kdenlive.org/&#34;&gt;Kdenlive&lt;/a&gt; and &lt;a href=&#34;http://www.openshot.org/&#34;&gt;OpenShot&lt;/a&gt; will do almost anything you need. There are also professional video-editing tools like &lt;a href=&#34;https://www.lwks.com/&#34;&gt;Lightworks&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;3D-Modelling can be done using &lt;a href=&#34;https://www.blender.org/&#34;&gt;Blender&lt;/a&gt;. Codecs for video and audio come pre-installed or are automatically fetched. Most of this software is completely free available and can be easily and secure installed by using Manjaro&amp;rsquo;s integrated package manager.&lt;/p&gt;
+
+&lt;p&gt;Manjaro&amp;rsquo;s repositories also contain software useful for musicials such as the easy-to-use recording and editing software &lt;a href=&#34;http://www.audacityteam.org/&#34;&gt;Audacity&lt;/a&gt;. For more professional users &lt;a href=&#34;http://ardour.org/&#34;&gt;Ardour&lt;/a&gt; brings all the needed features. Sequencing, mixing and synthesizing can be done using &lt;a href=&#34;https://lmms.io/&#34;&gt;LMMS&lt;/a&gt;. Manjaro maintains &lt;a href=&#34;https://forum.manjaro.org/t/a-realtime-kernel-for-manjaro/4066&#34;&gt;realtime&lt;/a&gt; versions of the Linux kernel that are designed for low latency and optimized for audio-engineering.&lt;/p&gt;
 </description>
     </item>
     
