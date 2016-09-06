@@ -136,6 +136,27 @@
 .features-post {
 }
 
+.features-post table {
+
+	display: inline;
+	border-spacing: 10px;
+	border-collapse: separate;
+}
+
+.features-post table tr td {
+
+	padding-left: 10px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.features-post table tr td img {
+
+	width: 64px;
+	height: 64px;
+}
+
+
 .features-post ul {
 	margin-left: auto;
 	margin-right: auto;
@@ -250,35 +271,37 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            
-            <ul class="nav navbar-nav">
+        </div>		
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+        	<ul class="nav navbar-nav navbar-left">
             	<li>
 	                <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features" nav-type="precise">What is Manjaro?</a>
 	            </li>
             	
             	<li>
-                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features/usercases/">What can Manjaro do for you?</a>
+                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features/usercases/">Who uses Manjaro?</a>
+                </li>
+                
+            	<li>
+                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features/features/">What features does Manjaro have?</a>
+                </li>
+                
+            	<li>
+                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features/background/">How does Manjaro work?</a>
                 </li>
                 
             </ul>
-        </div>
-		
-        
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">	
             	
-            	
-            	<li>
-                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features/overview/">Detailed Information</a>
-                </li>
-                  	
+            	  	
             	
                
             </ul>
@@ -290,29 +313,36 @@
 
 		</header>
 		
-		<div class="container text-center">	
-				<h2>Manjaro for gamers</h2>
-				<hr class="star-primary" />
-                <a href="https://rumangerst.github.io/homepage/public//img/usercases/gamers-alt-full.jpg" target="_blank"><img src="https://rumangerst.github.io/homepage/public//img/usercases/gamers-alt-full.jpg" class="img-responsive img-centered" alt=""></a>
-				<br/>      
-				
-				<hr class="star-primary" />				
-				              
-                <p style="font-style:italic;">Gamers want their system to be reliable, efficent and able to handle all their games with maximum performance and without any annoyances. The want a system that boots up quickly, does maintainance like updating drivers or applications in a couple of minutes and just lets them play their favorite games.</p>
-                
-				<hr class="star-primary" />			                
-                
-                <div class="usercase-post-content" style="text-align : left;" > <p> Manjaro comes preinstalled with <a href="https://steampowered.com">Steam</a>, so there&rsquo;s no need to go to a website and download it manually. Installing drivers, updates and more applications is handled through the package manager and <a href="https://wiki.manjaro.org/index.php/Manjaro_Hardware_Detection">Manjaro Hardware Detection Tool</a> that will do all operations in just a couple of minutes and never requires or forces a restart of the system.</p>
+		<section>
+		    <div class="container">
+		        <div class="row">
+		            <div class="text-center">
+		                <h2 class="section-heading">Manjaro for gamers</h2>
+		                <hr class="star-primary"/>
+		                
+			                <a href="https://rumangerst.github.io/homepage/public//img/usercases/gamers-alt-full.jpg" target="_blank"><img src="https://rumangerst.github.io/homepage/public//img/usercases/gamers-alt-full.jpg" class="img-responsive img-centered" alt=""></a>
+					<br/>      
+					
+					<hr class="star-primary" />				
+					              
+	                <p style="font-style:italic;">Gamers want their system to be reliable, efficent and able to handle all their games with maximum performance and without any annoyances. The want a system that boots up quickly, does maintainance like updating drivers or applications in a couple of minutes and just lets them play their favorite games.</p>
+	                
+					<hr class="star-primary" />			                
+	                
+	                <div class="usercase-post-content" style="text-align : left;" > <p> Manjaro comes preinstalled with <a href="https://steampowered.com">Steam</a>, so there&rsquo;s no need to go to a website and download it manually. Installing drivers, updates and more applications is handled through the package manager and <a href="https://wiki.manjaro.org/index.php/Manjaro_Hardware_Detection">Manjaro Hardware Detection Tool</a> that will do all operations in just a couple of minutes and never requires or forces a restart of the system.</p>
 
 <p>Due to the design of Linux, hardware like Gamepads are recognized instantaneously if drivers are available, so users don&rsquo;t have to wait until it works.</p>
 
 <p>Included in the package repositories is software like <a href="http://teamspeak.com/">Teamspeak 3</a>, <a href="https://www.mumble.info/">Mumble</a> or <a href="https://www.skype.com/">Skype</a>. Games like the strategy game <a href="http://play0ad.com/">0 A.D.</a> or the sandbox-game <a href="https://minecraft.net/">Minecraft</a>, including mods and custom launchers like <a href="http://multimc.org/">MultiMC</a>, <a href="http://feed-the-beast.com/">Feed the Beast</a> or <a href="http://www.mcedit.net/">MCEdit</a> are directly available via Manjaro&rsquo;s repositories or the Arch User Repository (AUR).</p>
 
 <p>For people who want to play old games or games from different platforms or operating systems, the latest versions of emulators or runtimes like <a href="https://www.dosbox.com/">Doxbox</a>, <a href="http://www.dolphin-emulator.com/">Dolphin</a> or <a href="https://www.winehq.org/">WINE</a> are also available in the package repositories and can be installed with just a few clicks.</div>
-                
-                <hr class="star-primary" />
-              
-		</div>				
+	                
+	                <hr class="star-primary" />
+			        </div>
+		        </div>
+		    </div>
+		</section>	
+		
 		
 		<!-- jQuery -->
 <script src="https://rumangerst.github.io/homepage/public/js/jquery.js"></script>

@@ -36,6 +36,56 @@
 
 <!-- Muuuh why you don't just add you dynamic style into the header UGH -->
 <style>
+
+.usercase-post {
+	
+}
+
+.usercase-post .usercase-post-content {
+}
+
+.usercase-post .meta{
+	
+	font-weight: 300;
+	color: #34be5b;
+	text-align: right;
+	
+}
+
+
+.usercase-post h2 {
+	text-align: center;
+}
+
+.usercase-post h2 a {
+	text-align: center;
+	color: #222;
+}
+
+.usercase-post .usercase-post-content ul {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+.usercase-post .usercase-post-content ul li {
+	list-style-type: none;
+    padding-left: 40px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*background-image:url('/img/bullets/generic.svg');*/
+    background-image:url("{{ printf "%s/img/bullets/generic.svg" $.Site.BaseURL}}");
+    background-repeat:no-repeat;
+    background-position:left center;	
+    background-size: 22px 22px;
+    text-align: left;
+}
+
+/* ----------- */
+
 .news-post {
 	
 }
@@ -85,6 +135,20 @@
 
 
 .features-post {
+}
+
+.features-post table {
+
+	display: inline;
+	border-spacing: 10px;
+	border-collapse: separate;
+}
+
+.features-post table tr td {
+
+	padding-left: 10px;
+	padding-left: 10px;
+	text-align: left;
 }
 
 .features-post ul {

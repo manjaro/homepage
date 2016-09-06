@@ -136,6 +136,27 @@
 .features-post {
 }
 
+.features-post table {
+
+	display: inline;
+	border-spacing: 10px;
+	border-collapse: separate;
+}
+
+.features-post table tr td {
+
+	padding-left: 10px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.features-post table tr td img {
+
+	width: 64px;
+	height: 64px;
+}
+
+
 .features-post ul {
 	margin-left: auto;
 	margin-right: auto;
@@ -250,35 +271,37 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            
-            <ul class="nav navbar-nav">
+        </div>		
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+        	<ul class="nav navbar-nav navbar-left">
             	<li>
 	                <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features" nav-type="precise">What is Manjaro?</a>
 	            </li>
             	
             	<li>
-                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features/usercases/">What can Manjaro do for you?</a>
+                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features/usercases/">Who uses Manjaro?</a>
+                </li>
+                
+            	<li>
+                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features/features/">What features does Manjaro have?</a>
+                </li>
+                
+            	<li>
+                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features/background/">How does Manjaro work?</a>
                 </li>
                 
             </ul>
-        </div>
-		
-        
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">	
             	
-            	
-            	<li>
-                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features/overview/">Detailed Information</a>
-                </li>
-                  	
+            	  	
             	
                
             </ul>
@@ -290,27 +313,34 @@
 
 		</header>
 		
-		<div class="container text-center">	
-				<h2>Manjaro for artists</h2>
-				<hr class="star-primary" />
-                <a href="https://rumangerst.github.io/homepage/public//img/usercases/artists-alt-full.jpg" target="_blank"><img src="https://rumangerst.github.io/homepage/public//img/usercases/artists-alt-full.jpg" class="img-responsive img-centered" alt=""></a>
-				<br/>      
-				
-				<hr class="star-primary" />				
-				              
-                <p style="font-style:italic;">Artists make the graphics that we see everywhere, the music we hear in our free time or document other lifestyles and places. Manjaro brings all tools for artists, whether being pre-installed or easily installable via a comfortable and secure package manager.</p>
-                
-				<hr class="star-primary" />			                
-                
-                <div class="usercase-post-content" style="text-align : left;" > <p> Manjaro comes preinstalled with <a href="http://www.gimp.org/">GIMP</a>, which is a very powerful image manipulation program. For drawing <a href="https://krita.org/">Krita</a> will fulfill most of your needs, while <a href="http://www.darktable.org/">Darktable</a> brings a top-notch and free photography suite. Vector-graphics can be done with programs such as <a href="https://inkscape.org/">Inkscape</a>.</p>
+		<section>
+		    <div class="container">
+		        <div class="row">
+		            <div class="text-center">
+		                <h2 class="section-heading">Manjaro for artists</h2>
+		                <hr class="star-primary"/>
+		                
+			                <a href="https://rumangerst.github.io/homepage/public//img/usercases/artists-alt-full.jpg" target="_blank"><img src="https://rumangerst.github.io/homepage/public//img/usercases/artists-alt-full.jpg" class="img-responsive img-centered" alt=""></a>
+					<br/>      
+					
+					<hr class="star-primary" />				
+					              
+	                <p style="font-style:italic;">Artists make the graphics that we see everywhere, the music we hear in our free time or document other lifestyles and places. Manjaro brings all tools for artists, whether being pre-installed or easily installable via a comfortable and secure package manager.</p>
+	                
+					<hr class="star-primary" />			                
+	                
+	                <div class="usercase-post-content" style="text-align : left;" > <p> Manjaro comes preinstalled with <a href="http://www.gimp.org/">GIMP</a>, which is a very powerful image manipulation program. For drawing <a href="https://krita.org/">Krita</a> will fulfill most of your needs, while <a href="http://www.darktable.org/">Darktable</a> brings a top-notch and free photography suite. Vector-graphics can be done with programs such as <a href="https://inkscape.org/">Inkscape</a>.</p>
 
 <p>For simple or advanced video-editing, <a href="https://kdenlive.org/">Kdenlive</a> and <a href="http://www.openshot.org/">OpenShot</a> will do almost anything you need. There are also professional video-editing tools like <a href="https://www.lwks.com/">Lightworks</a>.</p>
 
 <p>3D-Modelling can be done using <a href="https://www.blender.org/">Blender</a>. Codecs for video and audio come pre-installed or are automatically fetched. Most of this software is completely free available and can be easily and secure installed by using Manjaro&rsquo;s integrated package manager.</div>
-                
-                <hr class="star-primary" />
-              
-		</div>				
+	                
+	                <hr class="star-primary" />
+			        </div>
+		        </div>
+		    </div>
+		</section>	
+		
 		
 		<!-- jQuery -->
 <script src="https://rumangerst.github.io/homepage/public/js/jquery.js"></script>

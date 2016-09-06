@@ -24,6 +24,9 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">	
                <li>
+	                <a class="page-scroll" href="https://wiki.manjaro.org" target="_blank">Wiki</a>
+	           </li>    
+               <li>
 	                <a class="page-scroll" href="{{ .Site.BaseURL }}support/chat" nav-type="precise">Chat</a>
 	           </li>       
 	           <li>

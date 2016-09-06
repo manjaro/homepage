@@ -1,6 +1,6 @@
 +++
 weight = 0
-title = "What can Manjaro do for you?"
+title = "Who uses Manjaro?"
 type = "features-usercases"
 tags = [ "quick" ]
 navsection = "features"

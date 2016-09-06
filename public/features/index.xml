@@ -6,50 +6,100 @@
     <description>Recent content in Features on Manjaro Linux - enjoy the simplicity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Sep 2016 23:06:54 +0200</lastBuildDate>
     <atom:link href="https://rumangerst.github.io/homepage/public/features/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Detailed Information</title>
-      <link>https://rumangerst.github.io/homepage/public/features/overview/</link>
-      <pubDate>Sun, 04 Sep 2016 23:06:54 +0200</pubDate>
-      
-      <guid>https://rumangerst.github.io/homepage/public/features/overview/</guid>
-      <description>&lt;p&gt;Manjaro is a user-friendly Linux distribution based on the independently developed Arch operating system. Within the Linux community, Arch itself is renowned for being an exceptionally fast, powerful, and lightweight distribution that provides access to the very latest cutting edge – and bleeding edge – software. However, Arch is also aimed at more experienced or technically-minded users. As such, it is generally considered to be beyond the reach of those who lack the technical expertise (or persistence) required to use it.&lt;/p&gt;
-
-&lt;p&gt;Developed in Austria, France, and Germany, Manjaro provides all the benefits of the Arch operating system combined with a focus on user-friendliness and accessibility. Available in both 32 and 64 bit versions, Manjaro is suitable for newcomers as well as experienced Linux users. For newcomers, a user-friendly installer is provided, and the system itself is designed to work fully ‘straight out of the box’ with features including:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Pre-installed desktop environments&lt;/li&gt;
-&lt;li&gt;Pre-installed graphical applications to easily install software and update your system, and&lt;/li&gt;
-&lt;li&gt;Pre-installed codecs to play multimedia files&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For more experienced – and adventurous – users Manjaro also offers the configurability and versatility to be shaped and moulded in every respect to suit personal taste and preference. Furthermore, a minimalist NET-Edition is also available in both 32 and 64 bit versions. Stripped of any pre-installed software, this provides a base installation on which to build your own system; starting from a command line, be completely free to chose your own greeters, desktops, hardware drivers, software applications, and so on!&lt;/p&gt;
-
-&lt;p&gt;Manjaro shares many of the same features as Arch and adds a few extra features, including:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Speed, power, and efficiency&lt;/li&gt;
-&lt;li&gt;Access to the very latest cutting and bleeding edge software&lt;/li&gt;
-&lt;li&gt;A ‘rolling release’ development model that provides the most up-to-date system possible without the need to install new versions&lt;/li&gt;
-&lt;li&gt;Access to the Arch User Repository (AUR)&lt;/li&gt;
-&lt;li&gt;A simplifed, user-friendly installation process&lt;/li&gt;
-&lt;li&gt;Automatic detection of your computer’s hardware (e.g. graphics cards)&lt;/li&gt;
-&lt;li&gt;Automatic installation of the necessary software (e.g. graphics drivers) for your system&lt;/li&gt;
-&lt;li&gt;Its own dedicated software repositories to ensure delivery of fully tested and stable software packages, and&lt;/li&gt;
-&lt;li&gt;Support for the easy installation and use of multiple kernels.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What can Manjaro do for you?</title>
+      <title>Who uses Manjaro?</title>
       <link>https://rumangerst.github.io/homepage/public/features/usercases/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rumangerst.github.io/homepage/public/features/usercases/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>What features does Manjaro have?</title>
+      <link>https://rumangerst.github.io/homepage/public/features/features/</link>
+      <pubDate>Tue, 06 Sep 2016 00:36:21 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/features/features/</guid>
+      <description>&lt;p&gt;Manjaro is available in both 32 and 64 bit versions and is suitable for newcomers as well as experienced Linux users. For newcomers, a user-friendly installer is provided, and the system itself is designed to work fully ‘straight out of the box’. Manjaro comes with:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/installation.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;A simplifed, user-friendly installation process&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/desktopenvironment.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;Pre-installed desktop environments&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/package.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;Pre-installed graphical applications to easily install software and update your system&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/movie.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;Pre-installed codecs to play multimedia files&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/hardware.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;Automatic installation of the necessary software for your hardware (e.g. graphics drivers)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/star.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;Access to the lastest version of software&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/kernel.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;Support for the easy installation and use of multiple kernels.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/aur.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;Access to the Arch User Repository (AUR) for more experienced users&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How does Manjaro work?</title>
+      <link>https://rumangerst.github.io/homepage/public/features/background/</link>
+      <pubDate>Tue, 06 Sep 2016 00:36:21 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/features/background/</guid>
+      <description>
+
+&lt;p&gt;Manjaro based on the independently developed Arch operating system. Within the Linux community, Arch itself is renowned for being an exceptionally fast, powerful, and lightweight distribution that provides access to the very latest cutting edge – and bleeding edge – software. However, Arch is also aimed at more experienced or technically-minded users. As such, it is generally considered to be beyond the reach of those who lack the technical expertise (or persistence) required to use it.&lt;/p&gt;
+
+&lt;p&gt;Latest software might come with some problems such as incompatibilities to existing software or bugs. Experienced users can fix those problems by themselves. But some users don&amp;rsquo;t have enough of this expertise or just don&amp;rsquo;t want to figure out how things actually work to get things working.&lt;/p&gt;
+
+&lt;p&gt;To prevent problems, Manjaro adds additional layers of testing to the Arch repositories. Normal packages will go through this additional layers and will only be released for users who want a stable system, until no more problems are found.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;;baseurl;/img/features/repositories-small.png&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;what-about-security&#34;&gt;What about security?&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;As packages might be held back for weeks until all problems are resolved, the security of the system could be affected. Manjaro solves this by priotizing security-relevant packages in the testing process or even skipping the testing to make security-fixes as quickly available as possible. We call this process &lt;em&gt;fast-tracking&lt;/em&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

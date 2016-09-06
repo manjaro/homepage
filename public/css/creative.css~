@@ -250,7 +250,7 @@ aside {
 }*/
 
 .subpage-header {
-    height: 250px;
+    min-height: 250px;
     background-image: url(../img/header7.jpg);
     background-position: center;
     -webkit-background-size: cover;

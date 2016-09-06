@@ -25,7 +25,7 @@
 		                <hr class="star-primary"/>
 		                
 		                <div class="features-post" >		                
-		                	<p>{{ .Content | markdownify }}
+		                	<p>{{ .Content | replaceRE ";baseurl;" .Site.BaseURL | markdownify  }}
 		                </div>
 		            </div>
 		        </div>

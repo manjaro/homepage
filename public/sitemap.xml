@@ -437,11 +437,6 @@
   </url>
   
   <url>
-    <loc>https://rumangerst.github.io/homepage/public/features/overview/</loc>
-    <lastmod>2016-09-04T23:06:54+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://rumangerst.github.io/homepage/public/download/mate/</loc>
     <lastmod>2016-09-04T19:10:54+02:00</lastmod>
   </url>
@@ -526,8 +521,18 @@
   </url>
   
   <url>
+    <loc>https://rumangerst.github.io/homepage/public/features/features/</loc>
+    <lastmod>2016-09-06T00:36:21+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rumangerst.github.io/homepage/public/download/kde/</loc>
     <lastmod>2016-09-04T19:10:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/features/background/</loc>
+    <lastmod>2016-09-06T00:36:21+02:00</lastmod>
   </url>
   
   <url>

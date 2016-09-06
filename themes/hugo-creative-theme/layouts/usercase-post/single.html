@@ -17,23 +17,30 @@
    			{{ partial "features-nav.html" . }}
 		</header>
 		
-		<div class="container text-center">	
-				<h2>Manjaro for {{ lower .Params.name }}</h2>
-				<hr class="star-primary" />
-                <a href="{{ .Site.BaseURL }}/img/usercases/{{ .Params.image }}" target="_blank"><img src="{{ .Site.BaseURL }}/img/usercases/{{ .Params.image }}" class="img-responsive img-centered" alt=""></a>
-				<br/>      
-				
-				<hr class="star-primary" />				
-				              
-                <p style="font-style:italic;">{{ .Params.shortdescription | markdownify }}</p>
-                
-				<hr class="star-primary" />			                
-                
-                <div class="usercase-post-content" style="text-align : left;" > <p> {{ .Content | markdownify }}</div>
-                
-                <hr class="star-primary" />
-              
-		</div>				
+		<section>
+		    <div class="container">
+		        <div class="row">
+		            <div class="text-center">
+		                <h2 class="section-heading">Manjaro for {{ lower .Params.name }}</h2>
+		                <hr class="star-primary"/>
+		                
+			                <a href="{{ .Site.BaseURL }}/img/usercases/{{ .Params.image }}" target="_blank"><img src="{{ .Site.BaseURL }}/img/usercases/{{ .Params.image }}" class="img-responsive img-centered" alt=""></a>
+					<br/>      
+					
+					<hr class="star-primary" />				
+					              
+	                <p style="font-style:italic;">{{ .Params.shortdescription | markdownify }}</p>
+	                
+					<hr class="star-primary" />			                
+	                
+	                <div class="usercase-post-content" style="text-align : left;" > <p> {{ .Content | markdownify }}</div>
+	                
+	                <hr class="star-primary" />
+			        </div>
+		        </div>
+		    </div>
+		</section>	
+		
 		
 		{{ partial "js.html" . }}
 	</body>
