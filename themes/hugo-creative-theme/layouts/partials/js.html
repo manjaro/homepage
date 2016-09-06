@@ -50,6 +50,37 @@
 		});
 		
 	}
+    
+    function modify_links()
+    {
+        // All links should be in "page-scroll" class, so they scroll smoothly if they target a local section
+        // All foreign links should be target=_blank (otherwise traget=_self)
+        // This function is needed due to missing ability to set target in Markdown. Also it's convenient AF
+        
+        // Markdown doesn't support download buttons; javascript searches for specific patterns in the link text and adds specific classes based on this
+        
+        $("a").each(function(index) {
+           
+            $(this).addClass("page-scroll");
+            
+            if(this.href.startsWith("#") || this.href.startsWith(location.origin)) {
+                $(this).attr("target", "_self");
+            }
+            else {
+                $(this).attr("target", "_blank");
+            }
+            
+            if(this.text.endsWith("#download-primary-xl#")) {
+                this.text = this.text.slice(0,-"#download-primary-xl#".length);
+                $(this).addClass("btn");
+                $(this).addClass("btn-primary");
+                $(this).addClass("btn-xl");
+            }
+        });
+        
+    }    
+    
 	
 	$( document ).ready(highlight_current_nav);
+    $( document ).ready(modify_links);
 </script>

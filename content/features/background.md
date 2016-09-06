@@ -14,7 +14,7 @@ Latest software might come with some problems such as incompatibilities to exist
 
 To prevent problems, Manjaro adds additional layers of testing to the Arch repositories. Normal packages will go through this additional layers and will only be released for users who want a stable system, until no more problems are found.
 
-![Manjaro repositories](;baseurl;/img/features/repositories-small.png)
+![Manjaro repositories](;baseurl;/img/features/repositories.png)
 
 ## What about security?
 ---

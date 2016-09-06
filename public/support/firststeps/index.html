@@ -39,6 +39,26 @@
 .usercase-post {
 	
 }
+    
+.usercase-post table {
+
+	display: inline;
+	border-spacing: 10px;
+	border-collapse: separate;
+}
+
+.usercase-post table tr td {
+
+	padding-left: 10px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.usercase-post table tr td img {
+
+	width: 64px;
+	height: 64px;
+}
 
 .usercase-post .usercase-post-content {
 }
@@ -88,6 +108,26 @@
 .news-post {
 	
 }
+    
+.news-post table {
+
+	display: inline;
+	border-spacing: 10px;
+	border-collapse: separate;
+}
+
+.news-post table tr td {
+
+	padding-left: 10px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.news-post table tr td img {
+
+	width: 64px;
+	height: 64px;
+}
 
 .news-post .news-post-content {
 }
@@ -132,6 +172,7 @@
     text-align: left;
 }
 
+ 
 
 .features-post {
 }
@@ -178,6 +219,86 @@
     text-align: left;
 }
 
+ 
+    
+.support-post {
+	
+}
+    
+.support-post table {
+
+	display: inline-block;
+	border-spacing: 10px;
+	border-collapse: separate;
+    width: 70%;    
+    table-layout: fixed;
+}
+
+.support-post table tbody{
+}
+    
+.support-post table tbody tr{
+}
+
+.support-post table tbody tr td {
+
+	padding-left: 10px;
+	padding-left: 10px;
+	text-align: left;
+    word-wrap: break-word;
+}
+
+.support-post table tbody tr td img {
+
+	width: 64px;
+	height: 64px;
+}
+
+.support-post .support-post-content {
+}
+
+.support-post .meta{
+	
+	font-weight: 300;
+	color: #34be5b;
+	text-align: right;
+	
+}
+
+
+.support-post h2 {
+	text-align: center;
+}
+
+.support-post h2 a {
+	text-align: center;
+	color: #222;
+}
+
+.support-post .support-post-content ul {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+.support-post .support-post-content ul li {
+	list-style-type: none;
+    padding-left: 40px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     
+    background-image:url("https://rumangerst.github.io/homepage/public//img/bullets/generic.svg");
+    background-repeat:no-repeat;
+    background-position:left center;	
+    background-size: 22px 22px;
+    text-align: left;
+}
+
+ 
+    
 .downloads-howtotry {
 	margin-left: auto;
 	margin-right: auto;
@@ -296,13 +417,19 @@
                 </li>
                 
             </ul>
-            <ul class="nav navbar-nav navbar-right">	
-               <li>
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/support/userguide/">User-Guide</a>
+                    </li>
+                
+                <li>
 	                <a class="page-scroll" href="https://wiki.manjaro.org" target="_blank">Wiki</a>
-	           </li>    
+	           </li> 
                <li>
-	                <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/support/chat" nav-type="precise">Chat</a>
-	           </li>       
+	                <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/support/chat" target="_blank">Chat</a>
+	           </li> 
+              
 	           <li>
 	                <a class="page-scroll" href="https://forum.manjaro.org" target="_blank">Forum</a>
 	           </li> 
@@ -325,8 +452,523 @@
 		                <h2 class="section-heading">First steps</h2>
 		                <hr class="star-primary"/>
 		                
-		                <div class="features-post" >		                
-		                	<p>
+		                <div class="support-post" >		                
+		                	<p>Here are some first steps after you <a href="https://rumangerst.github.io/homepage/public/download">downloaded</a> Manjaro. This guide covers only the basic steps, so if you want more information look into the <a href="https://rumangerst.github.io/homepage/public/support/userguide/">Manjaro User Guide</a> or the <a href="https://wiki.manjaro.org/">Manjaro Wiki</a>.</p>
+
+<p>So you downloaded Manjaro as an ISO file. An ISO file contains all files Manjaro needs to start an installation compressed into a handy file, which you can then use to make a <a href="https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File">DVD</a> or <a href="https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File#Writing_to_a_USB_Stick_in_Linux">USB-Stick</a> that can be run by your computer. This file can be directly used by a virtual machine if yout don&rsquo;t want to try out Manjaro on your actual computer, yet.</p>
+
+<h2 id="branching-paths">Branching Paths</h2>
+
+<hr />
+
+<p>To try out Manjaro, you can either directly load it from a DVD or USB-Drive or use a  <a href="https://en.wikipedia.org/wiki/Virtual_machine">virtual machine</a> if you are unsure or want to be able to use your current operating-system without <a href="https://en.wikipedia.org/wiki/Multi-booting">dual-booting</a>. Here you can find a list of all options you have and their pros and cons.</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/try/virtual-machine.svg" alt="Icon" /></td>
+<td><strong>Using a virtual machine</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>➕ Leaves your current system untouched</td>
+</tr>
+
+<tr>
+<td></td>
+<td>➕ Experiment without breaking something</td>
+</tr>
+
+<tr>
+<td></td>
+<td>➕ Work parallel with Manjaro and your current system</td>
+</tr>
+
+<tr>
+<td></td>
+<td>➖ Manjaro runs slower due to emulation</td>
+</tr>
+
+<tr>
+<td></td>
+<td>➖ Emulation needs many system resources</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td><strong><a href="#using-a-virtual-machine">Find out how this works</a></strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/try/live-boot.svg" alt="Icon" /></td>
+<td><strong>Only using the live-system</strong><a href="#glossary">¹</a></td>
+</tr>
+
+<tr>
+<td></td>
+<td>➕ Leaves your current system untouched unless you modify it manually</td>
+</tr>
+
+<tr>
+<td></td>
+<td>➕ Experiment without breaking something</td>
+</tr>
+
+<tr>
+<td></td>
+<td>➕ All settings are stored on the medium - take it everywhere you want (USB-Drive only)</td>
+</tr>
+
+<tr>
+<td></td>
+<td>➖ Manjaro runs slower due to slower speed of DVD or USB</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td><strong><a href="#making-a-live-system">Find out how this works</a></strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/try/install.svg" alt="Icon" /></td>
+<td><strong>Install Manjaro</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>➕ Maximum performance and support</td>
+</tr>
+
+<tr>
+<td></td>
+<td>➕ Install it alongside your current system if you want</td>
+</tr>
+
+<tr>
+<td></td>
+<td>➖ You need to prepare (e.g. backup your data) as with every isstallation of an OS</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td><strong><a href="#install-manjaro">Find out how this works</a></strong></td>
+</tr>
+</tbody>
+</table>
+
+<p><img src="https://rumangerst.github.io/homepage/public//img/support/firststeps-overview.png" alt="Pipeline" /></p>
+
+<h2 id="using-a-virtual-machine">Using a virtual machine</h2>
+
+<hr />
+
+<p>A virtual machine is a computer that runs &ldquo;in&rdquo; your current computer. If you just want to try or use Manjaro without rebooting your computer, you can set up a virtual machine. We will give you a quick step-by-step guide, but if you want to know more, visit our <a href="https://wiki.manjaro.org/index.php?title=VirtualBox#Running_Manjaro_in_VirtualBox">Wiki</a>.</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/actions/download.svg" alt="Icon" /></td>
+<td><strong>1. Download an application that allows creating virtual machines and install it</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>You can use for example <a href="https://www.virtualbox.org/">VirtualBox</a>, <a href="http://www.vmware.com/">VmWare Player</a> or other software</td>
+</tr>
+
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/actions/vm.svg" alt="Icon" /></td>
+<td><strong>2. Create a virtual machine</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>&hellip; for &ldquo;Arch Linux&rdquo; if Manjaro is not available as option</td>
+</tr>
+
+<tr>
+<td></td>
+<td>&hellip; with at least 20-30GB virtual harddrive space</td>
+</tr>
+
+<tr>
+<td></td>
+<td>&hellip; with at least 2GB RAM/Memory</td>
+</tr>
+
+<tr>
+<td></td>
+<td><strong>Also don&rsquo;t forget to</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>&hellip; give the machine at least 2 CPU cores</td>
+</tr>
+
+<tr>
+<td></td>
+<td>&hellip; increase the graphics memory</td>
+</tr>
+
+<tr>
+<td></td>
+<td>&hellip; enable 3D acceleration if possible</td>
+</tr>
+
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/try/install.svg" alt="Icon" /></td>
+<td><strong>3. Load Manjaro</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>• Start the virtual machine and select the Manjaro ISO to be loaded into the virtual DVD drive</td>
+</tr>
+
+<tr>
+<td></td>
+<td>• Manjaro will now boot. Select Manjaro (Free drivers) or leave it until it&rsquo;s automatically selected</td>
+</tr>
+
+<tr>
+<td></td>
+<td>• Manjaro now boots into the live environment</td>
+</tr>
+
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/features/installation.svg" alt="Icon" /></td>
+<td><strong>4. Install Manjaro into the virtual machine</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td><strong><a href="#install-manjaro">Find out how this works</a></strong></td>
+</tr>
+
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/actions/settings.svg" alt="Icon" /></td>
+<td><strong>5. Finish the process</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>• Go into the settings of the virtual machine and unload the Manjaro ISO</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p>Now you can just start your virtual computer with Manjaro, play around with it and use software that is not well supported on other operating systems! Note that this is (while being virtual) an actual computer, so you have to shut down Manjaro just like all operating systems. If you want to know what you can do after installing Manjaro, give a look at our <a href="https://rumangerst.github.io/homepage/public/support/userguide/">user guide</a> and our <a href="https://wiki.manjaro.org/index.php?title=Main_Page#Customisation_and_Configuration">wiki</a>.</p>
+
+<h2 id="making-a-live-system">Making a Live-System</h2>
+
+<hr />
+
+<p>To be able to install or try Manjaro on your computer, you need to put it on a DVD or USB-Drive. Then the computer will start (or &ldquo;boot&rdquo;) from this medium into Manjaro&rsquo;s live-system<a href="#glossary">¹</a>.</p>
+
+<h3 id="create-a-bootable-usb-stick">Create a bootable USB-Stick</h3>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/actions/download.svg" alt="Icon" /></td>
+<td><strong>1. Download an application that is able to create a bootable USB-Drive</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>You can use for example <a href="https://launchpad.net/win32-image-writer/">ImageWriter</a>, <a href="https://rufus.akeo.ie/">Rufus</a> or other software. See our <a href="https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File">wiki</a> for more information.</td>
+</tr>
+
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/try/live-boot.svg" alt="Icon" /></td>
+<td><strong>2. Select the ISO and the stick and put Manjaro onto it</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>Please don&rsquo;t forget to backup the data of your stick before doing this.</td>
+</tr>
+
+<tr>
+<td></td>
+<td>If you need more information, just visit our <a href="https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File">Wiki</a></td>
+</tr>
+
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/actions/boot.svg" alt="Icon" /></td>
+<td><strong>3. Boot from USB</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td><strong><a href="#booting-into-the-live-environment">Find out how this works</a></strong></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="burn-a-dvd">Burn a DVD</h3>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/actions/download.svg" alt="Icon" /></td>
+<td><strong>1. Download an application that is able to burn a disk</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>You can use for example <a href="http://www.deepburner.com/">DeepBurner</a>, or if available the software that comes with your operating system</td>
+</tr>
+
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/actions/burn.svg" alt="Icon" /></td>
+<td><strong>2. Burn the Manjaro ISO to the DVD</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>If you need more information, just visit our <a href="https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File">Wiki</a></td>
+</tr>
+
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/actions/boot.svg" alt="Icon" /></td>
+<td><strong>3. Boot from DVD</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td><strong><a href="#booting-into-the-live-environment">Find out how this works</a></strong></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="booting-into-the-live-system">Booting into the Live-System</h3>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/actions/boot.svg" alt="Icon" /></td>
+<td><strong>1. Boot from USB or DVD</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>If you are lucky, just have to plug-in the drive or put the DVD into the tray and restart your computer.</td>
+</tr>
+
+<tr>
+<td></td>
+<td>But sometimes you need to configure your system to allow this.  Then you may find help here:</td>
+</tr>
+
+<tr>
+<td></td>
+<td>• <a href="http://www.howtogeek.com/129815/beginner-geek-how-to-change-the-boot-order-in-your-computers-bios/">How to Boot Your Computer From a Disc or USB Drive</a></td>
+</tr>
+
+<tr>
+<td></td>
+<td>• <a href="https://wiki.manjaro.org/index.php?title=BIOS_and_UEFI">BIOS and UEFI - Manjaro Wiki</a></td>
+</tr>
+
+<tr>
+<td></td>
+<td>• <a href="https://rumangerst.github.io/homepage/public/support/userguide/">Manjaro User Guide</a></td>
+</tr>
+
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/actions/settings.svg" alt="Icon" /></td>
+<td><strong>2. Choose the drivers</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>If you boot into the live-system, you can choose between &ldquo;free&rdquo; and &ldquo;proprietary&rdquo; drivers.</td>
+</tr>
+
+<tr>
+<td></td>
+<td>• Choose &ldquo;proprietary&rdquo; if you use a Nvidia graphics card or need wireless</td>
+</tr>
+
+<tr>
+<td></td>
+<td>• Choose &ldquo;free&rdquo; if you are using a virtual machine or know that everything will work without proprietary drivers</td>
+</tr>
+
+<tr>
+<td></td>
+<td>If you want more information, take a look at our <a href="https://rumangerst.github.io/homepage/public/support/userguide/">user guide</a>.</td>
+</tr>
+</tbody>
+</table>
+
+<p>Now you have booted into Manjaro&rsquo;s live-environment and can begin to play around with it or proceed to install Manjaro on your computer (or the virtual machine). In the next section, you can find a quick step-by-step guide how to install Manjaro.</p>
+
+<h2 id="install-manjaro">Install Manjaro</h2>
+
+<hr />
+
+<p>There are many different ways to install Manjaro and the process depends heavily from your current hardware. If you want more detailed steps, you will find them in our <a href="https://rumangerst.github.io/homepage/public/support/userguide/">user guide</a>. Here we will give you a rough outline how to install Manjaro.</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/actions/install.svg" alt="Icon" /></td>
+<td><strong>1. Start the installer</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>If you boot into the live-system, there&rsquo;s a welcome-window that has an option &ldquo;Install&rdquo; or &ldquo;Installation using Calamares&rdquo;. Click on this option to start the installer.</td>
+</tr>
+
+<tr>
+<td></td>
+<td>If you closed the welcome-window, you can find it in the application menu as &ldquo;Manjaro Welcome&rdquo;.</td>
+</tr>
+
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/actions/settings.svg" alt="Icon" /></td>
+<td><strong>2. Put in your data</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>Insert your timezone, preferred keyboard layout and language.</td>
+</tr>
+
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/actions/partition.svg" alt="Icon" /></td>
+<td><strong>3. Determine where Manjaro should be installed</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>If you use a virtual machine or want to wipe your whole system (keep in mind that if you use a virtual machine, you only wipe the machine, not your actual computer) choose &ldquo;erase disk&rdquo;.</td>
+</tr>
+
+<tr>
+<td></td>
+<td>Otherwise the installer offers plenty of options such as installing Manjaro alongside your current operating system. Experienced users also can partition manually.</td>
+</tr>
+
+<tr>
+<td></td>
+<td>We recommend to take a look at the <a href="https://rumangerst.github.io/homepage/public/support/userguide/">user guide</a> and our <a href="https://wiki.manjaro.org/index.php?title=BIOS_and_UEFI">wiki</a> to make sure that nothing goes wrong. Also we recommend to make backups of your important data before installing Manjaro. You can do this directly in the live-environment if you forgot it.</td>
+</tr>
+
+<tr>
+<td><img src="https://rumangerst.github.io/homepage/public//img/actions/settings.svg" alt="Icon" /></td>
+<td><strong>4. Finish the installation</strong></td>
+</tr>
+
+<tr>
+<td></td>
+<td>• Insert your account data and wait until the installation is finished. You can use the live-environment while doing an installation to maybe watch some videos or browsing the web.</td>
+</tr>
+
+<tr>
+<td></td>
+<td>• Restart your machine</td>
+</tr>
+</tbody>
+</table>
+
+<p>Congratulations! You have now installed Manjaro. If there are any problems, you can maybe find a solution <a href="https://rumangerst.github.io/homepage/public/support/commonproblems">here</a>, our <a href="https://rumangerst.github.io/homepage/public/support/userguide/">user guide</a> or our <a href="https://wiki.manjaro.org/">wiki</a>. Our <a href="https://rumangerst.github.io/homepage/public/support/userguide/">user guide</a> also contains information how to use Manjaro. Also we recommend to visit our <a href="https://forum.manjaro.org/">forums</a> where people discuss about problems, new programs and make customizations like wallpapers.</p>
+
+<h2 id="glossary">Glossary</h2>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Live-Environment / Live-System</strong></td>
+<td>Manjaro and many other Linux distributions allow running the system directly from a USB-Drive or DVD.<br/>Those &ldquo;Live-Enviroments&rdquo; are completely functional systems and can be used as portable operating-system or to rescue data if something went wrong.</td>
+</tr>
+</tbody>
+</table>
+
 		                </div>
 		            </div>
 		        </div>
@@ -385,8 +1027,39 @@
 		});
 		
 	}
+    
+    function modify_links()
+    {
+        
+        
+        
+        
+        
+        
+        $("a").each(function(index) {
+           
+            $(this).addClass("page-scroll");
+            
+            if(this.href.startsWith("#") || this.href.startsWith(location.origin)) {
+                $(this).attr("target", "_self");
+            }
+            else {
+                $(this).attr("target", "_blank");
+            }
+            
+            if(this.text.endsWith("#download-primary-xl#")) {
+                this.text = this.text.slice(0,-"#download-primary-xl#".length);
+                $(this).addClass("btn");
+                $(this).addClass("btn-primary");
+                $(this).addClass("btn-xl");
+            }
+        });
+        
+    }    
+    
 	
 	$( document ).ready(highlight_current_nav);
+    $( document ).ready(modify_links);
 </script>
 	</body>
 

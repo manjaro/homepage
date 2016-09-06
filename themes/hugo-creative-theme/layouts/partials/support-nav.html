@@ -19,19 +19,25 @@
             	<li>
 	                <a class="page-scroll" href="{{ .Site.BaseURL }}support" nav-type="precise">Overview</a>
 	            </li>  
-	            {{ range .Site.Pages }}{{ if eq .Type "support-post" }}
+	            {{ range (where ( where .Site.Pages ".Type" "support-post") ".Params.right" false ) }}
             	<li>
                     <a class="page-scroll" href="{{ .Permalink }}">{{ .Title }}</a>
                 </li>
-                {{ end }}{{ end }}
+                {{ end }}
             </ul>
-            <ul class="nav navbar-nav navbar-right">	
-               <li>
+            <ul class="nav navbar-nav navbar-right">
+                {{ range (where ( where .Site.Pages ".Type" "support-post") ".Params.right" true ) }}
+                    <li>
+                        <a class="page-scroll" href="{{ .Permalink }}">{{ .Title }}</a>
+                    </li>
+                {{ end }}
+                <li>
 	                <a class="page-scroll" href="https://wiki.manjaro.org" target="_blank">Wiki</a>
-	           </li>    
+	           </li> 
                <li>
-	                <a class="page-scroll" href="{{ .Site.BaseURL }}support/chat" nav-type="precise">Chat</a>
-	           </li>       
+	                <a class="page-scroll" href="{{ .Site.BaseURL }}support/chat" target="_blank">Chat</a>
+	           </li> 
+              
 	           <li>
 	                <a class="page-scroll" href="https://forum.manjaro.org" target="_blank">Forum</a>
 	           </li> 

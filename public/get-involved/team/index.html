@@ -39,6 +39,26 @@
 .usercase-post {
 	
 }
+    
+.usercase-post table {
+
+	display: inline;
+	border-spacing: 10px;
+	border-collapse: separate;
+}
+
+.usercase-post table tr td {
+
+	padding-left: 10px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.usercase-post table tr td img {
+
+	width: 64px;
+	height: 64px;
+}
 
 .usercase-post .usercase-post-content {
 }
@@ -88,6 +108,26 @@
 .news-post {
 	
 }
+    
+.news-post table {
+
+	display: inline;
+	border-spacing: 10px;
+	border-collapse: separate;
+}
+
+.news-post table tr td {
+
+	padding-left: 10px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.news-post table tr td img {
+
+	width: 64px;
+	height: 64px;
+}
 
 .news-post .news-post-content {
 }
@@ -132,6 +172,7 @@
     text-align: left;
 }
 
+ 
 
 .features-post {
 }
@@ -178,6 +219,86 @@
     text-align: left;
 }
 
+ 
+    
+.support-post {
+	
+}
+    
+.support-post table {
+
+	display: inline-block;
+	border-spacing: 10px;
+	border-collapse: separate;
+    width: 70%;    
+    table-layout: fixed;
+}
+
+.support-post table tbody{
+}
+    
+.support-post table tbody tr{
+}
+
+.support-post table tbody tr td {
+
+	padding-left: 10px;
+	padding-left: 10px;
+	text-align: left;
+    word-wrap: break-word;
+}
+
+.support-post table tbody tr td img {
+
+	width: 64px;
+	height: 64px;
+}
+
+.support-post .support-post-content {
+}
+
+.support-post .meta{
+	
+	font-weight: 300;
+	color: #34be5b;
+	text-align: right;
+	
+}
+
+
+.support-post h2 {
+	text-align: center;
+}
+
+.support-post h2 a {
+	text-align: center;
+	color: #222;
+}
+
+.support-post .support-post-content ul {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+.support-post .support-post-content ul li {
+	list-style-type: none;
+    padding-left: 40px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     
+    background-image:url("https://rumangerst.github.io/homepage/public//img/bullets/generic.svg");
+    background-repeat:no-repeat;
+    background-position:left center;	
+    background-size: 22px 22px;
+    text-align: left;
+}
+
+ 
+    
 .downloads-howtotry {
 	margin-left: auto;
 	margin-right: auto;
@@ -1598,8 +1719,39 @@
 		});
 		
 	}
+    
+    function modify_links()
+    {
+        
+        
+        
+        
+        
+        
+        $("a").each(function(index) {
+           
+            $(this).addClass("page-scroll");
+            
+            if(this.href.startsWith("#") || this.href.startsWith(location.origin)) {
+                $(this).attr("target", "_self");
+            }
+            else {
+                $(this).attr("target", "_blank");
+            }
+            
+            if(this.text.endsWith("#download-primary-xl#")) {
+                this.text = this.text.slice(0,-"#download-primary-xl#".length);
+                $(this).addClass("btn");
+                $(this).addClass("btn-primary");
+                $(this).addClass("btn-xl");
+            }
+        });
+        
+    }    
+    
 	
 	$( document ).ready(highlight_current_nav);
+    $( document ).ready(modify_links);
 </script>
 	</body>
 

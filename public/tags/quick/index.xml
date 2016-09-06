@@ -31,7 +31,7 @@
 
 &lt;p&gt;To prevent problems, Manjaro adds additional layers of testing to the Arch repositories. Normal packages will go through this additional layers and will only be released for users who want a stable system, until no more problems are found.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;;baseurl;/img/features/repositories-small.png&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;;baseurl;/img/features/repositories.png&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;what-about-security&#34;&gt;What about security?&lt;/h2&gt;
 
@@ -59,42 +59,42 @@
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/installation.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/installation.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;A simplifed, user-friendly installation process&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/desktopenvironment.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/desktopenvironment.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;Pre-installed desktop environments&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/package.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/package.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;Pre-installed graphical applications to easily install software and update your system&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/movie.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/movie.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;Pre-installed codecs to play multimedia files&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/hardware.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/hardware.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;Automatic installation of the necessary software for your hardware (e.g. graphics drivers)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/star.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/star.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;Access to the lastest version of software&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/kernel.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/kernel.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;Support for the easy installation and use of multiple kernels.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/aur.svg&#34; alt=&#34;Manjaro repositories&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/aur.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;Access to the Arch User Repository (AUR) for more experienced users&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
