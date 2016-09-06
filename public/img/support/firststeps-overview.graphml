@@ -53,7 +53,7 @@
           <y:Geometry height="128.0" width="128.0" x="23.5" y="504.0"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Open Sans Semibold" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="23.0654296875" horizontalTextPosition="center" iconTextGap="4" modelName="eight_pos" modelPosition="w" textColor="#000000" verticalTextPosition="bottom" visible="true" width="164.0361328125" x="-168.0361328125" y="52.46728515625">Install on your Comuter</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Open Sans Semibold" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="23.0654296875" horizontalTextPosition="center" iconTextGap="4" modelName="eight_pos" modelPosition="w" textColor="#000000" verticalTextPosition="bottom" visible="true" width="172.7587890625" x="-176.7587890625" y="52.46728515625">Install on your Computer</y:NodeLabel>
           <y:Image alphaImage="true" refid="4"/>
         </y:ImageNode>
       </data>
