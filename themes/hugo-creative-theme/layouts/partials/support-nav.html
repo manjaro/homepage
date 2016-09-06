@@ -18,15 +18,15 @@
         	<ul class="nav navbar-nav navbar-left">
             	<li>
 	                <a class="page-scroll" href="{{ .Site.BaseURL }}support" nav-type="precise">Overview</a>
-	            </li>  
-	            {{ range (where ( where .Site.Pages ".Type" "support-post") ".Params.right" false ) }}
+	            </li>              
+	            {{ range (where ( where .Site.Pages ".Params.navsection" "support") ".Params.right" false ) }}
             	<li>
                     <a class="page-scroll" href="{{ .Permalink }}">{{ .Title }}</a>
                 </li>
                 {{ end }}
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                {{ range (where ( where .Site.Pages ".Type" "support-post") ".Params.right" true ) }}
+                {{ range (where ( where .Site.Pages ".Params.navsection" "support") ".Params.right" true ) }}
                     <li>
                         <a class="page-scroll" href="{{ .Permalink }}">{{ .Title }}</a>
                     </li>

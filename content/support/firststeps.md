@@ -4,6 +4,7 @@ title = "First steps"
 type = "support-post"
 weight = 0
 right = false
+navsection = "support"
 +++
 
 Here are some first steps after you [downloaded](;baseurl;download) Manjaro. This guide covers only the basic steps, so if you want more information look into the [Manjaro User Guide](;baseurl;support/userguide/) or the [Manjaro Wiki](https://wiki.manjaro.org/).
@@ -37,7 +38,7 @@ To try out Manjaro, you can either directly load it from a DVD or USB-Drive or u
 | ![Icon](;baseurl;/img/try/install.svg) | **Install Manjaro** |
 |                                                | ➕ Maximum performance and support |
 |                                                | ➕ Install it alongside your current system if you want |
-|                                                | ➖ You need to prepare (e.g. backup your data) as with every isstallation of an OS|
+|                                                | ➖ You need to prepare (e.g. backup your data) as with every installation of an operating system|
 |                                                | |
 |                                                | **[Find out how this works](#install-manjaro)** |
 
@@ -131,7 +132,7 @@ There are many different ways to install Manjaro and the process depends heavily
 |                                             | If you use a virtual machine or want to wipe your whole system (keep in mind that if you use a virtual machine, you only wipe the machine, not your actual computer) choose "erase disk". |
 |                                             | Otherwise the installer offers plenty of options such as installing Manjaro alongside your current operating system. Experienced users also can partition manually. |
 |                                             | We recommend to take a look at the [user guide](;baseurl;support/userguide/) and our [wiki](https://wiki.manjaro.org/index.php?title=BIOS_and_UEFI) to make sure that nothing goes wrong. Also we recommend to make backups of your important data before installing Manjaro. You can do this directly in the live-environment if you forgot it.   |
-| ![Icon](;baseurl;/img/actions/settings.svg)  | **4. Finish the installation** |
+| ![Icon](;baseurl;/img/try/install.svg)  | **4. Finish the installation** |
 |                                             | • Insert your account data and wait until the installation is finished. You can use the live-environment while doing an installation to maybe watch some videos or browsing the web.|
 |                                             | • Restart your machine |
 

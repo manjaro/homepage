@@ -174,7 +174,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;➖ You need to prepare (e.g. backup your data) as with every isstallation of an OS&lt;/td&gt;
+&lt;td&gt;➖ You need to prepare (e.g. backup your data) as with every installation of an operating system&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -533,7 +533,7 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/settings.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/try/install.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;4. Finish the installation&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -699,12 +699,231 @@
     </item>
     
     <item>
+      <title>How to run something in terminal?</title>
+      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoterminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoterminal/</guid>
+      <description>&lt;p&gt;The terminal is a very powerful tool that almost never fails to work and does exactly the things you want from it. You don&amp;rsquo;t click on something in the terminal - You insert a command and it will do what the command say. Many Linux users like to provide solutions via terminal as it&amp;rsquo;s completely independent from the user interface (which you can heavily modify).&lt;/p&gt;
+
+&lt;p&gt;Here are instructions to how to use the terminal to run some command:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/run.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Run a command&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Open a terminal via application launcher or similar. Search for &amp;ldquo;Terminal&amp;rdquo;, &amp;ldquo;Console&amp;rdquo;, &amp;ldquo;Konsole&amp;rdquo; etc.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Select the command text and copy it&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Paste it into the terminal window&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Press enter&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The terminal will sometimes prompt for a password or some user interaction. The password is the one you have to enter to install something.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/information.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;If the terminal wants a password, just type it in and press enter. Don&amp;rsquo;t be confused as while typing you won&amp;rsquo;t see asterisks or similar.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/information.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;Sometimes the terminal will ask &lt;em&gt;&amp;ldquo;Do something? [Y/N]&amp;rdquo;&lt;/em&gt;. Press Y for answering &amp;ldquo;yes&amp;rdquo; and N for answering &amp;ldquo;no&amp;rdquo;. If there are more options, you often can press ? to show an explanation.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Wait until the program is finished. You may press enter multiple times&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Updating fails</title>
+      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/update_fails/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/update_fails/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/question.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Check if you are connected with the internet&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/warning.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Maybe the current mirror is not reachable&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Open a &lt;a href=&#34;;baseurl;commonproblems/howtoterminal&#34;&gt;terminal&lt;/a&gt; and enter:&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;sudo pacman-mirrors -g&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/warning.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Maybe the cache is full&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Some editions come with a cache cleaner. Just search &lt;code&gt;cache&lt;/code&gt; in the application menu.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;If no cache cleaner is available, open a &lt;a href=&#34;;baseurl;commonproblems/howtoterminal&#34;&gt;terminal&lt;/a&gt; and enter:&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;sudo pacman -Scc&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Pacman_Tips#Cleaning_Packages&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Updating is very slow</title>
+      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/update_slow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/update_slow/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/question.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Check if your internet is not unstable or has some problems&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/warning.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Maybe the current mirror is slow&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Open a &lt;a href=&#34;;baseurl;commonproblems/howtoterminal&#34;&gt;terminal&lt;/a&gt; and enter:&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;sudo pacman-mirrors -g&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Common problems</title>
       <link>https://rumangerst.github.io/homepage/public/support/commonproblems/</link>
       <pubDate>Mon, 05 Sep 2016 21:03:22 +0200</pubDate>
       
       <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/</guid>
-      <description></description>
+      <description>&lt;p&gt;Almost nothing is without problems and while our team and our community works hard to get rid of all problems they encounter, some might slip through the cracks or are caused by some external influences. Here are some common problems that other users encountered.&lt;/p&gt;
+
+&lt;p&gt;If you encountered something that is not listed here, take a look at our &lt;a href=&#34;https://bugs.manjaro.org/&#34;&gt;bugtracker&lt;/a&gt; to see if you can provide more information to get rid of the problem. You can always &lt;a href=&#34;;baseurl;get-involved&#34;&gt;help out&lt;/a&gt; by pointing out bugs or discussing with other users about them to find a solution.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

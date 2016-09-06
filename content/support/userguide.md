@@ -4,6 +4,7 @@ title = "User-Guide"
 type = "support-post"
 weight = 0
 right = true
+navsection = "support"
 +++
 
 [Download User Guide#download-primary-xl#](https://sourceforge.net/projects/manjarolinux/files/release/16.08/readme-16.08.pdf)
