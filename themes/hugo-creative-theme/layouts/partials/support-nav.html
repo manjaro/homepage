@@ -19,7 +19,11 @@
             	<li>
 	                <a class="page-scroll" href="{{ .Site.BaseURL }}support" nav-type="precise">Overview</a>
 	            </li>  
-	            
+	            {{ range .Site.Pages }}{{ if eq .Type "support-post" }}
+            	<li>
+                    <a class="page-scroll" href="{{ .Permalink }}">{{ .Title }}</a>
+                </li>
+                {{ end }}{{ end }}
             </ul>
             <ul class="nav navbar-nav navbar-right">	
                <li>

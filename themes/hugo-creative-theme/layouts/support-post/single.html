@@ -14,24 +14,23 @@
 
 		{{ partial "nav.html" . }}		
 		<header class="subpage-header">
-   			{{ partial "features-nav.html" . }}
+   			{{ partial "support-nav.html" . }}
 		</header>
 		
-		<section class="bg-primary" id="about">
+		<section>
 		    <div class="container">
 		        <div class="row">
-		            <div class="col-lg-8 col-lg-offset-2 text-center">
+		            <div class="text-center">
 		                <h2 class="section-heading">{{ .Title }}</h2>
-		                <hr class="light">
-		                <p class="text-faded">{{ .Content }}</p>
-		              
-		                <br /><p><img id="about-image" src="{{ .Site.BaseURL }}/img/laptop-4.png" /></p>
+		                <hr class="star-primary"/>
+		                
+		                <div class="features-post" >		                
+		                	<p>{{ .Content | replaceRE ";baseurl;" .Site.BaseURL | markdownify  }}
+		                </div>
 		            </div>
 		        </div>
 		    </div>
 		</section>
-
-		{{ partial "quickfeatures.html" . }}
 		
 		{{ partial "js.html" . }}
 	</body>

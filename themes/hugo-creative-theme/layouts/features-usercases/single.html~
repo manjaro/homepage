@@ -18,7 +18,6 @@
 		</header>
 				
 		{{ partial "usercases.html" . }}
-		{{ partial "usercases-modals.html" . }}
 		{{ partial "js.html" . }}
 	</body>
 
