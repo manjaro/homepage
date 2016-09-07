@@ -699,6 +699,134 @@
     </item>
     
     <item>
+      <title>How to install drivers?</title>
+      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/howtodrivers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/howtodrivers/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/information.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;You don&amp;rsquo;t need to download drivers from the internet&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Manjaro provides an easy-to-use tool that will do all work for you.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Manjaro_Hardware_Detection_Overview&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/execute.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Install proprietary drivers&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Search for &amp;ldquo;hardware&amp;rdquo; or &amp;ldquo;mhwd&amp;rdquo; in your application menu&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Open &amp;ldquo;Hardware detection&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Click on &amp;ldquo;Auto-Install proprietary&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to install software?</title>
+      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoinstallsoftware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoinstallsoftware/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/information.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;You often don&amp;rsquo;t need to download software from the internet&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Manjaro provides an easy-to-use tool that will do all work for you.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Pacman_Overview&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/execute.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Search and install software&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Search for &amp;ldquo;octopi&amp;rdquo; or &amp;ldquo;pamac&amp;rdquo; in your application menu and open it&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Browse through the list or search using the search bar&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Right-click on the entry and select &amp;ldquo;install&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Click on the &amp;ldquo;apply&amp;rdquo; button or one with a tick mark&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our wiki pages about &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Octopi&#34;&gt;Octopi&lt;/a&gt; and &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Pacman_Overview&#34;&gt;Pamac&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
       <title>How to run something in terminal?</title>
       <link>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoterminal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -749,6 +877,11 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Repeat everything for the next command&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -790,7 +923,56 @@
     </item>
     
     <item>
-      <title>Updating fails</title>
+      <title>Laptop screen is too dark</title>
+      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/laptop_screen_dark/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/laptop_screen_dark/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/information.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;This is likely caused by your hardware manufacturer&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Reactivating_the_Backlight&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/execute.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Re-activate the backlight&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Open a &lt;a href=&#34;;baseurl;commonproblems/howtoterminal&#34;&gt;terminal&lt;/a&gt; and enter:&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;sudo sed &amp;quot;s/\(GRUB_CMDLINE_LINUX=\)\&amp;quot;\&amp;quot;/\1\&amp;quot;acpi_osi=Linux acpi_backlight=vendor\&amp;quot;/&amp;quot; /etc/default/grub -i; sudo update-grub&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Update or installation fails</title>
       <link>https://rumangerst.github.io/homepage/public/support/commonproblems/update_fails/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -862,6 +1044,31 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Pacman_Tips#Cleaning_Packages&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/warning.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Maybe the pacman database is locked&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Open a &lt;a href=&#34;;baseurl;commonproblems/howtoterminal&#34;&gt;terminal&lt;/a&gt; and enter:&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;sudo rm /var/lib/pacman/db.lck&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Pacman_troubleshooting#.22Unable_to_lock_database.22_Error&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;

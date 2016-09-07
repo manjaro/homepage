@@ -2,7 +2,7 @@
 Name = ""
 type="problem-post"
 category="after_installation"
-title = "Updating fails"
+title = "Update or installation fails"
 +++
 
 |   |   |
@@ -19,4 +19,9 @@ title = "Updating fails"
 |                                                   | If no cache cleaner is available, open a [terminal](;baseurl;commonproblems/howtoterminal) and enter: |
 |                                                   | `sudo pacman -Scc` |
 |                                                   | More information about this in our [wiki](https://wiki.manjaro.org/index.php?title=Pacman_Tips#Cleaning_Packages) |
+|   |   |
+| ![Icon](;baseurl;/img/actions/warning.svg) | **Maybe the pacman database is locked** |
+|                                                   | Open a [terminal](;baseurl;commonproblems/howtoterminal) and enter: |
+|                                                   | `sudo rm /var/lib/pacman/db.lck` |
+|                                                   | More information about this in our [wiki](https://wiki.manjaro.org/index.php?title=Pacman_troubleshooting#.22Unable_to_lock_database.22_Error) |
 |   |   |

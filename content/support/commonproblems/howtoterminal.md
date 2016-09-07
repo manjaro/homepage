@@ -17,6 +17,7 @@ Here are instructions to how to use the terminal to run some command:
 |  | • Paste it into the terminal window |
 |  | • Press enter |
 |  | • Wait until the program is finished or wants some interaction |
+|  | • Repeat everything for the next command |
 |   |   |
 
 The terminal will sometimes prompt for a password or some user interaction. The password is the one you have to enter to install something.
