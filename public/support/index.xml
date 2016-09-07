@@ -831,6 +831,11 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Manjaro_Mirrors&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -856,7 +861,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;More information in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Pacman_Tips#Cleaning_Packages&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Pacman_Tips#Cleaning_Packages&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -906,6 +911,11 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;sudo pacman-mirrors -g&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Manjaro_Mirrors&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
