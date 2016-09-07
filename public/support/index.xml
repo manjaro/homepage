@@ -724,7 +724,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;• Open a terminal via application launcher or similar. Search for &amp;ldquo;Terminal&amp;rdquo;, &amp;ldquo;Console&amp;rdquo;, &amp;ldquo;Konsole&amp;rdquo; etc.&lt;/td&gt;
+&lt;td&gt;• Open a terminal via application launcher. Search for &amp;ldquo;Terminal&amp;rdquo;, &amp;ldquo;Console&amp;rdquo;, &amp;ldquo;Konsole&amp;rdquo; etc.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -740,6 +740,11 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;• Press enter&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Wait until the program is finished or wants some interaction&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -762,7 +767,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/information.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;If the terminal wants a password, just type it in and press enter. Don&amp;rsquo;t be confused as while typing you won&amp;rsquo;t see asterisks or similar.&lt;/td&gt;
+&lt;td&gt;If the terminal wants a password, just type it in and press enter. Don&amp;rsquo;t be confused as while typing you won&amp;rsquo;t see asterisks or other visual information.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -781,8 +786,6 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;p&gt;Wait until the program is finished.&lt;/p&gt;
 </description>
     </item>
     
