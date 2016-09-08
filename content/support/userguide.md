@@ -9,7 +9,7 @@ navsection = "support"
 
 [Download User Guide#download-primary-xl#](https://sourceforge.net/projects/manjarolinux/files/release/16.08/readme-16.08.pdf)
 
-Our team and our community proudly present you our Manjaro User Guide, a over 100 page long book with everything new and advanced users can know about Manjaro. We cover following topics in our guide:
+Our team and our community proudly present you the Manjaro User Guide, a over 100 page long book with everything new and advanced users can know about Manjaro. We cover following topics in our guide:
 
 |   |   |
 |---|---|

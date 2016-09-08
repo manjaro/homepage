@@ -12,8 +12,6 @@
     </head>
 	<body id="downloads" class="body-subpage">
 
-		{{ partial "js.html" . }}
-
 		{{ partial "nav.html" . }}
 		<header class="subpage-header">
    			{{ partial "download-nav.html" . }}
@@ -65,9 +63,11 @@
                 
                 <p>If you are ready, click on the following link to find information what to do now.</p>
                 
-                <a href="{{ .Site.BaseURL }}support" style="margin-left: 15px; min-width: 152px;" class="btn btn-primary btn-xl page-scroll">Find out how to start</a>
+                <a href="{{ .Site.BaseURL }}support/firststeps" style="margin-left: 15px; min-width: 152px;" class="btn btn-primary btn-xl page-scroll">Find out how to start</a>
                 
 		</div>
+
+        {{ partial "js.html" . }}
 		
 	</body>
 

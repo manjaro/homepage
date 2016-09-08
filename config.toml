@@ -125,13 +125,13 @@ theme = "hugo-creative-theme"
                
         [[params.aside.howtotry]]
         	icon = "virtual-machine"
-        	text = "Try Manjaro in a <a href=\"https://wiki.manjaro.org/index.php?title=VirtualBox#Running_Manjaro_in_VirtualBox\" target=\"_blank\">virtual machine</a> within your current operating system"
+        	text = "Try Manjaro in a <a href=\";baseurl;support/firststeps#branching-paths\" target=\"_blank\">virtual machine</a> within your current operating system"
 		[[params.aside.howtotry]]
 			icon = "live-boot"
-			text = "Try Manjaro by <a href=\"https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File\" target=\"_blank\">putting it</a> onto a DVD or USB-Stick"    
+			text = "Try Manjaro by <a href=\";baseurl;support/firststeps#branching-paths\" target=\"_blank\">putting it</a> onto a DVD or USB-Stick"    
 		[[params.aside.howtotry]]
 			icon = "install"
-			text = "<a href=\"https://wiki.manjaro.org/index.php?title=Installation_Guides\" target=\"_blank\">Install</a> Manjaro from a DVD or USB-Stick"      	     
+			text = "<a href=\";baseurl;support/firststeps#branching-paths\" target=\"_blank\">Install</a> Manjaro from a DVD or USB-Stick"      	     
                     
                     
         # All supported tags for editions filtering

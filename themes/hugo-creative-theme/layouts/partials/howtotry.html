@@ -1,7 +1,7 @@
 <div>
-	<ul class="downloads-howtotry">
-	{{ range .Site.Params.aside.howtotry }}    
-		<li style="background-image: url('{{ printf "%s/img/try/%s.svg" $.Site.BaseURL .icon }}')" >{{ .text | markdownify }}</li>    
-	{{end}}      
+	<ul class="downloads-howtotry">	
+        <li style="background-image: url('{{ printf "%s/img/try/virtual-machine.svg" $.Site.BaseURL }}')" >Try Manjaro in a <a href="{{ .Site.BaseURL }}support/firststeps#branching-paths" target="_blank">virtual machine</a> within your current operating system</li>    
+        <li style="background-image: url('{{ printf "%s/img/try/live-boot.svg" $.Site.BaseURL }}')" >Try Manjaro by <a href="{{ .Site.BaseURL }}support/firststeps#branching-paths" target="_blank">putting it</a> onto a DVD or USB-Stick</li>    
+        <li style="background-image: url('{{ printf "%s/img/try/install.svg" $.Site.BaseURL }}')" ><a href="{{ .Site.BaseURL }}support/firststeps#branching-paths" target="_blank">Install</a> Manjaro from a DVD or USB-Stick</li>    
 	</ul>  
 </div>	
