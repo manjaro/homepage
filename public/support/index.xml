@@ -923,6 +923,65 @@
     </item>
     
     <item>
+      <title>How to start the installation?</title>
+      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoinstall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoinstall/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/execute.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Start the installer&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;In the Manjaro Welcome dialog you can see an entry called &amp;ldquo;Install&amp;rdquo; or &amp;ldquo;Install with Calamares&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Click on it and wait until the installation assistant starts&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Our &lt;a href=&#34;;baseurl;support/firststeps#install-manjaro&#34;&gt;first steps guide&lt;/a&gt; provides you further information&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/information.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;If you closed the Manjaro Welcome dialog&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Open the application launcher and search for &amp;ldquo;Manjaro&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Start Manjaro Welcome, again.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Laptop screen is too dark</title>
       <link>https://rumangerst.github.io/homepage/public/support/commonproblems/laptop_screen_dark/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -965,6 +1024,65 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;sudo sed &amp;quot;s/\(GRUB_CMDLINE_LINUX=\)\&amp;quot;\&amp;quot;/\1\&amp;quot;acpi_osi=Linux acpi_backlight=vendor\&amp;quot;/&amp;quot; /etc/default/grub -i; sudo update-grub&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Manjaro USB-stick or DVD won&#39;t boot</title>
+      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/cannot_boot_liveenv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/cannot_boot_liveenv/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/question.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Check if you closely followed the instructions&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Our &lt;a href=&#34;;baseurl;support/firststeps#making-a-live-system&#34;&gt;first steps guide&lt;/a&gt; provides you further information&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/warning.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Maybe your computer needs to be configured to be able to boot&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Some manufacturers have by default disabled booting from other devices. If this is the case, you can refer to following information:&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• &lt;a href=&#34;http://www.howtogeek.com/129815/beginner-geek-how-to-change-the-boot-order-in-your-computers-bios/&#34;&gt;How to Boot Your Computer From a Disc or USB Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=BIOS_and_UEFI&#34;&gt;BIOS and UEFI - Manjaro Wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• &lt;a href=&#34;;baseurl;support/userguide&#34;&gt;Manjaro User Guide&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1131,18 +1249,6 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Common problems</title>
-      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/</link>
-      <pubDate>Mon, 05 Sep 2016 21:03:22 +0200</pubDate>
-      
-      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/</guid>
-      <description>&lt;p&gt;Almost nothing is without problems and while our team and our community works hard to get rid of all problems they encounter, some might slip through the cracks or are caused by some external influences. Here are some common problems that other users encountered.&lt;/p&gt;
-
-&lt;p&gt;If you encountered something that is not listed here, take a look at our &lt;a href=&#34;https://bugs.manjaro.org/&#34;&gt;bugtracker&lt;/a&gt; to see if you can provide more information to get rid of the problem. You can always &lt;a href=&#34;;baseurl;get-involved&#34;&gt;help out&lt;/a&gt; by pointing out bugs or discussing with other users about them to find a solution.&lt;/p&gt;
 </description>
     </item>
     
