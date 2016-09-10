@@ -12,6 +12,13 @@ theme = "hugo-creative-theme"
 	# The path must be relative to the static folder
 	favicon = "favicon.png"
 
+ 	[params.language]
+		current = "English"
+
+		[[params.language.available]]
+			name = "English"
+			url = "https://manjaro.org/"
+
 	# Navigation
 	[params.navigation.main]
 		brand = "Manjaro"

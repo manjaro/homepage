@@ -38,32 +38,16 @@
                     <a class="page-scroll" href="{{ .Site.BaseURL }}donate" active-section="#donate">{{ with .Site.Params.navigation.main.donate }}{{ . }}{{ end }}</a>
                 </li>
 
-                <!--<li>
-				    <a href="https://wiki.manjaro.org" target="_blank">Wiki</a>
-				</li>
-			   	<li class="dropdown">
-			      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
+			   	<li class="dropdown locale">
+			      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="{{ .Site.BaseURL}}/img/locale/language.svg" /> {{ .Site.Params.language.current }} <span class="caret"></span></a>
 			      <ul class="dropdown-menu">
+              {{ range .Site.Params.language.available}}
 			        <li>
-			          <a href="https://forum.manjaro.org" target="_blank">Forum</a>
+			          <a href="{{ .url }}" target="_self">{{ .name }}</a>
 			        </li>
-			        <li>
-			          <a href="https://old.forum.manjaro.org" target="_blank">Old Forum</a>
-			        </li>
-			        <li>
-			          <a href="https://lists.manjaro.org" target="_blank">Mailinglists</a>
-			        </li>
-			        <li>
-			          <a href="http://repo.manjaro.org" target="_blank">Mirrors</a>
-			        </li>
-			        <li>
-			          <a href="https://bugs.manjaro.org/" target="_blank">Bugtracker</a>
-			        </li>
-			        <li>
-			            <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.links.contact }}{{ . }}{{ end }}</a>
-			        </li>
+              {{ end }}
 			      </ul>
-			    </li>-->
+			    </li>
 
 
             </ul>
