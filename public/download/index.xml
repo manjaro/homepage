@@ -110,6 +110,91 @@
     </item>
     
     <item>
+      <title></title>
+      <link>https://rumangerst.github.io/homepage/public/download/_additional_info_post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/download/_additional_info_post/</guid>
+      <description>
+
+&lt;p&gt;You can also use &lt;a href=&#34;https://en.wikipedia.org/wiki/BitTorrent&#34;&gt;Torrents&lt;/a&gt; to download Manjaro.
+Just download the *.torrent file for the &lt;a href=&#34;;torrent-x64;&#34;&gt;64 bit&lt;/a&gt; or &lt;a href=&#34;;torrent-x86;&#34;&gt;32 bit&lt;/a&gt; version and open it with a torrent program like &lt;a href=&#34;http://www.qbittorrent.org/&#34;&gt;qBittorrent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;be-secure&#34;&gt;Be secure&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;We encourage you to check if the download was not modified by some &lt;strong&gt;malicious person&lt;/strong&gt; or by an error while downloading. As a simple check, you can generate the SHA1-sum of the downloaded file and compare it with the one we provide you here.
+&lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Check_a_Downloaded_ISO_Image_For_Errors&#34;&gt;Here&lt;/a&gt; you can find information how to generate such a sum and check your downloaded files.&lt;/p&gt;
+
+&lt;p&gt;To even further enhance the security, verify the downloaded file with a &lt;strong&gt;GPG (GNU Privacy Guard)&lt;/strong&gt; signature that will ensure that the file was not modified and was actually created by the Manjaro developers.
+&lt;a href=&#34;http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/&#34;&gt;Here&lt;/a&gt; you can find information how to use it.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you are ready, click on the following link to find information what to do now.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;;baseurl;support/firststeps&#34;&gt;First steps#download-primary-xl#&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://rumangerst.github.io/homepage/public/download/_additional_info_pre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/download/_additional_info_pre/</guid>
+      <description>&lt;p&gt;There are two architectures available: 64 bit and 32 bit. If you don&amp;rsquo;t know which one you should choose, you can use 64 bit for more modern computers and 32 bit if you computer is an older model. If you don&amp;rsquo;t have enough information about your hardware, choose the 32 bit version, which will run on more hardware.&lt;/p&gt;
+
+&lt;p&gt;Both editions have exactly the same features and support and this decision is only important if you need maximum performance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://rumangerst.github.io/homepage/public/download/_how_to_try/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/download/_how_to_try/</guid>
+      <description>
+
+&lt;h2 id=&#34;try-it-now&#34;&gt;Try it now&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;You can try Manjaro without changing your running system by putting it on a USB stick or on a DVD. If you decide to install Manjaro, you can do it directly from this live-system.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/try/virtual-machine.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;Try Manjaro in a &lt;a href=&#34;;baseurl;support/firststeps#branching-paths&#34;&gt;virtual machine&lt;/a&gt; within your current operating system&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/try/live-boot.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;Try Manjaro by &lt;a href=&#34;;baseurl;support/firststeps#branching-paths&#34;&gt;running it&lt;/a&gt; from a DVD or USB-Stick&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/try/virtual-machine.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;;baseurl;support/firststeps#branching-paths&#34;&gt;Install&lt;/a&gt; Manjaro  from a DVD or USB-Stick&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
       <title>kde</title>
       <link>https://rumangerst.github.io/homepage/public/download/kde/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:44 +0200</pubDate>
@@ -117,15 +202,6 @@
       <guid>https://rumangerst.github.io/homepage/public/download/kde/</guid>
       <description>&lt;p&gt;KDE is a feature-rich and versatile desktop environment that provides several different styles of menu to access applications. An excellent built-in interface to easily access and install new themes, widgets, etc, from the internet is also worth mentioning. While very user-friendly and certainly flashy, KDE is also quite resource heavy and noticably slower to start and use than a desktop environment such as XFCE. A 64 bit installation of Manjaro running KDE uses about 550MB of memory.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>net</title>
-      <link>https://rumangerst.github.io/homepage/public/download/net/</link>
-      <pubDate>Sun, 04 Sep 2016 19:10:59 +0200</pubDate>
-      
-      <guid>https://rumangerst.github.io/homepage/public/download/net/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -46,6 +46,22 @@
     </item>
     
     <item>
+      <title>Chat</title>
+      <link>https://rumangerst.github.io/homepage/public/support/chat/</link>
+      <pubDate>Mon, 05 Sep 2016 21:03:22 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/chat/</guid>
+      <description>
+
+&lt;h2 id=&#34;want-to-know-something-or-help-somebody-join-the-chat&#34;&gt;Want to know something or help somebody? Join the chat!&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;You can just join one of our chatrooms via web client or you can use an IRC chat program if you want.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>First steps</title>
       <link>https://rumangerst.github.io/homepage/public/support/firststeps/</link>
       <pubDate>Mon, 05 Sep 2016 21:03:22 +0200</pubDate>
@@ -690,12 +706,20 @@
     </item>
     
     <item>
-      <title>chat</title>
-      <link>https://rumangerst.github.io/homepage/public/support/chat/</link>
-      <pubDate>Mon, 05 Sep 2016 21:03:22 +0200</pubDate>
+      <title></title>
+      <link>https://rumangerst.github.io/homepage/public/support/_quick_contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/chat/</guid>
-      <description></description>
+      <guid>https://rumangerst.github.io/homepage/public/support/_quick_contact/</guid>
+      <description>
+
+&lt;h2 id=&#34;do-you-need-more-help-contact-us&#34;&gt;Do you need more help? Contact us!&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Our team and our community can help via a variety of different channels.
+Write us a mail or ask other users via chat or forums. We will be glad to help you!&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -1187,60 +1211,6 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Pacman_troubleshooting#.22Unable_to_lock_database.22_Error&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Updating is very slow</title>
-      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/update_slow/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/update_slow/</guid>
-      <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/question.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Check if your internet is not unstable or has some problems&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/warning.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Maybe the current mirror is slow&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Open a &lt;a href=&#34;;baseurl;commonproblems/howtoterminal&#34;&gt;terminal&lt;/a&gt; and enter:&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;sudo pacman-mirrors -g&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Manjaro_Mirrors&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;

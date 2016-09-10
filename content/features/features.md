@@ -5,7 +5,6 @@ tags = [ "quick" ]
 title = "What features does Manjaro have?"
 type = "features-post"
 weight = 1
-
 +++
 
 Manjaro is available in both 32 and 64 bit versions and is suitable for newcomers as well as experienced Linux users. For newcomers, a user-friendly installer is provided, and the system itself is designed to work fully ‘straight out of the box’. Manjaro comes with:
@@ -20,4 +19,3 @@ Manjaro is available in both 32 and 64 bit versions and is suitable for newcomer
 | ![Icon](;baseurl;/img/features/star.svg) | Access to the lastest version of software |
 | ![Icon](;baseurl;/img/features/kernel.svg) | Support for the easy installation and use of multiple kernels. |
 | ![Icon](;baseurl;/img/features/aur.svg) | Access to the Arch User Repository (AUR) for more experienced users |
-

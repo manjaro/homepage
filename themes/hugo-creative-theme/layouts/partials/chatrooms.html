@@ -3,40 +3,38 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Want to know something or help somebody? Join the chat!</h2>
-                <hr class="primary">
-                <p>You can just join one of our chatrooms via web client or you can use an IRC chat program if you want.</p>
-            </div>       
-            
-            {{ range (where .Site.Pages ".Type" "chat-channel") }}    
-            <div class="col-lg-4 text-center">               
+                <p>{{ .Content | markdownify }}
+            </div>
+
+            {{ range (where .Site.Pages ".Type" "chat-channel") }}
+            <div class="col-lg-4 text-center">
                 <img src="{{ .Site.BaseURL }}/img/contact/irc.svg" class="wow bounceIn bouncy-icon"/>
                 <p><a href="http://webchat.freenode.net/?channels=%23{{ .Params.channel }}" target="_blank">{{ .Title }}</a></p>
             </div>
             {{ end }}
-            
+
              <div class="col-lg-8 col-lg-offset-2 text-center">
-             	<hr/>               
-                <p>You can use following data if you don't want to use the webclient:</p>
-                
+             	<hr/>
+                <p>{{ .Params.info_irc_data | markdownify }}</p>
+
                 <table class="dontation-manually-card">
                 	<tr>
 						<td class="team-field" ></td>
-						<td class="team-field">Server</td>
-						<td class="team-field">Port</td>
-						<td class="team-field">Channel</td>
+						<td class="team-field">{{ .Params.irc_data_text_server }}</td>
+						<td class="team-field">{{ .Params.irc_data_text_port }}</td>
+						<td class="team-field">{{ .Params.irc_data_text_channel }}</td>
 					</tr>
-					{{ range (where .Site.Pages ".Type" "chat-channel") }}    
+					{{ range (where .Site.Pages ".Type" "chat-channel") }}
 					<tr>
 						<td class="team-field" >{{ .Title }}</td>
 						<td>{{ .Params.server }}</td>
 						<td>{{ .Params.port }}</td>
 						<td>#{{ .Params.channel }}</td>
 					</tr>
-					{{ end }}			
+					{{ end }}
 				</table>
-            </div>       
-          
+            </div>
+
         </div>
     </div>
 </section>

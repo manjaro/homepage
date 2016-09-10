@@ -262,17 +262,17 @@
   </url>
   
   <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/chat/</loc>
+    <lastmod>2016-09-05T21:03:22+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rumangerst.github.io/homepage/public/support/firststeps/</loc>
     <lastmod>2016-09-05T21:03:22+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://rumangerst.github.io/homepage/public/support/userguide/</loc>
-    <lastmod>2016-09-05T21:03:22+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rumangerst.github.io/homepage/public/support/chat/</loc>
     <lastmod>2016-09-05T21:03:22+02:00</lastmod>
   </url>
   
@@ -437,11 +437,6 @@
   </url>
   
   <url>
-    <loc>https://rumangerst.github.io/homepage/public/get-involved/</loc>
-    <lastmod>2016-09-05T01:33:01+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://rumangerst.github.io/homepage/public/news/stable_update_2016-09-04/</loc>
     <lastmod>2016-09-04T23:51:14+02:00</lastmod>
   </url>
@@ -502,11 +497,6 @@
   </url>
   
   <url>
-    <loc>https://rumangerst.github.io/homepage/public/support/</loc>
-    <lastmod>2016-09-04T17:30:28+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://rumangerst.github.io/homepage/public/news/</loc>
     <lastmod>2016-09-04T15:50:20+02:00</lastmod>
   </url>
@@ -517,13 +507,23 @@
   </url>
   
   <url>
-    <loc>https://rumangerst.github.io/homepage/public/features/</loc>
-    <lastmod>2016-09-04T15:13:38+02:00</lastmod>
+    <loc>https://rumangerst.github.io/homepage/public/download/_additional_info_post/</loc>
   </url>
   
   <url>
-    <loc>https://rumangerst.github.io/homepage/public/download/</loc>
-    <lastmod>2016-09-04T14:12:32+02:00</lastmod>
+    <loc>https://rumangerst.github.io/homepage/public/download/_additional_info_pre/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/_how_to_try/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/_quick_contact/</loc>
   </url>
   
   <url>
@@ -551,6 +551,10 @@
   </url>
   
   <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/</loc>
+  </url>
+  
+  <url>
     <loc>https://rumangerst.github.io/homepage/public/support/commonproblems/update_fails/</loc>
   </url>
   
@@ -559,7 +563,15 @@
   </url>
   
   <url>
+    <loc>https://rumangerst.github.io/homepage/public/features/</loc>
+  </url>
+  
+  <url>
     <loc>https://rumangerst.github.io/homepage/public/features/usercases/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/</loc>
   </url>
   
   <url>
@@ -585,6 +597,11 @@
   <url>
     <loc>https://rumangerst.github.io/homepage/public/download/net/</loc>
     <lastmod>2016-09-04T19:10:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/mailinglists/</loc>
+    <lastmod>2016-09-05T21:03:22+02:00</lastmod>
   </url>
   
   <url>

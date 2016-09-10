@@ -11,38 +11,38 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-		
-        
+
+
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
         	<ul class="nav navbar-nav navbar-left">
             	<li>
-	                <a class="page-scroll" href="{{ .Site.BaseURL }}news">Most Recent News</a>
-	            </li>            	
+	                <a class="page-scroll" href="{{ .Site.BaseURL }}news">{{ .Site.Params.navigation.news.home }}</a>
+	            </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">	
-            	
+            <ul class="nav navbar-nav navbar-right">
+
 				{{ range first 3 (where .Site.Pages ".Type" "news-archive") }}
-				
+
 				<li>
                     <a class="page-scroll" href="{{ .Permalink }}">{{ .Title }}</a>
-                </li>				
-				
-				{{ end }}            	
-            	
+                </li>
+
+				{{ end }}
+
             	<li class="dropdown">
-			      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More archives <span class="caret"></span></a>
+			      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Site.Params.navigation.news.archives }} <span class="caret"></span></a>
 			      <ul class="dropdown-menu">
 			      	{{ range (where .Site.Pages ".Type" "news-archive") }}
-				
+
 					<li>
 	                    <a class="page-scroll" href="{{ .Permalink }}">{{ .Title }}</a>
-	                </li>				
-					
-					{{ end }}            	
+	                </li>
+
+					{{ end }}
 			      </ul>
-			    </li>              
-               
+			    </li>
+
             </ul>
         </div>
         {{ "<!-- /.navbar-collapse -->" | safeHTML }}

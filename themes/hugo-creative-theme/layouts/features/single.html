@@ -2,17 +2,17 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 	<head>
         {{ partial "head.html" . }}
-        
+
 		<style>
 		.body-subpage {
 		background-color: #fff;
 		}
-		</style>        
-        
+		</style>
+
     </head>
 	<body id="features" class="body-subpage">
 
-		{{ partial "nav.html" . }}		
+		{{ partial "nav.html" . }}
 		<header class="subpage-header">
    			{{ partial "features-nav.html" . }}
 		</header>
@@ -24,7 +24,7 @@
 		                <h2 class="section-heading">{{ .Title }}</h2>
 		                <hr class="light">
 		                <p class="text-faded">{{ .Content }}</p>
-		              
+
 		                <br /><p><img id="about-image" src="{{ .Site.BaseURL }}/img/laptop-4.png" /></p>
 		            </div>
 		        </div>
@@ -32,7 +32,7 @@
 		</section>
 
 		{{ partial "quickfeatures.html" . }}
-		
+
 		{{ partial "js.html" . }}
 	</body>
 

@@ -1,9 +1,13 @@
-+++
-date = "2016-09-04T17:30:28+02:00"
-draft = false
-title = "Do you need some help?"
-type = "support"
+{
+  "type" : "support",
+  "supportentries" : [
+    { "name" : "First steps", "link" : ";baseurl;support/firststeps", "img" : ";baseurl;/img/contact/documentation.svg" },
+    { "name" : "Manjaro User Guide", "link" : ";baseurl;support/userguide", "img" : ";baseurl;/img/contact/documentation.svg" },
+    { "name" : "Frequently asked questions", "link" : "https://wiki.manjaro.org/index.php/Manjaro_FAQ", "img" : ";baseurl;/img/contact/documentation.svg" }
+  ]
+}
 
-+++
+## You don't know where to start? We've something prepared for you!
+---
 
-
+We put great effort into documenting Manjaro, making tutorials and answering common questions. Here you can find most of the information you need.
