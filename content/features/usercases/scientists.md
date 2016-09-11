@@ -22,7 +22,7 @@
   {"name" : "Yaourt", "url" : "https://wiki.archlinux.org/index.php/Yaourt", "usage" : "Install 3rd party packages" }
   ],
   "softwarepresented" : [
-  {"name" : "LaTeX", "url" : "https://www.latex-project.org/", "usage" : "Creating documents,presentations, books, ..." },
+  {"name" : "LaTeX", "url" : "https://www.latex-project.org/", "usage" : "Create documents and more" },
   {"name" : "R", "url" : "https://www.r-project.org/", "usage" : "Statistics" },
   {"name" : "Yaourt", "url" : "https://wiki.archlinux.org/index.php/Yaourt", "usage" : "Install 3rd party packages" }
   ]

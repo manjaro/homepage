@@ -23,7 +23,7 @@
   {"name" : "LibreOffice", "url" : "http://www.libreoffice.org/", "usage" : "Complete office-suite" }
   ],
   "softwarepresented" : [
-  {"name" : "Gcompris", "url" : "http://gcompris.net/", "usage" : "Learning software for young children" },
+  {"name" : "Gcompris", "url" : "http://gcompris.net/", "usage" : "Learning software" },
   {"name" : "Geogebra", "url" : "https://www.geogebra.org/", "usage" : "Geometry/mathematics" },
   {"name" : "Minuet", "url" : "https://www.kde.org/applications/education/minuet/", "usage" : "Teach/learn music" }
   ],
