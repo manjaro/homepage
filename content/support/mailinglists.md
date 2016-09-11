@@ -7,7 +7,7 @@ right = true
 navsection = "support"
 +++
 
-A mailing list is a way to communicate with other users and the developers. Manjaro provides serveral mailing lists with a specific topic (e.g. about security or development).
+A mailing list is a way to communicate with other users and the developers. If somebody sends a mail to the mailing list, everybody who is subscribed to this list get the mail.  Manjaro provides serveral mailing lists with a specific topic (e.g. about security or development).
 
 If you are interested, you can just subscribe to a mailing list and get a look into current discussions. You can also participate by sending a mail to the mailing list's main  email and everybody else will get your mail.
 
