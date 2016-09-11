@@ -38,16 +38,16 @@
                     <a class="page-scroll" href="{{ .Site.BaseURL }}donate" active-section="#donate">{{ with .Site.Params.navigation.main.donate }}{{ . }}{{ end }}</a>
                 </li>
 
-			   	<li class="dropdown locale">
-			      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="{{ .Site.BaseURL}}/img/locale/language.svg" /> {{ .Site.Params.language.current }} <span class="caret"></span></a>
-			      <ul class="dropdown-menu">
-              {{ range .Site.Params.language.available}}
-			        <li>
-			          <a href="{{ .url }}" target="_self">{{ .name }}</a>
-			        </li>
-              {{ end }}
-			      </ul>
-			    </li>
+      			   	<li class="dropdown locale">
+      			      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="{{ .Site.BaseURL}}/img/locale/language.svg" /> {{ .Site.Params.language.current }} <span class="caret"></span></a>
+      			      <ul class="dropdown-menu">
+                    {{ range .Site.Params.language.available}}
+      			        <li>
+      			          <a href="{{ .url }}" target="_self">{{ .name }}</a>
+      			        </li>
+                    {{ end }}
+      			      </ul>
+      			    </li>
 
 
             </ul>

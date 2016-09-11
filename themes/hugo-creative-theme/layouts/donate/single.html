@@ -2,27 +2,27 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 	<head>
         {{ partial "head.html" . }}
-        
+
 		<style>
 		.body-subpage {
 		background-color: #fff;
 		}
-		</style>        
-        
+		</style>
+
     </head>
 	<body id="donate" class="body-subpage">
-	
+
 		{{ partial "js.html" . }}
-		
+
 		{{ partial "nav.html" . }}
-		<header class="subpage-header">
+		<!-- <header class="subpage-header"> -->
    			{{ partial "get-involved-nav.html" . }}
-		</header>
-		
+		<!-- </header> -->
+
 		{{ partial "donate.html" . }}
 		{{ partial "donation-manually.html" . }}
-		
-		
+
+
 	</body>
 
 </html>

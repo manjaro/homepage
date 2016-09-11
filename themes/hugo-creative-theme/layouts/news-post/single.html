@@ -2,24 +2,24 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 	<head>
         {{ partial "head.html" . }}
-        
+
 		<style>
 		.body-subpage {
 		background-color: #fff;
 		}
-		</style>        
-        
+		</style>
+
     </head>
 	<body id="news" class="body-subpage">
 
 		{{ partial "nav.html" . }}
-		
-		<header class="subpage-header">
+
+		<!-- <header class="subpage-header"> -->
    			{{ partial "news-nav.html" . }}
-		</header>
-		
+		<!-- </header> -->
+
 		{{ partial "news-post.html" . }}
-		
+
 		{{ partial "js.html" . }}
 	</body>
 

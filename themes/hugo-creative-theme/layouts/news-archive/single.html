@@ -2,28 +2,28 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 	<head>
         {{ partial "head.html" . }}
-        
+
 		<style>
 		.body-subpage {
 		background-color: #fff;
 		}
-		</style>        
-        
+		</style>
+
     </head>
 	<body id="news" class="body-subpage">
 
 		{{ partial "nav.html" . }}
-		
-		<header class="subpage-header">
+
+		<!-- <header class="subpage-header"> -->
    			{{ partial "news-nav.html" . }}
-		</header>
-		
+		<!-- </header> -->
+
 		{{ range (where (where .Site.Pages ".Type" "news-post") ".Params.archive" .Params.archive) }}
-		
-			{{ partial "news-post.html" . }}		
-		
+
+			{{ partial "news-post.html" . }}
+
 		{{ end }}
-		
+
 		{{ partial "js.html" . }}
 	</body>
 

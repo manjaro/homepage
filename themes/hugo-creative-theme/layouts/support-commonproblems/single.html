@@ -2,31 +2,31 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 	<head>
         {{ partial "head.html" . }}
-        
+
 		<style>
 		.body-subpage {
 		background-color: #fff;
 		}
-		</style>        
-        
+		</style>
+
     </head>
 	<body id="features" class="body-subpage">
 
-		{{ partial "nav.html" . }}		
-		<header class="subpage-header">
+		{{ partial "nav.html" . }}
+		<!-- <header class="subpage-header"> -->
    			{{ partial "support-nav.html" . }}
-		</header>
-		
+		<!-- </header> -->
+
 		<section>
 		    <div class="container">
 		        <div class="row">
 		            <div class="text-center">
 		                <h2 class="section-heading">{{ .Title }}</h2>
 		                <hr class="star-primary"/>
-		                
-		                <div class="support-post" >		                
+
+		                <div class="support-post" >
 		                	<p>{{ .Content | replaceRE ";baseurl;" .Site.BaseURL | markdownify  }}
-                                
+
                             <table>
                                 <thead>
                                 <tr>
@@ -46,31 +46,31 @@
                                     <td>• <a href="{{ .Permalink }}">{{ .Title }}</a></td>
                                     </tr>
                                     {{ end }}
-                                    
+
                                     <tr>
                                     <td><img src="{{ .Site.BaseURL }}/img/actions/install.svg" alt="Icon" /></td>
                                     <td><strong>During installation</strong></td>
                                     </tr>
-                                    
+
                                     {{ range (where (where .Site.Pages ".Type" "problem-post" ) ".Params.category" "during_installation") }}
                                     <tr>
                                     <td></td>
                                     <td>• <a href="{{ .Permalink }}">{{ .Title }}</a></td>
                                     </tr>
                                     {{ end }}
-                                    
+
                                     <tr>
                                     <td><img src="{{ .Site.BaseURL }}/img/try/install.svg" alt="Icon" /></td>
                                     <td><strong>After installation</strong></td>
                                     </tr>
-                                    
+
                                     {{ range (where (where .Site.Pages ".Type" "problem-post" ) ".Params.category" "after_installation") }}
                                     <tr>
                                     <td></td>
                                     <td>• <a href="{{ .Permalink }}">{{ .Title }}</a></td>
                                     </tr>
                                     {{ end }}
-                                    
+
                                 </tbody>
                             </table>
 		                </div>
@@ -78,7 +78,7 @@
 		        </div>
 		    </div>
 		</section>
-		
+
 		{{ partial "js.html" . }}
 	</body>
 

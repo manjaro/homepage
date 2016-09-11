@@ -2,25 +2,25 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 	<head>
         {{ partial "head.html" . }}
-        
+
 		<style>
 		.body-subpage {
 		background-color: #fff;
 		}
-		</style>        
-        
+		</style>
+
     </head>
 	<body id="features" class="body-subpage">
 
 		{{ partial "nav.html" . }}
-		<header class="subpage-header">
+		<!-- <header class="subpage-header"> -->
    			{{ partial "support-nav.html" . }}
-		</header>
-		
-		{{ partial "chatrooms.html" . }}		
-		
+		<!-- </header> -->
+
+		{{ partial "chatrooms.html" . }}
+
 		{{ partial "js.html" . }}
-		
+
 	</body>
 
 </html>

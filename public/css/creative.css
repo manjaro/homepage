@@ -153,13 +153,24 @@ aside {
 .subnavbar {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: transparent;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
-    position: absolute;
     width: 100%;
-    bottom: -21px;
+    min-height: 300px;
+    /*position: absolute;*/
+    /*top: 51px;*/
+    display: flex;
+    border: none;
+    border-radius: 0;
+}
+
+.subnavbar .container-fluid {
+  /*background-color: green;*/
+  /*position: absolute;*/
+  /*bottom: -1px;*/
+  width: 100%;
+  margin-top: auto;
 }
 
 .subnavbar .navbar-header .navbar-brand {
@@ -264,15 +275,13 @@ aside {
 }*/
 
 .subpage-header {
-    min-height: 250px;
     background-image: url(../img/header7.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    position: relative;
-}
+  }
 
 .index-header {
     position: relative;
