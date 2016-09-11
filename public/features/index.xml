@@ -6,76 +6,8 @@
     <description>Recent content in Features on Manjaro Linux - enjoy the simplicity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Sep 2016 00:36:21 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 05 Sep 2016 15:08:14 +0200</lastBuildDate>
     <atom:link href="https://rumangerst.github.io/homepage/public/features/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Configured with one click</title>
-      <link>https://rumangerst.github.io/homepage/public/features/tools/</link>
-      <pubDate>Tue, 06 Sep 2016 00:36:21 +0200</pubDate>
-      
-      <guid>https://rumangerst.github.io/homepage/public/features/tools/</guid>
-      <description>&lt;p&gt;Manjaro comes with it&amp;rsquo;s own tools that help you configuring your computer the way you want - without searching for scattered settings across the whole system and looking things up on the internet. Just open the system control panel, open the tool and select what you want.&lt;/p&gt;
-
-&lt;section id=&#34;pamac&#34; &gt;
-  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
-    &lt;img src=&#34;;baseurl;/img/applications/manjaro_pamac.png&#34;/&gt;
-    &lt;div&gt;
-    &lt;h3&gt;Choose, install, finished!&lt;/h3&gt;
-    Manjaro maintains it&#39;s own program to install, update and remove packages from the system. Just open it, choose what you want and click &#39;install&#39;. All other needed things will be done automatically and the only thing you need to do is to start the program.
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;locale&#34; &gt;
-  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
-    &lt;div &gt;
-    &lt;h3&gt;Manjaro speaks my language&lt;/h3&gt;
-    If you don&#39;t speak english, it&#39;s no problem for Manjaro. Just start our locale settings and select the language you want. After you logged out and in again, everything is exactly the way you want. We also offer you a special tool that automatically installs language packs for a variety of programs and notifies you if you can get translation sfor your favorite programs.
-    &lt;/div&gt;
-    &lt;img src=&#34;;baseurl;/img/applications/manjaro_locale.png&#34;/&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;mhwd&#34; &gt;
-  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
-    &lt;img src=&#34;;baseurl;/img/applications/manjaro_mhwd.png&#34;/&gt;
-    &lt;div&gt;
-    &lt;h3&gt;New graphics card? One click and it&#39;s done&lt;/h3&gt;
-    Manjaro comes with MHWD, the Manjaro Hardware Detection. If you need drivers for your hardware, just open it, click on &#34;Auto Install&#34; and wait until it&#39;s finished. That&#39;s it.
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;timeanddate&#34; &gt;
-  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
-    &lt;div&gt;
-    &lt;h3&gt;Traveling a lot?&lt;/h3&gt;
-    If you need to change the timezone, because you are on holiday or you need to travel for your business, we provide you a handy tool to quickly switch the time settings to have more time to get things done or enjoy the free time.
-    &lt;/div&gt;
-    &lt;img src=&#34;;baseurl;/img/applications/manjaro_timeanddate.png&#34;/&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;useraccounts&#34; &gt;
-  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
-    &lt;img src=&#34;;baseurl;/img/applications/manjaro_useraccounts.png&#34;/&gt;
-    &lt;div&gt;
-    &lt;h3&gt;Divide and conquer&lt;/h3&gt;
-    If multiple people use your computer, just create an account for each of them. So everybody can have their own data and own privileges what they can and can&#39;t do.
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section id=&#34;kernel&#34; &gt;
-  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
-
-    &lt;div&gt;
-    &lt;h3&gt;Switch the core with one click&lt;/h3&gt;
-    Power-users and people who need special features of the Linux Kernel that don&#39;t come with the default one can just switch to a different Kernel with one click. Do you make music or need other realtime features? Just switch to a RT-Kernel. Do you need the newest improved open-source graphics drivers? Just switch to a newer one. Manjaro let&#39;s you not only switch to another Kernel, but supports multiple installed kernels at the same time. Just re-boot your system and you can just switch between all installed Kernels in the boot menu.
-    &lt;/div&gt;
-
-    &lt;img src=&#34;;baseurl;/img/applications/manjaro_kernels.png&#34;/&gt;
-
-  &lt;/div&gt;
-&lt;/section&gt;
-</description>
-    </item>
     
     <item>
       <title>scientists</title>
@@ -174,6 +106,117 @@
 &lt;p&gt;3D-Modelling can be done using &lt;a href=&#34;https://www.blender.org/&#34;&gt;Blender&lt;/a&gt;. Codecs for video and audio come pre-installed or are automatically fetched. Most of this software is completely free available and can be easily and secure installed by using Manjaro&amp;rsquo;s integrated package manager.&lt;/p&gt;
 
 &lt;p&gt;Manjaro&amp;rsquo;s repositories also contain software useful for musicials such as the easy-to-use recording and editing software &lt;a href=&#34;http://www.audacityteam.org/&#34;&gt;Audacity&lt;/a&gt;. For more professional users &lt;a href=&#34;http://ardour.org/&#34;&gt;Ardour&lt;/a&gt; brings all the needed features. Sequencing, mixing and synthesizing can be done using &lt;a href=&#34;https://lmms.io/&#34;&gt;LMMS&lt;/a&gt;. Manjaro maintains &lt;a href=&#34;https://forum.manjaro.org/t/a-realtime-kernel-for-manjaro/4066&#34;&gt;realtime&lt;/a&gt; versions of the Linux kernel that are designed for low latency and optimized for audio-engineering.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Under your control</title>
+      <link>https://rumangerst.github.io/homepage/public/features/switch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/features/switch/</guid>
+      <description>&lt;p&gt;As like many other Linux distributions, we believe that privacy, security and control is one of the most valuable for a user. We included some clever tools to achieve all the tasks that are needed to make room for actual work, entertainment and relaxing. But you, the user, will always be in control of your own computer. It&amp;rsquo;s your hardware and your operating system.&lt;/p&gt;
+
+&lt;ul class=&#34;flex-grid&#34;&gt;
+  &lt;li class=&#34;flex-item&#34;&gt;
+    &lt;div style=&#34;width: 100%; text-align: center; border: 1px solid #ddd;&#34;&gt;
+      &lt;img src=&#34;;baseurl;/img/actions/update.svg&#34; alt=&#34;Icon&#34; style=&#34;width: 200px; height: 200px;&#34; /&gt;
+      &lt;h3&gt;Update when you want&lt;/h3&gt;
+      &lt;hr/&gt;
+      &lt;div style=&#34;text-align: justify; width: 80%; display: inline-block; margin-bottom: 10px;&#34;&gt;
+      Manjaro only shows a small notification if an update is available. If you have important work to do, are currently in a ranked game or currently watching a movie, you won&#39;t even notice it or just can hide it with one click. &#34;Not now&#34; still means that you don&#39;t have time and just don&#39;t want to update now. No hidden downloads, no automatic restarts. Manjaro does exactly what you want.
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li class=&#34;flex-item&#34;&gt;
+    &lt;div style=&#34;width: 100%; text-align: center; border: 1px solid #ddd;&#34;&gt;
+      &lt;img src=&#34;;baseurl;/img/actions/security.svg&#34; alt=&#34;Icon&#34; style=&#34;width: 200px; height: 200px;&#34; /&gt;
+      &lt;h3&gt;Your data, not ours&lt;/h3&gt;
+      &lt;hr/&gt;
+      &lt;div style=&#34;text-align: justify; width: 80%; display: inline-block; margin-bottom: 10px;&#34;&gt;
+      Manjaro does not send unwanted data to anybody. Why should it? It&#39;s your data and you decide what you want to do with it. &lt;strong&gt;You&lt;/strong&gt; can decide if you want to use services that finance themselves with the data you generate. But you also can decide to secure, hide and protect your data and use open source software that is directly available in Manjaro&#39;s repositories and has been additionally checked by the package maintainer.
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li class=&#34;flex-item&#34;&gt;
+    &lt;div style=&#34;width: 100%; text-align: center; border: 1px solid #ddd;&#34;&gt;
+      &lt;img src=&#34;;baseurl;/img/actions/toolbox.svg&#34; alt=&#34;Icon&#34; style=&#34;width: 200px; height: 200px;&#34; /&gt;
+      &lt;h3&gt;Change everything you need&lt;/h3&gt;
+      &lt;hr/&gt;
+      &lt;div style=&#34;text-align: justify; width: 80%; display: inline-block; margin-bottom: 10px;&#34;&gt;
+      Every person is different and needs an operating system that will not try to enforce a specific workflow, visual style or certain programs. Manjaro comes with defaults, we think to suit most of users. But as most other Linux distributions, we keep all options open configure, change, remove or replace all functions. Most of these options are directly available via a easy-to-use configuration program that helps changing things.
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Configured with one click</title>
+      <link>https://rumangerst.github.io/homepage/public/features/tools/</link>
+      <pubDate>Tue, 06 Sep 2016 00:36:21 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/features/tools/</guid>
+      <description>&lt;p&gt;Manjaro comes with it&amp;rsquo;s own tools that help you configuring your computer the way you want - without searching for scattered settings across the whole system and looking things up on the internet. Just open the system control panel, open the tool and select what you want.&lt;/p&gt;
+
+&lt;section id=&#34;pamac&#34; &gt;
+  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
+    &lt;img src=&#34;;baseurl;/img/applications/manjaro_pamac.png&#34;/&gt;
+    &lt;div&gt;
+    &lt;h3&gt;Choose, install, finished!&lt;/h3&gt;
+    Manjaro maintains it&#39;s own program to install, update and remove packages from the system. Just open it, choose what you want and click &#39;install&#39;. All other needed things will be done automatically and the only thing you need to do is to start the program.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;locale&#34; &gt;
+  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
+    &lt;div &gt;
+    &lt;h3&gt;Manjaro speaks your language&lt;/h3&gt;
+    If your native language isn&#39;t English, it&#39;s no problem for Manjaro. Just start our locale settings and select the language you want. After you logged out and in again, everything is exactly the way you want. We also offer you a special tool that automatically installs language packs for a variety of programs and notifies you if you can get translation sfor your favorite programs.
+    &lt;/div&gt;
+    &lt;img src=&#34;;baseurl;/img/applications/manjaro_locale.png&#34;/&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;mhwd&#34; &gt;
+  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
+    &lt;img src=&#34;;baseurl;/img/applications/manjaro_mhwd.png&#34;/&gt;
+    &lt;div&gt;
+    &lt;h3&gt;New graphics card? One click and it&#39;s done&lt;/h3&gt;
+    Manjaro comes with MHWD, the Manjaro Hardware Detection. If you need drivers for your hardware, just open it, click on &#34;Auto Install&#34; and wait until it&#39;s finished. That&#39;s it.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;timeanddate&#34; &gt;
+  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
+    &lt;div&gt;
+    &lt;h3&gt;Traveling a lot?&lt;/h3&gt;
+    If you need to change the timezone, because you are on holiday or you need to travel for your business, we provide you a handy tool to quickly switch the time settings to have more time to get things done or enjoy the free time.
+    &lt;/div&gt;
+    &lt;img src=&#34;;baseurl;/img/applications/manjaro_timeanddate.png&#34;/&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;useraccounts&#34; &gt;
+  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
+    &lt;img src=&#34;;baseurl;/img/applications/manjaro_useraccounts.png&#34;/&gt;
+    &lt;div&gt;
+    &lt;h3&gt;Divide and conquer&lt;/h3&gt;
+    If multiple people use your computer, just create an account for each of them. So everybody can have their own data and own privileges what they can and can&#39;t do.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;kernel&#34; &gt;
+  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
+
+    &lt;div&gt;
+    &lt;h3&gt;Switch the core with one click&lt;/h3&gt;
+    Power-users and people who need special features of the Linux Kernel that don&#39;t come with the default one can just switch to a different Kernel with one click. Do you make music or need other realtime features? Just switch to a RT-Kernel. Do you need the newest improved open-source graphics drivers? Just switch to a newer one. Manjaro let&#39;s you not only switch to another Kernel, but supports multiple installed kernels at the same time. Just re-boot your system and you can just switch between all installed Kernels in the boot menu.
+    &lt;/div&gt;
+
+    &lt;img src=&#34;;baseurl;/img/applications/manjaro_kernels.png&#34;/&gt;
+
+  &lt;/div&gt;
+&lt;/section&gt;
 </description>
     </item>
     

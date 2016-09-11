@@ -4,7 +4,7 @@ navsection = "features"
 right = false
 title = "Configured with one click"
 type = "features-post"
-weight = 0
+weight = 1
 +++
 
 Manjaro comes with it's own tools that help you configuring your computer the way you want - without searching for scattered settings across the whole system and looking things up on the internet. Just open the system control panel, open the tool and select what you want.
@@ -22,8 +22,8 @@ Manjaro comes with it's own tools that help you configuring your computer the wa
 <section id="locale" >
   <div class="feature-screenshot-fan">
     <div >
-    <h3>Manjaro speaks my language</h3>
-    If you don't speak english, it's no problem for Manjaro. Just start our locale settings and select the language you want. After you logged out and in again, everything is exactly the way you want. We also offer you a special tool that automatically installs language packs for a variety of programs and notifies you if you can get translation sfor your favorite programs.
+    <h3>Manjaro speaks your language</h3>
+    If your native language isn't English, it's no problem for Manjaro. Just start our locale settings and select the language you want. After you logged out and in again, everything is exactly the way you want. We also offer you a special tool that automatically installs language packs for a variety of programs and notifies you if you can get translation sfor your favorite programs.
     </div>
     <img src=";baseurl;/img/applications/manjaro_locale.png"/>
   </div>

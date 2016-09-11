@@ -4,7 +4,7 @@ navsection = "features"
 right = false
 title = "Fresh & stable"
 type = "features-post"
-weight = 2
+weight = 3
 
 +++
 
