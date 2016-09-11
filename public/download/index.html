@@ -334,92 +334,7 @@
 
 <body id="downloads" class="body-subpage">
 
-	<!-- jQuery -->
-<script src="https://rumangerst.github.io/homepage/public/js/jquery.js"></script>
-<!-- Bootstrap Core JavaScript -->
-<script src="https://rumangerst.github.io/homepage/public/js/bootstrap.js"></script>
-<!-- Plugin JavaScript -->
-<script src="https://rumangerst.github.io/homepage/public/js/jquery.easing.min.js"></script>
-<script src="https://rumangerst.github.io/homepage/public/js/jquery.fittext.js"></script>
-<script src="https://rumangerst.github.io/homepage/public/js/wow.min.js"></script>
-<!-- Custom Theme JavaScript -->
-<script src="https://rumangerst.github.io/homepage/public/js/creative.js"></script>
-
-
-<script type="text/javascript" >
-
-	function highlight_current_nav() {
-		
-		
-		$("a").each(function (index) {
-			
-			
-			var navtype = this.hasAttribute("nav-type") ? this.getAttribute("nav-type") : "unprecise";
-			
-			if (navtype.toLowerCase() == "unprecise") {
-			
-				var href = this.href.endsWith("/") ? this.href : this.href + "/";		
-				if( location.href.startsWith(href))
-				{
-					$(this).parent().addClass("active");
-				}	
-			}
-			else if (navtype.toLowerCase() == "super-unprecise") {
-				
-				var href = this.href.endsWith("/") ? this.href.slice(0,-1) : this.href;		
-				
-				if( location.href.startsWith(href))
-				{
-					$(this).parent().addClass("active");
-				}	
-			}
-			else {
-				var href = this.href.endsWith("/") ? this.href : this.href + "/";		
-				if( location.href == href )
-				{
-					$(this).parent().addClass("active");
-				}
-			}
-			
-					
-				
-		});
-		
-	}
-    
-    function modify_links()
-    {
-        
-        
-        
-        
-        
-        
-        $("a").each(function(index) {
-           
-            $(this).addClass("page-scroll");
-            
-            if(this.href.startsWith("#") || this.href.startsWith(location.origin)) {
-                $(this).attr("target", "_self");
-            }
-            else {
-                $(this).attr("target", "_blank");
-            }
-            
-            if(this.text.endsWith("#download-primary-xl#")) {
-                this.text = this.text.slice(0,-"#download-primary-xl#".length);
-                $(this).addClass("btn");
-                $(this).addClass("btn-primary");
-                $(this).addClass("btn-xl");
-            }
-        });
-        
-    }    
-    
-	
-	$( document ).ready(highlight_current_nav);
-    $( document ).ready(modify_links);
-</script> <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
 
         <div class="navbar-header">
@@ -713,7 +628,7 @@
 	
 	
 
-	$( document ).ready(update_editions_tags);
+	
 
 </script>
 
@@ -1122,6 +1037,96 @@
 
 </aside>
 
+<script type="text/javascript" >
+	update_editions_tags();
+</script>
+
+		<!-- jQuery -->
+<script src="https://rumangerst.github.io/homepage/public/js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="https://rumangerst.github.io/homepage/public/js/bootstrap.js"></script>
+<!-- Plugin JavaScript -->
+<script src="https://rumangerst.github.io/homepage/public/js/jquery.easing.min.js"></script>
+<script src="https://rumangerst.github.io/homepage/public/js/jquery.fittext.js"></script>
+<script src="https://rumangerst.github.io/homepage/public/js/wow.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="https://rumangerst.github.io/homepage/public/js/creative.js"></script>
+
+
+<script type="text/javascript" >
+
+	function highlight_current_nav() {
+		
+		
+		$("a").each(function (index) {
+			
+			
+			var navtype = this.hasAttribute("nav-type") ? this.getAttribute("nav-type") : "unprecise";
+			
+			if (navtype.toLowerCase() == "unprecise") {
+			
+				var href = this.href.endsWith("/") ? this.href : this.href + "/";		
+				if( location.href.startsWith(href))
+				{
+					$(this).parent().addClass("active");
+				}	
+			}
+			else if (navtype.toLowerCase() == "super-unprecise") {
+				
+				var href = this.href.endsWith("/") ? this.href.slice(0,-1) : this.href;		
+				
+				if( location.href.startsWith(href))
+				{
+					$(this).parent().addClass("active");
+				}	
+			}
+			else {
+				var href = this.href.endsWith("/") ? this.href : this.href + "/";		
+				if( location.href == href )
+				{
+					$(this).parent().addClass("active");
+				}
+			}
+			
+					
+				
+		});
+		
+	}
+    
+    function modify_links()
+    {
+        
+        
+        
+        
+        
+        
+        $("a").each(function(index) {
+           
+            $(this).addClass("page-scroll");
+            
+            if(this.href.startsWith("#") || this.href.startsWith(location.origin)) {
+                $(this).attr("target", "_self");
+            }
+            else {
+                $(this).attr("target", "_blank");
+            }
+            
+            if(this.text.endsWith("#download-primary-xl#")) {
+                this.text = this.text.slice(0,-"#download-primary-xl#".length);
+                $(this).addClass("btn");
+                $(this).addClass("btn-primary");
+                $(this).addClass("btn-xl");
+            }
+        });
+        
+    }    
+    
+	
+	$( document ).ready(highlight_current_nav);
+    $( document ).ready(modify_links);
+</script>
 	</section>
 
 
