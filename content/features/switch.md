@@ -6,7 +6,7 @@ type = "features-post"
 weight = 0
 +++
 
-As like many other Linux distributions, we believe that privacy, security and control is one of the most valuable for a user. We included some clever tools to achieve all the tasks that are needed to make room for actual work, entertainment and relaxing. But you, the user, will always be in control of your own computer. It's your hardware and your operating system.
+As like many other Linux distributions, we believe that privacy, security and keeping control is one of the most valuable things for a user. We included some clever tools to achieve all the tasks that are needed to make room for actual work, entertainment and relaxing. But you, the user, will always be in control of your own computer. It's your hardware and your operating system.
 
 <ul class="flex-grid">
   <li class="flex-item">
