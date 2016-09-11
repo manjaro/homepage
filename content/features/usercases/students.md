@@ -1,6 +1,7 @@
 {
   "date": "2016-09-05T15:08:06+02:00",
-  "image": "students-alt-full.jpg",
+  "image": "beginners-alt2.jpg",
+  "screenshot": "students-alt-full.jpg",
   "icon" : "students-icon.svg",
   "name": "Teachers and students",
   "quote": "Manjaro fits perfectly my computer science student's needs and fresh linux desires. Moreover, accomplishes all the tasks with superb stability and lightness, as my old machine deserves. Kudos to the whole team!",

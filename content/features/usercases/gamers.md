@@ -1,6 +1,7 @@
 {
   "date": "2016-09-05T15:08:09+02:00",
-  "image": "gamers-alt-full.jpg",
+  "image": "gamers-alt1.jpg",
+  "screenshot": "gamers-alt-full.jpg",
   "icon" : "gamers-icon.svg",
   "name": "Gamers",
   "quote": "Finally, Manjaro is a great balance between having the latest and greatest software and having a stable system. [...] Not to mention that Manjaro will only download updates and upgrade when I tell it to and not when the operating system feels like it.",

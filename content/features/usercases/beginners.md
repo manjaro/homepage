@@ -1,6 +1,7 @@
 {
   "date": "2016-09-05T15:07:56+02:00",
-  "image": "beginners-alt3-full.jpg",
+  "image": "beginners-alt1.jpg",
+  "screenshot": "beginners-alt3-full.jpg",
   "icon" : "beginners-icon.svg",
   "name": "Home-users",
   "quote": "It seems to be solid, yet accessible. I just love it",

@@ -1,6 +1,7 @@
 {
   "date": "2016-09-05T15:07:44+02:00",
-  "image": "artists-alt-full.jpg",
+  "image": "artists-alt2.jpg",
+  "screenshot": "artists-alt-full.jpg",
   "icon" : "artists-icon.svg",
   "name": "Artists",
   "quote": "Manjaro provides the tools to handle difficult tasks like kernel, video driver upgrades, downgrades. [...]  I soon realised I can do all my editing on linux with Darktable for raw files and some retouching or other editing with Gimp.",

@@ -1,6 +1,7 @@
 {
   "date": "2016-09-05T15:08:14+02:00",
-  "image": "scientists-alt-full.jpg",
+  "image": "scientists-alt2.jpg",
+  "screenshot": "scientists-alt-full.jpg",
   "icon" : "scientists-icon.svg",
   "name": "Scientists",
   "quote": "[...] I installed Manjaro in a partition the other day and for whatever reason, everything seems to be clicking and I'm really enjoying the light, agile feel without compromise of features or utility.",

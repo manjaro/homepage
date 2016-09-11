@@ -1,6 +1,7 @@
 {
   "date": "2016-09-05T15:08:00+02:00",
-  "image": "developers-alt-full.jpg",
+  "image": "developers.jpg",
+  "screenshot": "developers-alt-full.jpg",
   "icon" : "developers-icon.svg",
   "name": "Developers",
   "quote": "MANJARO, Its an easy to use \"Arch\"itechture that will be admired by both; the first timers as well as professionals / programmers..... it just works !",
