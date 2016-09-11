@@ -22,6 +22,11 @@
   {"name" : "MCEdit", "url" : "http://www.mcedit.net/", "usage" : "World editor" },
   {"name" : "Dolphin", "url" : "http://www.dolphin-emulator.com/", "usage" : "Emulator" },
   {"name" : "WINE", "url" : "https://www.winehq.org/", "usage" : "Play Windows games" }
+  ],
+  "softwarepresented" : [
+  {"name" : "Steam", "url" : "https://steampowered.com", "usage" : "Software store" },
+  {"name" : "0 A.D.", "url" : "http://play0ad.com/", "usage" : "Strategy game" },
+  {"name" : "WINE", "url" : "https://www.winehq.org/", "usage" : "Play Windows games" }
   ]
 }
 

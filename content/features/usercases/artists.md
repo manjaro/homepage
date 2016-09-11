@@ -20,6 +20,11 @@
   {"name" : "Audacity", "url" : "http://www.audacityteam.org/", "usage" : "Sound recording & editing" },
   {"name" : "Ardour", "url" : "http://ardour.org/", "usage" : "Sound recording, mixing & editing" },
   {"name" : "LMMS", "url" : "https://lmms.io/", "usage" : "Sequencing, mixing & synthesizing" }
+  ],
+  "softwarepresented" : [
+  {"name" : "Krita", "url" : "https://krita.org/", "usage" : "Graphics editing, drawing" },
+  {"name" : "Kdenlive", "url" : "https://kdenlive.org/", "usage" : "Video editing" },
+  {"name" : "Ardour", "url" : "http://ardour.org/", "usage" : "Sound recording, mixing & editing" }
   ]
 }
 

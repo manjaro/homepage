@@ -25,6 +25,11 @@
   {"name" : "Godot", "url" : "http://godotengine.org/", "usage" : "Game development" },
   {"name" : "Umbrello", "url" : "https://umbrello.kde.org/", "usage" : "Creating UML" },
   {"name" : "yEd", "url" : "https://www.yworks.com/products/yed", "usage" : "Creating graphs/UML" }
+  ],
+  "softwarepresented" : [
+  {"name" : "Godot", "url" : "http://godotengine.org/", "usage" : "Game development" },
+  {"name" : "KDevelop", "url" : "https://www.kdevelop.org/", "usage" : "IDE" },
+  {"name" : "Geany", "url" : "https://www.geany.org/", "usage" : "Text-Editor" }
   ]
 }
 

@@ -16,6 +16,11 @@
   {"name" : "SimpleScan", "url" : "https://launchpad.net/simple-scan", "usage" : "Scan documents" },
   {"name" : "Clementine", "url" : "https://www.clementine-player.org/", "usage" : "Music player" },
   {"name" : "VLC Media Player", "url" : "http://www.videolan.org/", "usage" : "Video player" }
+  ],
+  "softwarepresented" : [
+  {"name" : "LibreOffice", "url" : "https://www.libreoffice.org/", "usage" : "Complete office-suite" },
+  {"name" : "Thunderbird", "url" : "https://www.mozilla.org/en-US/thunderbird/", "usage" : "E-Mail client" },
+  {"name" : "Firefox", "url" : "https://www.mozilla.org/en-US/firefox/new/", "usage" : "Webbrowser" }
   ]
 }
 

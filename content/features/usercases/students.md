@@ -22,6 +22,11 @@
   {"name" : "Thunderbird", "url" : "https://www.mozilla.org/en-US/thunderbird/", "usage" : "E-Mail client/Calendar" },
   {"name" : "LibreOffice", "url" : "http://www.libreoffice.org/", "usage" : "Complete office-suite" }
   ],
+  "softwarepresented" : [
+  {"name" : "Gcompris", "url" : "http://gcompris.net/", "usage" : "Learning software for young children" },
+  {"name" : "Geogebra", "url" : "https://www.geogebra.org/", "usage" : "Geometry/mathematics" },
+  {"name" : "Minuet", "url" : "https://www.kde.org/applications/education/minuet/", "usage" : "Teach/learn music" }
+  ],
   "weight" : 0
 }
 
@@ -31,7 +36,7 @@ For more complex mathematics, [Scilab](http://www.scilab.org/) and [WxMaxima](ht
 
 Physics including molecular dynamics, gravitation and coloumb forces and more can be taught using [Step](https://www.kde.org/applications/education/step/). The earth can be explored with [Marble](https://marble.kde.org/), while the sky and stars can be viewed with [Stellarium](http://www.stellarium.org/).
 
-[Minuet](https://www.kde.org/applications/education/minuet/) brings a software for music education that teches students ear training, rhythm, harmony and more and provides features for teachers to create own lessons.
+[Minuet](https://www.kde.org/applications/education/minuet/) brings a software for music education that teaches students ear training, rhythm, harmony and more and provides features for teachers to create own lessons.
 
 Learning is also important for the youngest. [Gcompris](http://gcompris.net/) allows them to play and learn basics of a computer, elementary mathematics, geography, reading and many other things. Included are also games like puzzles, chess, memory and more that will make learning a pleasant and funny experience.
 
