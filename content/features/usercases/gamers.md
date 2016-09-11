@@ -16,17 +16,21 @@
   {"name" : "Mumble", "url" : "https://www.mumble.info/", "usage" : "VoIP" },
   {"name" : "Skype", "url" : "https://www.skype.com/", "usage" : "VoIP/Video chat" },
   {"name" : "0 A.D.", "url" : "http://play0ad.com/", "usage" : "Strategy game" },
+  {"name" : "Hedgewars", "url" : "http://www.hedgewars.org/", "usage" : "Worms clone" },
+  {"name" : "SuperTux", "url" : "https://supertux.github.io/", "usage" : "Jump'n run" },
+  {"name" : "SuperTuxKart", "url" : "https://supertuxkart.net/", "usage" : "Racing game" },
   {"name" : "Minecraft", "url" : "https://minecraft.net/", "usage" : "Sandbox game" },
   {"name" : "MultiMC", "url" : "http://multimc.org/", "usage" : "Launcher for Minecraft" },
   {"name" : "Feed the Beast", "url" : "http://feed-the-beast.com/", "usage" : "Mod package for Minecraft" },
   {"name" : "MCEdit", "url" : "http://www.mcedit.net/", "usage" : "World editor" },
   {"name" : "Dolphin", "url" : "http://www.dolphin-emulator.com/", "usage" : "Emulator" },
-  {"name" : "WINE", "url" : "https://www.winehq.org/", "usage" : "Play Windows games" }
+  {"name" : "WINE", "url" : "https://www.winehq.org/", "usage" : "Play Windows games" },
+  {"name" : "PlayOnLinux", "url" : "https://www.playonlinux.com/", "usage" : "Play Windows games" }
   ],
   "softwarepresented" : [
   {"name" : "Steam", "url" : "https://steampowered.com", "usage" : "Software store" },
   {"name" : "0 A.D.", "url" : "http://play0ad.com/", "usage" : "Strategy game" },
-  {"name" : "WINE", "url" : "https://www.winehq.org/", "usage" : "Play Windows games" }
+  {"name" : "PlayOnLinux", "url" : "https://www.playonlinux.com/", "usage" : "Play Windows games" }
   ]
 }
 
