@@ -6,8 +6,76 @@
     <description>Recent content in Features on Manjaro Linux - enjoy the simplicity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Sep 2016 15:08:14 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 06 Sep 2016 00:36:21 +0200</lastBuildDate>
     <atom:link href="https://rumangerst.github.io/homepage/public/features/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Configured with one click</title>
+      <link>https://rumangerst.github.io/homepage/public/features/tools/</link>
+      <pubDate>Tue, 06 Sep 2016 00:36:21 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/features/tools/</guid>
+      <description>&lt;p&gt;Manjaro comes with it&amp;rsquo;s own tools that help you configuring your computer the way you want - without searching for scattered settings across the whole system and looking things up on the internet. Just open the system control panel, open the tool and select what you want.&lt;/p&gt;
+
+&lt;section id=&#34;pamac&#34; &gt;
+  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
+    &lt;img src=&#34;;baseurl;/img/applications/manjaro_pamac.png&#34;/&gt;
+    &lt;div&gt;
+    &lt;h3&gt;Choose, install, finished!&lt;/h3&gt;
+    Manjaro maintains it&#39;s own program to install, update and remove packages from the system. Just open it, choose what you want and click &#39;install&#39;. All other needed things will be done automatically and the only thing you need to do is to start the program.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;locale&#34; &gt;
+  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
+    &lt;div &gt;
+    &lt;h3&gt;Manjaro speaks my language&lt;/h3&gt;
+    If you don&#39;t speak english, it&#39;s no problem for Manjaro. Just start our locale settings and select the language you want. After you logged out and in again, everything is exactly the way you want. We also offer you a special tool that automatically installs language packs for a variety of programs and notifies you if you can get translation sfor your favorite programs.
+    &lt;/div&gt;
+    &lt;img src=&#34;;baseurl;/img/applications/manjaro_locale.png&#34;/&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;mhwd&#34; &gt;
+  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
+    &lt;img src=&#34;;baseurl;/img/applications/manjaro_mhwd.png&#34;/&gt;
+    &lt;div&gt;
+    &lt;h3&gt;New graphics card? One click and it&#39;s done&lt;/h3&gt;
+    Manjaro comes with MHWD, the Manjaro Hardware Detection. If you need drivers for your hardware, just open it, click on &#34;Auto Install&#34; and wait until it&#39;s finished. That&#39;s it.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;timeanddate&#34; &gt;
+  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
+    &lt;div&gt;
+    &lt;h3&gt;Traveling a lot?&lt;/h3&gt;
+    If you need to change the timezone, because you are on holiday or you need to travel for your business, we provide you a handy tool to quickly switch the time settings to have more time to get things done or enjoy the free time.
+    &lt;/div&gt;
+    &lt;img src=&#34;;baseurl;/img/applications/manjaro_locale.png&#34;/&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;useraccounts&#34; &gt;
+  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
+    &lt;img src=&#34;;baseurl;/img/applications/manjaro_useraccounts.png&#34;/&gt;
+    &lt;div&gt;
+    &lt;h3&gt;Divide and conquer&lt;/h3&gt;
+    If multiple people use your computer, just create an account for each of them. So everybody can have their own data and own privileges what they can and can&#39;t do.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;kernel&#34; &gt;
+  &lt;div class=&#34;feature-screenshot-fan&#34;&gt;
+
+    &lt;div&gt;
+    &lt;h3&gt;Switch the core with one click&lt;/h3&gt;
+    Power-users and people who need special features of the Linux Kernel that don&#39;t come with the default one can just switch to a different Kernel with one click. Do you make music or need other realtime features? Just switch to a RT-Kernel. Do you need the newest improved open-source graphics drivers? Just switch to a newer one. Manjaro let&#39;s you not only switch to another Kernel, but supports multiple installed kernels at the same time. Just re-boot your system and you can just switch between all installed Kernels in the boot menu.
+    &lt;/div&gt;
+
+    &lt;img src=&#34;;baseurl;/img/applications/manjaro_kernels.png&#34;/&gt;
+
+  &lt;/div&gt;
+&lt;/section&gt;
+</description>
+    </item>
     
     <item>
       <title>scientists</title>
@@ -47,7 +115,7 @@
       <pubDate>Mon, 05 Sep 2016 15:08:06 +0200</pubDate>
       
       <guid>https://rumangerst.github.io/homepage/public/features/usercases/students/</guid>
-      <description>&lt;p&gt;Manjaro&amp;rsquo;s repository of free and quality software is filled with programs for each subject. For mathematics, simple to advanced calculations can be done using scientific calculators like &lt;a href=&#34;https://qalculate.github.io/&#34;&gt;Qalculate&lt;/a&gt; or &lt;a href=&#34;http://www.speedcrunch.org/&#34;&gt;SpeedCrunch&lt;/a&gt; that don&amp;rsquo;t copy the experience of most hardware-calculators, but allow free editing of functions and terms.&lt;/p&gt;
+      <description>&lt;p&gt;Manjaro&amp;rsquo;s repository of free and quality software is filled with programs for each subject. For mathematics, simple to advanced calculations can be done using scientific calculators like &lt;a href=&#34;https://qalculate.github.io/&#34;&gt;Qalculate!&lt;/a&gt; or &lt;a href=&#34;http://www.speedcrunch.org/&#34;&gt;SpeedCrunch&lt;/a&gt; that don&amp;rsquo;t copy the experience of most hardware-calculators, but allow free editing of functions and terms.&lt;/p&gt;
 
 &lt;p&gt;For more complex mathematics, &lt;a href=&#34;http://www.scilab.org/&#34;&gt;Scilab&lt;/a&gt; and &lt;a href=&#34;http://andrejv.github.io/wxmaxima/&#34;&gt;WxMaxima&lt;/a&gt; will handle advanced numeric and algebraic tasks. Teachers love &lt;a href=&#34;https://www.geogebra.org/&#34;&gt;Geogebra&lt;/a&gt; to show physics, trigonometry, vector operations and more due to the easy-to-use graphical editing of mathematical relations, plotting of functions and setting constraints.&lt;/p&gt;
 
@@ -110,78 +178,19 @@
     </item>
     
     <item>
-      <title>Who uses Manjaro?</title>
+      <title>Useful for everyone</title>
       <link>https://rumangerst.github.io/homepage/public/features/usercases/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rumangerst.github.io/homepage/public/features/usercases/</guid>
       <description>&lt;p&gt;Manjaro is an efficient companion to serve your variety of needs and it is versatile to adapt to all of your needs. Our user base varies from newbies, students &amp;amp; teachers, programmers &amp;amp; developers, professionals, art enthusiast, music lovers, professional multimedia professionals and many more.&lt;/p&gt;
+
+&lt;p&gt;We asked our users why they use Manjaro and what software they use to relax, learn or do their work. You can find here a (by no means complete) list of software that is in most cases readily available via &lt;a href=&#34;;baseurl;features/tools#pamac&#34;&gt;the repositories&lt;/a&gt; without hunting them down in the internet and keeping watch that you won&amp;rsquo;t get malware.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>What features does Manjaro have?</title>
-      <link>https://rumangerst.github.io/homepage/public/features/features/</link>
-      <pubDate>Tue, 06 Sep 2016 00:36:21 +0200</pubDate>
-      
-      <guid>https://rumangerst.github.io/homepage/public/features/features/</guid>
-      <description>&lt;p&gt;Manjaro is available in both 32 and 64 bit versions and is suitable for newcomers as well as experienced Linux users. For newcomers, a user-friendly installer is provided, and the system itself is designed to work fully ‘straight out of the box’. Manjaro comes with:&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/installation.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;A simplifed, user-friendly installation process&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/desktopenvironment.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;Pre-installed desktop environments&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/package.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;Pre-installed graphical applications to easily install software and update your system&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/movie.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;Pre-installed codecs to play multimedia files&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/hardware.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;Automatic installation of the necessary software for your hardware (e.g. graphics drivers)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/star.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;Access to the lastest version of software&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/kernel.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;Support for the easy installation and use of multiple kernels.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/aur.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;Access to the Arch User Repository (AUR) for more experienced users&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How does Manjaro work?</title>
+      <title>Fresh &amp; stable</title>
       <link>https://rumangerst.github.io/homepage/public/features/background/</link>
       <pubDate>Tue, 06 Sep 2016 00:36:21 +0200</pubDate>
       

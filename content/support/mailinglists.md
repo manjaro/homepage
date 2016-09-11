@@ -13,9 +13,9 @@ If you are interested, you can just subscribe to a mailing list and get a look i
 
 |   |   | |
 |---|---|---|
-| ![Icon](;baseurl;/img/contact/mail.svg) | Mailing list for Manjaro security  | [Visit#download-primary-xl#](https://lists.manjaro.org/mailman/listinfo/manjaro-security) |
-| ![Icon](;baseurl;/img/contact/mail.svg) | Mailing list for general discussion  | [Visit#download-primary-xl#](https://lists.manjaro.org/mailman/listinfo/manjaro-general) |
-| ![Icon](;baseurl;/img/contact/mail.svg) | Mailing list for Manjaro testing  | [Visit#download-primary-xl#](https://lists.manjaro.org/mailman/listinfo/manjaro-testing) |
-| ![Icon](;baseurl;/img/contact/mail.svg) | Mailing list for Manjaro development  | [Visit#download-primary-xl#](https://lists.manjaro.org/mailman/listinfo/manjaro-dev) |
-| ![Icon](;baseurl;/img/contact/mail.svg) | Mailing list for Manjaro packages  | [Visit#download-primary-xl#](https://lists.manjaro.org/mailman/listinfo/manjaro-packages) |
-| ![Icon](;baseurl;/img/contact/mail.svg) | Mailing list for Manjaro mirrors  | [Visit#download-primary-xl#](https://lists.manjaro.org/mailman/listinfo/manjaro-mirrors) |
+| ![Icon](;baseurl;/img/contact/mail.svg) | Mailing list for Manjaro security  | <a href="https://lists.manjaro.org/mailman/listinfo/manjaro-security" class="btn btn-primary btn-xl" >Visit</a>  |
+| ![Icon](;baseurl;/img/contact/mail.svg) | Mailing list for general discussion  | <a href="https://lists.manjaro.org/mailman/listinfo/manjaro-general" class="btn btn-primary btn-xl" >Visit</a>  |
+| ![Icon](;baseurl;/img/contact/mail.svg) | Mailing list for Manjaro testing  | <a href="https://lists.manjaro.org/mailman/listinfo/manjaro-testing" class="btn btn-primary btn-xl" >Visit</a>  |
+| ![Icon](;baseurl;/img/contact/mail.svg) | Mailing list for Manjaro development  |<a href="https://lists.manjaro.org/mailman/listinfo/manjaro-dev" class="btn btn-primary btn-xl" >Visit</a>  |
+| ![Icon](;baseurl;/img/contact/mail.svg) | Mailing list for Manjaro packages  | <a href="https://lists.manjaro.org/mailman/listinfo/manjaro-packages" class="btn btn-primary btn-xl" >Visit</a>  |
+| ![Icon](;baseurl;/img/contact/mail.svg) | Mailing list for Manjaro mirrors  | <a href="https://lists.manjaro.org/mailman/listinfo/manjaro-mirrors" class="btn btn-primary btn-xl" >Visit</a>  |

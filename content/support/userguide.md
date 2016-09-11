@@ -7,7 +7,7 @@ right = true
 navsection = "support"
 +++
 
-[Download User Guide#download-primary-xl#](https://sourceforge.net/projects/manjarolinux/files/release/16.08/readme-16.08.pdf)
+<a href="https://sourceforge.net/projects/manjarolinux/files/release/16.08/readme-16.08.pdf" class="btn btn-primary btn-xl" >Download User Guide</a>
 
 Our team and our community proudly present you the Manjaro User Guide, a over 100 page long book with everything new and advanced users can know about Manjaro. We cover following topics in our guide:
 
@@ -32,5 +32,3 @@ Our team and our community proudly present you the Manjaro User Guide, a over 10
 |   | • The Manjaro desktop |
 |   | • Getting help |
 |   | • Maintaining your system |
-
-

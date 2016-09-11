@@ -36,7 +36,7 @@ theme = "hugo-creative-theme"
 		community_editions = "Manjaro Community Editions"
 
 	[params.navigation.features]
-		home = "What is Manjaro?"
+		home = "About Manjaro"
 
 	[params.navigation.news]
 		home = "Most recent news"
@@ -69,6 +69,10 @@ theme = "hugo-creative-theme"
 		callToActionUrl = "#about"
 		learnMore = "or download directly"
 		learnMoreUrl = "#downloads"
+
+	[params.posthome]
+		callToAction = "Download now"
+		callToActionUrl = ";baseurl;download"
 
 	[params.team]
 		name = "Name"

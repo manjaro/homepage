@@ -1,0 +1,15 @@
+<aside class="bg-dark"  >
+    <div class="container text-center">
+        <div class="call-to-action">
+
+          {{ range (where .Site.Pages ".Type" "download-how-to-try") }}
+    			<div class="features-post" >
+    				<p>{{ .Content | replaceRE ";baseurl;" .Site.BaseURL | markdownify  }}
+    			</div>
+    			{{ end }}
+
+          <a class="btn btn-primary btn-xl page-scroll" href="{{ .Site.Params.posthome.callToActionUrl | replaceRE ";baseurl;" .Site.BaseURL}}">{{ .Site.Params.posthome.callToAction}}</a>
+
+        </div>
+    </div>
+</aside>

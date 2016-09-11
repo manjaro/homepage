@@ -2,22 +2,145 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 	<head>
         {{ partial "head.html" . }}
-        
+
 		<style>
 		.body-subpage {
 		background-color: #fff;
 		}
-		</style>        
-        
+		</style>
+
     </head>
 	<body id="features" class="body-subpage">
 
-		{{ partial "nav.html" . }}		
+		{{ partial "nav.html" . }}
 		<header class="subpage-header">
    			{{ partial "features-nav.html" . }}
 		</header>
 		<br/>
-		{{ partial "usercases.html" . }}
+
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="text-center">
+						<h2 class="section-heading">{{ .Title }}</h2>
+						<hr class="star-primary" />
+
+						<div class="features-post">
+							<p>{{ .Content | replaceRE ";baseurl;" .Site.BaseURL | markdownify }}
+						</div>
+
+						<ul style="display: flex; flex-wrap: wrap">
+						{{ range (where .Site.Pages ".Type" "usercase-post") }}
+							<li style="display: flex; padding: 10px; width: 30%">
+								<div style="width: 100%; text-align: center; border: 1px solid #ddd;">
+									<img src="{{ $.Site.BaseURL }}/img/usercases/{{.Params.icon}}" alt="Icon" style="width: 100px; height: 100px;" />
+									<span style="font-weight: 500; font-size: 18px">{{ .Params.name }}</span>
+									<table style="margin-left:10px;">
+										<thead>
+										<tr>
+										<th></th>
+										<th></th>
+										</tr>
+										</thead>
+
+										<tbody>
+										{{ range first 3 .Params.software }}
+											<tr>
+												<td><img src="{{ $.Site.BaseURL }}/img/actions/install.svg" alt="Icon" /></td>
+												<td style="text-align: left; padding-left: 10px; padding-top: 10px;">
+													<strong><a href="{{ .url | replaceRE ";baseurl;" $.Site.BaseURL }}">{{ .name }}</a></strong><br/>
+													{{ .usage }}
+												</td>
+											</tr>
+										{{ end }}
+									</tbody>
+									</table>
+									<a href="{{.Permalink}}" class="btn btn-primary btn-xl" style="margin-top: 10px; margin-bottom: 10px" >{{ $.Params.linktext }}</a>
+								</div>
+							</li>
+						{{end}}
+						</ul>
+
+						<!-- <div style="display: flex; flex-warp: wrap">
+						{{ range (where .Site.Pages ".Type" "usercase-post") }}
+						<table style="display: flex">
+							<thead>
+							<tr>
+							<th></th>
+							<th></th>
+							</tr>
+							</thead>
+
+							<tbody>
+
+								<tr>
+									<td><img src="{{ $.Site.BaseURL }}/img/usercases/{{.Params.icon}}" alt="Icon" style="width: 100px; height: 100px;" /></td>
+									<td style="text-align: left; padding-left: 10px; padding-top: 10px;">
+										<span style="font-weight: 500; font-size: 18px">{{ .Params.name }}</span>
+									</td>
+								</tr>
+								<tr>
+									<td/>
+									<td>
+										<table>
+											<thead>
+											<tr>
+											<th></th>
+											<th></th>
+											</tr>
+											</thead>
+
+											<tbody>
+											{{ range first 3 .Params.software }}
+												<tr>
+													<td><img src="{{ $.Site.BaseURL }}/img/actions/install.svg" alt="Icon" /></td>
+													<td style="text-align: left; padding-left: 10px; padding-top: 10px;">
+														<strong><a href="{{ .url | replaceRE ";baseurl;" $.Site.BaseURL }}">{{ .name }}</a></strong><br/>
+														{{ .usage }}
+													</td>
+												</tr>
+											{{ end }}
+										</tbody>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td/>
+									<td style="text-align: left; padding-top: 20px">
+										<a href="{{.Permalink}}" class="btn btn-primary btn-xl">{{ $.Params.linktext }}</a>
+									</td>
+								</tr>
+
+						</tbody>
+						</table>
+
+						{{ end }}
+					</div> -->
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<!-- <section class="no-padding" id="usercases">
+		    <div class="container-fluid">
+		        <div class="row no-gutter">
+		            {{ range (where .Site.Pages ".Type" "usercase-post") }}
+								<div class="col-lg-3 col-md-6 text-center">
+										<div class="service-box">
+												<img src="{{ printf "%s/img/actions/install.svg" $.Site.BaseURL }}" class="wow bounceIn text-primary" style="width: 64px; height: 64px"/>
+												<h3><a href="{{ .Permalink }}">Software for {{ .Params.name }}</a></h3>
+												<p class="text-muted"></p>
+										</div>
+								</div>
+								{{ end }}
+		        </div>
+		    </div>
+		</section> -->
+
+
 		{{ partial "js.html" . }}
 	</body>
 

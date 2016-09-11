@@ -3,7 +3,12 @@
   
   <url>
     <loc>https://rumangerst.github.io/homepage/public/</loc>
-    <lastmod>2016-09-05T22:21:43+02:00</lastmod>
+    <lastmod>2016-09-06T00:36:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/features/tools/</loc>
+    <lastmod>2016-09-06T00:36:21+02:00</lastmod>
   </url>
   
   <url>
@@ -547,6 +552,10 @@
   </url>
   
   <url>
+    <loc>https://rumangerst.github.io/homepage/public/_quickfeatures/</loc>
+  </url>
+  
+  <url>
     <loc>https://rumangerst.github.io/homepage/public/support/commonproblems/cannot_boot_liveenv/</loc>
   </url>
   
@@ -563,20 +572,19 @@
   </url>
   
   <url>
-    <loc>https://rumangerst.github.io/homepage/public/features/</loc>
-  </url>
-  
-  <url>
     <loc>https://rumangerst.github.io/homepage/public/features/usercases/</loc>
   </url>
   
   <url>
-    <loc>https://rumangerst.github.io/homepage/public/get-involved/</loc>
+    <loc>https://rumangerst.github.io/homepage/public/_usercases/</loc>
   </url>
   
   <url>
-    <loc>https://rumangerst.github.io/homepage/public/features/features/</loc>
-    <lastmod>2016-09-06T00:36:21+02:00</lastmod>
+    <loc>https://rumangerst.github.io/homepage/public/features/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/</loc>
   </url>
   
   <url>

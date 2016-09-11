@@ -1,14 +1,27 @@
-+++
-date = "2016-09-05T15:08:14+02:00"
-image = "scientists-alt-full.jpg"
-name = "Scientists"
-quote = "[...] I installed Manjaro in a partition the other day and for whatever reason, everything seems to be clicking and I'm really enjoying the light, agile feel without compromise of features or utility."
-quoteauthor = "rb0321"
-shortdescription = "Scientists need software that works reliable, works efficient, has many features and ideally is even modifiable if needed. Manjaro brings all tools to get this software."
-title = "scientists"
-type = "usercase-post"
-
-+++
+{
+  "date": "2016-09-05T15:08:14+02:00",
+  "image": "scientists-alt-full.jpg",
+  "icon" : "scientists-icon.svg",
+  "name": "Scientists",
+  "quote": "[...] I installed Manjaro in a partition the other day and for whatever reason, everything seems to be clicking and I'm really enjoying the light, agile feel without compromise of features or utility.",
+  "quoteauthor": "rb0321",
+  "shortdescription": "Scientists need software that works reliable, works efficient, has many features and ideally is even modifiable if needed. Manjaro brings all tools to get this software.",
+  "title": "scientists",
+  "type": "usercase-post",
+  "software" : [
+  {"name" : "R", "url" : "https://www.r-project.org/", "usage" : "Statistics" },
+  {"name" : "R-Studio", "url" : "https://www.rstudio.com/", "usage" : "IDE for R" },
+  {"name" : "Scilab", "url" : "http://www.scilab.org/", "usage" : "Numeric calculations" },
+  {"name" : "Python", "url" : "https://www.python.org/", "usage" : "Scripting & programming" },
+  {"name" : "Perl", "url" : "https://www.perl.org/", "usage" : "Scripting & programming" },
+  {"name" : "pip", "url" : "https://pypi.python.org/pypi/pip", "usage" : "Install additional software for Python" },
+  {"name" : "LaTeX", "url" : "https://www.latex-project.org/", "usage" : "Creating documents,presentations, books, ..." },
+  {"name" : "TeXstudio", "url" : "http://www.texstudio.org/", "usage" : "GUI for LaTeX" },
+  {"name" : "Lyx", "url" : "https://www.lyx.org/", "usage" : "Easy-to-use GUI for LaTeX" },
+  {"name" : "LabPlot", "url" : "https://www.kde.org/applications/education/labplot", "usage" : "Analyze experimental data" },
+  {"name" : "Yaourt", "url" : "https://wiki.archlinux.org/index.php/Yaourt", "usage" : "Install 3rd party packages" }
+  ]
+}
 
 Manjaro's repositories contain the newest available versions of popular software like the statistic language [R](https://www.r-project.org/), the numerical computational package [Scilab](http://www.scilab.org/), and the scripting language [Python](https://www.python.org/) and more. Also [LaTeX](https://www.latex-project.org/), additional packages for it and software like [Lyx](https://www.lyx.org/) or [TeXstudio](http://www.texstudio.org/) is readily available and can be installed with just few clicks. With LaTeX scientists can create high-quality documents and presentations with included math-forumulas, chemical molecules, self-updating cross- and literature references and more without being restrained by a specific style or document type. Lyx encapsulates LaTeX in a friendly GUI for people who don't have much experience with LaTeX.
 

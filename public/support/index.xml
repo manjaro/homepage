@@ -593,7 +593,7 @@
       <pubDate>Mon, 05 Sep 2016 21:03:22 +0200</pubDate>
       
       <guid>https://rumangerst.github.io/homepage/public/support/userguide/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/manjarolinux/files/release/16.08/readme-16.08.pdf&#34;&gt;Download User Guide#download-primary-xl#&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/manjarolinux/files/release/16.08/readme-16.08.pdf&#34; class=&#34;btn btn-primary btn-xl&#34; &gt;Download User Guide&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Our team and our community proudly present you the Manjaro User Guide, a over 100 page long book with everything new and advanced users can know about Manjaro. We cover following topics in our guide:&lt;/p&gt;
 

@@ -18,7 +18,7 @@
             	<li>
 	                <a class="page-scroll" href="{{ .Site.BaseURL }}features" nav-type="precise">{{ .Site.Params.navigation.features.home }}</a>
 	            </li>
-            	{{ range .Site.Pages }}{{ if eq .Params.navsection "features" }}{{ if in .Params.tags "quick" }}
+            	{{ range .Site.Pages }}{{ if eq .Params.navsection "features" }}{{ if eq .Params.right false }}
             	<li>
                     <a class="page-scroll" href="{{ .Permalink }}">{{ .Title }}</a>
                 </li>
@@ -26,7 +26,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
 
-            	{{ range .Site.Pages }}{{ if eq .Params.navsection "features" }}{{ if in .Params.tags "quick" }}{{ else }}
+            	{{ range .Site.Pages }}{{ if eq .Params.navsection "features" }}{{ if eq .Params.right true }}
             	<li>
                     <a class="page-scroll" href="{{ .Permalink }}">{{ .Title }}</a>
                 </li>
