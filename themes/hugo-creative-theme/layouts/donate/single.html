@@ -1,28 +1,104 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-	<head>
-        {{ partial "head.html" . }}
 
-		<style>
-		.body-subpage {
-		background-color: #fff;
-		}
-		</style>
+<head>
+	{{ partial "head.html" . }}
 
-    </head>
-	<body id="donate" class="body-subpage">
+</head>
 
-		{{ partial "js.html" . }}
+<body id="donate" class="body-subpage">
 
-		{{ partial "nav.html" . }}
-		<!-- <header class="subpage-header"> -->
-   			{{ partial "get-involved-nav.html" . }}
-		<!-- </header> -->
+	{{ partial "js.html" . }} {{ partial "nav.html" . }}
+	<!-- <header class="subpage-header"> -->
+	{{ partial "get-involved-nav.html" . }}
+	<!-- </header> -->
 
-		{{ partial "donate.html" . }}
-		{{ partial "donation-manually.html" . }}
+	<section id="donate">
+		<div class="container">
+			<div class="row">
+				<div class="text-center">
+					<h2 class="section-heading">{{ .Title }}</h2>
+					<hr class="primary">
+					<div class="features-post">
+						<p>{{ .Content | replaceRE ";baseurl;" .Site.BaseURL | markdownify }}
+					</div>
+					<ul class="flex-grid">
+					  <li class="flex-item">
+					    <div style="width: 100%; text-align: center; border: 1px solid #ddd;">
+								<div style="width: 200px; height: 200px; display: inline-block; position: relative">
+									<img src="{{ .Site.BaseURL }}/img/donation/de-pp-logo-200px.png" alt="Icon" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;" />
+								</div>
+					      <h3>{{ .Params.donate_paypal_title }}</h3>
+					      <hr/>
+								<form id="donation_paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+									<input type="hidden" name="cmd" value="_s-xclick">
+									<input type="hidden" name="hosted_button_id" value="P5T6ZGPVJD9JN">
+									<a href="#" onclick="donation_paypal.submit();" class="btn btn-primary btn-xl" style="margin-bottom: 10px;">{{ .Params.button_donate_text }}</a>
+								</form>
+					    </div>
+					  </li>
+					  <li class="flex-item">
+					    <div style="width: 100%; text-align: center; border: 1px solid #ddd;">
+					      <img src="{{ .Site.BaseURL }}/img/donation/manually-alt.svg" alt="Icon" style="width: 200px; height: 200px;" />
+					      <h3>{{ .Params.donate_manually_title }}</h3>
+					      <hr/>
 
+								<a href="#" id="donation-manually-show" class="btn btn-primary btn-xl" style="margin-bottom: 10px;">{{ .Params.button_donate_text }}</a>
 
-	</body>
+					      <div style="text-align: justify; width: 80%; display: inline-block; margin-bottom: 10px">
+
+									<div id="donation-manually-data">
+									<table  class="dontation-manually-card">
+										<tr>
+											<td class="donation-manually-field" >Account holder</td>
+											<td>{{ with $.Site.Params.donate.account.account_holder }}{{.}}{{ end }}</td>
+										</tr>
+										<tr>
+											<td class="donation-manually-field" >Account number</td>
+											<td>{{ with $.Site.Params.donate.account.account_number }}{{.}}{{ end }}</td>
+										</tr>
+										<tr>
+											<td class="donation-manually-field" >Bank identification number</td>
+											<td>{{ with $.Site.Params.donate.account.bank_identification }}{{.}}{{ end }}</td>
+										</tr>
+										<tr>
+											<td class="donation-manually-field" >Bank</td>
+											<td>{{ with $.Site.Params.donate.account.bank }}{{.}}{{ end }}</td>
+										</tr>
+										<tr>
+											<td class="donation-manually-field" >BIC</td>
+											<td>{{ with $.Site.Params.donate.account.bic }}{{.}}{{ end }}</td>
+										</tr>
+										<tr>
+											<td class="donation-manually-field" >IBAN</td>
+											<td>{{ with $.Site.Params.donate.account.iban }}{{.}}{{ end }}</td>
+										</tr>
+										<tr>
+											<td class="donation-manually-field" >Purpose</td>
+											<td>{{ with $.Site.Params.donate.account.purpose }}{{.}}{{ end }}</td>
+										</tr>
+									</table>
+
+									<p>{{ with $.Site.Params.donate.account.note }}{{.}}{{ end }}</p>
+									<div>
+
+					      </div>
+					    </div>
+					  </li>
+					</li>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script>
+	$("#donation-manually-data").hide();
+	$("#donation-manually-show").click( function (e) {
+		$("#donation-manually-data").toggle(500);
+		e.preventDefault();
+	});
+	</script>
+
+</body>
 
 </html>
