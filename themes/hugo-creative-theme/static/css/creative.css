@@ -207,7 +207,7 @@ aside {
 
 .subnavbar .nav > li>a:hover,
 .subnavbar .nav>li>a:focus:hover {
-    color: #34be5b;
+    color: rgba(255,255,255,.75);    
 }
 
 .subnavbar .nav > li.active>a,
