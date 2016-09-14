@@ -34,6 +34,7 @@ theme = "hugo-creative-theme"
 	[params.navigation.download]
 		home = "Overview"
 		community_editions = "Manjaro Community Editions"
+		preview_editions = "Developer previews"
 
 	[params.navigation.features]
 		home = "About Manjaro"
