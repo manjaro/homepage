@@ -130,7 +130,7 @@
       <description>
 
 &lt;p&gt;You can also use &lt;a href=&#34;https://en.wikipedia.org/wiki/BitTorrent&#34;&gt;Torrents&lt;/a&gt; to download Manjaro.
-Just download the *.torrent file for the &lt;a href=&#34;;torrent-x64;&#34;&gt;64 bit&lt;/a&gt; or &lt;a href=&#34;;torrent-x86;&#34;&gt;32 bit&lt;/a&gt; version and open it with a torrent program like &lt;a href=&#34;http://www.qbittorrent.org/&#34;&gt;qBittorrent&lt;/a&gt;&lt;/p&gt;
+Just download the *.torrent file and open it with a torrent program like &lt;a href=&#34;http://www.qbittorrent.org/&#34;&gt;qBittorrent&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;be-secure&#34;&gt;Be secure&lt;/h2&gt;
 
@@ -141,6 +141,8 @@ Just download the *.torrent file for the &lt;a href=&#34;;torrent-x64;&#34;&gt;6
 
 &lt;p&gt;To even further enhance the security, verify the downloaded file with a &lt;strong&gt;GPG (GNU Privacy Guard)&lt;/strong&gt; signature that will ensure that the file was not modified and was actually created by the Manjaro developers.
 &lt;a href=&#34;http://www.howtogeek.com/246332/how-to-verify-a-downloaded-linux-iso-file-wasnt-tampered-with/&#34;&gt;Here&lt;/a&gt; you can find information how to use it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;;baseurl;/img/download/check_download_pipeline.svg.png&#34; alt=&#34;SecurityOverview&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
 

@@ -28,24 +28,53 @@
 								<h2>Download</h2>
 								<hr class="star-primary"/>
 
-								{{ range (where .Site.Pages ".Type" "download-additional-info-pre")}}
+								<!-- {{ range (where .Site.Pages ".Type" "download-additional-info-pre")}}
 									<p>{{ .Content | replaceRE ";torrent-x64;" $.Params.download_x64_torrent | replaceRE ";torrent-x86;" $.Params.download_x86_torrent | replaceRE ";baseurl;" .Site.BaseURL | markdownify }}
-								{{ end }}
+								{{ end }} -->
 
-								<div class="container" style="width: 100%;">
-								    <a href="{{ .Params.download_x64 }}" class="btn btn-primary btn-xl" style="float: left" target="_blank">Download 64bit version</a>
-								    <div style="float: right">
-								        {{ with .Params.download_x64_sig }} <a href="{{ . }}" target="_blank">Download GPG signature</a></br> {{end}}
-								        SHA1-sum: {{ .Params.download_x64_checksum }}
+								<ul class="flex-grid download-edition-grid">
+									<li class="flex-item">
+								    <div class="content">
+											<div class="top">
+												<img src="{{ .Site.BaseURL }}/img/download/x64.svg" alt="Icon" style="width: 200px; height: 200px;" />
+									      <h3>{{ .Site.Params.download_edition.download_x64_title }}</h3>
+									      <hr/>
+												<p>{{ .Site.Params.download_edition.download_x64_description }}</p>
+											</div>
+											<div class="bottom">
+												<div style="margin-top: auto; margin-bottom: 10px;">
+													<a href="{{ .Params.download_x64 }}" class="btn btn-primary btn-xl" target="_blank" >{{ .Site.Params.download_edition.download_x64_button }}</a>
+													<p>{{ with .Params.download_x64_torrent }} <a href="{{ . }}" target="_blank">{{ $.Site.Params.download_edition.download_torrent }}</a>{{end}}</p>
+												<div>
+												<div style="margin-top: auto; margin-bottom: 10px; font-size: 12px;">
+													{{ with .Params.download_x64_sig }} <a href="{{ . }}" target="_blank">{{ $.Site.Params.download_edition.download_gpg }}</a>{{end}}<br/>
+													SHA1: {{ .Params.download_x64_checksum }}
+												<div>
+											</div>
 								    </div>
-								</div><br/>
-								<div class="container" style="width: 100%;">
-								    <a href="{{ .Params.download_x86 }}" class="btn btn-primary btn-xl" style="float: left" target="_blank">Download 32bit version</a>
-								    <div style="float: right">
-								        {{ with .Params.download_x86_sig }} <a href="{{ . }}" target="_blank">Download GPG signature</a></br> {{end}}
-								        SHA1-sum: {{ .Params.download_x86_checksum }}
+								  </li>
+									<li class="flex-item">
+								    <div class="content">
+											<div class="top">
+												<img src="{{ .Site.BaseURL }}/img/download/x86.svg" alt="Icon" style="width: 200px; height: 200px;" />
+									      <h3>{{ .Site.Params.download_edition.download_x86_title }}</h3>
+									      <hr/>
+												<p>{{ .Site.Params.download_edition.download_x86_description }}</p>
+											</div>
+											<div class="bottom">
+												<div style="margin-top: auto; margin-bottom: 10px;">
+													<a href="{{ .Params.download_x86 }}" class="btn btn-primary btn-xl" target="_blank" >{{ .Site.Params.download_edition.download_x86_button }}</a>
+													<p>{{ with .Params.download_x86_torrent }} <a href="{{ . }}" target="_blank">{{ $.Site.Params.download_edition.download_torrent }}</a>{{end}}</p>
+												<div>
+												<div style="margin-top: auto; margin-bottom: 10px; font-size: 12px;">
+													{{ with .Params.download_x86_sig }} <a href="{{ . }}" target="_blank">{{ $.Site.Params.download_edition.download_gpg }}</a>{{end}}<br/>
+													SHA1: {{ .Params.download_x86_checksum }}
+												<div>
+											</div>
 								    </div>
-								</div><br/>
+								  </li>
+								</ul>
+
 
 								{{ range (where .Site.Pages ".Type" "download-additional-info-post")}}
 									<p>{{ .Content | replaceRE ";torrent-x64;" $.Params.download_x64_torrent | replaceRE ";torrent-x86;" $.Params.download_x86_torrent | replaceRE ";baseurl;" .Site.BaseURL | markdownify }}

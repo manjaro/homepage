@@ -207,7 +207,7 @@ aside {
 
 .subnavbar .nav > li>a:hover,
 .subnavbar .nav>li>a:focus:hover {
-    color: rgba(255,255,255,.75);    
+    color: rgba(255,255,255,.75);
 }
 
 .subnavbar .nav > li.active>a,
@@ -1233,4 +1233,22 @@ body {
     background-size: 64px 64px;
     text-align: left;
 
+}
+
+/* -------------- */
+
+.download-edition-grid {
+
+}
+
+.download-edition-grid .flex-item .content {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+.download-edition-grid .flex-item .content .top {
+  flex: 1;
 }

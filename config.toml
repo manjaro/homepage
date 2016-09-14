@@ -107,3 +107,13 @@ theme = "hugo-creative-theme"
 			iban = "DE90120300001050676905"
 			purpose = "Donation to Manjaro Linux"
 			note = "If you want a confirmation that we got your donation, just add your E-Mail adress to the purpose."
+
+	[params.download_edition]
+		download_x64_title = "64 bit version"
+		download_x86_title = "32 bit version"
+		download_x64_button = "Download 64 bit version"
+		download_x86_button = "Download 32 bit version"
+		download_x64_description = "Download the 64 bit version if you use a modern computer and the the maximum performance and full benefits of your modern hardware."
+		download_x86_description = "Download the 32 bit version if you use an older computer or if you are unsure if your computer supports the 64 bit version."
+		download_gpg = "Download GPG signature"
+		download_torrent = "Download Torrent"
