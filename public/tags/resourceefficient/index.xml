@@ -101,6 +101,18 @@
     
     <item>
       <title>xfce</title>
+      <link>https://rumangerst.github.io/homepage/public/download/xfce-preview/</link>
+      <pubDate>Sun, 04 Sep 2016 19:09:25 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/download/xfce-preview/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Note: This is a preview version for developers and testers and is not suitable for production environment as it may contain bugs&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly. Xfce embodies the traditional UNIX philosophy of modularity and re-usability. It consists of a number of components that provide the full functionality one can expect of a modern desktop environment. They are packaged separately and you can pick among the available packages to create the optimal personal working environment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>xfce</title>
       <link>https://rumangerst.github.io/homepage/public/download/xfce/</link>
       <pubDate>Sun, 04 Sep 2016 19:09:25 +0200</pubDate>
       
