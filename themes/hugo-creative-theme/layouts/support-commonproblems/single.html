@@ -34,43 +34,19 @@
                                 <th></th>
                                 </tr>
                                 </thead>
-
                                 <tbody>
+																		{{ range .Params.support_categories }}
                                     <tr>
-                                    <td><img src="{{ .Site.BaseURL }}/img/actions/download.svg" alt="Icon" /></td>
-                                    <td><strong>Before installation</strong></td>
+                                    <td><img src="{{ $.Site.BaseURL }}/img/commonproblems/{{ .icon }}" alt="Icon" /></td>
+                                    <td><strong>{{ .name }}</strong></td>
                                     </tr>
-                                    {{ range (where (where .Site.Pages ".Type" "problem-post" ) ".Params.category" "before_installation") }}
-                                    <tr>
-                                    <td></td>
-                                    <td>• <a href="{{ .Permalink }}">{{ .Title }}</a></td>
-                                    </tr>
-                                    {{ end }}
-
-                                    <tr>
-                                    <td><img src="{{ .Site.BaseURL }}/img/actions/install.svg" alt="Icon" /></td>
-                                    <td><strong>During installation</strong></td>
-                                    </tr>
-
-                                    {{ range (where (where .Site.Pages ".Type" "problem-post" ) ".Params.category" "during_installation") }}
+                                    {{ range (where (where $.Site.Pages ".Type" "problem-post" ) ".Params.category" .category ) }}
                                     <tr>
                                     <td></td>
                                     <td>• <a href="{{ .Permalink }}">{{ .Title }}</a></td>
                                     </tr>
                                     {{ end }}
-
-                                    <tr>
-                                    <td><img src="{{ .Site.BaseURL }}/img/try/install.svg" alt="Icon" /></td>
-                                    <td><strong>After installation</strong></td>
-                                    </tr>
-
-                                    {{ range (where (where .Site.Pages ".Type" "problem-post" ) ".Params.category" "after_installation") }}
-                                    <tr>
-                                    <td></td>
-                                    <td>• <a href="{{ .Permalink }}">{{ .Title }}</a></td>
-                                    </tr>
-                                    {{ end }}
-
+																		{{ end }}
                                 </tbody>
                             </table>
 		                </div>

@@ -1,7 +1,7 @@
 +++
 Name = ""
 type="problem-post"
-category="after_installation"
+category="hardware"
 title = "How to install drivers?"
 +++
 
@@ -15,4 +15,3 @@ title = "How to install drivers?"
 |                                                   | • Search for "hardware" or "mhwd" in your application menu |
 |                                                   | • Open "Hardware detection" |
 |                                                   | • Click on "Auto-Install proprietary" |
-

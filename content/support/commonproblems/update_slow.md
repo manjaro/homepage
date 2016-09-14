@@ -1,10 +1,10 @@
 +++
 Name = ""
 type="problem-post"
-category="after_installation"
+category="pacman"
 title = "Updating is very slow"
 +++
- 
+
 |   |   |
 |---|---|
 | ![Icon](;baseurl;/img/actions/question.svg) | **Check if your internet is not unstable or has some problems** |

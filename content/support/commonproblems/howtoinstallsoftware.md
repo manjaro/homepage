@@ -1,7 +1,7 @@
 +++
 Name = ""
 type="problem-post"
-category="after_installation"
+category="pacman"
 title = "How to install software?"
 +++
 
@@ -17,4 +17,3 @@ title = "How to install software?"
 |                                                   | • Right-click on the entry and select "install" |
 |                                                   | • Click on the "apply" button or one with a tick mark |
 |                                                   | More information about this in our wiki pages about [Octopi](https://wiki.manjaro.org/index.php?title=Octopi) and [Pamac](https://wiki.manjaro.org/index.php?title=Pacman_Overview) |
-

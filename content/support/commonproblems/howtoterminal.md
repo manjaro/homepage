@@ -1,11 +1,11 @@
 +++
 Name = ""
 type="problem-post"
-category="after_installation"
+category="misc"
 title = "How to run something in terminal?"
 +++
 
-The terminal is a very powerful tool that almost never fails to work and does exactly the things you want from it. You don't click on something in the terminal - You insert a command and it will do what the command say. Many Linux users like to provide solutions via terminal as it's completely independent from the user interface (which you can heavily modify). 
+The terminal is a very powerful tool that almost never fails to work and does exactly the things you want from it. You don't click on something in the terminal - You insert a command and it will do what the command say. Many Linux users like to provide solutions via terminal as it's completely independent from the user interface (which you can heavily modify).
 
 Here are instructions to how to use the terminal to run some command:
 

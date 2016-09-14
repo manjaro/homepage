@@ -1,7 +1,7 @@
 +++
 Name = ""
 type="problem-post"
-category="before_installation"
+category="installation"
 title = "How to start the installation?"
 +++
 
