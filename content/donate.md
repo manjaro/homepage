@@ -16,7 +16,7 @@ Manjaro is not backed by some large corporation and solely held up by the team, 
 
 ### For what will my donations used for?
 
-Your donation will be maily used for keeping all our severs and therefore our website, forums, mailing lists, bugtracker and more running. If some money is left - good servers are quite expensive - your donations will be used for attending conferences or giving a developer the resources to dedicate more time into developing a feature for Manjaro.
+Your donation will be mainly used for keeping all our severs and therefore our website, forums, mailing lists, bugtracker and more running. If some money is left - good servers are quite expensive - your donations will be used for attending conferences or giving a developer the resources to dedicate more time into developing a feature for Manjaro.
 
 ![Uses](;baseurl;/img/donation/uses.svg.png)
 
