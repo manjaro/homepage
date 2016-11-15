@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+        {{ partial "head.html" . }}
+
+		<style>
+		.body-subpage {
+		background-color: #fff;
+		}
+		</style>
+
+    </head>
+	<body id="news" class="body-subpage">
+
+		{{ partial "nav.html" . }}
+
+		<!-- <header class="subpage-header"> -->
+   			{{ partial "get-involved-nav.html" . }}
+		<!-- </header> -->
+
+		<section>
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-lg-8 col-lg-offset-2 text-center">
+		                <h2 class="section-heading">{{ .Title }}</h2>
+		                <hr class="primary">
+		                <p>{{ with .Content }}{{ . | markdownify }}{{ end }}</p>
+		            </div>
+
+								{{ range first 1 .Params.involvements }}
+								<div class="col-lg-4 text-center col-lg-offset-2" >
+										<!--<i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>-->
+										<img style="width: 64px; height: 64px;" src="{{ .img | replaceRE ";baseurl;" $.Site.BaseURL }}" class="wow bounceIn"/>
+										<p><a href="{{ .link | replaceRE ";baseurl;" $.Site.BaseURL }}">{{ .name }}</a></p>
+								</div>
+								{{ end }}
+								{{ range after 1 .Params.involvements }}
+								<div class="col-lg-4 text-center" >
+										<!--<i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>-->
+										<img style="width: 64px; height: 64px;" src="{{ .img | replaceRE ";baseurl;" $.Site.BaseURL }}" class="wow bounceIn"/>
+										<p><a href="{{ .link | replaceRE ";baseurl;" $.Site.BaseURL }}">{{ .name }}</a></p>
+								</div>
+								{{ end }}
+
+						</div>
+					</div>
+			</section>
+
+		{{ partial "js.html" . }}
+	</body>
+
+</html>

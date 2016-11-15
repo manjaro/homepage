@@ -4,37 +4,20 @@
         {{ partial "head.html" . }}
     </head>
     <body id="page-top">
-    
-    	<script type="text/javascript">
-    		function addLoadEvent(func) {
-			  var oldonload = window.onload;
-			  if (typeof window.onload != 'function') {
-			    window.onload = func;
-			  } else {
-			    window.onload = function() {
-			      if (oldonload) {
-			        oldonload();
-			      }
-			      func();
-			    }
-			  }
-			}
-    	</script>
+
+
 
         {{ partial "nav.html" . }}
 
         {{ partial "hero.html" . }}
-        {{ partial "about.html" . }}
-        {{ partial "features.html" . }}
-        {{ partial "usercases.html" . }}
-        
-        {{ partial "downloads.html" . }}
-        {{ partial "contact.html" . }}
-        {{ partial "donate.html" . }}
 
-        {{ partial "usercases-modals.html" . }}
-        {{ partial "editions-modals.html" . }}
-        {{ partial "donation-manually.html" . }}
+        {{ partial "about.html" . }}
+
+        {{ partial "quickfeatures.html" . }}
+
+        {{ partial "usercases.html" . }}
+
+        {{ partial "posthome.html" . }}
 
         {{ partial "js.html" . }}
     </body>

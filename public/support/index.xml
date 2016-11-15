@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supports on Manjaro Linux - enjoy the simplicity</title>
+    <link>https://rumangerst.github.io/homepage/public/support/</link>
+    <description>Recent content in Supports on Manjaro Linux - enjoy the simplicity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Sep 2016 21:12:18 +0200</lastBuildDate>
+    <atom:link href="https://rumangerst.github.io/homepage/public/support/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Manjaro IRC (English)</title>
+      <link>https://rumangerst.github.io/homepage/public/support/chat/english/</link>
+      <pubDate>Mon, 05 Sep 2016 21:12:18 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/chat/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manjaro IRC (French)</title>
+      <link>https://rumangerst.github.io/homepage/public/support/chat/french/</link>
+      <pubDate>Mon, 05 Sep 2016 21:12:18 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/chat/french/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manjaro IRC (German)</title>
+      <link>https://rumangerst.github.io/homepage/public/support/chat/german/</link>
+      <pubDate>Mon, 05 Sep 2016 21:12:18 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/chat/german/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manjaro IRC (Russian)</title>
+      <link>https://rumangerst.github.io/homepage/public/support/chat/russian/</link>
+      <pubDate>Mon, 05 Sep 2016 21:12:18 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/chat/russian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chat</title>
+      <link>https://rumangerst.github.io/homepage/public/support/chat/</link>
+      <pubDate>Mon, 05 Sep 2016 21:03:22 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/chat/</guid>
+      <description>
+
+&lt;h2 id=&#34;want-to-know-something-or-help-somebody-join-the-chat&#34;&gt;Want to know something or help somebody? Join the chat!&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;You can just join one of our chatrooms via web client or you can use an IRC chat program if you want.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First steps</title>
+      <link>https://rumangerst.github.io/homepage/public/support/firststeps/</link>
+      <pubDate>Mon, 05 Sep 2016 21:03:22 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/firststeps/</guid>
+      <description>
+
+&lt;p&gt;Here are some first steps after you &lt;a href=&#34;;baseurl;download&#34;&gt;downloaded&lt;/a&gt; Manjaro. This guide covers only the basic steps, so if you want more information look into the &lt;a href=&#34;;baseurl;support/userguide/&#34;&gt;Manjaro User Guide&lt;/a&gt; or the &lt;a href=&#34;https://wiki.manjaro.org/&#34;&gt;Manjaro Wiki&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So you downloaded Manjaro as an ISO file. An ISO file contains all files Manjaro needs to start an installation compressed into a handy file, which you can then use to make a &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File&#34;&gt;DVD&lt;/a&gt; or &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File#Writing_to_a_USB_Stick_in_Linux&#34;&gt;USB-Stick&lt;/a&gt; that can be run by your computer. This file can be directly used by a virtual machine if yout don&amp;rsquo;t want to try out Manjaro on your actual computer, yet.&lt;/p&gt;
+
+&lt;h2 id=&#34;branching-paths&#34;&gt;Branching Paths&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;To try out Manjaro, you can either directly load it from a DVD or USB-Drive or use a  &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_machine&#34;&gt;virtual machine&lt;/a&gt; if you are unsure or want to be able to use your current operating-system without &lt;a href=&#34;https://en.wikipedia.org/wiki/Multi-booting&#34;&gt;dual-booting&lt;/a&gt;. Here you can find a list of all options you have and their pros and cons.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/try/virtual-machine.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Using a virtual machine&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;➕ Leaves your current system untouched&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;➕ Experiment without breaking something&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;➕ Work parallel with Manjaro and your current system&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;➖ Manjaro runs slower due to emulation&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;➖ Emulation needs many system resources&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;&lt;a href=&#34;#using-a-virtual-machine&#34;&gt;Find out how this works&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/try/live-boot.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Only using the live-system&lt;/strong&gt;&lt;a href=&#34;#glossary&#34;&gt;¹&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;➕ Leaves your current system untouched unless you modify it manually&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;➕ Experiment without breaking something&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;➕ All settings are stored on the medium - take it everywhere you want (USB-Drive only)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;➖ Manjaro runs slower due to slower speed of DVD or USB&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;&lt;a href=&#34;#making-a-live-system&#34;&gt;Find out how this works&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/try/install.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Install Manjaro&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;➕ Maximum performance and support&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;➕ Install it alongside your current system if you want&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;➖ You need to prepare (e.g. backup your data) as with every installation of an operating system&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;&lt;a href=&#34;#install-manjaro&#34;&gt;Find out how this works&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&#34;;baseurl;/img/support/firststeps-overview.png&#34; alt=&#34;Pipeline&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;using-a-virtual-machine&#34;&gt;Using a virtual machine&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A virtual machine is a computer that runs &amp;ldquo;in&amp;rdquo; your current computer. If you just want to try or use Manjaro without rebooting your computer, you can set up a virtual machine. We will give you a quick step-by-step guide, but if you want to know more, visit our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=VirtualBox#Running_Manjaro_in_VirtualBox&#34;&gt;Wiki&lt;/a&gt;.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/download.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;1. Download an application that allows creating virtual machines and install it&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;You can use for example &lt;a href=&#34;https://www.virtualbox.org/&#34;&gt;VirtualBox&lt;/a&gt;, &lt;a href=&#34;http://www.vmware.com/&#34;&gt;VmWare Player&lt;/a&gt; or other software&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/vm.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;2. Create a virtual machine&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&amp;hellip; for &amp;ldquo;Arch Linux&amp;rdquo; if Manjaro is not available as option&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&amp;hellip; with at least 20-30GB virtual harddrive space&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&amp;hellip; with at least 2GB RAM/Memory&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Also don&amp;rsquo;t forget to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&amp;hellip; give the machine at least 2 CPU cores&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&amp;hellip; increase the graphics memory&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&amp;hellip; enable 3D acceleration if possible&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/try/install.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;3. Load Manjaro&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Start the virtual machine and select the Manjaro ISO to be loaded into the virtual DVD drive&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Manjaro will now boot. Select Manjaro (Free drivers) or leave it until it&amp;rsquo;s automatically selected&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Manjaro now boots into the live environment&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/features/installation.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;4. Install Manjaro into the virtual machine&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;&lt;a href=&#34;#install-manjaro&#34;&gt;Find out how this works&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/settings.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;5. Finish the process&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Go into the settings of the virtual machine and unload the Manjaro ISO&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Now you can just start your virtual computer with Manjaro, play around with it and use software that is not well supported on other operating systems! Note that this is (while being virtual) an actual computer, so you have to shut down Manjaro just like all operating systems. If you want to know what you can do after installing Manjaro, give a look at our &lt;a href=&#34;;baseurl;support/userguide/&#34;&gt;user guide&lt;/a&gt; and our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Main_Page#Customisation_and_Configuration&#34;&gt;wiki&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;making-a-live-system&#34;&gt;Making a Live-System&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;To be able to install or try Manjaro on your computer, you need to put it on a DVD or USB-Drive. Then the computer will start (or &amp;ldquo;boot&amp;rdquo;) from this medium into Manjaro&amp;rsquo;s live-system&lt;a href=&#34;#glossary&#34;&gt;¹&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;create-a-bootable-usb-stick&#34;&gt;Create a bootable USB-Stick&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/download.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;1. Download an application that is able to create a bootable USB-Drive&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;You can use for example &lt;a href=&#34;https://launchpad.net/win32-image-writer/&#34;&gt;ImageWriter&lt;/a&gt;, &lt;a href=&#34;https://rufus.akeo.ie/&#34;&gt;Rufus&lt;/a&gt; or other software. See our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File&#34;&gt;wiki&lt;/a&gt; for more information.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/try/live-boot.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;2. Select the ISO and the stick and put Manjaro onto it&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Please don&amp;rsquo;t forget to backup the data of your stick before doing this.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;If you need more information, just visit our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File&#34;&gt;Wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/boot.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;3. Boot from USB&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;&lt;a href=&#34;#booting-into-the-live-environment&#34;&gt;Find out how this works&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;burn-a-dvd&#34;&gt;Burn a DVD&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/download.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;1. Download an application that is able to burn a disk&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;You can use for example &lt;a href=&#34;http://www.deepburner.com/&#34;&gt;DeepBurner&lt;/a&gt;, or if available the software that comes with your operating system&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/burn.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;2. Burn the Manjaro ISO to the DVD&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;If you need more information, just visit our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File&#34;&gt;Wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/boot.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;3. Boot from DVD&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;&lt;a href=&#34;#booting-into-the-live-environment&#34;&gt;Find out how this works&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;booting-into-the-live-system&#34;&gt;Booting into the Live-System&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/boot.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;1. Boot from USB or DVD&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;If you are lucky, just have to plug-in the drive or put the DVD into the tray and restart your computer.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;But sometimes you need to configure your system to allow this.  Then you may find help here:&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• &lt;a href=&#34;http://www.howtogeek.com/129815/beginner-geek-how-to-change-the-boot-order-in-your-computers-bios/&#34;&gt;How to Boot Your Computer From a Disc or USB Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=BIOS_and_UEFI&#34;&gt;BIOS and UEFI - Manjaro Wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• &lt;a href=&#34;;baseurl;support/userguide/&#34;&gt;Manjaro User Guide&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/settings.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;2. Choose the drivers&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;If you boot into the live-system, you can choose between &amp;ldquo;free&amp;rdquo; and &amp;ldquo;proprietary&amp;rdquo; drivers.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Choose &amp;ldquo;proprietary&amp;rdquo; if you use a Nvidia graphics card or need wireless&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Choose &amp;ldquo;free&amp;rdquo; if you are using a virtual machine or know that everything will work without proprietary drivers&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;If you want more information, take a look at our &lt;a href=&#34;;baseurl;support/userguide/&#34;&gt;user guide&lt;/a&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Now you have booted into Manjaro&amp;rsquo;s live-environment and can begin to play around with it or proceed to install Manjaro on your computer (or the virtual machine). In the next section, you can find a quick step-by-step guide how to install Manjaro.&lt;/p&gt;
+
+&lt;h2 id=&#34;install-manjaro&#34;&gt;Install Manjaro&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;There are many different ways to install Manjaro and the process depends heavily from your current hardware. If you want more detailed steps, you will find them in our &lt;a href=&#34;;baseurl;support/userguide/&#34;&gt;user guide&lt;/a&gt;. Here we will give you a rough outline how to install Manjaro.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/install.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;1. Start the installer&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;If you boot into the live-system, there&amp;rsquo;s a welcome-window that has an option &amp;ldquo;Install&amp;rdquo; or &amp;ldquo;Installation using Calamares&amp;rdquo;. Click on this option to start the installer.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;If you closed the welcome-window, you can find it in the application menu as &amp;ldquo;Manjaro Welcome&amp;rdquo;.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/settings.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;2. Put in your data&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Insert your timezone, preferred keyboard layout and language.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/partition.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;3. Determine where Manjaro should be installed&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;If you use a virtual machine or want to wipe your whole system (keep in mind that if you use a virtual machine, you only wipe the machine, not your actual computer) choose &amp;ldquo;erase disk&amp;rdquo;.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Otherwise the installer offers plenty of options such as installing Manjaro alongside your current operating system. Experienced users also can partition manually.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;We recommend to take a look at the &lt;a href=&#34;;baseurl;support/userguide/&#34;&gt;user guide&lt;/a&gt; and our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=BIOS_and_UEFI&#34;&gt;wiki&lt;/a&gt; to make sure that nothing goes wrong. Also we recommend to make backups of your important data before installing Manjaro. You can do this directly in the live-environment if you forgot it.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/try/install.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;4. Finish the installation&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Insert your account data and wait until the installation is finished. You can use the live-environment while doing an installation to maybe watch some videos or browsing the web.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Restart your machine&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Congratulations! You have now installed Manjaro. If there are any problems, you can maybe find a solution &lt;a href=&#34;;baseurl;support/commonproblems&#34;&gt;here&lt;/a&gt;, our &lt;a href=&#34;;baseurl;support/userguide/&#34;&gt;user guide&lt;/a&gt; or our &lt;a href=&#34;https://wiki.manjaro.org/&#34;&gt;wiki&lt;/a&gt;. Our &lt;a href=&#34;;baseurl;support/userguide/&#34;&gt;user guide&lt;/a&gt; also contains information how to use Manjaro. Also we recommend to visit our &lt;a href=&#34;https://forum.manjaro.org/&#34;&gt;forums&lt;/a&gt; where people discuss about problems, new programs and make customizations like wallpapers.&lt;/p&gt;
+
+&lt;h2 id=&#34;glossary&#34;&gt;Glossary&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Live-Environment / Live-System&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Manjaro and many other Linux distributions allow running the system directly from a USB-Drive or DVD.&lt;br/&gt;Those &amp;ldquo;Live-Enviroments&amp;rdquo; are completely functional systems and can be used as portable operating-system or to rescue data if something went wrong.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>User-Guide</title>
+      <link>https://rumangerst.github.io/homepage/public/support/userguide/</link>
+      <pubDate>Mon, 05 Sep 2016 21:03:22 +0200</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/userguide/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/manjarolinux/files/release/16.08/readme-16.08.pdf&#34; class=&#34;btn btn-primary btn-xl&#34; &gt;Download User Guide&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Our team and our community proudly present you the Manjaro User Guide, a over 100 page long book with everything new and advanced users can know about Manjaro. We cover following topics in our guide:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/download.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Preparation&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Getting Manjaro&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Downloading Manjaro&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Checking a downloaded disc image for errors&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Writing a disc image&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/install.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Installation&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Installing Manjaro&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Booting the Live environment&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Assisted installation on a BIOS system with Calamares&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Manual installation on a BIOS system with Calamares&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Assisted installation on a UEFI system with Calamares&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Manual installation on a UEFI system with Calamares&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Dual-booting with Microsoft Windows 10&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Advanced installation methods&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/try/install.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Using Manjaro&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Welcome to Manjaro&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• The Manjaro desktop&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Getting help&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Maintaining your system&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://rumangerst.github.io/homepage/public/support/_quick_contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/_quick_contact/</guid>
+      <description>
+
+&lt;h2 id=&#34;do-you-need-more-help-contact-us&#34;&gt;Do you need more help? Contact us!&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Our team and our community can help via a variety of different channels.
+Write us a mail or ask other users via chat or forums. We will be glad to help you!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to install drivers?</title>
+      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/howtodrivers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/howtodrivers/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/information.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;You don&amp;rsquo;t need to download drivers from the internet&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Manjaro provides an easy-to-use tool that will do all work for you.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Manjaro_Hardware_Detection_Overview&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/execute.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Install proprietary drivers&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Search for &amp;ldquo;hardware&amp;rdquo; or &amp;ldquo;mhwd&amp;rdquo; in your application menu&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Open &amp;ldquo;Hardware detection&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Click on &amp;ldquo;Auto-Install proprietary&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to install software?</title>
+      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoinstallsoftware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoinstallsoftware/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/information.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;You often don&amp;rsquo;t need to download software from the internet&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Manjaro provides an easy-to-use tool that will do all work for you.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Pacman_Overview&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/execute.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Search and install software&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Search for &amp;ldquo;octopi&amp;rdquo; or &amp;ldquo;pamac&amp;rdquo; in your application menu and open it&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Browse through the list or search using the search bar&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Right-click on the entry and select &amp;ldquo;install&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Click on the &amp;ldquo;apply&amp;rdquo; button or one with a tick mark&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our wiki pages about &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Octopi&#34;&gt;Octopi&lt;/a&gt; and &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Pacman_Overview&#34;&gt;Pamac&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to run something in terminal?</title>
+      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoterminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoterminal/</guid>
+      <description>&lt;p&gt;The terminal is a very powerful tool that almost never fails to work and does exactly the things you want from it. You don&amp;rsquo;t click on something in the terminal - You insert a command and it will do what the command say. Many Linux users like to provide solutions via terminal as it&amp;rsquo;s completely independent from the user interface (which you can heavily modify).&lt;/p&gt;
+
+&lt;p&gt;Here are instructions to how to use the terminal to run some command:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/run.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Run a command&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Open a terminal via application launcher. Search for &amp;ldquo;Terminal&amp;rdquo;, &amp;ldquo;Console&amp;rdquo;, &amp;ldquo;Konsole&amp;rdquo; etc.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Select the command text and copy it&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Paste it into the terminal window&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Press enter&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Wait until the program is finished or wants some interaction&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• Repeat everything for the next command&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The terminal will sometimes prompt for a password or some user interaction. The password is the one you have to enter to install something.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/information.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;If the terminal wants a password, just type it in and press enter. Don&amp;rsquo;t be confused as while typing you won&amp;rsquo;t see asterisks or other visual information.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/information.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;Sometimes the terminal will ask &lt;em&gt;&amp;ldquo;Do something? [Y/N]&amp;rdquo;&lt;/em&gt;. Press Y for answering &amp;ldquo;yes&amp;rdquo; and N for answering &amp;ldquo;no&amp;rdquo;. If there are more options, you often can press ? to show an explanation.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to start the installation?</title>
+      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoinstall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoinstall/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/execute.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Start the installer&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;In the Manjaro Welcome dialog you can see an entry called &amp;ldquo;Install&amp;rdquo; or &amp;ldquo;Install with Calamares&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Click on it and wait until the installation assistant starts&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Our &lt;a href=&#34;;baseurl;support/firststeps#install-manjaro&#34;&gt;first steps guide&lt;/a&gt; provides you further information&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/information.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;If you closed the Manjaro Welcome dialog&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Open the application launcher and search for &amp;ldquo;Manjaro&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Start Manjaro Welcome, again.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Laptop screen is too dark</title>
+      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/laptop_screen_dark/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/laptop_screen_dark/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/information.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;This is likely caused by your hardware manufacturer&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Reactivating_the_Backlight&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/execute.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Re-activate the backlight&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Open a &lt;a href=&#34;;baseurl;commonproblems/howtoterminal&#34;&gt;terminal&lt;/a&gt; and enter:&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;sudo sed &amp;quot;s/\(GRUB_CMDLINE_LINUX=\)\&amp;quot;\&amp;quot;/\1\&amp;quot;acpi_osi=Linux acpi_backlight=vendor\&amp;quot;/&amp;quot; /etc/default/grub -i; sudo update-grub&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Manjaro USB-stick or DVD won&#39;t boot</title>
+      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/cannot_boot_liveenv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/cannot_boot_liveenv/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/question.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Check if you closely followed the instructions&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Our &lt;a href=&#34;;baseurl;support/firststeps#making-a-live-system&#34;&gt;first steps guide&lt;/a&gt; provides you further information&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/warning.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Maybe your computer needs to be configured to be able to boot&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Some manufacturers have by default disabled booting from other devices. If this is the case, you can refer to following information:&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• &lt;a href=&#34;http://www.howtogeek.com/129815/beginner-geek-how-to-change-the-boot-order-in-your-computers-bios/&#34;&gt;How to Boot Your Computer From a Disc or USB Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=BIOS_and_UEFI&#34;&gt;BIOS and UEFI - Manjaro Wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;• &lt;a href=&#34;;baseurl;support/userguide&#34;&gt;Manjaro User Guide&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Update or installation fails</title>
+      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/update_fails/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/update_fails/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/question.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Check if you are connected with the internet&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/warning.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Maybe the current mirror is not reachable&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Open a &lt;a href=&#34;;baseurl;commonproblems/howtoterminal&#34;&gt;terminal&lt;/a&gt; and enter:&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;sudo pacman-mirrors -g&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Manjaro_Mirrors&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/warning.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Maybe the cache is full&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Some editions come with a cache cleaner. Just search &lt;code&gt;cache&lt;/code&gt; in the application menu.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;If no cache cleaner is available, open a &lt;a href=&#34;;baseurl;commonproblems/howtoterminal&#34;&gt;terminal&lt;/a&gt; and enter:&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;sudo pacman -Scc&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Pacman_Tips#Cleaning_Packages&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/warning.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Maybe the pacman database is locked&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Open a &lt;a href=&#34;;baseurl;commonproblems/howtoterminal&#34;&gt;terminal&lt;/a&gt; and enter:&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;sudo rm /var/lib/pacman/db.lck&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Pacman_troubleshooting#.22Unable_to_lock_database.22_Error&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;;baseurl;/img/actions/information.svg&#34; alt=&#34;Icon&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Upgrade fails in Octopi&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;This is caused by restructuring of some packages. Click on &amp;ldquo;Run in Terminal&amp;rdquo; to be able to upgrade.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;The terminal will ask you questions if packages shall be removed. Answer &amp;lsquo;yes&amp;rsquo; to all of them. Our testers then already confirmed that everything will work out.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More information about this in our &lt;a href=&#34;https://wiki.manjaro.org/index.php?title=Pacman_troubleshooting&#34;&gt;wiki&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

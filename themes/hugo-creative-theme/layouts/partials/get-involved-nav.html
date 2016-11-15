@@ -1,0 +1,48 @@
+{{ "<!-- NAVIGATION -->" | safeHTML }}
+
+<nav id="download-nav" class="navbar navbar-default subnavbar subpage-header">
+    <div class="container-fluid">
+        {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
+        <!-- <div class="navbar-header"> -->
+            <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button> -->
+
+            <ul class="nav navbar-nav">
+            	<li>
+	                <a class="page-scroll" href="{{ .Site.BaseURL }}get-involved" nav-type="exact">{{ .Site.Params.navigation.getinvolved.home }}</a>
+	            </li>
+	            <li>
+	                <a class="page-scroll" href="https://forum.manjaro.org/" target="_blank">{{ .Site.Params.navigation.getinvolved.forum }}</a>
+	            </li>
+	            <li>
+	                <a class="page-scroll" href="{{ .Site.BaseURL }}donate">{{ .Site.Params.navigation.getinvolved.donate }}</a>
+	            </li>
+              <li>
+                  <a class="page-scroll" href="https://bugs.manjaro.org/">{{ .Site.Params.navigation.getinvolved.bugs }}</a>
+              </li>
+
+            </ul>
+        <!-- </div> -->
+
+
+        {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
+        <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
+            <ul class="nav navbar-nav navbar-right">
+
+            	<li>
+	                <a class="page-scroll" href="{{ .Site.BaseURL }}get-involved/team">{{ .Site.Params.navigation.getinvolved.team }}</a>
+	            </li>
+	            <li>
+	                <a class="page-scroll" href="{{ .Site.BaseURL }}get-involved/sponsor">{{ .Site.Params.navigation.getinvolved.sponsors }}</a>
+	            </li>
+
+            </ul>
+        <!-- </div> -->
+        {{ "<!-- /.navbar-collapse -->" | safeHTML }}
+    </div>
+    {{ "<!-- /.container-fluid -->" | safeHTML }}
+</nav>

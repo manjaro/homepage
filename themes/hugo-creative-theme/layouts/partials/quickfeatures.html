@@ -1,0 +1,35 @@
+{{ "<!-- SERVICES -->" | safeHTML }}
+<section id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+
+                {{ range (where .Site.Pages ".Type" "index-quickfeatures") }}
+                <h2 class="section-heading">{{ .Title }}</h2>
+                <hr class="primary">
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            {{ range (where .Site.Pages ".Type" "index-quickfeatures")}}
+            {{ range .Params.features }}
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+
+					<!-- For some reason Site.BaseURL does not work here, so we need to do some crappy workaround
+					How difficult is it to replace a fucking string ?! -->
+
+                	<img src="{{ printf "%s/img/features/%s" $.Site.BaseURL .icon }}" class="wow bounceIn text-primary" style="width: 80px; height: 80px"/>
+                    <!--<i class="fa fa-4x {{ .icon }} wow bounceIn text-primary"></i>-->
+                    <h3>{{ .title }}</h3>
+                    <p class="text-muted">{{ .description }}</p>
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>

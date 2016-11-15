@@ -3448,12 +3448,14 @@ tbody.collapse.in {
   line-height: 1.42857143;
   color: #333;
   white-space: nowrap;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   color: #262626;
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: #34be5b;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+        {{ partial "head.html" . }}
+
+		<style>
+		.body-subpage {
+		background-color: #fff;
+		}
+		</style>
+
+    </head>
+	<body id="features" class="body-subpage">
+
+		{{ partial "nav.html" . }}
+		<!-- <header class="subpage-header"> -->
+   			{{ partial "support-nav.html" . }}
+		<!-- </header> -->
+
+		<section>
+		    <div class="container">
+		        <div class="row">
+		            <div class="text-center">
+		                <h2 class="section-heading">{{ .Title }}</h2>
+		                <hr class="star-primary"/>
+
+		                <div class="support-post" >
+		                	<p>{{ .Content | replaceRE ";baseurl;" .Site.BaseURL | markdownify  }}
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</section>
+
+		{{ partial "js.html" . }}
+	</body>
+
+</html>

@@ -1,43 +1,61 @@
-#baseurl = "/"
-baseurl = "."
+#baseurl = "https://manjaro.org/"
+baseurl = "https://rumangerst.github.io/homepage/public/"
 languageCode = "en-us"
 title = "Manjaro Linux - enjoy the simplicity"
 theme = "hugo-creative-theme"
 
 [params]
 
-	# You can use Markdown syntax for urls [text](//url.to/source) for
-	# most longer texts.
-
-	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-	# for more icons. The icons are represented by their corresponding
-	# CSS class.
-
-	# All projects of the usercases are defined in their own files.
-	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
-	# folder into the 'data' directory at the root of this Hugo site.
-	# For more informtion take a look at the README.
-
-	# To provide some metadata for search engines feel free to add a few
-        # information about you and your website.
 	name = "Manjaro Linux"
 	description = "Linux Distribution"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.png"
 
+ 	[params.language]
+		current = "English"
+
+		[[params.language.available]]
+			name = "English"
+			url = "https://manjaro.org/"
 
 	# Navigation
-	[params.navigation]
+	[params.navigation.main]
 		brand = "Manjaro"
+		about     = "About"
+		services  = "Features"
+		download = "Downloads"
+		contact   = "Contact"
+		donate   = "Donate"
+		news = "News"
+		support = "Support"
+		getinvolved = "Get involved"
 
-		[params.navigation.links]
-			about     = "About"
-			services  = "Features"
-			download = "Download"
-			contact   = "Contact"
-			donate   = "Donate"
+	[params.navigation.download]
+		home = "Overview"
+		community_editions = "Manjaro Community Editions"
+		preview_editions = "Developer previews"
 
+	[params.navigation.features]
+		home = "About Manjaro"
+
+	[params.navigation.news]
+		home = "Most recent news"
+		archives = "More archives"
+
+	[params.navigation.support]
+		home = "Overview"
+		wiki = "Wiki"
+		forum = "Forum"
+		email = "E-Mail"
+
+	[params.navigation.getinvolved]
+		home = "You can help!"
+		forum = "Forums"
+		donate = "Donate"
+		bugs = "Bugtracker"
+		team = "Our team"
+		sponsors = "Our sponsors"
 
 	# Hero section*
 	[params.hero]
@@ -47,129 +65,40 @@ theme = "hugo-creative-theme"
 		subslogan = "Fast & stable."
 		#subtitle   = "The easy to install Linux distribution with a friendly feel that comes with the latest and greatest apps at your fingertips."
 		subtitle = "The Linux distribution that is easy to install, stable and always up-to-date."
-		
+
 		callToAction = "Learn more about Manjaro"
 		callToActionUrl = "#about"
 		learnMore = "or download directly"
 		learnMoreUrl = "#downloads"
 
+	[params.posthome]
+		callToAction = "Download now"
+		callToActionUrl = ";baseurl;download"
+
+	[params.team]
+		name = "Name"
+		alias = "Alias"
+		role = "Role"
+		involvements = "Involements"
+		email = "E-Mail"
+		languages = "Languages"
+		location = "Location"
+		yob = "Year of birth"
 
 
 	# About section
 	[params.about]
 		headline    = "Grows with you"
-		#description = "Built a powerful Arch-Linux foundation, with speed, efficiency and cutting edge software, Manjaro makes it stable and takes full advantage of your computer hardware. It is designed to make beginners happy and grow with them while they are becoming advanced users. It is easy to install even for beginners and comes with all the apps you need every day."
 		description = "Built from the powerful Arch Linux foundation; speed, efficiency and cutting edge software is in its core that is rock solid and stable. Manjaro is designed to welcome a newcomer and grow with the user as he evolves into a power user."
 		buttonText  = "Get started!"
 
-	# Service section
-	[params.services]
-		headline = "Solid base for everyone"		
-     
-
-        [[params.services.list]]
-            icon = "stable.svg"
-            title = "Latest features with stability"
-            description = "You get the latest software, carefully tested by our Manjaro Team & Community before it reaches you."
-
-        [[params.services.list]]
-            icon = "easy-setup.svg"
-            title = "Easy to setup"
-            description = "Our Hardware detection and preferences tool detects, installs on the fly without need for user to define and install."
-
-        [[params.services.list]]
-            icon = "handpicked-software.svg"
-            title = "Software for everyone"
-            description = "Manjaro is loaded with software of every category to suit needs of everyone. All you need is to choose, install and start using."
-
-        [[params.services.list]]
-            icon = "for-everyone.svg"
-            title = "Choose your workflow"
-            description = "Manjaro comes in many flavors; You have the option to pick the desktop environment / window managers of your choice."
-            
-        # usercases section
-        [params.usercases]
-            headline = "Versatility and Variety is our strength"
-            description = "Manjaro is an efficient companion to serve your variety of needs and it is versatile to adapt to all of your needs. Our user base varies from newbies, students & teachers, programmers & developers, professionals, art enthusiast, music lovers, professional multimedia professionals and many more."
-
-
-    # Portfolio modals
-	[params.usercases.modal]
-            client = "Client"
-            date = "Date"
-            category = "Category"
-            buttonText = "Close"
-            
-        [params.editions.modal]
-            client = "Client"
-            date = "Date"
-            category = "Category"
-            buttonText = "Close"
-
-    # Aside section
-	[params.aside]
-		headline = "Try it now"
-		description = "You can try Manjaro without changing your running system by putting it on a USB stick or on a DVD. If you decide to install Manjaro, you can do it directly from this live-system."
-		
-		[params.aside.default_download_button]
-			text = "Download XFCE edition"
-			link = "#editionsModal1"
-			
-                [params.aside.editions]
-                    description = "You can also install one of the other Manjaro editions that will come preconfigured with a specific desktop. You can easily add other environments to the existing ones after installation, so this is not a definitive choice."
-                    
-                    #description_filter = "Choose one of the official supported editions or try one of the editions provided by the community."
-                    description_filter = "For simplicity we have selected XFCE and KDE for our flagship editions. If you want to look for other experiences, our community has created many flavours that focus around other desktops."
-               
-        [[params.aside.howtotry]]
-        	icon = "virtual-machine"
-        	text = "Try Manjaro in a <a href=\"https://wiki.manjaro.org/index.php?title=VirtualBox#Running_Manjaro_in_VirtualBox\" target=\"_blank\">virtual machine</a> within your current operating system"
-		[[params.aside.howtotry]]
-			icon = "live-boot"
-			text = "Try Manjaro by <a href=\"https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File\" target=\"_blank\">putting it</a> onto a DVD or USB-Stick"    
-		[[params.aside.howtotry]]
-			icon = "install"
-			text = "<a href=\"https://wiki.manjaro.org/index.php?title=Installation_Guides\" target=\"_blank\">Install</a> Manjaro from a DVD or USB-Stick"      	     
-                    
-                    
-        # All supported tags for editions filtering
-        [[params.aside.editions.tags]]
-        	id = "official"
-        	description = "Flagship editions"
-        	default = "checked"
-        [[params.aside.editions.tags]]
-        	id = "beginnerfriendly"
-        	description = "Beginner-friendly"
-        	default = "checked"
-       	[[params.aside.editions.tags]]
-        	id = "resourceefficient"
-        	description = "For old computers"    
-        	default = ""
-        [[params.aside.editions.tags]]
-        	id = "traditional_ui"
-        	description = "Traditional workflow"
-        	default = ""
-                    
-                    
-                    
-
-	# Contact section
-	[params.contact]
-		headline = "Friendly support"
-		description = "Do you need some help or is there anything that can be improved?<br/>Contact our team and our community via GitHub, E-Mail, chat or forums and we will gladly help you.<br/>If you want to get involved further, our project is always looking for help to further improve Manjaro. From pointing out a problem, over helping other users to help keeping Manjaro stable by testing or further developing Manjaro - You can participate they way you want!"
-		github = "manjaro"
-		email = "support@manjaro.org"
-		forum = "https://forum.manjaro.org/"
-		irc = "http://webchat.freenode.net/?channels=%23manjaro&uio=MTE9MTEzcf"
-		mailinglists = "https://lists.manjaro.org/"
-		
 	# Contact section
 	[params.donate]
 		headline = "Help us"
 		description = "Besides participating in discussions to improve Manjaro, helping other users or help developing new functions, you can always donate money to help keeping our infrastructure funded. Just a few bucks can help to keep our website and forums ad-free, reliable and secure."
 		conditions = "A donation counts as a private donation and is kept anonymous by us. That means that we won't share or publish any details about you and your donation. Donators get no rights or privileges - everybody can participate, whether they donated or not. Manjaro is still relatively young and a growing distribution - we are no registered organization. That means that we cannot give you a reciept that deduct taxes. For the same reason, the donation cannot go to a 'Manjaro Linux' organization, but goes to the head of the Manjaro team."
-		
-		[params.donate.account]			
+
+		[params.donate.account]
 			account_holder = "Hanns Philip Müller"
 			account_number = "1050676905"
 			bank_identification = "12030000"
@@ -179,3 +108,12 @@ theme = "hugo-creative-theme"
 			purpose = "Donation to Manjaro Linux"
 			note = "If you want a confirmation that we got your donation, just add your E-Mail adress to the purpose."
 
+	[params.download_edition]
+		download_x64_title = "64 bit version"
+		download_x86_title = "32 bit version"
+		download_x64_button = "Download 64 bit version"
+		download_x86_button = "Download 32 bit version"
+		download_x64_description = "Download the 64 bit version if you use a modern computer and the the maximum performance and full benefits of your modern hardware."
+		download_x86_description = "Download the 32 bit version if you use an older computer or if you are unsure if your computer supports the 64 bit version."
+		download_gpg = "Download GPG signature"
+		download_torrent = "Download Torrent"

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+	{{ partial "head.html" . }}
+
+	<style>
+		.body-subpage {
+			background-color: #fff;
+		}
+	</style>
+
+</head>
+
+<body id="downloads" class="body-subpage">
+
+	{{ partial "nav.html" . }}
+	<!-- <header class="subpage-header"> -->
+		{{ partial "download-nav.html" . }}
+	<!-- </header> -->
+	<section>
+		<div class="container text-center">
+
+			{{ range (where .Site.Pages ".Type" "download-how-to-try") }}
+			<div class="features-post" >
+				<p>{{ .Content | replaceRE ";baseurl;" .Site.BaseURL | markdownify  }}
+			</div>
+			{{ end }}
+		</div>
+
+
+		{{ partial "editionfinder.html" . }}
+		{{ partial "js.html" . }}
+	</section>
+
+
+</body>
+
+</html>

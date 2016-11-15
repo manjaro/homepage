@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+        {{ partial "head.html" . }}
+
+		<style>
+		.body-subpage {
+		background-color: #fff;
+		}
+		</style>
+
+    </head>
+	<body id="downloads" class="body-subpage">
+
+		{{ partial "nav.html" . }}
+		<!-- <header class="subpage-header"> -->
+   			{{ partial "download-nav.html" . }}
+		<!-- </header> -->
+			<section>
+	    <div class="container text-center">
+				<h2>Manjaro {{ .Params.name }}</h2>
+				<hr class="star-primary" />
+                <a href="{{ .Site.BaseURL }}/img/editions/{{ .Params.screenshot }}" target="_blank"><img src="{{ .Site.BaseURL }}/img/editions/{{ .Params.thumbnail }}" class="img-responsive img-centered" alt=""></a>
+				<br/>
+                <p>{{ .Params.shortdescription | markdownify }}</p>
+                <p>{{ .Content | markdownify }}</p>
+
+								<h2>Download</h2>
+								<hr class="star-primary"/>
+
+								<!-- {{ range (where .Site.Pages ".Type" "download-additional-info-pre")}}
+									<p>{{ .Content | replaceRE ";torrent-x64;" $.Params.download_x64_torrent | replaceRE ";torrent-x86;" $.Params.download_x86_torrent | replaceRE ";baseurl;" .Site.BaseURL | markdownify }}
+								{{ end }} -->
+
+								<ul class="flex-grid download-edition-grid">
+									<li class="flex-item">
+								    <div class="content">
+											<div class="top">
+												<img src="{{ .Site.BaseURL }}/img/download/x64.svg" alt="Icon" style="width: 200px; height: 200px;" />
+									      <h3>{{ .Site.Params.download_edition.download_x64_title }}</h3>
+									      <hr/>
+												<p>{{ .Site.Params.download_edition.download_x64_description }}</p>
+											</div>
+											<div class="bottom">
+												<div style="margin-top: auto; margin-bottom: 10px;">
+													<a href="{{ .Params.download_x64 }}" class="btn btn-primary btn-xl" target="_blank" >{{ .Site.Params.download_edition.download_x64_button }}</a>
+													<p>{{ with .Params.download_x64_torrent }} <a href="{{ . }}" target="_blank">{{ $.Site.Params.download_edition.download_torrent }}</a>{{end}}</p>
+												<div>
+												<div style="margin-top: auto; margin-bottom: 10px; font-size: 12px;">
+													{{ with .Params.download_x64_sig }} <a href="{{ . }}" target="_blank">{{ $.Site.Params.download_edition.download_gpg }}</a>{{end}}<br/>
+													SHA1: {{ .Params.download_x64_checksum }}
+												<div>
+											</div>
+								    </div>
+								  </li>
+									<li class="flex-item">
+								    <div class="content">
+											<div class="top">
+												<img src="{{ .Site.BaseURL }}/img/download/x86.svg" alt="Icon" style="width: 200px; height: 200px;" />
+									      <h3>{{ .Site.Params.download_edition.download_x86_title }}</h3>
+									      <hr/>
+												<p>{{ .Site.Params.download_edition.download_x86_description }}</p>
+											</div>
+											<div class="bottom">
+												<div style="margin-top: auto; margin-bottom: 10px;">
+													<a href="{{ .Params.download_x86 }}" class="btn btn-primary btn-xl" target="_blank" >{{ .Site.Params.download_edition.download_x86_button }}</a>
+													<p>{{ with .Params.download_x86_torrent }} <a href="{{ . }}" target="_blank">{{ $.Site.Params.download_edition.download_torrent }}</a>{{end}}</p>
+												<div>
+												<div style="margin-top: auto; margin-bottom: 10px; font-size: 12px;">
+													{{ with .Params.download_x86_sig }} <a href="{{ . }}" target="_blank">{{ $.Site.Params.download_edition.download_gpg }}</a>{{end}}<br/>
+													SHA1: {{ .Params.download_x86_checksum }}
+												<div>
+											</div>
+								    </div>
+								  </li>
+								</ul>
+
+
+								{{ range (where .Site.Pages ".Type" "download-additional-info-post")}}
+									<p>{{ .Content | replaceRE ";torrent-x64;" $.Params.download_x64_torrent | replaceRE ";torrent-x86;" $.Params.download_x86_torrent | replaceRE ";baseurl;" .Site.BaseURL | markdownify }}
+								{{ end }}
+		</div>
+		</section>
+
+        {{ partial "js.html" . }}
+
+	</body>
+
+</html>

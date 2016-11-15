@@ -2,7 +2,633 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/</loc>
+    <loc>https://rumangerst.github.io/homepage/public/</loc>
+    <lastmod>2016-09-05T22:21:43+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/universidade_de_brasilia/</loc>
+    <lastmod>2016-09-05T22:21:43+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/universidad_de_chile/</loc>
+    <lastmod>2016-09-05T22:12:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/turkish_linux_users/</loc>
+    <lastmod>2016-09-05T21:51:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/rcs_rds/</loc>
+    <lastmod>2016-09-05T21:51:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/layerjet/</loc>
+    <lastmod>2016-09-05T21:51:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/serverhost/</loc>
+    <lastmod>2016-09-05T21:51:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/xservers/</loc>
+    <lastmod>2016-09-05T21:51:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/university_of_crete/</loc>
+    <lastmod>2016-09-05T21:51:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/edatel/</loc>
+    <lastmod>2016-09-05T21:50:58+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/minku_lee/</loc>
+    <lastmod>2016-09-05T21:50:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/universidade_de_coimbra/</loc>
+    <lastmod>2016-09-05T21:50:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/micha_stoecker/</loc>
+    <lastmod>2016-09-05T21:50:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/tenet/</loc>
+    <lastmod>2016-09-05T21:50:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/david_berard/</loc>
+    <lastmod>2016-09-05T21:49:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/tu_chemnitz/</loc>
+    <lastmod>2016-09-05T21:49:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/dacentec/</loc>
+    <lastmod>2016-09-05T21:49:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/university_of_indonesia/</loc>
+    <lastmod>2016-09-05T21:49:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/taiwan_advanced_research/</loc>
+    <lastmod>2016-09-05T21:49:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/national_applied_research_taiwan/</loc>
+    <lastmod>2016-09-05T21:49:11+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/belnet/</loc>
+    <lastmod>2016-09-05T21:48:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/heanet/</loc>
+    <lastmod>2016-09-05T21:48:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/nluug/</loc>
+    <lastmod>2016-09-05T21:48:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/rlug/</loc>
+    <lastmod>2016-09-05T21:48:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/zetup/</loc>
+    <lastmod>2016-09-05T21:48:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/catn_uk/</loc>
+    <lastmod>2016-09-05T21:48:19+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/dot-src/</loc>
+    <lastmod>2016-09-05T21:48:11+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/universidad_de_costa_rica/</loc>
+    <lastmod>2016-09-05T21:48:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/servers_australia/</loc>
+    <lastmod>2016-09-05T21:47:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/ventra_ip/</loc>
+    <lastmod>2016-09-05T21:47:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/datautama/</loc>
+    <lastmod>2016-09-05T21:47:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/is_pros/</loc>
+    <lastmod>2016-09-05T21:46:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/honesty_net/</loc>
+    <lastmod>2016-09-05T21:46:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/dafydd_ward/</loc>
+    <lastmod>2016-09-05T21:46:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/consortium_garr/</loc>
+    <lastmod>2016-09-05T21:46:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/georgia_institute/</loc>
+    <lastmod>2016-09-05T21:46:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/yandex/</loc>
+    <lastmod>2016-09-05T21:45:58+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/university_of_kent/</loc>
+    <lastmod>2016-09-05T21:45:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/linkoping_university/</loc>
+    <lastmod>2016-09-05T21:45:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/lasca/</loc>
+    <lastmod>2016-09-05T21:45:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/tsukuba_wide/</loc>
+    <lastmod>2016-09-05T21:45:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/tu_braunschweig/</loc>
+    <lastmod>2016-09-05T21:44:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/rwth_achen/</loc>
+    <lastmod>2016-09-05T21:44:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/james_madison_university/</loc>
+    <lastmod>2016-09-05T21:44:40+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/uberglobal/</loc>
+    <lastmod>2016-09-05T21:44:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/rapidswitch/</loc>
+    <lastmod>2016-09-05T21:42:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/falcon/</loc>
+    <lastmod>2016-09-05T21:39:58+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/sponsor/</loc>
+    <lastmod>2016-09-05T21:37:11+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/chat/english/</loc>
+    <lastmod>2016-09-05T21:12:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/chat/french/</loc>
+    <lastmod>2016-09-05T21:12:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/chat/german/</loc>
+    <lastmod>2016-09-05T21:12:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/chat/russian/</loc>
+    <lastmod>2016-09-05T21:12:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/chat/</loc>
+    <lastmod>2016-09-05T21:03:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/firststeps/</loc>
+    <lastmod>2016-09-05T21:03:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/userguide/</loc>
+    <lastmod>2016-09-05T21:03:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/features/usercases/scientists/</loc>
+    <lastmod>2016-09-05T15:08:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/features/usercases/gamers/</loc>
+    <lastmod>2016-09-05T15:08:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/features/usercases/students/</loc>
+    <lastmod>2016-09-05T15:08:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/features/usercases/developers/</loc>
+    <lastmod>2016-09-05T15:08:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/features/usercases/beginners/</loc>
+    <lastmod>2016-09-05T15:07:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/features/usercases/artists/</loc>
+    <lastmod>2016-09-05T15:07:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/dan_s/</loc>
+    <lastmod>2016-09-05T03:38:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/justine_smithies/</loc>
+    <lastmod>2016-09-05T03:38:15+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/tillman_ebert/</loc>
+    <lastmod>2016-09-05T03:38:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/ajay_chahar/</loc>
+    <lastmod>2016-09-05T03:37:57+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/allesandro_calo/</loc>
+    <lastmod>2016-09-05T03:37:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/carl_duff/</loc>
+    <lastmod>2016-09-05T03:37:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/joshua_strot/</loc>
+    <lastmod>2016-09-05T03:37:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/handy/</loc>
+    <lastmod>2016-09-05T03:37:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/wlad_meixner/</loc>
+    <lastmod>2016-09-05T03:37:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/demiray_muhterem/</loc>
+    <lastmod>2016-09-05T03:37:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/matheusz_mikolajczyk/</loc>
+    <lastmod>2016-09-05T03:36:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/roland_singer/</loc>
+    <lastmod>2016-09-05T03:36:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/sabras/</loc>
+    <lastmod>2016-09-05T03:36:30+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/jonathon_fernyhough/</loc>
+    <lastmod>2016-09-05T03:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/ringo_de_kroon/</loc>
+    <lastmod>2016-09-05T03:36:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/david_linares/</loc>
+    <lastmod>2016-09-05T03:36:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/alexandre_a_arnt/</loc>
+    <lastmod>2016-09-05T03:35:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/teo_mrnjavac/</loc>
+    <lastmod>2016-09-05T03:35:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/marcus/</loc>
+    <lastmod>2016-09-05T03:35:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/rob_mccathie/</loc>
+    <lastmod>2016-09-05T03:35:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/bernard_landauer/</loc>
+    <lastmod>2016-09-05T03:35:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/stefano_capitani/</loc>
+    <lastmod>2016-09-05T03:34:58+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/ramon_buldo/</loc>
+    <lastmod>2016-09-05T03:34:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/guillaume_benoit/</loc>
+    <lastmod>2016-09-05T03:34:30+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/philip_mueller/</loc>
+    <lastmod>2016-09-05T03:34:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/team/</loc>
+    <lastmod>2016-09-05T03:30:07+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/news/stable_update_2016-09-04/</loc>
+    <lastmod>2016-09-04T23:51:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/mate/</loc>
+    <lastmod>2016-09-04T19:10:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/lxqt/</loc>
+    <lastmod>2016-09-04T19:10:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/jwm/</loc>
+    <lastmod>2016-09-04T19:10:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/i3/</loc>
+    <lastmod>2016-09-04T19:10:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/gnome/</loc>
+    <lastmod>2016-09-04T19:10:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/e20/</loc>
+    <lastmod>2016-09-04T19:10:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/deepin/</loc>
+    <lastmod>2016-09-04T19:10:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/cinnamon/</loc>
+    <lastmod>2016-09-04T19:10:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/budgie/</loc>
+    <lastmod>2016-09-04T19:10:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/bspwm/</loc>
+    <lastmod>2016-09-04T19:09:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/xfce-preview/</loc>
+    <lastmod>2016-09-04T19:09:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/xfce/</loc>
+    <lastmod>2016-09-04T19:09:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/news/</loc>
+    <lastmod>2016-09-04T15:50:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/donate/</loc>
+    <lastmod>2016-09-04T15:50:15+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/_additional_info_post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/_additional_info_pre/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/_how_to_try/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/_quick_contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/commonproblems/howtodrivers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoinstallsoftware/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoterminal/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoinstall/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/commonproblems/laptop_screen_dark/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/_quickfeatures/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/commonproblems/cannot_boot_liveenv/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/features/switch/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/commonproblems/update_fails/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/commonproblems/update_slow/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/_usercases/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/features/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/get-involved/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/features/tools/</loc>
+    <lastmod>2016-09-06T00:36:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/commonproblems/</loc>
+    <lastmod>2016-09-05T21:03:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/kde-preview/</loc>
+    <lastmod>2016-09-04T19:10:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/kde/</loc>
+    <lastmod>2016-09-04T19:10:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/download/net/</loc>
+    <lastmod>2016-09-04T19:10:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/features/usercases/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/features/background/</loc>
+    <lastmod>2016-09-06T00:36:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/support/mailinglists/</loc>
+    <lastmod>2016-09-05T21:03:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rumangerst.github.io/homepage/public/news-archive/9_2016/</loc>
+    <lastmod>2016-09-05T01:12:32+02:00</lastmod>
   </url>
   
 </urlset>

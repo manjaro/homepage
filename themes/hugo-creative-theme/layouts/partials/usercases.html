@@ -1,43 +1,49 @@
+<section class="bg-primary" id="about">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-lg-8 col-lg-offset-2 text-center">
+
+									{{ range (where .Site.Pages ".Type" "index-usercases")}}
+	                <h2 class="section-heading">{{ .Title }}</h2>
+	                <hr class="light">
+	                <p class="text-faded">{{ .Content | markdownify }}</p>
+									{{ end }}
+	                <br />
+	            </div>
+	        </div>
+	    </div>
+	</section>
+
 <section class="no-padding" id="usercases">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ with .Site.Params.usercases.headline }}{{ . }}{{ end }}</h2>
-                <hr class="primary">
-                <p>{{ with .Site.Params.usercases.description }}{{ . | markdownify }}{{ end }}</p>
-            </div>
-        </div>
-    </div>
     <div class="container-fluid">
         <div class="row no-gutter">
-            {{ range .Site.Data.usercases }}
-            <div class="col-lg-4 col-sm-6">
-                <a href="#usercasesModal{{ .modalID }}" class="usercases-box usercases-link" data-toggle="modal">
-                    <img src="img/usercases/{{ .img }}" class="img-responsive" alt="">
+            {{ range (where .Site.Pages ".Type" "usercase-post") }}<div class="col-lg-4 col-sm-6">
+                <a href="{{ .Permalink }}" class="usercases-box usercases-link">
+                    <img src="{{ printf "%s/img/usercases/%s" $.Site.BaseURL .Params.image }}" class="img-responsive" alt="">
                     <div class="usercases-box-caption-extended">
-                        <div class="usercases-box-caption-extended-content"> 
+                        <div class="usercases-box-caption-extended-content">
                             <div class="quote">
-                                "{{ .quote }}" <div style="font-weight: 100">- {{ .quoteauthor }} -</div>
+                                "{{ .Params.quote }}" <div style="font-weight: 100">- {{ .Params.quoteauthor }} -</div>
                             </div>
-                        </div>                        
+                        </div>
                     </div>
                     <div class="usercases-box-caption-small">
                         <div class="usercases-box-caption-small-content">
                             <div class="name">
-                                {{ .usercase }}
-                            </div>               
-                        </div>                        
+                                {{ .Params.name }}
+                            </div>
+                        </div>
                     </div>
                     <div class="usercases-box-caption-extended-subtitle">
                         <div class="usercases-box-caption-extended-subtitle-content">
                             <div class="action">
                                 Click to find out more
-                            </div>               
-                        </div>                        
+                            </div>
+                        </div>
                     </div>
                 </a>
-            </div>
-            {{ end }}
+            </div>{{ end }}
+
         </div>
     </div>
 </section>

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Ruman" >
+<meta name="description" content="Linux Distribution">
+<meta name="generator" content="Hugo 0.16" />
+<title>Manjaro Linux - enjoy the simplicity</title>
+<!-- Favicon -->
+<link rel="shortcut icon" href="https://rumangerst.github.io/homepage/public/favicon.png">
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" href="https://rumangerst.github.io/homepage/public/css/bootstrap.css" type="text/css">
+<!-- Custom Fonts -->
+
+
+
+<link rel="stylesheet" href="https://rumangerst.github.io/homepage/public/css/fonts.css" type="text/css">
+
+
+
+<!-- Plugin CSS -->
+<link rel="stylesheet" href="https://rumangerst.github.io/homepage/public/css/animate.min.css" type="text/css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="https://rumangerst.github.io/homepage/public/css/creative.css" type="text/css">
+<link rel="stylesheet" href="https://rumangerst.github.io/homepage/public/css/usercases-modals.css" type="text/css">
+<link rel="stylesheet" href="https://rumangerst.github.io/homepage/public/css/editions-modals.css" type="text/css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+</head>
+
+<body id="donate" class="body-subpage">
+
+	<!-- jQuery -->
+<script src="https://rumangerst.github.io/homepage/public/js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="https://rumangerst.github.io/homepage/public/js/bootstrap.js"></script>
+<!-- Plugin JavaScript -->
+<script src="https://rumangerst.github.io/homepage/public/js/jquery.easing.min.js"></script>
+<script src="https://rumangerst.github.io/homepage/public/js/jquery.fittext.js"></script>
+<script src="https://rumangerst.github.io/homepage/public/js/wow.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="https://rumangerst.github.io/homepage/public/js/creative.js"></script>
+
+
+<script type="text/javascript" >
+
+	function highlight_current_nav() {
+		
+		
+		$("a").each(function (index) {
+			
+			
+			var navtype = this.hasAttribute("nav-type") ? this.getAttribute("nav-type") : "unprecise";
+			
+			if (navtype.toLowerCase() == "unprecise") {
+			
+				var href = this.href.endsWith("/") ? this.href : this.href + "/";		
+				if( location.href.startsWith(href))
+				{
+					$(this).parent().addClass("active");
+				}	
+			}
+			else if (navtype.toLowerCase() == "super-unprecise") {
+				
+				var href = this.href.endsWith("/") ? this.href.slice(0,-1) : this.href;		
+				
+				if( location.href.startsWith(href))
+				{
+					$(this).parent().addClass("active");
+				}	
+			}
+			else {
+				var href = this.href.endsWith("/") ? this.href : this.href + "/";		
+				if( location.href == href )
+				{
+					$(this).parent().addClass("active");
+				}
+			}
+			
+					
+				
+		});
+		
+	}
+    
+    function modify_links()
+    {
+        
+        
+        
+        
+        
+        
+        $("a").each(function(index) {
+           
+            $(this).addClass("page-scroll");
+            
+            if(this.href.startsWith("#") || this.href.startsWith(location.origin)) {
+                $(this).attr("target", "_self");
+            }
+            else {
+                $(this).attr("target", "_blank");
+            }
+            
+            if(this.text.endsWith("#download-primary-xl#")) {
+                this.text = this.text.slice(0,-"#download-primary-xl#".length);
+                $(this).addClass("btn");
+                $(this).addClass("btn-primary");
+                $(this).addClass("btn-xl");
+            }
+        });
+        
+    }    
+    
+	
+	$( document ).ready(highlight_current_nav);
+    $( document ).ready(modify_links);
+</script> <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="https://rumangerst.github.io/homepage/public/"> <img src="https://rumangerst.github.io/homepage/public//img/manjaro-logo.svg" /> Manjaro</a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+
+                <li id="javascript-warning">
+                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/" style="color: #f00;"> <noscript>Please enable JavaScript to enable all functions of this site</noscript></a>
+                </li>
+
+                <li>
+                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/news" nav-type="super-unprecise">News</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/features">Features</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/download">Downloads</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/support">Support</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/get-involved">Get involved</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/donate" active-section="#donate">Donate</a>
+                </li>
+
+      			   	<li class="dropdown locale">
+      			      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="https://rumangerst.github.io/homepage/public//img/locale/language.svg" /> English <span class="caret"></span></a>
+      			      <ul class="dropdown-menu">
+                    
+      			        <li>
+      			          <a href="https://manjaro.org/" target="_self">English</a>
+      			        </li>
+                    
+      			      </ul>
+      			    </li>
+
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+	
+	<!-- NAVIGATION -->
+
+<nav id="download-nav" class="navbar navbar-default subnavbar subpage-header">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        
+            
+
+            <ul class="nav navbar-nav">
+            	<li>
+	                <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/get-involved" nav-type="exact">You can help!</a>
+	            </li>
+	            <li>
+	                <a class="page-scroll" href="https://forum.manjaro.org/" target="_blank">Forums</a>
+	            </li>
+	            <li>
+	                <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/donate">Donate</a>
+	            </li>
+              <li>
+                  <a class="page-scroll" href="https://bugs.manjaro.org/">Bugtracker</a>
+              </li>
+
+            </ul>
+        
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        
+            <ul class="nav navbar-nav navbar-right">
+
+            	<li>
+	                <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/get-involved/team">Our team</a>
+	            </li>
+	            <li>
+	                <a class="page-scroll" href="https://rumangerst.github.io/homepage/public/get-involved/sponsor">Our sponsors</a>
+	            </li>
+
+            </ul>
+        
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+	
+
+	<section id="donate">
+		<div class="container">
+			<div class="row">
+				<div class="text-center">
+					<h2 class="section-heading">Donate to Manjaro</h2>
+					<hr class="primary">
+					<div class="features-post">
+						<p>There are many ways you can help out Manjaro. One way is to donate a small amount of money, to help out covering some unavoidable cost, giving developers time and freedom to improve Manjaro&rsquo;s features and to allow spreading word about Manjaro by attending conferences.</p>
+
+<h3 id="why-does-manjaro-ask-for-donations">Why does Manjaro ask for donations?</h3>
+
+<p>Manjaro is not backed by some large corporation and solely held up by the team, the community and some sponsors that are willing to dedicate their time and resources to develop and improve Manjaro.</p>
+
+<h3 id="for-what-will-my-donations-used-for">For what will my donations used for?</h3>
+
+<p>Your donation will be mainly used for keeping all our severs and therefore our website, forums, mailing lists, bugtracker and more running. If some money is left - good servers are quite expensive - your donations will be used for attending conferences or giving a developer the resources to dedicate more time into developing a feature for Manjaro.</p>
+
+<p><img src="https://rumangerst.github.io/homepage/public//img/donation/uses.svg.png" alt="Uses" /></p>
+
+<h3 id="is-my-donation-anonymous">Is my donation anonymous?</h3>
+
+<p>Yes. We will keep everything you do anonymous. We won&rsquo;t share or publish any details about you and your donation.</p>
+
+<h3 id="what-di-i-get-if-i-donate">What di I get if I donate?</h3>
+
+<p>You get the feeling that you helped us out and that everybody is thankful to you :)</p>
+
+<h3 id="why-am-i-donating-to-a-private-person">Why am I donating to a private person?</h3>
+
+<p>Manjaro is (for now) no registered organization, as this is extremely expensive and Manjaro is a relatively young and growing distribution. Your donation will go to the leader of Manjaro&rsquo;s core team who will then pass it down to the right people.</p>
+
+<h3 id="can-i-get-a-tax-deduction">Can I get a tax deduction?</h3>
+
+<p>Unfortunately not. We are no registered organization, which means your donation counts as private donation. For those the tax cannot be deducted.</p>
+
+<h2 id="how-can-i-donate">How can I donate?</h2>
+
+<hr />
+
+					</div>
+					<ul class="flex-grid">
+					  <li class="flex-item">
+					    <div style="width: 100%; text-align: center; border: 1px solid #ddd;">
+								<div style="width: 200px; height: 200px; display: inline-block; position: relative">
+									<img src="https://rumangerst.github.io/homepage/public//img/donation/de-pp-logo-200px.png" alt="Icon" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;" />
+								</div>
+					      <h3>Use PayPal</h3>
+					      <hr/>
+								<form id="donation_paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+									<input type="hidden" name="cmd" value="_s-xclick">
+									<input type="hidden" name="hosted_button_id" value="P5T6ZGPVJD9JN">
+									<a href="#" onclick="donation_paypal.submit();" class="btn btn-primary btn-xl" style="margin-bottom: 10px;">Donate now</a>
+								</form>
+					    </div>
+					  </li>
+					  <li class="flex-item">
+					    <div style="width: 100%; text-align: center; border: 1px solid #ddd;">
+					      <img src="https://rumangerst.github.io/homepage/public//img/donation/manually-alt.svg" alt="Icon" style="width: 200px; height: 200px;" />
+					      <h3>Use manual bank transfer</h3>
+					      <hr/>
+
+								<a href="#" id="donation-manually-show" class="btn btn-primary btn-xl" style="margin-bottom: 10px;">Donate now</a>
+
+					      <div style="text-align: justify; width: 80%; display: inline-block; margin-bottom: 10px">
+
+									<div id="donation-manually-data">
+									<table  class="dontation-manually-card">
+										<tr>
+											<td class="donation-manually-field" >Account holder</td>
+											<td>Hanns Philip Müller</td>
+										</tr>
+										<tr>
+											<td class="donation-manually-field" >Account number</td>
+											<td>1050676905</td>
+										</tr>
+										<tr>
+											<td class="donation-manually-field" >Bank identification number</td>
+											<td>12030000</td>
+										</tr>
+										<tr>
+											<td class="donation-manually-field" >Bank</td>
+											<td>DKB</td>
+										</tr>
+										<tr>
+											<td class="donation-manually-field" >BIC</td>
+											<td>BYLADEM1001</td>
+										</tr>
+										<tr>
+											<td class="donation-manually-field" >IBAN</td>
+											<td>DE90120300001050676905</td>
+										</tr>
+										<tr>
+											<td class="donation-manually-field" >Purpose</td>
+											<td>Donation to Manjaro Linux</td>
+										</tr>
+									</table>
+
+									<p>If you want a confirmation that we got your donation, just add your E-Mail adress to the purpose.</p>
+									<div>
+
+					      </div>
+					    </div>
+					  </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script>
+	$("#donation-manually-data").hide();
+	$("#donation-manually-show").click( function (e) {
+		$("#donation-manually-data").toggle(500);
+		e.preventDefault();
+	});
+	</script>
+
+</body>
+
+</html>

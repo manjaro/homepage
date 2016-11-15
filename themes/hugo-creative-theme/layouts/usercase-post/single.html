@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+        {{ partial "head.html" . }}
+
+		<style>
+		.body-subpage {
+		background-color: #fff;
+		}
+		</style>
+
+    </head>
+	<body id="features" class="body-subpage">
+
+		{{ partial "nav.html" . }}
+		<!-- <header class="subpage-header"> -->
+   			{{ partial "features-nav.html" . }}
+		<!-- </header> -->
+
+		<section>
+		    <div class="container">
+		        <div class="row">
+		            <div class="text-center">
+		                <h2 class="section-heading">Manjaro for {{ lower .Params.name }}</h2>
+		                <hr class="star-primary"/>
+										<p>{{ .Params.shortdescription | markdownify }}</p>
+
+										<section>
+										<div style="width: 70%; display: inline-block;">
+											<a href="{{ .Site.BaseURL }}/img/usercases/{{ .Params.screenshot }}" target="_blank">
+												<img src="{{ .Site.BaseURL }}/img/usercases/{{ .Params.screenshot }}" style="width: 100%; height: 100%;" alt="">
+											</a>
+											<div style="width: 90%; display: inline-block; margin-top: 20px;">
+												<span style="font-style: italic; font-size: 20px;">{{ .Params.quote }}<span style="font-style: normal; font-weight: 600"> - {{ .Params.quoteauthor }}</span></span>
+											</div>
+										</div>
+									</section>
+									<div style="display: flex">
+										<div class="usercase-post-content" style="flex: 1 0 auto; padding-right: 20px">
+											<table>
+												<thead>
+												<tr>
+												<th></th>
+												<th></th>
+												</tr>
+												</thead>
+
+												<tbody>
+												{{ range .Params.software }}
+													<tr>
+														<td><img src="{{ $.Site.BaseURL }}/img/actions/install.svg" alt="Icon" /></td>
+														<td style="text-align: left; padding-left: 10px; padding-top: 10px;">
+															<strong><a href="{{ .url | replaceRE ";baseurl;" $.Site.BaseURL }}">{{ .name }}</a></strong><br/>
+															{{ .usage }}
+														</td>
+													</tr>
+													<!-- <tr>
+														<td></td>
+														<td style="text-align: left; padding-left: 10px; padding-bottom: 10px">{{ .usage }}</td>
+													</tr> -->
+												{{ end }}
+											</tbody>
+											</table>
+										</div>
+										<div class="usercase-post-content" style="text-align : left;" > <p> {{ .Content | markdownify }}</div>
+									</div>
+
+									<!-- <div class="container">
+							        <div class="row">
+												{{ range .Params.software }}
+						            <div class="col-lg-3 col-md-6 text-center">
+						                <div class="service-box">
+
+						                	<img src="{{ printf "%s/img/actions/install.svg" $.Site.BaseURL }}" class="wow bounceIn text-primary" style="width: 64px; height: 64px"/>
+						                    <h3><a href="{{ .url }}">{{ .name }}</a></h3>
+						                    <p class="text-muted">{{ .usage }}</p>
+						                </div>
+						            </div>
+						            {{ end }}
+											</div>
+										</div> -->
+
+
+
+	                <hr class="star-primary" />
+			        </div>
+		        </div>
+		    </div>
+		</section>
+
+
+		{{ partial "js.html" . }}
+	</body>
+
+</html>
