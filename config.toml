@@ -22,11 +22,11 @@ theme = "hugo-creative-theme"
 	# Navigation
 	[params.navigation.main]
 		brand = "Manjaro"
-		about     = "About"
-		services  = "Features"
+		about = "About"
+		services = "Features"
 		download = "Downloads"
-		contact   = "Contact"
-		donate   = "Donate"
+		contact = "Contact"
+		donate = "Donate"
 		news = "News"
 		support = "Support"
 		getinvolved = "Get involved"
@@ -60,7 +60,7 @@ theme = "hugo-creative-theme"
 	# Hero section*
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		image = "manjaro-logo.png	"
+		image = "manjaro-logo.png"
 		slogan     = "manjaro linux"
 		subslogan = "Fast & stable."
 		#subtitle   = "The easy to install Linux distribution with a friendly feel that comes with the latest and greatest apps at your fingertips."
@@ -88,9 +88,9 @@ theme = "hugo-creative-theme"
 
 	# About section
 	[params.about]
-		headline    = "Grows with you"
+		headline = "Grows with you"
 		description = "Built from the powerful Arch Linux foundation; speed, efficiency and cutting edge software is in its core that is rock solid and stable. Manjaro is designed to welcome a newcomer and grow with the user as he evolves into a power user."
-		buttonText  = "Get started!"
+		buttonText = "Get started!"
 
 	# Contact section
 	[params.donate]
