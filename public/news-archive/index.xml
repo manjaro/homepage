@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News-archives on Manjaro Linux - enjoy the simplicity</title>
-    <link>https://rumangerst.github.io/homepage/public/news-archive/</link>
+    <link>https://manjaro.github.io/homepage/public/news-archive/</link>
     <description>Recent content in News-archives on Manjaro Linux - enjoy the simplicity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Sep 2016 01:12:32 +0200</lastBuildDate>
-    <atom:link href="https://rumangerst.github.io/homepage/public/news-archive/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://manjaro.github.io/homepage/public/news-archive/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>9/2016</title>
-      <link>https://rumangerst.github.io/homepage/public/news-archive/9_2016/</link>
+      <link>https://manjaro.github.io/homepage/public/news-archive/9_2016/</link>
       <pubDate>Mon, 05 Sep 2016 01:12:32 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/news-archive/9_2016/</guid>
+      <guid>https://manjaro.github.io/homepage/public/news-archive/9_2016/</guid>
       <description></description>
     </item>
     

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Manjaro Linux - enjoy the simplicity</title>
-    <link>https://rumangerst.github.io/homepage/public/news/</link>
+    <link>https://manjaro.github.io/homepage/public/news/</link>
     <description>Recent content in News on Manjaro Linux - enjoy the simplicity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Sep 2016 23:51:14 +0200</lastBuildDate>
-    <atom:link href="https://rumangerst.github.io/homepage/public/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://manjaro.github.io/homepage/public/news/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>[Stable Update] 2016-09-04 - MATE, Calamares, Pamac, Deepin</title>
-      <link>https://rumangerst.github.io/homepage/public/news/stable_update_2016-09-04/</link>
+      <link>https://manjaro.github.io/homepage/public/news/stable_update_2016-09-04/</link>
       <pubDate>Sun, 04 Sep 2016 23:51:14 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/news/stable_update_2016-09-04/</guid>
+      <guid>https://manjaro.github.io/homepage/public/news/stable_update_2016-09-04/</guid>
       <description>&lt;p&gt;Hi community,&lt;/p&gt;
 
 &lt;p&gt;Manjaro Ellada seems to be a great release. We also managed to release some of our community editions already. Bernhard is now working on our Deepin edition. Therefore he updated some of the Deepin packages. Additionally he fixed some issue with our realtime kernel. To round-up this package set, I managed to update some of the MATE packages to their latest release and Pamac. We now support a tray-icon for the KDE desktop. Please install it separately.&lt;/p&gt;

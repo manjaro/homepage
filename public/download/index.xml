@@ -2,109 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Downloads on Manjaro Linux - enjoy the simplicity</title>
-    <link>https://rumangerst.github.io/homepage/public/download/</link>
+    <link>https://manjaro.github.io/homepage/public/download/</link>
     <description>Recent content in Downloads on Manjaro Linux - enjoy the simplicity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Sep 2016 19:10:54 +0200</lastBuildDate>
-    <atom:link href="https://rumangerst.github.io/homepage/public/download/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://manjaro.github.io/homepage/public/download/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>mate</title>
-      <link>https://rumangerst.github.io/homepage/public/download/mate/</link>
+      <link>https://manjaro.github.io/homepage/public/download/mate/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:54 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/download/mate/</guid>
+      <guid>https://manjaro.github.io/homepage/public/download/mate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lxqt</title>
-      <link>https://rumangerst.github.io/homepage/public/download/lxqt/</link>
+      <link>https://manjaro.github.io/homepage/public/download/lxqt/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:49 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/download/lxqt/</guid>
+      <guid>https://manjaro.github.io/homepage/public/download/lxqt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jwm</title>
-      <link>https://rumangerst.github.io/homepage/public/download/jwm/</link>
+      <link>https://manjaro.github.io/homepage/public/download/jwm/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:38 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/download/jwm/</guid>
+      <guid>https://manjaro.github.io/homepage/public/download/jwm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>i3</title>
-      <link>https://rumangerst.github.io/homepage/public/download/i3/</link>
+      <link>https://manjaro.github.io/homepage/public/download/i3/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:33 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/download/i3/</guid>
+      <guid>https://manjaro.github.io/homepage/public/download/i3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gnome</title>
-      <link>https://rumangerst.github.io/homepage/public/download/gnome/</link>
+      <link>https://manjaro.github.io/homepage/public/download/gnome/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:28 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/download/gnome/</guid>
+      <guid>https://manjaro.github.io/homepage/public/download/gnome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>e20</title>
-      <link>https://rumangerst.github.io/homepage/public/download/e20/</link>
+      <link>https://manjaro.github.io/homepage/public/download/e20/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:23 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/download/e20/</guid>
+      <guid>https://manjaro.github.io/homepage/public/download/e20/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deepin</title>
-      <link>https://rumangerst.github.io/homepage/public/download/deepin/</link>
+      <link>https://manjaro.github.io/homepage/public/download/deepin/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:18 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/download/deepin/</guid>
+      <guid>https://manjaro.github.io/homepage/public/download/deepin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cinnamon</title>
-      <link>https://rumangerst.github.io/homepage/public/download/cinnamon/</link>
+      <link>https://manjaro.github.io/homepage/public/download/cinnamon/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:12 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/download/cinnamon/</guid>
+      <guid>https://manjaro.github.io/homepage/public/download/cinnamon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>budgie</title>
-      <link>https://rumangerst.github.io/homepage/public/download/budgie/</link>
+      <link>https://manjaro.github.io/homepage/public/download/budgie/</link>
       <pubDate>Sun, 04 Sep 2016 19:10:05 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/download/budgie/</guid>
+      <guid>https://manjaro.github.io/homepage/public/download/budgie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bspwm</title>
-      <link>https://rumangerst.github.io/homepage/public/download/bspwm/</link>
+      <link>https://manjaro.github.io/homepage/public/download/bspwm/</link>
       <pubDate>Sun, 04 Sep 2016 19:09:59 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/download/bspwm/</guid>
+      <guid>https://manjaro.github.io/homepage/public/download/bspwm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xfce</title>
-      <link>https://rumangerst.github.io/homepage/public/download/xfce-preview/</link>
+      <link>https://manjaro.github.io/homepage/public/download/xfce-preview/</link>
       <pubDate>Sun, 04 Sep 2016 19:09:25 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/download/xfce-preview/</guid>
+      <guid>https://manjaro.github.io/homepage/public/download/xfce-preview/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Note: This is a preview version for developers and testers and is not suitable for production environment as it may contain bugs&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly. Xfce embodies the traditional UNIX philosophy of modularity and re-usability. It consists of a number of components that provide the full functionality one can expect of a modern desktop environment. They are packaged separately and you can pick among the available packages to create the optimal personal working environment.&lt;/p&gt;
@@ -113,20 +113,20 @@
     
     <item>
       <title>xfce</title>
-      <link>https://rumangerst.github.io/homepage/public/download/xfce/</link>
+      <link>https://manjaro.github.io/homepage/public/download/xfce/</link>
       <pubDate>Sun, 04 Sep 2016 19:09:25 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/download/xfce/</guid>
+      <guid>https://manjaro.github.io/homepage/public/download/xfce/</guid>
       <description>&lt;p&gt;Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly. Xfce embodies the traditional UNIX philosophy of modularity and re-usability. It consists of a number of components that provide the full functionality one can expect of a modern desktop environment. They are packaged separately and you can pick among the available packages to create the optimal personal working environment.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://rumangerst.github.io/homepage/public/download/_additional_info_post/</link>
+      <link>https://manjaro.github.io/homepage/public/download/_additional_info_post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/download/_additional_info_post/</guid>
+      <guid>https://manjaro.github.io/homepage/public/download/_additional_info_post/</guid>
       <description>
 
 &lt;p&gt;You can also use &lt;a href=&#34;https://en.wikipedia.org/wiki/BitTorrent&#34;&gt;Torrents&lt;/a&gt; to download Manjaro.
@@ -156,10 +156,10 @@ Just download the *.torrent file and open it with a torrent program like &lt;a h
     
     <item>
       <title></title>
-      <link>https://rumangerst.github.io/homepage/public/download/_additional_info_pre/</link>
+      <link>https://manjaro.github.io/homepage/public/download/_additional_info_pre/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/download/_additional_info_pre/</guid>
+      <guid>https://manjaro.github.io/homepage/public/download/_additional_info_pre/</guid>
       <description>&lt;p&gt;There are two architectures available: 64 bit and 32 bit. If you don&amp;rsquo;t know which one you should choose, you can use 64 bit for more modern computers and 32 bit if you computer is an older model. If you don&amp;rsquo;t have enough information about your hardware, choose the 32 bit version, which will run on more hardware.&lt;/p&gt;
 
 &lt;p&gt;Both editions have exactly the same features and support and this decision is only important if you need maximum performance.&lt;/p&gt;
@@ -168,10 +168,10 @@ Just download the *.torrent file and open it with a torrent program like &lt;a h
     
     <item>
       <title></title>
-      <link>https://rumangerst.github.io/homepage/public/download/_how_to_try/</link>
+      <link>https://manjaro.github.io/homepage/public/download/_how_to_try/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/download/_how_to_try/</guid>
+      <guid>https://manjaro.github.io/homepage/public/download/_how_to_try/</guid>
       <description>
 
 &lt;h2 id=&#34;try-it-now&#34;&gt;Try it now&lt;/h2&gt;

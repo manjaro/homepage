@@ -1,5 +1,6 @@
 #baseurl = "https://manjaro.org/"
-baseurl = "https://rumangerst.github.io/homepage/public/"
+#baseurl = "https://rumangerst.github.io/homepage/public/"
+baseurl = "https://manjaro.github.io/homepage/public/"
 languageCode = "en-us"
 title = "Manjaro Linux - enjoy the simplicity"
 theme = "hugo-creative-theme"

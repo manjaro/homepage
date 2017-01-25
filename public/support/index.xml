@@ -2,55 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Supports on Manjaro Linux - enjoy the simplicity</title>
-    <link>https://rumangerst.github.io/homepage/public/support/</link>
+    <link>https://manjaro.github.io/homepage/public/support/</link>
     <description>Recent content in Supports on Manjaro Linux - enjoy the simplicity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Sep 2016 21:12:18 +0200</lastBuildDate>
-    <atom:link href="https://rumangerst.github.io/homepage/public/support/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://manjaro.github.io/homepage/public/support/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Manjaro IRC (English)</title>
-      <link>https://rumangerst.github.io/homepage/public/support/chat/english/</link>
+      <link>https://manjaro.github.io/homepage/public/support/chat/english/</link>
       <pubDate>Mon, 05 Sep 2016 21:12:18 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/chat/english/</guid>
+      <guid>https://manjaro.github.io/homepage/public/support/chat/english/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Manjaro IRC (French)</title>
-      <link>https://rumangerst.github.io/homepage/public/support/chat/french/</link>
+      <link>https://manjaro.github.io/homepage/public/support/chat/french/</link>
       <pubDate>Mon, 05 Sep 2016 21:12:18 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/chat/french/</guid>
+      <guid>https://manjaro.github.io/homepage/public/support/chat/french/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Manjaro IRC (German)</title>
-      <link>https://rumangerst.github.io/homepage/public/support/chat/german/</link>
+      <link>https://manjaro.github.io/homepage/public/support/chat/german/</link>
       <pubDate>Mon, 05 Sep 2016 21:12:18 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/chat/german/</guid>
+      <guid>https://manjaro.github.io/homepage/public/support/chat/german/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Manjaro IRC (Russian)</title>
-      <link>https://rumangerst.github.io/homepage/public/support/chat/russian/</link>
+      <link>https://manjaro.github.io/homepage/public/support/chat/russian/</link>
       <pubDate>Mon, 05 Sep 2016 21:12:18 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/chat/russian/</guid>
+      <guid>https://manjaro.github.io/homepage/public/support/chat/russian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chat</title>
-      <link>https://rumangerst.github.io/homepage/public/support/chat/</link>
+      <link>https://manjaro.github.io/homepage/public/support/chat/</link>
       <pubDate>Mon, 05 Sep 2016 21:03:22 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/chat/</guid>
+      <guid>https://manjaro.github.io/homepage/public/support/chat/</guid>
       <description>
 
 &lt;h2 id=&#34;want-to-know-something-or-help-somebody-join-the-chat&#34;&gt;Want to know something or help somebody? Join the chat!&lt;/h2&gt;
@@ -63,10 +63,10 @@
     
     <item>
       <title>First steps</title>
-      <link>https://rumangerst.github.io/homepage/public/support/firststeps/</link>
+      <link>https://manjaro.github.io/homepage/public/support/firststeps/</link>
       <pubDate>Mon, 05 Sep 2016 21:03:22 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/firststeps/</guid>
+      <guid>https://manjaro.github.io/homepage/public/support/firststeps/</guid>
       <description>
 
 &lt;p&gt;Here are some first steps after you &lt;a href=&#34;;baseurl;download&#34;&gt;downloaded&lt;/a&gt; Manjaro. This guide covers only the basic steps, so if you want more information look into the &lt;a href=&#34;;baseurl;support/userguide/&#34;&gt;Manjaro User Guide&lt;/a&gt; or the &lt;a href=&#34;https://wiki.manjaro.org/&#34;&gt;Manjaro Wiki&lt;/a&gt;.&lt;/p&gt;
@@ -589,10 +589,10 @@
     
     <item>
       <title>User-Guide</title>
-      <link>https://rumangerst.github.io/homepage/public/support/userguide/</link>
+      <link>https://manjaro.github.io/homepage/public/support/userguide/</link>
       <pubDate>Mon, 05 Sep 2016 21:03:22 +0200</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/userguide/</guid>
+      <guid>https://manjaro.github.io/homepage/public/support/userguide/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/manjarolinux/files/release/16.08/readme-16.08.pdf&#34; class=&#34;btn btn-primary btn-xl&#34; &gt;Download User Guide&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Our team and our community proudly present you the Manjaro User Guide, a over 100 page long book with everything new and advanced users can know about Manjaro. We cover following topics in our guide:&lt;/p&gt;
@@ -707,10 +707,10 @@
     
     <item>
       <title></title>
-      <link>https://rumangerst.github.io/homepage/public/support/_quick_contact/</link>
+      <link>https://manjaro.github.io/homepage/public/support/_quick_contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/_quick_contact/</guid>
+      <guid>https://manjaro.github.io/homepage/public/support/_quick_contact/</guid>
       <description>
 
 &lt;h2 id=&#34;do-you-need-more-help-contact-us&#34;&gt;Do you need more help? Contact us!&lt;/h2&gt;
@@ -724,10 +724,10 @@ Write us a mail or ask other users via chat or forums. We will be glad to help y
     
     <item>
       <title>How to install drivers?</title>
-      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/howtodrivers/</link>
+      <link>https://manjaro.github.io/homepage/public/support/commonproblems/howtodrivers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/howtodrivers/</guid>
+      <guid>https://manjaro.github.io/homepage/public/support/commonproblems/howtodrivers/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -783,10 +783,10 @@ Write us a mail or ask other users via chat or forums. We will be glad to help y
     
     <item>
       <title>How to install software?</title>
-      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoinstallsoftware/</link>
+      <link>https://manjaro.github.io/homepage/public/support/commonproblems/howtoinstallsoftware/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoinstallsoftware/</guid>
+      <guid>https://manjaro.github.io/homepage/public/support/commonproblems/howtoinstallsoftware/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -852,10 +852,10 @@ Write us a mail or ask other users via chat or forums. We will be glad to help y
     
     <item>
       <title>How to run something in terminal?</title>
-      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoterminal/</link>
+      <link>https://manjaro.github.io/homepage/public/support/commonproblems/howtoterminal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoterminal/</guid>
+      <guid>https://manjaro.github.io/homepage/public/support/commonproblems/howtoterminal/</guid>
       <description>&lt;p&gt;The terminal is a very powerful tool that almost never fails to work and does exactly the things you want from it. You don&amp;rsquo;t click on something in the terminal - You insert a command and it will do what the command say. Many Linux users like to provide solutions via terminal as it&amp;rsquo;s completely independent from the user interface (which you can heavily modify).&lt;/p&gt;
 
 &lt;p&gt;Here are instructions to how to use the terminal to run some command:&lt;/p&gt;
@@ -948,10 +948,10 @@ Write us a mail or ask other users via chat or forums. We will be glad to help y
     
     <item>
       <title>How to start the installation?</title>
-      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoinstall/</link>
+      <link>https://manjaro.github.io/homepage/public/support/commonproblems/howtoinstall/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/howtoinstall/</guid>
+      <guid>https://manjaro.github.io/homepage/public/support/commonproblems/howtoinstall/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1007,10 +1007,10 @@ Write us a mail or ask other users via chat or forums. We will be glad to help y
     
     <item>
       <title>Laptop screen is too dark</title>
-      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/laptop_screen_dark/</link>
+      <link>https://manjaro.github.io/homepage/public/support/commonproblems/laptop_screen_dark/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/laptop_screen_dark/</guid>
+      <guid>https://manjaro.github.io/homepage/public/support/commonproblems/laptop_screen_dark/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1056,10 +1056,10 @@ Write us a mail or ask other users via chat or forums. We will be glad to help y
     
     <item>
       <title>The Manjaro USB-stick or DVD won&#39;t boot</title>
-      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/cannot_boot_liveenv/</link>
+      <link>https://manjaro.github.io/homepage/public/support/commonproblems/cannot_boot_liveenv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/cannot_boot_liveenv/</guid>
+      <guid>https://manjaro.github.io/homepage/public/support/commonproblems/cannot_boot_liveenv/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1115,10 +1115,10 @@ Write us a mail or ask other users via chat or forums. We will be glad to help y
     
     <item>
       <title>Update or installation fails</title>
-      <link>https://rumangerst.github.io/homepage/public/support/commonproblems/update_fails/</link>
+      <link>https://manjaro.github.io/homepage/public/support/commonproblems/update_fails/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rumangerst.github.io/homepage/public/support/commonproblems/update_fails/</guid>
+      <guid>https://manjaro.github.io/homepage/public/support/commonproblems/update_fails/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
