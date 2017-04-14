@@ -81,11 +81,11 @@
       			   	<li class="dropdown locale">
       			      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="https://manjaro.github.io/homepage/public//img/locale/language.svg" /> English <span class="caret"></span></a>
       			      <ul class="dropdown-menu">
-                    
+
       			        <li>
       			          <a href="https://manjaro.org/" target="_self">English</a>
       			        </li>
-                    
+
       			      </ul>
       			    </li>
 
@@ -105,8 +105,8 @@
             <h2>Fast &amp; stable.</h2>
             <hr>
             <p>The Linux distribution that is easy to install, stable and always up-to-date.</p>
-            
-            <a href="https://manjaro.github.io/homepage/public/features" style="margin-left: 15px; min-width: 152px;" class="btn btn-primary btn-xl page-scroll">Learn more about Manjaro</a>
+
+            <a href="https://manjaro.github.io/homepage/public/features" style="margin-left: 15px; min-width: 152px;" class="btn btn-primary btn-xl page-scroll">Learn more<span class="hidden-xs"> about Manjaro</span></a>
             <p style="margin-top: 10px;"><a href="https://manjaro.github.io/homepage/public/download" style="margin-left: 15px; min-width: 152px;" class="btn-hero page-scroll">or download directly</a></p>
         </div>
     </div>
@@ -135,67 +135,67 @@
         <div class="row">
             <div class="col-lg-12 text-center">
 
-                
+
                 <h2 class="section-heading">Manjaro in a nutshell</h2>
                 <hr class="primary">
-                
+
             </div>
         </div>
     </div>
 
     <div class="container">
         <div class="row">
-            
-            
+
+
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
 
-					
+
 
                 	<img src="https://manjaro.github.io/homepage/public//img/features/stable.svg" class="wow bounceIn text-primary" style="width: 80px; height: 80px"/>
-                    
+
                     <h3>Latest features with stability</h3>
                     <p class="text-muted">You get the latest software, tested by our Manjaro Team &amp; Community before it reaches you.</p>
                 </div>
             </div>
-            
+
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
 
-					
+
 
                 	<img src="https://manjaro.github.io/homepage/public//img/features/easy-setup.svg" class="wow bounceIn text-primary" style="width: 80px; height: 80px"/>
-                    
+
                     <h3>Easy to setup</h3>
                     <p class="text-muted">Our Hardware detection and preferences tool detects and installs drivers on the fly with just one click.</p>
                 </div>
             </div>
-            
+
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
 
-					
+
 
                 	<img src="https://manjaro.github.io/homepage/public//img/features/handpicked-software.svg" class="wow bounceIn text-primary" style="width: 80px; height: 80px"/>
-                    
+
                     <h3>Software for everyone</h3>
                     <p class="text-muted">Manjaro is loaded with software of every category to suit needs of everyone. All you need is to choose, install and start using.</p>
                 </div>
             </div>
-            
+
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
 
-					
+
 
                 	<img src="https://manjaro.github.io/homepage/public//img/features/for-everyone.svg" class="wow bounceIn text-primary" style="width: 80px; height: 80px"/>
-                    
+
                     <h3>Choose your workflow</h3>
                     <p class="text-muted">Manjaro comes in many flavors; You have the option to pick the desktop environment / window managers of your choice.</p>
                 </div>
             </div>
-            
-            
+
+
         </div>
     </div>
 </section>
@@ -206,11 +206,11 @@
 	        <div class="row">
 	            <div class="col-lg-8 col-lg-offset-2 text-center">
 
-									
+
 	                <h2 class="section-heading">Versatility and Variety is our strength</h2>
 	                <hr class="light">
 	                <p class="text-faded">Manjaro is an efficient companion to serve your variety of needs and it is versatile to adapt to all of your needs. Our user base varies from newbies, students &amp; teachers, programmers &amp; developers, professionals, art enthusiast, music lovers, professional multimedia professionals and many more.</p>
-									
+
 	                <br />
 	            </div>
 	        </div>
@@ -381,7 +381,7 @@
     <div class="container text-center">
         <div class="call-to-action">
 
-          
+
     			<div class="features-post" >
     				<p><h2 id="try-it-now">Try it now</h2>
 
@@ -416,7 +416,7 @@
 </table>
 
     			</div>
-    			
+
 
           <a class="btn btn-primary btn-xl page-scroll" href="https://manjaro.github.io/homepage/public/download">Download now</a>
 
@@ -440,63 +440,63 @@
 <script type="text/javascript" >
 
 	function highlight_current_nav() {
-		
-		
+
+
 		$("a").each(function (index) {
-			
-			
+
+
 			var navtype = this.hasAttribute("nav-type") ? this.getAttribute("nav-type") : "unprecise";
-			
+
 			if (navtype.toLowerCase() == "unprecise") {
-			
-				var href = this.href.endsWith("/") ? this.href : this.href + "/";		
+
+				var href = this.href.endsWith("/") ? this.href : this.href + "/";
 				if( location.href.startsWith(href))
 				{
 					$(this).parent().addClass("active");
-				}	
+				}
 			}
 			else if (navtype.toLowerCase() == "super-unprecise") {
-				
-				var href = this.href.endsWith("/") ? this.href.slice(0,-1) : this.href;		
-				
+
+				var href = this.href.endsWith("/") ? this.href.slice(0,-1) : this.href;
+
 				if( location.href.startsWith(href))
 				{
 					$(this).parent().addClass("active");
-				}	
+				}
 			}
 			else {
-				var href = this.href.endsWith("/") ? this.href : this.href + "/";		
+				var href = this.href.endsWith("/") ? this.href : this.href + "/";
 				if( location.href == href )
 				{
 					$(this).parent().addClass("active");
 				}
 			}
-			
-					
-				
+
+
+
 		});
-		
+
 	}
-    
+
     function modify_links()
     {
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
         $("a").each(function(index) {
-           
+
             $(this).addClass("page-scroll");
-            
+
             if(this.href.startsWith("#") || this.href.startsWith(location.origin)) {
                 $(this).attr("target", "_self");
             }
             else {
                 $(this).attr("target", "_blank");
             }
-            
+
             if(this.text.endsWith("#download-primary-xl#")) {
                 this.text = this.text.slice(0,-"#download-primary-xl#".length);
                 $(this).addClass("btn");
@@ -504,10 +504,10 @@
                 $(this).addClass("btn-xl");
             }
         });
-        
-    }    
-    
-	
+
+    }
+
+
 	$( document ).ready(highlight_current_nav);
     $( document ).ready(modify_links);
 </script>
