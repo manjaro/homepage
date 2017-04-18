@@ -67,9 +67,9 @@ theme = "hugo-creative-theme"
 		#subtitle   = "The easy to install Linux distribution with a friendly feel that comes with the latest and greatest apps at your fingertips."
 		subtitle = "The Linux distribution that is easy to install, stable and always up-to-date."
 
-		callToAction = "Learn more about Manjaro"
+		callToAction = "Learn more"
 		callToActionUrl = "#about"
-		learnMore = "or download directly"
+		learnMore = "Download"
 		learnMoreUrl = "#downloads"
 
 	[params.posthome]

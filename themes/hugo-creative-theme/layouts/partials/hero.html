@@ -1,15 +1,18 @@
 {{ "<!-- HEADER -->" | safeHTML }}
 <header class="index-header">
-    <div class="header-content">
-        <div class="header-content-inner">
-            <p><img src="img/manjaro-logo.svg" /></p>
-            <h1>{{ with .Site.Params.hero.slogan }}{{ . | markdownify  }}{{ end }}</h1>
-            <h2>{{ with .Site.Params.hero.subslogan }}{{ . | markdownify  }}{{ end }}</h2>
-            <hr>
-            <p>{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p>
-            <!--<a href="#about" class="btn btn-default btn-xl page-scroll">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>-->
-            <a href="{{ .Site.BaseURL }}features" style="margin-left: 15px; min-width: 152px;" class="btn btn-primary btn-xl page-scroll">{{ with .Site.Params.hero.callToAction }}{{ . }}{{ end }}</a>
-            <p style="margin-top: 10px;"><a href="{{ .Site.BaseURL }}download" style="margin-left: 15px; min-width: 152px;" class="btn-hero page-scroll">{{ with .Site.Params.hero.learnMore }}{{ . }}{{ end }}</a></p>
+  <div class="header-content">
+    <div class="header-content-inner">
+      <p><img src="img/manjaro-logo.svg" /></p>
+      <h1>{{ with .Site.Params.hero.slogan }}{{ . | markdownify  }}{{ end }}</h1>
+      <h2>{{ with .Site.Params.hero.subslogan }}{{ . | markdownify  }}{{ end }}</h2>
+      <hr>
+      <p>{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p>
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+          <a href="{{ .Site.BaseURL }}features" style="margin-left: 15px; max-width: 50%;" class="btn btn-primary btn-xl page-scroll">{{ with .Site.Params.hero.callToAction }}{{ . }}{{ end }}</a>
+          <a href="{{ .Site.BaseURL }}download" style="margin-left: 15px; max-width: 50%;" class="btn btn-primary btn-xl page-scroll">{{ with .Site.Params.hero.learnMore }}{{ . }}{{ end }}</a>
         </div>
+      </div>
     </div>
+  </div>
 </header>
