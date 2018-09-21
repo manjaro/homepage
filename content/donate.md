@@ -24,7 +24,7 @@ Your donation will be mainly used for keeping all our severs and therefore our w
 
 Yes. We will keep everything you do anonymous. We won't share or publish any details about you and your donation.
 
-### What di I get if I donate?
+### What do I get if I donate?
 
 You get the feeling that you helped us out and that everybody is thankful to you :)
 
