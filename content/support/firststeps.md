@@ -87,7 +87,7 @@ To be able to install or try Manjaro on your computer, you need to put it on a D
 |                                             | Please don't forget to backup the data of your stick before doing this. |
 |                                             | If you need more information, just visit our [Wiki](https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File) |
 | ![Icon](;baseurl;/img/actions/boot.svg)     | **3. Boot from USB** |
-|                                             | **[Find out how this works](#booting-into-the-live-environment)**   |
+|                                             | **[Find out how this works](#booting-into-the-live-system)**   |
 
 
 ### Burn a DVD
@@ -98,7 +98,7 @@ To be able to install or try Manjaro on your computer, you need to put it on a D
 | ![Icon](;baseurl;/img/actions/burn.svg)     | **2. Burn the Manjaro ISO to the DVD** |
 |                                             | If you need more information, just visit our [Wiki](https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File) |
 | ![Icon](;baseurl;/img/actions/boot.svg)     | **3. Boot from DVD** |
-|                                             | **[Find out how this works](#booting-into-the-live-environment)**   |
+|                                             | **[Find out how this works](#booting-into-the-live-system)**   |
 
 ### Booting into the Live-System
 |   |   |
